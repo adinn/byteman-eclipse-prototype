@@ -527,26 +527,26 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final Action cAtExitAction_0 = (Action)cGroup.eContents().get(0);
 		private final Alternatives cAlternatives_1 = (Alternatives)cGroup.eContents().get(1);
 		private final Keyword cEXITKeyword_1_0 = (Keyword)cAlternatives_1.eContents().get(0);
-		private final Keyword cRETURNKeyword_1_1 = (Keyword)cAlternatives_1.eContents().get(1);
+		private final RuleCall cKEYWORD_RETURNTerminalRuleCall_1_1 = (RuleCall)cAlternatives_1.eContents().get(1);
 		
 		//AtExit:
-		//	{AtExit} ("EXIT" | "RETURN");
+		//	{AtExit} ("EXIT" | KEYWORD_RETURN);
 		public ParserRule getRule() { return rule; }
 
-		//{AtExit} ("EXIT" | "RETURN")
+		//{AtExit} ("EXIT" | KEYWORD_RETURN)
 		public Group getGroup() { return cGroup; }
 
 		//{AtExit}
 		public Action getAtExitAction_0() { return cAtExitAction_0; }
 
-		//"EXIT" | "RETURN"
+		//"EXIT" | KEYWORD_RETURN
 		public Alternatives getAlternatives_1() { return cAlternatives_1; }
 
 		//"EXIT"
 		public Keyword getEXITKeyword_1_0() { return cEXITKeyword_1_0; }
 
-		//"RETURN"
-		public Keyword getRETURNKeyword_1_1() { return cRETURNKeyword_1_1; }
+		//KEYWORD_RETURN
+		public RuleCall getKEYWORD_RETURNTerminalRuleCall_1_1() { return cKEYWORD_RETURNTerminalRuleCall_1_1; }
 	}
 
 	public class AtLineElements extends AbstractParserRuleElementFinder {
@@ -1542,10 +1542,10 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final RuleCall cOperand1ExpressionParserRuleCall_1_0 = (RuleCall)cOperand1Assignment_1.eContents().get(0);
 		
 		//ReturnExpr returns Expression:
-		//	op=KEYWORD_RETURN operand1=Expression;
+		//	op=KEYWORD_RETURN operand1=Expression?;
 		public ParserRule getRule() { return rule; }
 
-		//op=KEYWORD_RETURN operand1=Expression
+		//op=KEYWORD_RETURN operand1=Expression?
 		public Group getGroup() { return cGroup; }
 
 		//op=KEYWORD_RETURN
@@ -1554,7 +1554,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		//KEYWORD_RETURN
 		public RuleCall getOpKEYWORD_RETURNTerminalRuleCall_0_0() { return cOpKEYWORD_RETURNTerminalRuleCall_0_0; }
 
-		//operand1=Expression
+		//operand1=Expression?
 		public Assignment getOperand1Assignment_1() { return cOperand1Assignment_1; }
 
 		//Expression
@@ -2878,7 +2878,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//AtExit:
-	//	{AtExit} ("EXIT" | "RETURN");
+	//	{AtExit} ("EXIT" | KEYWORD_RETURN);
 	public AtExitElements getAtExitAccess() {
 		return (pAtExit != null) ? pAtExit : (pAtExit = new AtExitElements());
 	}
@@ -3210,7 +3210,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//ReturnExpr returns Expression:
-	//	op=KEYWORD_RETURN operand1=Expression;
+	//	op=KEYWORD_RETURN operand1=Expression?;
 	public ReturnExprElements getReturnExprAccess() {
 		return (pReturnExpr != null) ? pReturnExpr : (pReturnExpr = new ReturnExprElements());
 	}

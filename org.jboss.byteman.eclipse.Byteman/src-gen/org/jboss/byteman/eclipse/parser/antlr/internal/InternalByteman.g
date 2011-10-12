@@ -1005,9 +1005,9 @@ ruleAtExit returns [EObject current=null]
     	newLeafNode(otherlv_1, grammarAccess.getAtExitAccess().getEXITKeyword_1_0());
     }
 
-    |	otherlv_2='RETURN' 
-    {
-    	newLeafNode(otherlv_2, grammarAccess.getAtExitAccess().getRETURNKeyword_1_1());
+    |this_KEYWORD_RETURN_2=RULE_KEYWORD_RETURN
+    { 
+    newLeafNode(this_KEYWORD_RETURN_2, grammarAccess.getAtExitAccess().getKEYWORD_RETURNTerminalRuleCall_1_1()); 
     }
 ))
 ;
@@ -2809,7 +2809,7 @@ ruleReturnExpr returns [EObject current=null]
 	    }
 
 )
-))
+)?)
 ;
 
 

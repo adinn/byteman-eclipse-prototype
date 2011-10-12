@@ -2343,11 +2343,9 @@ rule__AtExit__Alternatives_1
 )
 
     |(
-{ before(grammarAccess.getAtExitAccess().getRETURNKeyword_1_1()); }
-
-	'RETURN' 
-
-{ after(grammarAccess.getAtExitAccess().getRETURNKeyword_1_1()); }
+{ before(grammarAccess.getAtExitAccess().getKEYWORD_RETURNTerminalRuleCall_1_1()); }
+	RULE_KEYWORD_RETURN
+{ after(grammarAccess.getAtExitAccess().getKEYWORD_RETURNTerminalRuleCall_1_1()); }
 )
 
 ;
@@ -7102,7 +7100,7 @@ rule__ReturnExpr__Group__1__Impl
 :
 (
 { before(grammarAccess.getReturnExprAccess().getOperand1Assignment_1()); }
-(rule__ReturnExpr__Operand1Assignment_1)
+(rule__ReturnExpr__Operand1Assignment_1)?
 { after(grammarAccess.getReturnExprAccess().getOperand1Assignment_1()); }
 )
 

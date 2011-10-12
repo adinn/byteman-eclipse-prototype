@@ -2524,11 +2524,11 @@ protected class AtEntry_ENTRYKeyword_1 extends KeywordToken  {
 /************ begin Rule AtExit ****************
  *
  * AtExit:
- * 	{AtExit} ("EXIT" | "RETURN");
+ * 	{AtExit} ("EXIT" | KEYWORD_RETURN);
  *
  **/
 
-// {AtExit} ("EXIT" | "RETURN")
+// {AtExit} ("EXIT" | KEYWORD_RETURN)
 protected class AtExit_Group extends GroupToken {
 	
 	public AtExit_Group(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -2583,7 +2583,7 @@ protected class AtExit_AtExitAction_0 extends ActionToken  {
 	}
 }
 
-// "EXIT" | "RETURN"
+// "EXIT" | KEYWORD_RETURN
 protected class AtExit_Alternatives_1 extends AlternativesToken {
 
 	public AtExit_Alternatives_1(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -6949,11 +6949,11 @@ protected class Expression_AssignmentExprParserRuleCall extends RuleCallToken {
 /************ begin Rule ReturnExpr ****************
  *
  * ReturnExpr returns Expression:
- * 	op=KEYWORD_RETURN operand1=Expression;
+ * 	op=KEYWORD_RETURN operand1=Expression?;
  *
  **/
 
-// op=KEYWORD_RETURN operand1=Expression
+// op=KEYWORD_RETURN operand1=Expression?
 protected class ReturnExpr_Group extends GroupToken {
 	
 	public ReturnExpr_Group(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -6969,6 +6969,7 @@ protected class ReturnExpr_Group extends GroupToken {
 	public AbstractToken createFollower(int index, IEObjectConsumer inst) {
 		switch(index) {
 			case 0: return new ReturnExpr_Operand1Assignment_1(lastRuleCallOrigin, this, 0, inst);
+			case 1: return new ReturnExpr_OpAssignment_0(lastRuleCallOrigin, this, 1, inst);
 			default: return null;
 		}	
 	}
@@ -7015,7 +7016,7 @@ protected class ReturnExpr_OpAssignment_0 extends AssignmentToken  {
 
 }
 
-// operand1=Expression
+// operand1=Expression?
 protected class ReturnExpr_Operand1Assignment_1 extends AssignmentToken  {
 	
 	public ReturnExpr_Operand1Assignment_1(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -7037,7 +7038,7 @@ protected class ReturnExpr_Operand1Assignment_1 extends AssignmentToken  {
 
     @Override	
 	public IEObjectConsumer tryConsume() {
-		if((value = eObjectConsumer.getConsumable("operand1",true)) == null) return null;
+		if((value = eObjectConsumer.getConsumable("operand1",false)) == null) return null;
 		IEObjectConsumer obj = eObjectConsumer.cloneAndConsume("operand1");
 		if(value instanceof EObject) { // org::eclipse::xtext::impl::RuleCallImpl
 			IEObjectConsumer param = createEObjectConsumer((EObject)value);

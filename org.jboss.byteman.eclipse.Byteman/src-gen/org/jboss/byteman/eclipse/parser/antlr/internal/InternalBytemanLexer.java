@@ -22,8 +22,8 @@ public class InternalBytemanLexer extends Lexer {
     public static final int T__65=65;
     public static final int T__62=62;
     public static final int T__63=63;
-    public static final int RULE_DO=24;
-    public static final int RULE_SEMICOLON=20;
+    public static final int RULE_DO=25;
+    public static final int RULE_SEMICOLON=21;
     public static final int RULE_OR=36;
     public static final int RULE_KEYWORD_CLASS=7;
     public static final int RULE_EOL=4;
@@ -37,15 +37,15 @@ public class InternalBytemanLexer extends Lexer {
     public static final int RULE_NOT=38;
     public static final int RULE_BNOT=35;
     public static final int RULE_LT=43;
-    public static final int RULE_ASSIGN=22;
+    public static final int RULE_ASSIGN=23;
     public static final int RULE_MOD=31;
     public static final int RULE_DOT=47;
     public static final int RULE_INIT=11;
     public static final int RULE_LE=42;
-    public static final int RULE_LPAREN=15;
+    public static final int RULE_LPAREN=16;
     public static final int RULE_GT=40;
     public static final int RULE_LSQUARE=45;
-    public static final int RULE_NOTHING=19;
+    public static final int RULE_NOTHING=20;
     public static final int RULE_BOR=33;
     public static final int RULE_GE=41;
     public static final int RULE_CLINIT=12;
@@ -53,19 +53,19 @@ public class InternalBytemanLexer extends Lexer {
     public static final int RULE_QMARK=52;
     public static final int RULE_KEYWORD_METHOD=9;
     public static final int RULE_PLUS=27;
-    public static final int RULE_INTVAL=13;
-    public static final int RULE_COMMA=16;
+    public static final int RULE_INTVAL=14;
+    public static final int RULE_COMMA=17;
     public static final int RULE_HASH=58;
     public static final int RULE_FLOATVAL=51;
-    public static final int RULE_KEYWORD_RETURN=25;
+    public static final int RULE_KEYWORD_RETURN=13;
     public static final int RULE_FLOATTYPESUFFIX=55;
     public static final int RULE_START_RULE=5;
     public static final int RULE_KEYWORD_THROW=26;
     public static final int RULE_TIMES=29;
     public static final int RULE_NULL=53;
-    public static final int RULE_DOLLAR=14;
-    public static final int RULE_COLON=21;
-    public static final int RULE_KEYWORD_BIND=18;
+    public static final int RULE_DOLLAR=15;
+    public static final int RULE_COLON=22;
+    public static final int RULE_KEYWORD_BIND=19;
     public static final int RULE_MINUS=28;
     public static final int RULE_STRING=49;
     public static final int RULE_END_RULE=6;
@@ -79,14 +79,13 @@ public class InternalBytemanLexer extends Lexer {
     public static final int RULE_BXOR=34;
     public static final int RULE_EQ=39;
     public static final int RULE_DIV=30;
-    public static final int RULE_RPAREN=17;
+    public static final int RULE_RPAREN=18;
     public static final int T__76=76;
     public static final int RULE_WS=57;
     public static final int T__75=75;
     public static final int T__74=74;
-    public static final int RULE_IF=23;
+    public static final int RULE_IF=24;
     public static final int T__73=73;
-    public static final int T__78=78;
     public static final int T__77=77;
 
     // delegates
@@ -212,10 +211,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:16:7: ( 'RETURN' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:16:9: 'RETURN'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:16:7: ( 'LINE' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:16:9: 'LINE'
             {
-            match("RETURN"); 
+            match("LINE"); 
 
 
             }
@@ -233,10 +232,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:17:7: ( 'LINE' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:17:9: 'LINE'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:17:7: ( 'READ' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:17:9: 'READ'
             {
-            match("LINE"); 
+            match("READ"); 
 
 
             }
@@ -254,10 +253,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:18:7: ( 'READ' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:18:9: 'READ'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:18:7: ( 'WRITE' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:18:9: 'WRITE'
             {
-            match("READ"); 
+            match("WRITE"); 
 
 
             }
@@ -275,10 +274,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:19:7: ( 'WRITE' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:19:9: 'WRITE'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:19:7: ( 'INVOKE' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:19:9: 'INVOKE'
             {
-            match("WRITE"); 
+            match("INVOKE"); 
 
 
             }
@@ -296,10 +295,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:20:7: ( 'INVOKE' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:20:9: 'INVOKE'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:20:7: ( 'CALL' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:20:9: 'CALL'
             {
-            match("INVOKE"); 
+            match("CALL"); 
 
 
             }
@@ -317,10 +316,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:21:7: ( 'CALL' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:21:9: 'CALL'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:21:7: ( 'SYNCHRONIZE' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:21:9: 'SYNCHRONIZE'
             {
-            match("CALL"); 
+            match("SYNCHRONIZE"); 
 
 
             }
@@ -338,10 +337,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:22:7: ( 'SYNCHRONIZE' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:22:9: 'SYNCHRONIZE'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:22:7: ( 'THROW' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:22:9: 'THROW'
             {
-            match("SYNCHRONIZE"); 
+            match("THROW"); 
 
 
             }
@@ -359,10 +358,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:23:7: ( 'THROW' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:23:9: 'THROW'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:23:7: ( 'ALL' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:23:9: 'ALL'
             {
-            match("THROW"); 
+            match("ALL"); 
 
 
             }
@@ -380,10 +379,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:24:7: ( 'ALL' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:24:9: 'ALL'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:24:7: ( '$#' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:24:9: '$#'
             {
-            match("ALL"); 
+            match("$#"); 
 
 
             }
@@ -401,10 +400,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:25:7: ( '$#' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:25:9: '$#'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:25:7: ( '$!' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:25:9: '$!'
             {
-            match("$#"); 
+            match("$!"); 
 
 
             }
@@ -422,10 +421,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:26:7: ( '$!' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:26:9: '$!'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:26:7: ( '$^' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:26:9: '$^'
             {
-            match("$!"); 
+            match("$^"); 
 
 
             }
@@ -443,10 +442,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:27:7: ( '$^' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:27:9: '$^'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:27:7: ( '$@' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:27:9: '$@'
             {
-            match("$^"); 
+            match("$@"); 
 
 
             }
@@ -464,29 +463,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:28:7: ( '$@' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:28:9: '$@'
-            {
-            match("$@"); 
-
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        }
-    }
-    // $ANTLR end "T__77"
-
-    // $ANTLR start "T__78"
-    public final void mT__78() throws RecognitionException {
-        try {
-            int _type = T__78;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:29:7: ( '$*' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:29:9: '$*'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:28:7: ( '$*' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:28:9: '$*'
             {
             match("$*"); 
 
@@ -499,7 +477,7 @@ public class InternalBytemanLexer extends Lexer {
         finally {
         }
     }
-    // $ANTLR end "T__78"
+    // $ANTLR end "T__77"
 
     // $ANTLR start "RULE_QMARK"
     public final void mRULE_QMARK() throws RecognitionException {
@@ -3097,8 +3075,8 @@ public class InternalBytemanLexer extends Lexer {
     // $ANTLR end "RULE_WS"
 
     public void mTokens() throws RecognitionException {
-        // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:8: ( T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | RULE_QMARK | RULE_COMMA | RULE_DOT | RULE_COLON | RULE_NULL | RULE_NEW | RULE_SEMICOLON | RULE_BOOLEAN | RULE_INIT | RULE_CLINIT | RULE_LPAREN | RULE_RPAREN | RULE_LSQUARE | RULE_RSQUARE | RULE_DOLLAR | RULE_PLUS | RULE_MINUS | RULE_MOD | RULE_DIV | RULE_TIMES | RULE_BAND | RULE_BOR | RULE_BNOT | RULE_BXOR | RULE_LT | RULE_LE | RULE_GT | RULE_GE | RULE_EQ | RULE_NE | RULE_ASSIGN | RULE_FLOATVAL | RULE_INTVAL | RULE_OR | RULE_AND | RULE_NOT | RULE_KEYWORD_CLASS | RULE_KEYWORD_METHOD | RULE_KEYWORD_INTERFACE | RULE_IF | RULE_KEYWORD_BIND | RULE_NOTHING | RULE_KEYWORD_THROW | RULE_KEYWORD_RETURN | RULE_DO | RULE_START_RULE | RULE_END_RULE | RULE_ID | RULE_STRING | RULE_BM_COMMENT | RULE_HASH | RULE_EOL | RULE_WS )
-        int alt44=72;
+        // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:8: ( T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | RULE_QMARK | RULE_COMMA | RULE_DOT | RULE_COLON | RULE_NULL | RULE_NEW | RULE_SEMICOLON | RULE_BOOLEAN | RULE_INIT | RULE_CLINIT | RULE_LPAREN | RULE_RPAREN | RULE_LSQUARE | RULE_RSQUARE | RULE_DOLLAR | RULE_PLUS | RULE_MINUS | RULE_MOD | RULE_DIV | RULE_TIMES | RULE_BAND | RULE_BOR | RULE_BNOT | RULE_BXOR | RULE_LT | RULE_LE | RULE_GT | RULE_GE | RULE_EQ | RULE_NE | RULE_ASSIGN | RULE_FLOATVAL | RULE_INTVAL | RULE_OR | RULE_AND | RULE_NOT | RULE_KEYWORD_CLASS | RULE_KEYWORD_METHOD | RULE_KEYWORD_INTERFACE | RULE_IF | RULE_KEYWORD_BIND | RULE_NOTHING | RULE_KEYWORD_THROW | RULE_KEYWORD_RETURN | RULE_DO | RULE_START_RULE | RULE_END_RULE | RULE_ID | RULE_STRING | RULE_BM_COMMENT | RULE_HASH | RULE_EOL | RULE_WS )
+        int alt44=71;
         alt44 = dfa44.predict(input);
         switch (alt44) {
             case 1 :
@@ -3228,378 +3206,371 @@ public class InternalBytemanLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:118: T__78
-                {
-                mT__78(); 
-
-                }
-                break;
-            case 20 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:124: RULE_QMARK
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:118: RULE_QMARK
                 {
                 mRULE_QMARK(); 
 
                 }
                 break;
-            case 21 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:135: RULE_COMMA
+            case 20 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:129: RULE_COMMA
                 {
                 mRULE_COMMA(); 
 
                 }
                 break;
-            case 22 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:146: RULE_DOT
+            case 21 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:140: RULE_DOT
                 {
                 mRULE_DOT(); 
 
                 }
                 break;
-            case 23 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:155: RULE_COLON
+            case 22 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:149: RULE_COLON
                 {
                 mRULE_COLON(); 
 
                 }
                 break;
-            case 24 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:166: RULE_NULL
+            case 23 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:160: RULE_NULL
                 {
                 mRULE_NULL(); 
 
                 }
                 break;
-            case 25 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:176: RULE_NEW
+            case 24 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:170: RULE_NEW
                 {
                 mRULE_NEW(); 
 
                 }
                 break;
-            case 26 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:185: RULE_SEMICOLON
+            case 25 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:179: RULE_SEMICOLON
                 {
                 mRULE_SEMICOLON(); 
 
                 }
                 break;
-            case 27 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:200: RULE_BOOLEAN
+            case 26 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:194: RULE_BOOLEAN
                 {
                 mRULE_BOOLEAN(); 
 
                 }
                 break;
-            case 28 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:213: RULE_INIT
+            case 27 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:207: RULE_INIT
                 {
                 mRULE_INIT(); 
 
                 }
                 break;
-            case 29 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:223: RULE_CLINIT
+            case 28 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:217: RULE_CLINIT
                 {
                 mRULE_CLINIT(); 
 
                 }
                 break;
-            case 30 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:235: RULE_LPAREN
+            case 29 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:229: RULE_LPAREN
                 {
                 mRULE_LPAREN(); 
 
                 }
                 break;
-            case 31 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:247: RULE_RPAREN
+            case 30 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:241: RULE_RPAREN
                 {
                 mRULE_RPAREN(); 
 
                 }
                 break;
-            case 32 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:259: RULE_LSQUARE
+            case 31 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:253: RULE_LSQUARE
                 {
                 mRULE_LSQUARE(); 
 
                 }
                 break;
-            case 33 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:272: RULE_RSQUARE
+            case 32 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:266: RULE_RSQUARE
                 {
                 mRULE_RSQUARE(); 
 
                 }
                 break;
-            case 34 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:285: RULE_DOLLAR
+            case 33 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:279: RULE_DOLLAR
                 {
                 mRULE_DOLLAR(); 
 
                 }
                 break;
-            case 35 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:297: RULE_PLUS
+            case 34 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:291: RULE_PLUS
                 {
                 mRULE_PLUS(); 
 
                 }
                 break;
-            case 36 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:307: RULE_MINUS
+            case 35 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:301: RULE_MINUS
                 {
                 mRULE_MINUS(); 
 
                 }
                 break;
-            case 37 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:318: RULE_MOD
+            case 36 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:312: RULE_MOD
                 {
                 mRULE_MOD(); 
 
                 }
                 break;
-            case 38 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:327: RULE_DIV
+            case 37 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:321: RULE_DIV
                 {
                 mRULE_DIV(); 
 
                 }
                 break;
-            case 39 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:336: RULE_TIMES
+            case 38 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:330: RULE_TIMES
                 {
                 mRULE_TIMES(); 
 
                 }
                 break;
-            case 40 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:347: RULE_BAND
+            case 39 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:341: RULE_BAND
                 {
                 mRULE_BAND(); 
 
                 }
                 break;
-            case 41 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:357: RULE_BOR
+            case 40 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:351: RULE_BOR
                 {
                 mRULE_BOR(); 
 
                 }
                 break;
-            case 42 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:366: RULE_BNOT
+            case 41 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:360: RULE_BNOT
                 {
                 mRULE_BNOT(); 
 
                 }
                 break;
-            case 43 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:376: RULE_BXOR
+            case 42 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:370: RULE_BXOR
                 {
                 mRULE_BXOR(); 
 
                 }
                 break;
-            case 44 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:386: RULE_LT
+            case 43 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:380: RULE_LT
                 {
                 mRULE_LT(); 
 
                 }
                 break;
-            case 45 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:394: RULE_LE
+            case 44 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:388: RULE_LE
                 {
                 mRULE_LE(); 
 
                 }
                 break;
-            case 46 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:402: RULE_GT
+            case 45 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:396: RULE_GT
                 {
                 mRULE_GT(); 
 
                 }
                 break;
-            case 47 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:410: RULE_GE
+            case 46 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:404: RULE_GE
                 {
                 mRULE_GE(); 
 
                 }
                 break;
-            case 48 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:418: RULE_EQ
+            case 47 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:412: RULE_EQ
                 {
                 mRULE_EQ(); 
 
                 }
                 break;
-            case 49 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:426: RULE_NE
+            case 48 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:420: RULE_NE
                 {
                 mRULE_NE(); 
 
                 }
                 break;
-            case 50 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:434: RULE_ASSIGN
+            case 49 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:428: RULE_ASSIGN
                 {
                 mRULE_ASSIGN(); 
 
                 }
                 break;
-            case 51 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:446: RULE_FLOATVAL
+            case 50 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:440: RULE_FLOATVAL
                 {
                 mRULE_FLOATVAL(); 
 
                 }
                 break;
-            case 52 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:460: RULE_INTVAL
+            case 51 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:454: RULE_INTVAL
                 {
                 mRULE_INTVAL(); 
 
                 }
                 break;
-            case 53 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:472: RULE_OR
+            case 52 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:466: RULE_OR
                 {
                 mRULE_OR(); 
 
                 }
                 break;
-            case 54 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:480: RULE_AND
+            case 53 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:474: RULE_AND
                 {
                 mRULE_AND(); 
 
                 }
                 break;
-            case 55 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:489: RULE_NOT
+            case 54 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:483: RULE_NOT
                 {
                 mRULE_NOT(); 
 
                 }
                 break;
-            case 56 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:498: RULE_KEYWORD_CLASS
+            case 55 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:492: RULE_KEYWORD_CLASS
                 {
                 mRULE_KEYWORD_CLASS(); 
 
                 }
                 break;
-            case 57 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:517: RULE_KEYWORD_METHOD
+            case 56 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:511: RULE_KEYWORD_METHOD
                 {
                 mRULE_KEYWORD_METHOD(); 
 
                 }
                 break;
-            case 58 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:537: RULE_KEYWORD_INTERFACE
+            case 57 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:531: RULE_KEYWORD_INTERFACE
                 {
                 mRULE_KEYWORD_INTERFACE(); 
 
                 }
                 break;
-            case 59 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:560: RULE_IF
+            case 58 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:554: RULE_IF
                 {
                 mRULE_IF(); 
 
                 }
                 break;
-            case 60 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:568: RULE_KEYWORD_BIND
+            case 59 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:562: RULE_KEYWORD_BIND
                 {
                 mRULE_KEYWORD_BIND(); 
 
                 }
                 break;
-            case 61 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:586: RULE_NOTHING
+            case 60 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:580: RULE_NOTHING
                 {
                 mRULE_NOTHING(); 
 
                 }
                 break;
-            case 62 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:599: RULE_KEYWORD_THROW
+            case 61 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:593: RULE_KEYWORD_THROW
                 {
                 mRULE_KEYWORD_THROW(); 
 
                 }
                 break;
-            case 63 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:618: RULE_KEYWORD_RETURN
+            case 62 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:612: RULE_KEYWORD_RETURN
                 {
                 mRULE_KEYWORD_RETURN(); 
 
                 }
                 break;
-            case 64 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:638: RULE_DO
+            case 63 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:632: RULE_DO
                 {
                 mRULE_DO(); 
 
                 }
                 break;
-            case 65 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:646: RULE_START_RULE
+            case 64 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:640: RULE_START_RULE
                 {
                 mRULE_START_RULE(); 
 
                 }
                 break;
-            case 66 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:662: RULE_END_RULE
+            case 65 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:656: RULE_END_RULE
                 {
                 mRULE_END_RULE(); 
 
                 }
                 break;
-            case 67 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:676: RULE_ID
+            case 66 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:670: RULE_ID
                 {
                 mRULE_ID(); 
 
                 }
                 break;
-            case 68 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:684: RULE_STRING
+            case 67 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:678: RULE_STRING
                 {
                 mRULE_STRING(); 
 
                 }
                 break;
-            case 69 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:696: RULE_BM_COMMENT
+            case 68 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:690: RULE_BM_COMMENT
                 {
                 mRULE_BM_COMMENT(); 
 
                 }
                 break;
-            case 70 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:712: RULE_HASH
+            case 69 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:706: RULE_HASH
                 {
                 mRULE_HASH(); 
 
                 }
                 break;
-            case 71 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:722: RULE_EOL
+            case 70 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:716: RULE_EOL
                 {
                 mRULE_EOL(); 
 
                 }
                 break;
-            case 72 :
-                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:731: RULE_WS
+            case 71 :
+                // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:1:725: RULE_WS
                 {
                 mRULE_WS(); 
 
@@ -3622,12 +3593,12 @@ public class InternalBytemanLexer extends Lexer {
     static final String DFA13_maxS =
         "\1\71\1\146\4\uffff";
     static final String DFA13_acceptS =
-        "\2\uffff\1\2\1\3\1\4\1\1";
+        "\2\uffff\1\2\1\4\1\1\1\3";
     static final String DFA13_specialS =
         "\6\uffff}>";
     static final String[] DFA13_transitionS = {
             "\1\2\1\uffff\12\1",
-            "\1\5\1\uffff\12\1\12\uffff\1\4\1\3\1\4\35\uffff\1\4\1\3\1\4",
+            "\1\4\1\uffff\12\1\12\uffff\1\3\1\5\1\3\35\uffff\1\3\1\5\1\3",
             "",
             "",
             "",
@@ -3668,93 +3639,91 @@ public class InternalBytemanLexer extends Lexer {
         }
     }
     static final String DFA44_eotS =
-        "\1\uffff\12\66\1\122\2\uffff\1\123\1\uffff\2\66\1\uffff\3\66\1\141"+
+        "\1\uffff\12\66\1\122\2\uffff\1\124\1\uffff\2\66\1\uffff\3\66\1\141"+
         "\11\uffff\1\143\1\145\2\uffff\1\147\1\151\1\153\2\154\15\66\2\uffff"+
         "\1\174\2\uffff\1\66\1\177\12\66\1\u008d\5\66\10\uffff\11\66\17\uffff"+
         "\2\144\5\66\1\u008d\4\66\2\u00a5\1\66\2\uffff\1\66\1\uffff\1\66"+
         "\1\u00a9\1\142\12\66\1\uffff\6\66\1\u00ba\1\153\1\u00ba\1\153\4"+
-        "\66\1\142\10\66\1\uffff\3\66\1\uffff\2\66\1\u00ce\1\66\1\u00d0\1"+
-        "\66\1\u00d2\3\66\1\u00d6\3\66\1\u00da\1\u00db\1\uffff\2\66\1\u00da"+
-        "\7\66\2\u00e5\4\66\1\u00e9\1\u00ea\1\66\1\uffff\1\66\3\uffff\1\u00ed"+
-        "\2\66\1\uffff\1\u00f0\1\66\1\u00f2\2\uffff\2\66\1\u00f5\2\u00da"+
-        "\1\u00f0\3\66\1\uffff\2\66\1\u00fb\2\uffff\1\66\1\u00fd\1\uffff"+
-        "\1\u00fe\1\66\1\uffff\1\66\1\uffff\2\66\1\uffff\2\u0103\1\66\1\u0105"+
-        "\1\66\1\uffff\1\u0107\2\uffff\2\66\2\u010a\1\uffff\1\66\1\uffff"+
-        "\1\u0107\1\uffff\2\66\1\uffff\1\66\1\u010f\1\66\1\u010f\1\uffff"+
-        "\1\66\1\u0112\1\uffff";
+        "\66\1\142\10\66\1\uffff\3\66\1\uffff\2\66\1\u00ce\1\u00cf\1\u00d0"+
+        "\5\66\1\u00d6\3\66\1\u00da\1\u00db\1\uffff\2\66\1\u00da\7\66\2\u00e5"+
+        "\4\66\1\u00e9\1\u00ea\1\66\3\uffff\1\66\1\uffff\1\u00ed\2\66\1\uffff"+
+        "\1\u00f0\1\66\1\u00f2\2\uffff\2\66\1\u00f5\2\u00da\1\u00f0\3\66"+
+        "\1\uffff\2\66\1\u00fb\2\uffff\1\66\1\u00fd\1\uffff\1\u00fe\1\66"+
+        "\1\uffff\1\66\1\uffff\2\66\1\uffff\2\u0103\1\66\1\u00fd\1\66\1\uffff"+
+        "\1\u0106\2\uffff\2\66\2\u0109\1\uffff\1\66\1\u0106\1\uffff\2\66"+
+        "\1\uffff\1\66\1\u010e\1\66\1\u010e\1\uffff\1\66\1\u0111\1\uffff";
     static final String DFA44_eofS =
-        "\u0113\uffff";
+        "\u0112\uffff";
     static final String DFA44_minS =
-        "\1\11\1\105\1\106\1\116\1\105\1\111\1\122\1\106\1\101\1\131\1\110"+
+        "\1\11\1\105\1\106\1\116\1\111\1\105\1\122\1\106\1\101\1\131\1\110"+
         "\1\41\2\uffff\1\60\1\uffff\1\145\1\105\1\uffff\1\150\1\101\1\141"+
         "\1\75\11\uffff\1\46\1\174\2\uffff\3\75\2\56\1\122\1\162\1\156\1"+
         "\154\1\105\1\145\1\146\1\111\1\151\1\145\1\117\1\157\1\156\2\uffff"+
-        "\1\0\2\uffff\1\114\1\44\1\124\1\114\2\104\1\111\1\101\1\114\1\116"+
+        "\1\0\2\uffff\1\114\1\44\1\124\1\114\2\104\1\111\1\116\1\101\1\114"+
         "\1\111\1\124\1\44\1\114\1\101\1\116\1\122\1\125\10\uffff\1\154\1"+
         "\167\1\164\1\127\1\124\1\165\1\162\1\114\1\154\17\uffff\2\44\1\144"+
         "\1\141\1\124\2\164\1\44\1\116\1\156\1\164\1\154\2\44\1\144\2\uffff"+
-        "\1\120\1\uffff\1\105\2\44\2\122\1\124\1\125\1\104\2\105\1\124\1"+
-        "\117\1\105\1\uffff\1\114\1\123\1\103\1\117\1\105\1\154\4\44\1\145"+
-        "\1\157\1\123\1\163\1\44\1\163\1\110\1\150\1\145\1\104\1\144\1\165"+
-        "\1\145\1\uffff\1\162\1\105\1\122\1\uffff\1\131\1\125\1\44\1\122"+
-        "\1\44\1\11\1\44\1\105\1\113\1\122\1\44\1\123\1\110\1\127\2\44\1"+
-        "\uffff\1\151\1\111\1\44\1\167\1\105\1\145\1\163\1\117\1\157\1\162"+
-        "\2\44\1\162\1\11\1\165\1\122\2\44\1\114\1\uffff\1\116\3\uffff\1"+
-        "\44\1\105\1\106\1\uffff\1\44\1\122\1\44\2\uffff\1\156\1\116\4\44"+
-        "\1\104\1\144\1\146\1\uffff\1\156\1\154\1\44\2\uffff\1\105\1\44\1"+
-        "\uffff\1\44\1\101\1\uffff\1\117\1\uffff\1\147\1\107\1\uffff\2\44"+
-        "\1\141\1\44\1\145\1\uffff\1\44\2\uffff\1\103\1\116\2\44\1\uffff"+
-        "\1\143\1\uffff\1\44\1\uffff\1\105\1\111\1\uffff\1\145\1\44\1\132"+
-        "\1\44\1\uffff\1\105\1\44\1\uffff";
+        "\1\120\1\uffff\1\105\2\44\2\122\1\124\1\105\1\104\1\125\1\105\1"+
+        "\124\1\117\1\105\1\uffff\1\114\1\123\1\103\1\117\1\105\1\154\4\44"+
+        "\1\145\1\157\1\123\1\163\1\44\1\163\1\110\1\150\1\145\1\104\1\144"+
+        "\1\165\1\145\1\uffff\1\162\1\105\1\122\1\uffff\1\131\1\125\3\44"+
+        "\1\122\1\11\1\105\1\113\1\122\1\44\1\123\1\110\1\127\2\44\1\uffff"+
+        "\1\151\1\111\1\44\1\167\1\105\1\145\1\163\1\117\1\157\1\162\2\44"+
+        "\1\162\1\11\1\165\1\122\2\44\1\114\3\uffff\1\116\1\uffff\1\44\1"+
+        "\105\1\106\1\uffff\1\44\1\122\1\44\2\uffff\1\156\1\116\4\44\1\104"+
+        "\1\144\1\146\1\uffff\1\156\1\154\1\44\2\uffff\1\105\1\44\1\uffff"+
+        "\1\44\1\101\1\uffff\1\117\1\uffff\1\147\1\107\1\uffff\2\44\1\141"+
+        "\1\44\1\145\1\uffff\1\44\2\uffff\1\103\1\116\2\44\1\uffff\1\143"+
+        "\1\44\1\uffff\1\105\1\111\1\uffff\1\145\1\44\1\132\1\44\1\uffff"+
+        "\1\105\1\44\1\uffff";
     static final String DFA44_maxS =
-        "\1\176\1\105\1\124\1\130\1\125\1\111\1\122\1\116\1\114\1\131\1\122"+
+        "\1\176\1\105\1\124\1\130\1\111\1\125\1\122\1\116\1\114\1\131\1\122"+
         "\1\136\2\uffff\1\71\1\uffff\1\165\1\117\1\uffff\1\162\1\101\1\141"+
         "\1\151\11\uffff\1\46\1\174\2\uffff\3\75\2\146\1\122\1\162\1\156"+
         "\1\154\1\105\1\145\1\156\1\111\1\151\1\165\1\117\1\157\1\156\2\uffff"+
-        "\1\uffff\2\uffff\1\114\1\172\1\124\1\114\1\104\1\124\1\111\1\124"+
-        "\1\114\1\116\1\111\1\126\1\172\1\114\1\101\1\116\1\122\1\125\10"+
+        "\1\uffff\2\uffff\1\114\1\172\1\124\1\114\1\104\1\124\1\111\1\116"+
+        "\1\124\1\114\1\111\1\126\1\172\1\114\1\101\1\116\1\122\1\125\10"+
         "\uffff\1\154\1\167\1\164\1\127\1\124\1\165\1\162\1\114\1\154\17"+
         "\uffff\2\172\1\144\1\141\1\124\2\164\1\172\1\116\1\156\1\164\1\154"+
-        "\2\172\1\144\2\uffff\1\120\1\uffff\1\105\2\172\2\122\1\124\1\125"+
-        "\1\104\2\105\1\124\1\117\1\105\1\uffff\1\114\1\123\1\103\1\117\1"+
-        "\105\1\154\4\172\1\145\1\157\1\123\1\163\1\172\1\163\1\110\1\150"+
-        "\1\145\1\104\1\144\1\165\1\145\1\uffff\1\162\1\105\1\122\1\uffff"+
-        "\1\131\1\125\1\172\1\122\1\172\1\40\1\172\1\105\1\113\1\122\1\172"+
-        "\1\123\1\110\1\127\2\172\1\uffff\1\151\1\111\1\172\1\167\1\105\1"+
-        "\145\1\163\1\117\1\157\1\162\2\172\1\162\1\40\1\165\1\122\2\172"+
-        "\1\114\1\uffff\1\116\3\uffff\1\172\1\105\1\106\1\uffff\1\172\1\122"+
-        "\1\172\2\uffff\1\156\1\116\4\172\1\104\1\144\1\146\1\uffff\1\156"+
-        "\1\154\1\172\2\uffff\1\105\1\172\1\uffff\1\172\1\101\1\uffff\1\117"+
-        "\1\uffff\1\147\1\107\1\uffff\2\172\1\141\1\172\1\145\1\uffff\1\172"+
-        "\2\uffff\1\103\1\116\2\172\1\uffff\1\143\1\uffff\1\172\1\uffff\1"+
-        "\105\1\111\1\uffff\1\145\1\172\1\132\1\172\1\uffff\1\105\1\172\1"+
-        "\uffff";
+        "\2\172\1\144\2\uffff\1\120\1\uffff\1\105\2\172\2\122\1\124\1\105"+
+        "\1\104\1\125\1\105\1\124\1\117\1\105\1\uffff\1\114\1\123\1\103\1"+
+        "\117\1\105\1\154\4\172\1\145\1\157\1\123\1\163\1\172\1\163\1\110"+
+        "\1\150\1\145\1\104\1\144\1\165\1\145\1\uffff\1\162\1\105\1\122\1"+
+        "\uffff\1\131\1\125\3\172\1\122\1\40\1\105\1\113\1\122\1\172\1\123"+
+        "\1\110\1\127\2\172\1\uffff\1\151\1\111\1\172\1\167\1\105\1\145\1"+
+        "\163\1\117\1\157\1\162\2\172\1\162\1\40\1\165\1\122\2\172\1\114"+
+        "\3\uffff\1\116\1\uffff\1\172\1\105\1\106\1\uffff\1\172\1\122\1\172"+
+        "\2\uffff\1\156\1\116\4\172\1\104\1\144\1\146\1\uffff\1\156\1\154"+
+        "\1\172\2\uffff\1\105\1\172\1\uffff\1\172\1\101\1\uffff\1\117\1\uffff"+
+        "\1\147\1\107\1\uffff\2\172\1\141\1\172\1\145\1\uffff\1\172\2\uffff"+
+        "\1\103\1\116\2\172\1\uffff\1\143\1\172\1\uffff\1\105\1\111\1\uffff"+
+        "\1\145\1\172\1\132\1\172\1\uffff\1\105\1\172\1\uffff";
     static final String DFA44_acceptS =
-        "\14\uffff\1\24\1\25\1\uffff\1\27\2\uffff\1\32\4\uffff\1\36\1\37"+
-        "\1\40\1\41\1\43\1\44\1\45\1\46\1\47\2\uffff\1\52\1\53\22\uffff\1"+
-        "\103\1\104\1\uffff\1\107\1\110\22\uffff\1\17\1\20\1\21\1\22\1\23"+
-        "\1\42\1\26\1\63\11\uffff\1\34\1\35\1\55\1\54\1\66\1\50\1\65\1\51"+
-        "\1\57\1\56\1\60\1\62\1\61\1\67\1\64\17\uffff\1\106\1\105\1\uffff"+
-        "\1\2\15\uffff\1\73\27\uffff\1\100\3\uffff\1\16\20\uffff\1\31\23"+
-        "\uffff\1\5\1\uffff\1\10\1\101\1\7\3\uffff\1\13\3\uffff\1\33\1\30"+
-        "\11\uffff\1\74\3\uffff\1\3\1\4\2\uffff\1\11\2\uffff\1\70\1\uffff"+
-        "\1\15\2\uffff\1\76\5\uffff\1\1\1\uffff\1\6\1\12\4\uffff\1\71\1\uffff"+
-        "\1\77\1\uffff\1\102\2\uffff\1\75\4\uffff\1\72\2\uffff\1\14";
+        "\14\uffff\1\23\1\24\1\uffff\1\26\2\uffff\1\31\4\uffff\1\35\1\36"+
+        "\1\37\1\40\1\42\1\43\1\44\1\45\1\46\2\uffff\1\51\1\52\22\uffff\1"+
+        "\102\1\103\1\uffff\1\106\1\107\22\uffff\1\16\1\17\1\20\1\21\1\22"+
+        "\1\41\1\62\1\25\11\uffff\1\33\1\34\1\54\1\53\1\65\1\47\1\64\1\50"+
+        "\1\56\1\55\1\57\1\61\1\60\1\66\1\63\17\uffff\1\105\1\104\1\uffff"+
+        "\1\2\15\uffff\1\72\27\uffff\1\77\3\uffff\1\15\20\uffff\1\30\23\uffff"+
+        "\1\5\1\6\1\7\1\uffff\1\100\3\uffff\1\12\3\uffff\1\32\1\27\11\uffff"+
+        "\1\73\3\uffff\1\3\1\4\2\uffff\1\10\2\uffff\1\67\1\uffff\1\14\2\uffff"+
+        "\1\75\5\uffff\1\1\1\uffff\1\76\1\11\4\uffff\1\70\2\uffff\1\101\2"+
+        "\uffff\1\74\4\uffff\1\71\2\uffff\1\13";
     static final String DFA44_specialS =
-        "\70\uffff\1\0\u00da\uffff}>";
+        "\70\uffff\1\0\u00d9\uffff}>";
     static final String[] DFA44_transitionS = {
             "\1\72\1\71\2\uffff\1\71\22\uffff\1\72\1\46\1\67\1\70\1\13\1"+
             "\35\1\40\1\67\1\27\1\30\1\37\1\33\1\15\1\34\1\16\1\36\1\47\11"+
             "\50\1\17\1\22\1\26\1\45\1\44\1\14\1\uffff\1\2\1\60\1\10\1\63"+
-            "\1\3\1\24\1\66\1\1\1\7\2\66\1\5\1\55\1\21\1\51\2\66\1\4\1\11"+
+            "\1\3\1\24\1\66\1\1\1\7\2\66\1\4\1\55\1\21\1\51\2\66\1\5\1\11"+
             "\1\12\2\66\1\6\3\66\1\31\1\uffff\1\32\1\43\1\66\1\uffff\1\53"+
             "\1\61\1\54\1\64\1\65\1\25\2\66\1\57\3\66\1\56\1\20\1\52\2\66"+
             "\1\62\1\66\1\23\6\66\1\uffff\1\41\1\uffff\1\42",
             "\1\73",
             "\1\75\5\uffff\1\76\1\uffff\1\77\5\uffff\1\74",
             "\1\100\11\uffff\1\101",
-            "\1\102\17\uffff\1\103",
-            "\1\104",
+            "\1\102",
+            "\1\103\17\uffff\1\104",
             "\1\105",
             "\1\107\7\uffff\1\106",
             "\1\110\12\uffff\1\111",
@@ -3764,7 +3733,7 @@ public class InternalBytemanLexer extends Lexer {
             "\1\117",
             "",
             "",
-            "\12\124",
+            "\12\123",
             "",
             "\1\126\11\uffff\1\127\5\uffff\1\125",
             "\1\130\11\uffff\1\131",
@@ -3789,8 +3758,8 @@ public class InternalBytemanLexer extends Lexer {
             "\1\146",
             "\1\150",
             "\1\152",
-            "\1\124\1\uffff\12\50\12\uffff\3\124\35\uffff\3\124",
-            "\1\124\1\uffff\12\50\12\uffff\3\124\35\uffff\3\124",
+            "\1\123\1\uffff\12\50\12\uffff\3\123\35\uffff\3\123",
+            "\1\123\1\uffff\12\50\12\uffff\3\123\35\uffff\3\123",
             "\1\155",
             "\1\156",
             "\1\157",
@@ -3817,8 +3786,8 @@ public class InternalBytemanLexer extends Lexer {
             "\1\u0082",
             "\1\u0084\17\uffff\1\u0083",
             "\1\u0085",
-            "\1\u0087\22\uffff\1\u0086",
-            "\1\u0088",
+            "\1\u0086",
+            "\1\u0087\22\uffff\1\u0088",
             "\1\u0089",
             "\1\u008a",
             "\1\u008c\1\uffff\1\u008b",
@@ -3938,12 +3907,12 @@ public class InternalBytemanLexer extends Lexer {
             "\1\u00cd",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
-            "\1\u00cf",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
-            "\1\u00d1\26\uffff\1\u00d1",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
+            "\1\u00d1",
+            "\1\u00d2\26\uffff\1\u00d2",
             "\1\u00d3",
             "\1\u00d4",
             "\1\u00d5",
@@ -3973,7 +3942,7 @@ public class InternalBytemanLexer extends Lexer {
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
             "\1\u00e6",
-            "\1\u00d1\26\uffff\1\u00d1",
+            "\1\u00d2\26\uffff\1\u00d2",
             "\1\u00e7",
             "\1\u00e8",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
@@ -3982,9 +3951,9 @@ public class InternalBytemanLexer extends Lexer {
             "\66",
             "\1\u00eb",
             "",
+            "",
+            "",
             "\1\u00ec",
-            "",
-            "",
             "",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
@@ -4038,35 +4007,34 @@ public class InternalBytemanLexer extends Lexer {
             "\1\u0104",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
-            "\1\u0106",
+            "\1\u0105",
             "",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
             "",
             "",
+            "\1\u0107",
             "\1\u0108",
-            "\1\u0109",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
+            "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
+            "\66",
+            "",
+            "\1\u010a",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
             "",
             "\1\u010b",
-            "",
-            "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
-            "\66",
-            "",
             "\1\u010c",
+            "",
             "\1\u010d",
-            "",
-            "\1\u010e",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
+            "\1\u010f",
+            "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
+            "\66",
+            "",
             "\1\u0110",
-            "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
-            "\66",
-            "",
-            "\1\u0111",
             "\1\66\13\uffff\12\66\7\uffff\32\66\4\uffff\1\66\1\uffff\32"+
             "\66",
             ""
@@ -4102,7 +4070,7 @@ public class InternalBytemanLexer extends Lexer {
             this.transition = DFA44_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | RULE_QMARK | RULE_COMMA | RULE_DOT | RULE_COLON | RULE_NULL | RULE_NEW | RULE_SEMICOLON | RULE_BOOLEAN | RULE_INIT | RULE_CLINIT | RULE_LPAREN | RULE_RPAREN | RULE_LSQUARE | RULE_RSQUARE | RULE_DOLLAR | RULE_PLUS | RULE_MINUS | RULE_MOD | RULE_DIV | RULE_TIMES | RULE_BAND | RULE_BOR | RULE_BNOT | RULE_BXOR | RULE_LT | RULE_LE | RULE_GT | RULE_GE | RULE_EQ | RULE_NE | RULE_ASSIGN | RULE_FLOATVAL | RULE_INTVAL | RULE_OR | RULE_AND | RULE_NOT | RULE_KEYWORD_CLASS | RULE_KEYWORD_METHOD | RULE_KEYWORD_INTERFACE | RULE_IF | RULE_KEYWORD_BIND | RULE_NOTHING | RULE_KEYWORD_THROW | RULE_KEYWORD_RETURN | RULE_DO | RULE_START_RULE | RULE_END_RULE | RULE_ID | RULE_STRING | RULE_BM_COMMENT | RULE_HASH | RULE_EOL | RULE_WS );";
+            return "1:1: Tokens : ( T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | RULE_QMARK | RULE_COMMA | RULE_DOT | RULE_COLON | RULE_NULL | RULE_NEW | RULE_SEMICOLON | RULE_BOOLEAN | RULE_INIT | RULE_CLINIT | RULE_LPAREN | RULE_RPAREN | RULE_LSQUARE | RULE_RSQUARE | RULE_DOLLAR | RULE_PLUS | RULE_MINUS | RULE_MOD | RULE_DIV | RULE_TIMES | RULE_BAND | RULE_BOR | RULE_BNOT | RULE_BXOR | RULE_LT | RULE_LE | RULE_GT | RULE_GE | RULE_EQ | RULE_NE | RULE_ASSIGN | RULE_FLOATVAL | RULE_INTVAL | RULE_OR | RULE_AND | RULE_NOT | RULE_KEYWORD_CLASS | RULE_KEYWORD_METHOD | RULE_KEYWORD_INTERFACE | RULE_IF | RULE_KEYWORD_BIND | RULE_NOTHING | RULE_KEYWORD_THROW | RULE_KEYWORD_RETURN | RULE_DO | RULE_START_RULE | RULE_END_RULE | RULE_ID | RULE_STRING | RULE_BM_COMMENT | RULE_HASH | RULE_EOL | RULE_WS );";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;

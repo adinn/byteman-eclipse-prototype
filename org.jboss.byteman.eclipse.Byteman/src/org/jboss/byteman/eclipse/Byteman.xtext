@@ -90,7 +90,7 @@ AtEntry:
        {AtEntry} 'ENTRY';
 
 AtExit:
-       {AtExit} ('EXIT' | 'RETURN')
+       {AtExit} ('EXIT' | KEYWORD_RETURN)
        ;
 
 AtLine:
@@ -230,7 +230,7 @@ Expression:
        ;
 
 ReturnExpr returns Expression:
-	op=KEYWORD_RETURN operand1=Expression
+	op=KEYWORD_RETURN (operand1=Expression)?
 	;
 
 ThrowExpr returns Expression:
