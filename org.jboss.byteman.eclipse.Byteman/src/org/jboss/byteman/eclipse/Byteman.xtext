@@ -1,0 +1,546 @@
+grammar org.jboss.byteman.eclipse.Byteman hidden(WS, BM_COMMENT)
+
+generate byteman "http://www.jboss.org/byteman/eclipse/Byteman"
+
+/*
+	@author Rebecca Simmonds 
+	Grammar created to provide tokens for the Byteman rule language
+	Java grammar constraints are also included providing tokens for 
+	Java expressions in the Byteman BIND, IF and DO clauses.
+*/
+
+/*
+	imported modeling framework 
+*/
+
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+/*
+	Specification of the domain model allowing multiple rules in one script
+	Specification of individual rules using event, condition and action
+	
+	n.b. WS and comments are hidden in the top level rules but there is
+	explicit end of line (EOL) handling because the RULE, CLASS/INTERFACE,
+	METHOD, AT and ENDRULE keyword elements of the rule are line oriented
+*/
+
+DomainModel:
+	{DomainModel}
+     (elements+=Element | EOL)*;
+
+Element :
+	BytemanRule | Helper
+;
+
+BytemanRule :
+     name=START_RULE
+     EOL*
+     event=Event
+     body=Body
+     END_RULE EOL;
+
+/*
+ * the rule body is not line-oriented so we ignore EOL below this part
+ */
+Body hidden (WS, BM_COMMENT, EOL) :
+     bind=Bind?
+     condition=Condition
+     actions=Actions
+;
+
+/*
+	Definition of the event
+*/
+
+Event :
+     ((class=EventClass) | (interface=EventInterface)) EOL*
+     (method=EventMethod) EOL* 
+     (helper=Helper EOL*)?
+     (locationSpec=LocationSpecifier EOL*)?;
+
+EventClass :
+     keyword=KEYWORD_CLASS name=QualifiedName;
+
+EventInterface:
+      keyword=KEYWORD_INTERFACE name=QualifiedName;
+
+EventMethod :
+     KEYWORD_METHOD name=MethodName (parameterTypes=ParameterTypes)?
+     ;
+     
+MethodName:
+	 ID | INIT | CLINIT
+	 ;
+
+Helper :
+	{Helper} 'HELPER' helper=QualifiedName?
+	;
+
+LocationSpecifier :
+	'AT' AtLocation | 'AFTER' AfterLocation | AtLine
+	;
+
+AtLocation :
+	AtEntry | AtExit | AtLine | AtRead | AtWrite | AtInvoke | AtSynchronize | AtThrow;
+
+AfterLocation :
+	AfterRead | AfterWrite | AfterInvoke | AfterSynchronize | AtThrow;
+
+AtEntry:
+       {AtEntry} 'ENTRY';
+
+AtExit:
+       {AtExit} ('EXIT' | 'RETURN')
+       ;
+
+AtLine:
+       {AtLine} 'LINE' (line=INTVAL)
+       ;
+
+
+AtRead:
+     AtReadField |
+      AtReadLocal;
+
+AtReadField :
+	{AtReadField} 'READ' name = QualifiedName (counter=Counter)?;
+
+AtReadLocal :
+	{AtReadLocal} 'READ' DOLLAR name=ID (counter=Counter)?;
+
+
+AfterRead:
+       AfterReadField |
+       AfterReadLocal;
+
+AfterReadField :
+       {AfterReadField} 'READ' name= QualifiedName (counter=Counter)?;
+
+AfterReadLocal :
+       {AfterReadLocal} 'READ' DOLLAR name=ID (counter=Counter)?;
+
+AtWrite:
+
+       AtWriteField |
+       AtWriteLocal;
+
+AtWriteField :
+       {AtWriteField} 'WRITE' name= QualifiedName (counter=Counter)?;
+
+AtWriteLocal :
+       {AtWriteLocal} 'WRITE' DOLLAR name=ID (counter=Counter)?;
+
+AfterWrite:
+       AfterWriteField |
+       AfterWriteLocal;
+
+AfterWriteField :
+       {AfterWriteField} 'WRITE' name= QualifiedName (counter=Counter)?;
+
+AfterWriteLocal :
+       {AfterWriteLocal} 'WRITE' DOLLAR name=ID (counter=Counter)?;
+
+AtInvoke :
+        {AtInvoke} ('INVOKE' | 'CALL') name=QualifiedName (parameterTypes=ParameterTypes)? (counter=Counter)?;
+
+AfterInvoke :
+       {AfterInvoke} ('INVOKE' | 'CALL') name=QualifiedName (parameterTypes=ParameterTypes)? (counter=Counter)?;
+
+AtSynchronize :
+       {AtSynchronize} 'SYNCHRONIZE' (counter=Counter)?;
+
+AfterSynchronize :
+       {AfterSynchronize} 'SYNCHRONIZE' (counter=Counter)?;
+
+AtThrow :
+       {AtThrow} 'THROW' (name=QualifiedName)? (counter=Counter)?;
+
+ParameterTypes :
+     LPAREN
+     {ParameterTypes}
+      (paramTypeNames+=ParamTypeName
+        (COMMA paramTypeNames+=ParamTypeName)*)?
+     RPAREN;
+
+ParamTypeName :
+       QualifiedName
+       ;
+	
+Counter:
+       (INTVAL | 'ALL');
+       
+Bind:
+     KEYWORD_BIND {Bind} ( NOTHING | bind=Bindings ) ;
+
+Bindings:
+     (bindings+=Binding)
+     (SEMICOLON bindings+=Binding)*
+     SEMICOLON?
+     ;
+
+Binding:
+     bindVariable=BindVariable
+     (COLON typename=TypeName)?
+     ASSIGN
+     value=Expression;
+
+BindVariable:
+       ID;
+
+TypeName :
+	QualifiedName
+	;
+       
+/*
+ * Definition of the Condition
+ */
+Condition :
+     IF Expression ;
+
+/*
+ * Definition of action
+ */
+
+Actions :
+     {Actions} DO (actionList=ActionList | NOTHING);
+
+
+ActionList :
+	actions+=Action
+	(SEMICOLON actions+=Action)*
+	SEMICOLON?
+	;
+
+// we really only want RETURN or THROW at the end of the list but try
+// doing that without left recursion!
+
+Action :
+	Expression | ReturnExpr | ThrowExpr
+;
+
+// assigments ned to be composable just as any other operator expression
+// but the LHS should only be an AccessExpr and not a constant expr
+// enforcing the former requires left recursion -- or maybe backtracking?
+// enforcing the latter maybe also requires backtracking? anyway we can
+// just make assigment the weakest binding operator and do a post check
+// to ensure the LSH of an assign is of the right type
+
+Expression:
+       AssignmentExpr
+       ;
+
+ReturnExpr returns Expression:
+	op=KEYWORD_RETURN operand1=Expression
+	;
+
+ThrowExpr returns Expression:
+	op=KEYWORD_THROW operand1=Expression
+    ;
+     
+/*
+ * Definiton of Java expressions
+ */
+
+// assignments have an LHS restricted to the different types of var
+// expression and to fields and arrays. we have to allow access expressions
+// and then typecheck out assignments to method members accesses, literals
+// etc 
+ 
+AssignmentExpr returns Expression:
+    OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*;
+
+// other expressions are composed from either simple expressions or
+// expressions involving member or array accesses using either unary
+// or binary operators. a hierarchy of rules is used to ensure that
+// operator precedence is respected. tighter binding operators appear
+// lower down the hierarchy.
+
+OperatorExpr returns Expression:
+   PlusMinusOperand ({OperatorExpr.operand1 = current} op=(PLUS | MINUS) operand2=PlusMinusOperand)* ;
+
+PlusMinusOperand returns Expression:
+   TimesDivOperand ({PlusMinusOperand.operand1 = current} op=(TIMES | DIV | MOD) operand2=TimesDivOperand)*;
+
+TimesDivOperand returns Expression:
+   BitwiseOperand ({TimesDivOperand.operand1 = current} op=(BAND | BOR | BXOR) operand2=BitwiseOperand)* |
+   op=BNOT operand1=BitwiseOperand;
+
+BitwiseOperand returns Expression:
+    (LogicalOperand | NotOperand) ({BitwiseOperand.operand1 = current} op=(OR | AND) operand2=(NotOperand | LogicalOperand))* ; 
+
+NotOperand returns Expression:
+	(op=NOT) operand1=LogicalOperand;
+	
+LogicalOperand returns Expression:
+	ComparisonOperand ({LogicalOperand.operand1 = current} op=(EQ | GT | GE | LE | LT | NE) operand2=ComparisonOperand)*;
+
+// access base expressions can have array or member accesses composed on the right
+ 
+ComparisonOperand returns Expression:
+	AccessExpr ;
+
+// we need to return the LHS type so we can recurse here
+AccessExpr returns Expression :
+	AccessBaseExpr (({AccessExpr.operand1 = current} op=LSQUARE operand2=Expression RSQUARE) |
+					({AccessExpr.operand1 = current} op=DOT value=ID (args=CallArguments)?))*
+	;
+
+/*
+AccessExpr returns Expression :
+	AccessBaseExpr ({AccessExpr.operand1 = current} access = Access)*
+	;
+	
+Access :
+	IndexAccess |
+	MemberAccess
+;
+
+IndexAccess:
+{IndexAccess}
+	LSQUARE (index=Expression) RSQUARE;
+
+MemberAccess :
+  (op=DOT memberName=ID (args=CallArguments)?) ;
+*/
+// access base expressions are either simple builtin calls or var references,
+// literals, new expressions and bracketed expressions. they may possibly be
+// accessed on the left before being composed with prefix or infix operators
+
+AccessBaseExpr returns Expression:
+	BuiltinExpr |
+	SimpleExpr ;
+
+BuiltinExpr returns Expression:
+	{BuiltinExpr} value=ID args=CallArguments
+;
+
+/*
+ * TODO still need to allow for ternary (c ? e1 : e2) expressions
+ */
+SimpleExpr returns Expression:
+   VariableExpr |
+   ConstantExpr |
+   BracketedExpr |
+   NewExpr;
+
+NewExpr returns Expression:
+   {NewExpr} op=NEW value=QualifiedName params=CallArguments ;
+
+VariableExpr returns Expression:
+   SimpleName |
+   IndexedSpecialVar |
+   SpecialVar ;
+
+CallArguments:
+     LPAREN
+       {CallArguments}
+         (args+=Expression
+         	(COMMA args+=Expression)*)?
+     RPAREN;
+
+QualifiedName :
+     ID (DOT ID)*;
+
+SimpleName returns Expression:
+   value=ID;
+   
+IndexedSpecialVar returns Expression:
+   op=DOLLAR value=INTVAL ;
+
+SpecialVar returns Expression:
+   (op='$#' | op='$!' | op='$^' | op='$@' | op='$*' | op=DOLLAR value=ID);
+
+
+BracketedExpr returns Expression:
+   LPAREN Expression RPAREN ;
+   
+
+ConstantExpr returns Expression:
+   IntConstantExpr |
+   StringConstantExpr |
+   BooleanConstantExpr |
+   FloatConstantExpr;
+
+IntConstantExpr returns Expression:
+  {IntConstantExpr} value=INTVAL ;
+
+StringConstantExpr returns Expression:
+   {StringConstantExpr} value=STRING ;
+
+BooleanConstantExpr returns Expression:
+   {BooleanConstantExpr} value=BOOLEAN ;
+
+FloatConstantExpr returns Expression:
+   {FloatConstantExpr} value=FLOATVAL ;
+   
+/*
+	Definition of terminal values
+ */
+
+terminal QMARK:
+	'?';
+terminal COMMA:
+       ',';
+
+terminal DOT:
+       '.';
+
+terminal COLON:
+       ':';
+
+terminal NULL:
+       'null';
+
+terminal NEW:
+       'new' | 'NEW';
+
+terminal SEMICOLON:
+       ';';
+       
+terminal BOOLEAN :
+     'TRUE' | 'true' | 'FALSE' | 'false' ;
+     
+terminal INIT:
+	'<init>' ;
+	
+terminal CLINIT:
+	'<clinit>' ;
+	
+terminal LPAREN:
+       '(';
+
+terminal RPAREN:
+       ')';
+
+terminal LSQUARE:
+       '[';
+
+terminal RSQUARE:
+       ']';
+
+terminal DOLLAR:
+       '$';
+
+terminal PLUS:
+       '+';
+
+terminal MINUS:
+       '-';
+
+terminal MOD:
+       '%';
+
+terminal DIV:
+       '/';
+
+terminal TIMES:
+       '*';
+
+terminal BAND:
+       '&';
+
+terminal BOR:
+       '|';
+
+terminal BNOT:
+       '~';
+
+terminal BXOR:
+       '^';
+
+terminal LT:
+       '<';
+
+terminal LE:
+       '<=';
+
+terminal GT:
+       '>';
+
+terminal GE:
+       '>=';
+
+terminal EQ:
+       '==';
+
+terminal NE:
+       "!=";
+
+terminal ASSIGN :
+     '=' ;
+
+terminal FLOATVAL:
+    ('0'..'9')+ '.' ('0'..'9')* EXPONENT? FLOATTYPESUFFIX?
+    |   '.' ('0'..'9')+ EXPONENT? FLOATTYPESUFFIX?
+    |   ('0'..'9')+ EXPONENT FLOATTYPESUFFIX?
+    |   ('0'..'9')+ FLOATTYPESUFFIX
+    ;
+
+
+terminal INTVAL : ('0'..'9')+ INTTYPESUFFIX?
+	| '0x' ('0'..'9'|'A'..'F'|'a'..'f')+ INTTYPESUFFIX?
+	| '0b' ('0'..'1')+ INTTYPESUFFIX?
+;
+
+// these are defined as fragments so they only get tokenized in the
+// context of tokenizing a floating point value
+ 
+terminal fragment EXPONENT:
+       ('e'|'E') ('+'|'-')? ('0'..'9')+ ;
+
+terminal fragment FLOATTYPESUFFIX:
+       ('f'|'F'|'d'|'D') ;
+
+terminal fragment INTTYPESUFFIX:
+       ('L'|'l') ;
+
+terminal OR:
+       'OR' | 'or' | '||';
+
+terminal AND:
+       'AND' | 'and' | '&&';
+
+terminal  NOT:
+       'NOT' | 'not' | '!';
+
+terminal KEYWORD_CLASS:
+       'CLASS' | 'class';
+
+terminal KEYWORD_METHOD:
+       'METHOD' | 'method';
+
+terminal KEYWORD_INTERFACE:
+       'INTERFACE' | 'interface';
+
+terminal IF:
+       'IF' | 'if';
+
+terminal KEYWORD_BIND:
+       'BIND' | 'bind';
+
+terminal NOTHING:
+       'NOTHING' | 'nothing';
+
+terminal KEYWORD_THROW:
+       'THROW' | 'throw';
+
+terminal KEYWORD_RETURN:
+       'RETURN' | 'return';
+
+terminal DO:
+       'DO' | 'do';
+
+terminal START_RULE : 'RULE' WS -> EOL | 'rule' WS -> EOL;
+
+terminal END_RULE : 'ENDRULE' | 'endrule';
+
+terminal ID :
+     ('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'_'|'$'|'0'..'9')* ;
+
+terminal STRING :
+     '"' ( '\\' ('b'|'t'|'n'|'f'|'r'|'"'|"'"|'\\') | !('\\'|'"') )* '"' |
+     "'" ( '\\' ('b'|'t'|'n'|'f'|'r'|'"'|"'"|'\\') | !('\\'|"'") )* "'";
+terminal BM_COMMENT  : HASH -> EOL ;
+terminal HASH : '#' ;
+terminal EOL : ('\n' | '\r');
+terminal WS : (' '|'\t') ;
