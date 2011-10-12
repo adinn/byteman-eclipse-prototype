@@ -342,13 +342,13 @@ QualifiedName :
      ID (DOT ID)*;
 
 SimpleName returns Expression:
-   value=ID;
+   {SimpleName} value=ID;
    
 IndexedSpecialVar returns Expression:
-   op=DOLLAR value=INTVAL ;
+   {IndexedSpecialVar} op=DOLLAR value=INTVAL ;
 
 SpecialVar returns Expression:
-   (op='$#' | op='$!' | op='$^' | op='$@' | op='$*' | op=DOLLAR value=ID);
+   {SpecialVar} (op='$#' | op='$!' | op='$^' | op='$@' | op='$*' | op=DOLLAR value=ID);
 
 
 BracketedExpr returns Expression:

@@ -5070,31 +5070,31 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "ruleSimpleName"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1869:1: ruleSimpleName : ( ( rule__SimpleName__ValueAssignment ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1869:1: ruleSimpleName : ( ( rule__SimpleName__Group__0 ) ) ;
     public final void ruleSimpleName() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1873:2: ( ( ( rule__SimpleName__ValueAssignment ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1874:1: ( ( rule__SimpleName__ValueAssignment ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1873:2: ( ( ( rule__SimpleName__Group__0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1874:1: ( ( rule__SimpleName__Group__0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1874:1: ( ( rule__SimpleName__ValueAssignment ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1875:1: ( rule__SimpleName__ValueAssignment )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1874:1: ( ( rule__SimpleName__Group__0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1875:1: ( rule__SimpleName__Group__0 )
             {
-             before(grammarAccess.getSimpleNameAccess().getValueAssignment()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1876:1: ( rule__SimpleName__ValueAssignment )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1876:2: rule__SimpleName__ValueAssignment
+             before(grammarAccess.getSimpleNameAccess().getGroup()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1876:1: ( rule__SimpleName__Group__0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1876:2: rule__SimpleName__Group__0
             {
-            pushFollow(FOLLOW_rule__SimpleName__ValueAssignment_in_ruleSimpleName3938);
-            rule__SimpleName__ValueAssignment();
+            pushFollow(FOLLOW_rule__SimpleName__Group__0_in_ruleSimpleName3938);
+            rule__SimpleName__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSimpleNameAccess().getValueAssignment()); 
+             after(grammarAccess.getSimpleNameAccess().getGroup()); 
 
             }
 
@@ -5224,31 +5224,31 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "ruleSpecialVar"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1925:1: ruleSpecialVar : ( ( rule__SpecialVar__Alternatives ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1925:1: ruleSpecialVar : ( ( rule__SpecialVar__Group__0 ) ) ;
     public final void ruleSpecialVar() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1929:2: ( ( ( rule__SpecialVar__Alternatives ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1930:1: ( ( rule__SpecialVar__Alternatives ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1929:2: ( ( ( rule__SpecialVar__Group__0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1930:1: ( ( rule__SpecialVar__Group__0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1930:1: ( ( rule__SpecialVar__Alternatives ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1931:1: ( rule__SpecialVar__Alternatives )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1930:1: ( ( rule__SpecialVar__Group__0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1931:1: ( rule__SpecialVar__Group__0 )
             {
-             before(grammarAccess.getSpecialVarAccess().getAlternatives()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1932:1: ( rule__SpecialVar__Alternatives )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1932:2: rule__SpecialVar__Alternatives
+             before(grammarAccess.getSpecialVarAccess().getGroup()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1932:1: ( rule__SpecialVar__Group__0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:1932:2: rule__SpecialVar__Group__0
             {
-            pushFollow(FOLLOW_rule__SpecialVar__Alternatives_in_ruleSpecialVar4058);
-            rule__SpecialVar__Alternatives();
+            pushFollow(FOLLOW_rule__SpecialVar__Group__0_in_ruleSpecialVar4058);
+            rule__SpecialVar__Group__0();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getAlternatives()); 
+             after(grammarAccess.getSpecialVarAccess().getGroup()); 
 
             }
 
@@ -8688,14 +8688,14 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__VariableExpr__Alternatives"
 
 
-    // $ANTLR start "rule__SpecialVar__Alternatives"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2910:1: rule__SpecialVar__Alternatives : ( ( ( rule__SpecialVar__OpAssignment_0 ) ) | ( ( rule__SpecialVar__OpAssignment_1 ) ) | ( ( rule__SpecialVar__OpAssignment_2 ) ) | ( ( rule__SpecialVar__OpAssignment_3 ) ) | ( ( rule__SpecialVar__OpAssignment_4 ) ) | ( ( rule__SpecialVar__Group_5__0 ) ) );
-    public final void rule__SpecialVar__Alternatives() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__Alternatives_1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2910:1: rule__SpecialVar__Alternatives_1 : ( ( ( rule__SpecialVar__OpAssignment_1_0 ) ) | ( ( rule__SpecialVar__OpAssignment_1_1 ) ) | ( ( rule__SpecialVar__OpAssignment_1_2 ) ) | ( ( rule__SpecialVar__OpAssignment_1_3 ) ) | ( ( rule__SpecialVar__OpAssignment_1_4 ) ) | ( ( rule__SpecialVar__Group_1_5__0 ) ) );
+    public final void rule__SpecialVar__Alternatives_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2914:1: ( ( ( rule__SpecialVar__OpAssignment_0 ) ) | ( ( rule__SpecialVar__OpAssignment_1 ) ) | ( ( rule__SpecialVar__OpAssignment_2 ) ) | ( ( rule__SpecialVar__OpAssignment_3 ) ) | ( ( rule__SpecialVar__OpAssignment_4 ) ) | ( ( rule__SpecialVar__Group_5__0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2914:1: ( ( ( rule__SpecialVar__OpAssignment_1_0 ) ) | ( ( rule__SpecialVar__OpAssignment_1_1 ) ) | ( ( rule__SpecialVar__OpAssignment_1_2 ) ) | ( ( rule__SpecialVar__OpAssignment_1_3 ) ) | ( ( rule__SpecialVar__OpAssignment_1_4 ) ) | ( ( rule__SpecialVar__Group_1_5__0 ) ) )
             int alt31=6;
             switch ( input.LA(1) ) {
             case 73:
@@ -8737,24 +8737,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
             switch (alt31) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2915:1: ( ( rule__SpecialVar__OpAssignment_0 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2915:1: ( ( rule__SpecialVar__OpAssignment_1_0 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2915:1: ( ( rule__SpecialVar__OpAssignment_0 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2916:1: ( rule__SpecialVar__OpAssignment_0 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2915:1: ( ( rule__SpecialVar__OpAssignment_1_0 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2916:1: ( rule__SpecialVar__OpAssignment_1_0 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_0()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2917:1: ( rule__SpecialVar__OpAssignment_0 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2917:2: rule__SpecialVar__OpAssignment_0
+                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_0()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2917:1: ( rule__SpecialVar__OpAssignment_1_0 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2917:2: rule__SpecialVar__OpAssignment_1_0
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_0_in_rule__SpecialVar__Alternatives6310);
-                    rule__SpecialVar__OpAssignment_0();
+                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_0_in_rule__SpecialVar__Alternatives_16310);
+                    rule__SpecialVar__OpAssignment_1_0();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_0()); 
+                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_0()); 
 
                     }
 
@@ -8762,24 +8762,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2921:6: ( ( rule__SpecialVar__OpAssignment_1 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2921:6: ( ( rule__SpecialVar__OpAssignment_1_1 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2921:6: ( ( rule__SpecialVar__OpAssignment_1 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2922:1: ( rule__SpecialVar__OpAssignment_1 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2921:6: ( ( rule__SpecialVar__OpAssignment_1_1 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2922:1: ( rule__SpecialVar__OpAssignment_1_1 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2923:1: ( rule__SpecialVar__OpAssignment_1 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2923:2: rule__SpecialVar__OpAssignment_1
+                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_1()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2923:1: ( rule__SpecialVar__OpAssignment_1_1 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2923:2: rule__SpecialVar__OpAssignment_1_1
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_in_rule__SpecialVar__Alternatives6328);
-                    rule__SpecialVar__OpAssignment_1();
+                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_1_in_rule__SpecialVar__Alternatives_16328);
+                    rule__SpecialVar__OpAssignment_1_1();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1()); 
+                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_1()); 
 
                     }
 
@@ -8787,24 +8787,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2927:6: ( ( rule__SpecialVar__OpAssignment_2 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2927:6: ( ( rule__SpecialVar__OpAssignment_1_2 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2927:6: ( ( rule__SpecialVar__OpAssignment_2 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2928:1: ( rule__SpecialVar__OpAssignment_2 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2927:6: ( ( rule__SpecialVar__OpAssignment_1_2 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2928:1: ( rule__SpecialVar__OpAssignment_1_2 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_2()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2929:1: ( rule__SpecialVar__OpAssignment_2 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2929:2: rule__SpecialVar__OpAssignment_2
+                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_2()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2929:1: ( rule__SpecialVar__OpAssignment_1_2 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2929:2: rule__SpecialVar__OpAssignment_1_2
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_2_in_rule__SpecialVar__Alternatives6346);
-                    rule__SpecialVar__OpAssignment_2();
+                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_2_in_rule__SpecialVar__Alternatives_16346);
+                    rule__SpecialVar__OpAssignment_1_2();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_2()); 
+                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_2()); 
 
                     }
 
@@ -8812,24 +8812,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 4 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2933:6: ( ( rule__SpecialVar__OpAssignment_3 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2933:6: ( ( rule__SpecialVar__OpAssignment_1_3 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2933:6: ( ( rule__SpecialVar__OpAssignment_3 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2934:1: ( rule__SpecialVar__OpAssignment_3 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2933:6: ( ( rule__SpecialVar__OpAssignment_1_3 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2934:1: ( rule__SpecialVar__OpAssignment_1_3 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_3()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2935:1: ( rule__SpecialVar__OpAssignment_3 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2935:2: rule__SpecialVar__OpAssignment_3
+                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_3()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2935:1: ( rule__SpecialVar__OpAssignment_1_3 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2935:2: rule__SpecialVar__OpAssignment_1_3
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_3_in_rule__SpecialVar__Alternatives6364);
-                    rule__SpecialVar__OpAssignment_3();
+                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_3_in_rule__SpecialVar__Alternatives_16364);
+                    rule__SpecialVar__OpAssignment_1_3();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_3()); 
+                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_3()); 
 
                     }
 
@@ -8837,24 +8837,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 5 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2939:6: ( ( rule__SpecialVar__OpAssignment_4 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2939:6: ( ( rule__SpecialVar__OpAssignment_1_4 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2939:6: ( ( rule__SpecialVar__OpAssignment_4 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2940:1: ( rule__SpecialVar__OpAssignment_4 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2939:6: ( ( rule__SpecialVar__OpAssignment_1_4 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2940:1: ( rule__SpecialVar__OpAssignment_1_4 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_4()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2941:1: ( rule__SpecialVar__OpAssignment_4 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2941:2: rule__SpecialVar__OpAssignment_4
+                     before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_4()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2941:1: ( rule__SpecialVar__OpAssignment_1_4 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2941:2: rule__SpecialVar__OpAssignment_1_4
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_4_in_rule__SpecialVar__Alternatives6382);
-                    rule__SpecialVar__OpAssignment_4();
+                    pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_4_in_rule__SpecialVar__Alternatives_16382);
+                    rule__SpecialVar__OpAssignment_1_4();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_4()); 
+                     after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_4()); 
 
                     }
 
@@ -8862,24 +8862,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                     }
                     break;
                 case 6 :
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2945:6: ( ( rule__SpecialVar__Group_5__0 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2945:6: ( ( rule__SpecialVar__Group_1_5__0 ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2945:6: ( ( rule__SpecialVar__Group_5__0 ) )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2946:1: ( rule__SpecialVar__Group_5__0 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2945:6: ( ( rule__SpecialVar__Group_1_5__0 ) )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2946:1: ( rule__SpecialVar__Group_1_5__0 )
                     {
-                     before(grammarAccess.getSpecialVarAccess().getGroup_5()); 
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2947:1: ( rule__SpecialVar__Group_5__0 )
-                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2947:2: rule__SpecialVar__Group_5__0
+                     before(grammarAccess.getSpecialVarAccess().getGroup_1_5()); 
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2947:1: ( rule__SpecialVar__Group_1_5__0 )
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:2947:2: rule__SpecialVar__Group_1_5__0
                     {
-                    pushFollow(FOLLOW_rule__SpecialVar__Group_5__0_in_rule__SpecialVar__Alternatives6400);
-                    rule__SpecialVar__Group_5__0();
+                    pushFollow(FOLLOW_rule__SpecialVar__Group_1_5__0_in_rule__SpecialVar__Alternatives_16400);
+                    rule__SpecialVar__Group_1_5__0();
 
                     state._fsp--;
 
 
                     }
 
-                     after(grammarAccess.getSpecialVarAccess().getGroup_5()); 
+                     after(grammarAccess.getSpecialVarAccess().getGroup_1_5()); 
 
                     }
 
@@ -8900,7 +8900,7 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__Alternatives"
+    // $ANTLR end "rule__SpecialVar__Alternatives_1"
 
 
     // $ANTLR start "rule__ConstantExpr__Alternatives"
@@ -25291,22 +25291,177 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__QualifiedName__Group_1__1__Impl"
 
 
+    // $ANTLR start "rule__SimpleName__Group__0"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9129:1: rule__SimpleName__Group__0 : rule__SimpleName__Group__0__Impl rule__SimpleName__Group__1 ;
+    public final void rule__SimpleName__Group__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9133:1: ( rule__SimpleName__Group__0__Impl rule__SimpleName__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9134:2: rule__SimpleName__Group__0__Impl rule__SimpleName__Group__1
+            {
+            pushFollow(FOLLOW_rule__SimpleName__Group__0__Impl_in_rule__SimpleName__Group__018614);
+            rule__SimpleName__Group__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__SimpleName__Group__1_in_rule__SimpleName__Group__018617);
+            rule__SimpleName__Group__1();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SimpleName__Group__0"
+
+
+    // $ANTLR start "rule__SimpleName__Group__0__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9141:1: rule__SimpleName__Group__0__Impl : ( () ) ;
+    public final void rule__SimpleName__Group__0__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9145:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9146:1: ( () )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9146:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9147:1: ()
+            {
+             before(grammarAccess.getSimpleNameAccess().getSimpleNameAction_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9148:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9150:1: 
+            {
+            }
+
+             after(grammarAccess.getSimpleNameAccess().getSimpleNameAction_0()); 
+
+            }
+
+
+            }
+
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SimpleName__Group__0__Impl"
+
+
+    // $ANTLR start "rule__SimpleName__Group__1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9160:1: rule__SimpleName__Group__1 : rule__SimpleName__Group__1__Impl ;
+    public final void rule__SimpleName__Group__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9164:1: ( rule__SimpleName__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9165:2: rule__SimpleName__Group__1__Impl
+            {
+            pushFollow(FOLLOW_rule__SimpleName__Group__1__Impl_in_rule__SimpleName__Group__118675);
+            rule__SimpleName__Group__1__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SimpleName__Group__1"
+
+
+    // $ANTLR start "rule__SimpleName__Group__1__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9171:1: rule__SimpleName__Group__1__Impl : ( ( rule__SimpleName__ValueAssignment_1 ) ) ;
+    public final void rule__SimpleName__Group__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9175:1: ( ( ( rule__SimpleName__ValueAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9176:1: ( ( rule__SimpleName__ValueAssignment_1 ) )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9176:1: ( ( rule__SimpleName__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9177:1: ( rule__SimpleName__ValueAssignment_1 )
+            {
+             before(grammarAccess.getSimpleNameAccess().getValueAssignment_1()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9178:1: ( rule__SimpleName__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9178:2: rule__SimpleName__ValueAssignment_1
+            {
+            pushFollow(FOLLOW_rule__SimpleName__ValueAssignment_1_in_rule__SimpleName__Group__1__Impl18702);
+            rule__SimpleName__ValueAssignment_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSimpleNameAccess().getValueAssignment_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SimpleName__Group__1__Impl"
+
+
     // $ANTLR start "rule__IndexedSpecialVar__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9129:1: rule__IndexedSpecialVar__Group__0 : rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9192:1: rule__IndexedSpecialVar__Group__0 : rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1 ;
     public final void rule__IndexedSpecialVar__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9133:1: ( rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9134:2: rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9196:1: ( rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9197:2: rule__IndexedSpecialVar__Group__0__Impl rule__IndexedSpecialVar__Group__1
             {
-            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__0__Impl_in_rule__IndexedSpecialVar__Group__018614);
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__0__Impl_in_rule__IndexedSpecialVar__Group__018736);
             rule__IndexedSpecialVar__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__1_in_rule__IndexedSpecialVar__Group__018617);
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__1_in_rule__IndexedSpecialVar__Group__018739);
             rule__IndexedSpecialVar__Group__1();
 
             state._fsp--;
@@ -25330,41 +25485,31 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IndexedSpecialVar__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9141:1: rule__IndexedSpecialVar__Group__0__Impl : ( ( rule__IndexedSpecialVar__OpAssignment_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9204:1: rule__IndexedSpecialVar__Group__0__Impl : ( () ) ;
     public final void rule__IndexedSpecialVar__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9145:1: ( ( ( rule__IndexedSpecialVar__OpAssignment_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9146:1: ( ( rule__IndexedSpecialVar__OpAssignment_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9208:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9209:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9146:1: ( ( rule__IndexedSpecialVar__OpAssignment_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9147:1: ( rule__IndexedSpecialVar__OpAssignment_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9209:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9210:1: ()
             {
-             before(grammarAccess.getIndexedSpecialVarAccess().getOpAssignment_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9148:1: ( rule__IndexedSpecialVar__OpAssignment_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9148:2: rule__IndexedSpecialVar__OpAssignment_0
+             before(grammarAccess.getIndexedSpecialVarAccess().getIndexedSpecialVarAction_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9211:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9213:1: 
             {
-            pushFollow(FOLLOW_rule__IndexedSpecialVar__OpAssignment_0_in_rule__IndexedSpecialVar__Group__0__Impl18644);
-            rule__IndexedSpecialVar__OpAssignment_0();
-
-            state._fsp--;
-
-
             }
 
-             after(grammarAccess.getIndexedSpecialVarAccess().getOpAssignment_0()); 
+             after(grammarAccess.getIndexedSpecialVarAccess().getIndexedSpecialVarAction_0()); 
 
             }
 
 
             }
 
-        }
-        catch (RecognitionException re) {
-            reportError(re);
-            recover(input,re);
         }
         finally {
 
@@ -25377,17 +25522,22 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IndexedSpecialVar__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9158:1: rule__IndexedSpecialVar__Group__1 : rule__IndexedSpecialVar__Group__1__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9223:1: rule__IndexedSpecialVar__Group__1 : rule__IndexedSpecialVar__Group__1__Impl rule__IndexedSpecialVar__Group__2 ;
     public final void rule__IndexedSpecialVar__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9162:1: ( rule__IndexedSpecialVar__Group__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9163:2: rule__IndexedSpecialVar__Group__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9227:1: ( rule__IndexedSpecialVar__Group__1__Impl rule__IndexedSpecialVar__Group__2 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9228:2: rule__IndexedSpecialVar__Group__1__Impl rule__IndexedSpecialVar__Group__2
             {
-            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__1__Impl_in_rule__IndexedSpecialVar__Group__118674);
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__1__Impl_in_rule__IndexedSpecialVar__Group__118797);
             rule__IndexedSpecialVar__Group__1__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__2_in_rule__IndexedSpecialVar__Group__118800);
+            rule__IndexedSpecialVar__Group__2();
 
             state._fsp--;
 
@@ -25410,31 +25560,31 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IndexedSpecialVar__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9169:1: rule__IndexedSpecialVar__Group__1__Impl : ( ( rule__IndexedSpecialVar__ValueAssignment_1 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9235:1: rule__IndexedSpecialVar__Group__1__Impl : ( ( rule__IndexedSpecialVar__OpAssignment_1 ) ) ;
     public final void rule__IndexedSpecialVar__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9173:1: ( ( ( rule__IndexedSpecialVar__ValueAssignment_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9174:1: ( ( rule__IndexedSpecialVar__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9239:1: ( ( ( rule__IndexedSpecialVar__OpAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9240:1: ( ( rule__IndexedSpecialVar__OpAssignment_1 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9174:1: ( ( rule__IndexedSpecialVar__ValueAssignment_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9175:1: ( rule__IndexedSpecialVar__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9240:1: ( ( rule__IndexedSpecialVar__OpAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9241:1: ( rule__IndexedSpecialVar__OpAssignment_1 )
             {
-             before(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9176:1: ( rule__IndexedSpecialVar__ValueAssignment_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9176:2: rule__IndexedSpecialVar__ValueAssignment_1
+             before(grammarAccess.getIndexedSpecialVarAccess().getOpAssignment_1()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9242:1: ( rule__IndexedSpecialVar__OpAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9242:2: rule__IndexedSpecialVar__OpAssignment_1
             {
-            pushFollow(FOLLOW_rule__IndexedSpecialVar__ValueAssignment_1_in_rule__IndexedSpecialVar__Group__1__Impl18701);
-            rule__IndexedSpecialVar__ValueAssignment_1();
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__OpAssignment_1_in_rule__IndexedSpecialVar__Group__1__Impl18827);
+            rule__IndexedSpecialVar__OpAssignment_1();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_1()); 
+             after(grammarAccess.getIndexedSpecialVarAccess().getOpAssignment_1()); 
 
             }
 
@@ -25456,23 +25606,18 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__IndexedSpecialVar__Group__1__Impl"
 
 
-    // $ANTLR start "rule__SpecialVar__Group_5__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9190:1: rule__SpecialVar__Group_5__0 : rule__SpecialVar__Group_5__0__Impl rule__SpecialVar__Group_5__1 ;
-    public final void rule__SpecialVar__Group_5__0() throws RecognitionException {
+    // $ANTLR start "rule__IndexedSpecialVar__Group__2"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9252:1: rule__IndexedSpecialVar__Group__2 : rule__IndexedSpecialVar__Group__2__Impl ;
+    public final void rule__IndexedSpecialVar__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9194:1: ( rule__SpecialVar__Group_5__0__Impl rule__SpecialVar__Group_5__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9195:2: rule__SpecialVar__Group_5__0__Impl rule__SpecialVar__Group_5__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9256:1: ( rule__IndexedSpecialVar__Group__2__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9257:2: rule__IndexedSpecialVar__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__SpecialVar__Group_5__0__Impl_in_rule__SpecialVar__Group_5__018735);
-            rule__SpecialVar__Group_5__0__Impl();
-
-            state._fsp--;
-
-            pushFollow(FOLLOW_rule__SpecialVar__Group_5__1_in_rule__SpecialVar__Group_5__018738);
-            rule__SpecialVar__Group_5__1();
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__Group__2__Impl_in_rule__IndexedSpecialVar__Group__218857);
+            rule__IndexedSpecialVar__Group__2__Impl();
 
             state._fsp--;
 
@@ -25491,35 +25636,35 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__Group_5__0"
+    // $ANTLR end "rule__IndexedSpecialVar__Group__2"
 
 
-    // $ANTLR start "rule__SpecialVar__Group_5__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9202:1: rule__SpecialVar__Group_5__0__Impl : ( ( rule__SpecialVar__OpAssignment_5_0 ) ) ;
-    public final void rule__SpecialVar__Group_5__0__Impl() throws RecognitionException {
+    // $ANTLR start "rule__IndexedSpecialVar__Group__2__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9263:1: rule__IndexedSpecialVar__Group__2__Impl : ( ( rule__IndexedSpecialVar__ValueAssignment_2 ) ) ;
+    public final void rule__IndexedSpecialVar__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9206:1: ( ( ( rule__SpecialVar__OpAssignment_5_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9207:1: ( ( rule__SpecialVar__OpAssignment_5_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9267:1: ( ( ( rule__IndexedSpecialVar__ValueAssignment_2 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9268:1: ( ( rule__IndexedSpecialVar__ValueAssignment_2 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9207:1: ( ( rule__SpecialVar__OpAssignment_5_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9208:1: ( rule__SpecialVar__OpAssignment_5_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9268:1: ( ( rule__IndexedSpecialVar__ValueAssignment_2 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9269:1: ( rule__IndexedSpecialVar__ValueAssignment_2 )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpAssignment_5_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9209:1: ( rule__SpecialVar__OpAssignment_5_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9209:2: rule__SpecialVar__OpAssignment_5_0
+             before(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9270:1: ( rule__IndexedSpecialVar__ValueAssignment_2 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9270:2: rule__IndexedSpecialVar__ValueAssignment_2
             {
-            pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_5_0_in_rule__SpecialVar__Group_5__0__Impl18765);
-            rule__SpecialVar__OpAssignment_5_0();
+            pushFollow(FOLLOW_rule__IndexedSpecialVar__ValueAssignment_2_in_rule__IndexedSpecialVar__Group__2__Impl18884);
+            rule__IndexedSpecialVar__ValueAssignment_2();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpAssignment_5_0()); 
+             after(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2()); 
 
             }
 
@@ -25538,21 +25683,26 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__Group_5__0__Impl"
+    // $ANTLR end "rule__IndexedSpecialVar__Group__2__Impl"
 
 
-    // $ANTLR start "rule__SpecialVar__Group_5__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9219:1: rule__SpecialVar__Group_5__1 : rule__SpecialVar__Group_5__1__Impl ;
-    public final void rule__SpecialVar__Group_5__1() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__Group__0"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9286:1: rule__SpecialVar__Group__0 : rule__SpecialVar__Group__0__Impl rule__SpecialVar__Group__1 ;
+    public final void rule__SpecialVar__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9223:1: ( rule__SpecialVar__Group_5__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9224:2: rule__SpecialVar__Group_5__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9290:1: ( rule__SpecialVar__Group__0__Impl rule__SpecialVar__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9291:2: rule__SpecialVar__Group__0__Impl rule__SpecialVar__Group__1
             {
-            pushFollow(FOLLOW_rule__SpecialVar__Group_5__1__Impl_in_rule__SpecialVar__Group_5__118795);
-            rule__SpecialVar__Group_5__1__Impl();
+            pushFollow(FOLLOW_rule__SpecialVar__Group__0__Impl_in_rule__SpecialVar__Group__018920);
+            rule__SpecialVar__Group__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__SpecialVar__Group__1_in_rule__SpecialVar__Group__018923);
+            rule__SpecialVar__Group__1();
 
             state._fsp--;
 
@@ -25571,35 +25721,105 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__Group_5__1"
+    // $ANTLR end "rule__SpecialVar__Group__0"
 
 
-    // $ANTLR start "rule__SpecialVar__Group_5__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9230:1: rule__SpecialVar__Group_5__1__Impl : ( ( rule__SpecialVar__ValueAssignment_5_1 ) ) ;
-    public final void rule__SpecialVar__Group_5__1__Impl() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__Group__0__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9298:1: rule__SpecialVar__Group__0__Impl : ( () ) ;
+    public final void rule__SpecialVar__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9234:1: ( ( ( rule__SpecialVar__ValueAssignment_5_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9235:1: ( ( rule__SpecialVar__ValueAssignment_5_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9302:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9303:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9235:1: ( ( rule__SpecialVar__ValueAssignment_5_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9236:1: ( rule__SpecialVar__ValueAssignment_5_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9303:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9304:1: ()
             {
-             before(grammarAccess.getSpecialVarAccess().getValueAssignment_5_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9237:1: ( rule__SpecialVar__ValueAssignment_5_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9237:2: rule__SpecialVar__ValueAssignment_5_1
+             before(grammarAccess.getSpecialVarAccess().getSpecialVarAction_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9305:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9307:1: 
             {
-            pushFollow(FOLLOW_rule__SpecialVar__ValueAssignment_5_1_in_rule__SpecialVar__Group_5__1__Impl18822);
-            rule__SpecialVar__ValueAssignment_5_1();
+            }
+
+             after(grammarAccess.getSpecialVarAccess().getSpecialVarAction_0()); 
+
+            }
+
+
+            }
+
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group__0__Impl"
+
+
+    // $ANTLR start "rule__SpecialVar__Group__1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9317:1: rule__SpecialVar__Group__1 : rule__SpecialVar__Group__1__Impl ;
+    public final void rule__SpecialVar__Group__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9321:1: ( rule__SpecialVar__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9322:2: rule__SpecialVar__Group__1__Impl
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__Group__1__Impl_in_rule__SpecialVar__Group__118981);
+            rule__SpecialVar__Group__1__Impl();
 
             state._fsp--;
 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getValueAssignment_5_1()); 
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group__1"
+
+
+    // $ANTLR start "rule__SpecialVar__Group__1__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9328:1: rule__SpecialVar__Group__1__Impl : ( ( rule__SpecialVar__Alternatives_1 ) ) ;
+    public final void rule__SpecialVar__Group__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9332:1: ( ( ( rule__SpecialVar__Alternatives_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9333:1: ( ( rule__SpecialVar__Alternatives_1 ) )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9333:1: ( ( rule__SpecialVar__Alternatives_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9334:1: ( rule__SpecialVar__Alternatives_1 )
+            {
+             before(grammarAccess.getSpecialVarAccess().getAlternatives_1()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9335:1: ( rule__SpecialVar__Alternatives_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9335:2: rule__SpecialVar__Alternatives_1
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__Alternatives_1_in_rule__SpecialVar__Group__1__Impl19008);
+            rule__SpecialVar__Alternatives_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSpecialVarAccess().getAlternatives_1()); 
 
             }
 
@@ -25618,25 +25838,190 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__Group_5__1__Impl"
+    // $ANTLR end "rule__SpecialVar__Group__1__Impl"
+
+
+    // $ANTLR start "rule__SpecialVar__Group_1_5__0"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9349:1: rule__SpecialVar__Group_1_5__0 : rule__SpecialVar__Group_1_5__0__Impl rule__SpecialVar__Group_1_5__1 ;
+    public final void rule__SpecialVar__Group_1_5__0() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9353:1: ( rule__SpecialVar__Group_1_5__0__Impl rule__SpecialVar__Group_1_5__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9354:2: rule__SpecialVar__Group_1_5__0__Impl rule__SpecialVar__Group_1_5__1
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__Group_1_5__0__Impl_in_rule__SpecialVar__Group_1_5__019042);
+            rule__SpecialVar__Group_1_5__0__Impl();
+
+            state._fsp--;
+
+            pushFollow(FOLLOW_rule__SpecialVar__Group_1_5__1_in_rule__SpecialVar__Group_1_5__019045);
+            rule__SpecialVar__Group_1_5__1();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group_1_5__0"
+
+
+    // $ANTLR start "rule__SpecialVar__Group_1_5__0__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9361:1: rule__SpecialVar__Group_1_5__0__Impl : ( ( rule__SpecialVar__OpAssignment_1_5_0 ) ) ;
+    public final void rule__SpecialVar__Group_1_5__0__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9365:1: ( ( ( rule__SpecialVar__OpAssignment_1_5_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9366:1: ( ( rule__SpecialVar__OpAssignment_1_5_0 ) )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9366:1: ( ( rule__SpecialVar__OpAssignment_1_5_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9367:1: ( rule__SpecialVar__OpAssignment_1_5_0 )
+            {
+             before(grammarAccess.getSpecialVarAccess().getOpAssignment_1_5_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9368:1: ( rule__SpecialVar__OpAssignment_1_5_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9368:2: rule__SpecialVar__OpAssignment_1_5_0
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__OpAssignment_1_5_0_in_rule__SpecialVar__Group_1_5__0__Impl19072);
+            rule__SpecialVar__OpAssignment_1_5_0();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSpecialVarAccess().getOpAssignment_1_5_0()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group_1_5__0__Impl"
+
+
+    // $ANTLR start "rule__SpecialVar__Group_1_5__1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9378:1: rule__SpecialVar__Group_1_5__1 : rule__SpecialVar__Group_1_5__1__Impl ;
+    public final void rule__SpecialVar__Group_1_5__1() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9382:1: ( rule__SpecialVar__Group_1_5__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9383:2: rule__SpecialVar__Group_1_5__1__Impl
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__Group_1_5__1__Impl_in_rule__SpecialVar__Group_1_5__119102);
+            rule__SpecialVar__Group_1_5__1__Impl();
+
+            state._fsp--;
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group_1_5__1"
+
+
+    // $ANTLR start "rule__SpecialVar__Group_1_5__1__Impl"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9389:1: rule__SpecialVar__Group_1_5__1__Impl : ( ( rule__SpecialVar__ValueAssignment_1_5_1 ) ) ;
+    public final void rule__SpecialVar__Group_1_5__1__Impl() throws RecognitionException {
+
+        		int stackSize = keepStackSize();
+            
+        try {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9393:1: ( ( ( rule__SpecialVar__ValueAssignment_1_5_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9394:1: ( ( rule__SpecialVar__ValueAssignment_1_5_1 ) )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9394:1: ( ( rule__SpecialVar__ValueAssignment_1_5_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9395:1: ( rule__SpecialVar__ValueAssignment_1_5_1 )
+            {
+             before(grammarAccess.getSpecialVarAccess().getValueAssignment_1_5_1()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9396:1: ( rule__SpecialVar__ValueAssignment_1_5_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9396:2: rule__SpecialVar__ValueAssignment_1_5_1
+            {
+            pushFollow(FOLLOW_rule__SpecialVar__ValueAssignment_1_5_1_in_rule__SpecialVar__Group_1_5__1__Impl19129);
+            rule__SpecialVar__ValueAssignment_1_5_1();
+
+            state._fsp--;
+
+
+            }
+
+             after(grammarAccess.getSpecialVarAccess().getValueAssignment_1_5_1()); 
+
+            }
+
+
+            }
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+        }
+        finally {
+
+            	restoreStackSize(stackSize);
+
+        }
+        return ;
+    }
+    // $ANTLR end "rule__SpecialVar__Group_1_5__1__Impl"
 
 
     // $ANTLR start "rule__BracketedExpr__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9251:1: rule__BracketedExpr__Group__0 : rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9410:1: rule__BracketedExpr__Group__0 : rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1 ;
     public final void rule__BracketedExpr__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9255:1: ( rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9256:2: rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9414:1: ( rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9415:2: rule__BracketedExpr__Group__0__Impl rule__BracketedExpr__Group__1
             {
-            pushFollow(FOLLOW_rule__BracketedExpr__Group__0__Impl_in_rule__BracketedExpr__Group__018856);
+            pushFollow(FOLLOW_rule__BracketedExpr__Group__0__Impl_in_rule__BracketedExpr__Group__019163);
             rule__BracketedExpr__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__BracketedExpr__Group__1_in_rule__BracketedExpr__Group__018859);
+            pushFollow(FOLLOW_rule__BracketedExpr__Group__1_in_rule__BracketedExpr__Group__019166);
             rule__BracketedExpr__Group__1();
 
             state._fsp--;
@@ -25660,20 +26045,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BracketedExpr__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9263:1: rule__BracketedExpr__Group__0__Impl : ( RULE_LPAREN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9422:1: rule__BracketedExpr__Group__0__Impl : ( RULE_LPAREN ) ;
     public final void rule__BracketedExpr__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9267:1: ( ( RULE_LPAREN ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9268:1: ( RULE_LPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9426:1: ( ( RULE_LPAREN ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9427:1: ( RULE_LPAREN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9268:1: ( RULE_LPAREN )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9269:1: RULE_LPAREN
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9427:1: ( RULE_LPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9428:1: RULE_LPAREN
             {
              before(grammarAccess.getBracketedExprAccess().getLPARENTerminalRuleCall_0()); 
-            match(input,RULE_LPAREN,FOLLOW_RULE_LPAREN_in_rule__BracketedExpr__Group__0__Impl18886); 
+            match(input,RULE_LPAREN,FOLLOW_RULE_LPAREN_in_rule__BracketedExpr__Group__0__Impl19193); 
              after(grammarAccess.getBracketedExprAccess().getLPARENTerminalRuleCall_0()); 
 
             }
@@ -25697,21 +26082,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BracketedExpr__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9280:1: rule__BracketedExpr__Group__1 : rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9439:1: rule__BracketedExpr__Group__1 : rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2 ;
     public final void rule__BracketedExpr__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9284:1: ( rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9285:2: rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9443:1: ( rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9444:2: rule__BracketedExpr__Group__1__Impl rule__BracketedExpr__Group__2
             {
-            pushFollow(FOLLOW_rule__BracketedExpr__Group__1__Impl_in_rule__BracketedExpr__Group__118915);
+            pushFollow(FOLLOW_rule__BracketedExpr__Group__1__Impl_in_rule__BracketedExpr__Group__119222);
             rule__BracketedExpr__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__BracketedExpr__Group__2_in_rule__BracketedExpr__Group__118918);
+            pushFollow(FOLLOW_rule__BracketedExpr__Group__2_in_rule__BracketedExpr__Group__119225);
             rule__BracketedExpr__Group__2();
 
             state._fsp--;
@@ -25735,20 +26120,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BracketedExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9292:1: rule__BracketedExpr__Group__1__Impl : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9451:1: rule__BracketedExpr__Group__1__Impl : ( ruleExpression ) ;
     public final void rule__BracketedExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9296:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9297:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9455:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9456:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9297:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9298:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9456:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9457:1: ruleExpression
             {
              before(grammarAccess.getBracketedExprAccess().getExpressionParserRuleCall_1()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__BracketedExpr__Group__1__Impl18945);
+            pushFollow(FOLLOW_ruleExpression_in_rule__BracketedExpr__Group__1__Impl19252);
             ruleExpression();
 
             state._fsp--;
@@ -25776,16 +26161,16 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BracketedExpr__Group__2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9309:1: rule__BracketedExpr__Group__2 : rule__BracketedExpr__Group__2__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9468:1: rule__BracketedExpr__Group__2 : rule__BracketedExpr__Group__2__Impl ;
     public final void rule__BracketedExpr__Group__2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9313:1: ( rule__BracketedExpr__Group__2__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9314:2: rule__BracketedExpr__Group__2__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9472:1: ( rule__BracketedExpr__Group__2__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9473:2: rule__BracketedExpr__Group__2__Impl
             {
-            pushFollow(FOLLOW_rule__BracketedExpr__Group__2__Impl_in_rule__BracketedExpr__Group__218974);
+            pushFollow(FOLLOW_rule__BracketedExpr__Group__2__Impl_in_rule__BracketedExpr__Group__219281);
             rule__BracketedExpr__Group__2__Impl();
 
             state._fsp--;
@@ -25809,20 +26194,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BracketedExpr__Group__2__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9320:1: rule__BracketedExpr__Group__2__Impl : ( RULE_RPAREN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9479:1: rule__BracketedExpr__Group__2__Impl : ( RULE_RPAREN ) ;
     public final void rule__BracketedExpr__Group__2__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9324:1: ( ( RULE_RPAREN ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9325:1: ( RULE_RPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9483:1: ( ( RULE_RPAREN ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9484:1: ( RULE_RPAREN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9325:1: ( RULE_RPAREN )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9326:1: RULE_RPAREN
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9484:1: ( RULE_RPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9485:1: RULE_RPAREN
             {
              before(grammarAccess.getBracketedExprAccess().getRPARENTerminalRuleCall_2()); 
-            match(input,RULE_RPAREN,FOLLOW_RULE_RPAREN_in_rule__BracketedExpr__Group__2__Impl19001); 
+            match(input,RULE_RPAREN,FOLLOW_RULE_RPAREN_in_rule__BracketedExpr__Group__2__Impl19308); 
              after(grammarAccess.getBracketedExprAccess().getRPARENTerminalRuleCall_2()); 
 
             }
@@ -25846,21 +26231,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IntConstantExpr__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9343:1: rule__IntConstantExpr__Group__0 : rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9502:1: rule__IntConstantExpr__Group__0 : rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1 ;
     public final void rule__IntConstantExpr__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9347:1: ( rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9348:2: rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9506:1: ( rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9507:2: rule__IntConstantExpr__Group__0__Impl rule__IntConstantExpr__Group__1
             {
-            pushFollow(FOLLOW_rule__IntConstantExpr__Group__0__Impl_in_rule__IntConstantExpr__Group__019036);
+            pushFollow(FOLLOW_rule__IntConstantExpr__Group__0__Impl_in_rule__IntConstantExpr__Group__019343);
             rule__IntConstantExpr__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__IntConstantExpr__Group__1_in_rule__IntConstantExpr__Group__019039);
+            pushFollow(FOLLOW_rule__IntConstantExpr__Group__1_in_rule__IntConstantExpr__Group__019346);
             rule__IntConstantExpr__Group__1();
 
             state._fsp--;
@@ -25884,21 +26269,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IntConstantExpr__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9355:1: rule__IntConstantExpr__Group__0__Impl : ( () ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9514:1: rule__IntConstantExpr__Group__0__Impl : ( () ) ;
     public final void rule__IntConstantExpr__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9359:1: ( ( () ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9360:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9518:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9519:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9360:1: ( () )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9361:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9519:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9520:1: ()
             {
              before(grammarAccess.getIntConstantExprAccess().getIntConstantExprAction_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9362:1: ()
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9364:1: 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9521:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9523:1: 
             {
             }
 
@@ -25921,16 +26306,16 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IntConstantExpr__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9374:1: rule__IntConstantExpr__Group__1 : rule__IntConstantExpr__Group__1__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9533:1: rule__IntConstantExpr__Group__1 : rule__IntConstantExpr__Group__1__Impl ;
     public final void rule__IntConstantExpr__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9378:1: ( rule__IntConstantExpr__Group__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9379:2: rule__IntConstantExpr__Group__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9537:1: ( rule__IntConstantExpr__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9538:2: rule__IntConstantExpr__Group__1__Impl
             {
-            pushFollow(FOLLOW_rule__IntConstantExpr__Group__1__Impl_in_rule__IntConstantExpr__Group__119097);
+            pushFollow(FOLLOW_rule__IntConstantExpr__Group__1__Impl_in_rule__IntConstantExpr__Group__119404);
             rule__IntConstantExpr__Group__1__Impl();
 
             state._fsp--;
@@ -25954,23 +26339,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__IntConstantExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9385:1: rule__IntConstantExpr__Group__1__Impl : ( ( rule__IntConstantExpr__ValueAssignment_1 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9544:1: rule__IntConstantExpr__Group__1__Impl : ( ( rule__IntConstantExpr__ValueAssignment_1 ) ) ;
     public final void rule__IntConstantExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9389:1: ( ( ( rule__IntConstantExpr__ValueAssignment_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9390:1: ( ( rule__IntConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9548:1: ( ( ( rule__IntConstantExpr__ValueAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9549:1: ( ( rule__IntConstantExpr__ValueAssignment_1 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9390:1: ( ( rule__IntConstantExpr__ValueAssignment_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9391:1: ( rule__IntConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9549:1: ( ( rule__IntConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9550:1: ( rule__IntConstantExpr__ValueAssignment_1 )
             {
              before(grammarAccess.getIntConstantExprAccess().getValueAssignment_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9392:1: ( rule__IntConstantExpr__ValueAssignment_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9392:2: rule__IntConstantExpr__ValueAssignment_1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9551:1: ( rule__IntConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9551:2: rule__IntConstantExpr__ValueAssignment_1
             {
-            pushFollow(FOLLOW_rule__IntConstantExpr__ValueAssignment_1_in_rule__IntConstantExpr__Group__1__Impl19124);
+            pushFollow(FOLLOW_rule__IntConstantExpr__ValueAssignment_1_in_rule__IntConstantExpr__Group__1__Impl19431);
             rule__IntConstantExpr__ValueAssignment_1();
 
             state._fsp--;
@@ -26001,21 +26386,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__StringConstantExpr__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9406:1: rule__StringConstantExpr__Group__0 : rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9565:1: rule__StringConstantExpr__Group__0 : rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1 ;
     public final void rule__StringConstantExpr__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9410:1: ( rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9411:2: rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9569:1: ( rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9570:2: rule__StringConstantExpr__Group__0__Impl rule__StringConstantExpr__Group__1
             {
-            pushFollow(FOLLOW_rule__StringConstantExpr__Group__0__Impl_in_rule__StringConstantExpr__Group__019158);
+            pushFollow(FOLLOW_rule__StringConstantExpr__Group__0__Impl_in_rule__StringConstantExpr__Group__019465);
             rule__StringConstantExpr__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__StringConstantExpr__Group__1_in_rule__StringConstantExpr__Group__019161);
+            pushFollow(FOLLOW_rule__StringConstantExpr__Group__1_in_rule__StringConstantExpr__Group__019468);
             rule__StringConstantExpr__Group__1();
 
             state._fsp--;
@@ -26039,21 +26424,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__StringConstantExpr__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9418:1: rule__StringConstantExpr__Group__0__Impl : ( () ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9577:1: rule__StringConstantExpr__Group__0__Impl : ( () ) ;
     public final void rule__StringConstantExpr__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9422:1: ( ( () ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9423:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9581:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9582:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9423:1: ( () )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9424:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9582:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9583:1: ()
             {
              before(grammarAccess.getStringConstantExprAccess().getStringConstantExprAction_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9425:1: ()
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9427:1: 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9584:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9586:1: 
             {
             }
 
@@ -26076,16 +26461,16 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__StringConstantExpr__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9437:1: rule__StringConstantExpr__Group__1 : rule__StringConstantExpr__Group__1__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9596:1: rule__StringConstantExpr__Group__1 : rule__StringConstantExpr__Group__1__Impl ;
     public final void rule__StringConstantExpr__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9441:1: ( rule__StringConstantExpr__Group__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9442:2: rule__StringConstantExpr__Group__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9600:1: ( rule__StringConstantExpr__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9601:2: rule__StringConstantExpr__Group__1__Impl
             {
-            pushFollow(FOLLOW_rule__StringConstantExpr__Group__1__Impl_in_rule__StringConstantExpr__Group__119219);
+            pushFollow(FOLLOW_rule__StringConstantExpr__Group__1__Impl_in_rule__StringConstantExpr__Group__119526);
             rule__StringConstantExpr__Group__1__Impl();
 
             state._fsp--;
@@ -26109,23 +26494,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__StringConstantExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9448:1: rule__StringConstantExpr__Group__1__Impl : ( ( rule__StringConstantExpr__ValueAssignment_1 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9607:1: rule__StringConstantExpr__Group__1__Impl : ( ( rule__StringConstantExpr__ValueAssignment_1 ) ) ;
     public final void rule__StringConstantExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9452:1: ( ( ( rule__StringConstantExpr__ValueAssignment_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9453:1: ( ( rule__StringConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9611:1: ( ( ( rule__StringConstantExpr__ValueAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9612:1: ( ( rule__StringConstantExpr__ValueAssignment_1 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9453:1: ( ( rule__StringConstantExpr__ValueAssignment_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9454:1: ( rule__StringConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9612:1: ( ( rule__StringConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9613:1: ( rule__StringConstantExpr__ValueAssignment_1 )
             {
              before(grammarAccess.getStringConstantExprAccess().getValueAssignment_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9455:1: ( rule__StringConstantExpr__ValueAssignment_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9455:2: rule__StringConstantExpr__ValueAssignment_1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9614:1: ( rule__StringConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9614:2: rule__StringConstantExpr__ValueAssignment_1
             {
-            pushFollow(FOLLOW_rule__StringConstantExpr__ValueAssignment_1_in_rule__StringConstantExpr__Group__1__Impl19246);
+            pushFollow(FOLLOW_rule__StringConstantExpr__ValueAssignment_1_in_rule__StringConstantExpr__Group__1__Impl19553);
             rule__StringConstantExpr__ValueAssignment_1();
 
             state._fsp--;
@@ -26156,21 +26541,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BooleanConstantExpr__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9469:1: rule__BooleanConstantExpr__Group__0 : rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9628:1: rule__BooleanConstantExpr__Group__0 : rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1 ;
     public final void rule__BooleanConstantExpr__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9473:1: ( rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9474:2: rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9632:1: ( rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9633:2: rule__BooleanConstantExpr__Group__0__Impl rule__BooleanConstantExpr__Group__1
             {
-            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__0__Impl_in_rule__BooleanConstantExpr__Group__019280);
+            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__0__Impl_in_rule__BooleanConstantExpr__Group__019587);
             rule__BooleanConstantExpr__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__1_in_rule__BooleanConstantExpr__Group__019283);
+            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__1_in_rule__BooleanConstantExpr__Group__019590);
             rule__BooleanConstantExpr__Group__1();
 
             state._fsp--;
@@ -26194,21 +26579,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BooleanConstantExpr__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9481:1: rule__BooleanConstantExpr__Group__0__Impl : ( () ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9640:1: rule__BooleanConstantExpr__Group__0__Impl : ( () ) ;
     public final void rule__BooleanConstantExpr__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9485:1: ( ( () ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9486:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9644:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9645:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9486:1: ( () )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9487:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9645:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9646:1: ()
             {
              before(grammarAccess.getBooleanConstantExprAccess().getBooleanConstantExprAction_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9488:1: ()
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9490:1: 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9647:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9649:1: 
             {
             }
 
@@ -26231,16 +26616,16 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BooleanConstantExpr__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9500:1: rule__BooleanConstantExpr__Group__1 : rule__BooleanConstantExpr__Group__1__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9659:1: rule__BooleanConstantExpr__Group__1 : rule__BooleanConstantExpr__Group__1__Impl ;
     public final void rule__BooleanConstantExpr__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9504:1: ( rule__BooleanConstantExpr__Group__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9505:2: rule__BooleanConstantExpr__Group__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9663:1: ( rule__BooleanConstantExpr__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9664:2: rule__BooleanConstantExpr__Group__1__Impl
             {
-            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__1__Impl_in_rule__BooleanConstantExpr__Group__119341);
+            pushFollow(FOLLOW_rule__BooleanConstantExpr__Group__1__Impl_in_rule__BooleanConstantExpr__Group__119648);
             rule__BooleanConstantExpr__Group__1__Impl();
 
             state._fsp--;
@@ -26264,23 +26649,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BooleanConstantExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9511:1: rule__BooleanConstantExpr__Group__1__Impl : ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9670:1: rule__BooleanConstantExpr__Group__1__Impl : ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) ) ;
     public final void rule__BooleanConstantExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9515:1: ( ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9516:1: ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9674:1: ( ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9675:1: ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9516:1: ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9517:1: ( rule__BooleanConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9675:1: ( ( rule__BooleanConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9676:1: ( rule__BooleanConstantExpr__ValueAssignment_1 )
             {
              before(grammarAccess.getBooleanConstantExprAccess().getValueAssignment_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9518:1: ( rule__BooleanConstantExpr__ValueAssignment_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9518:2: rule__BooleanConstantExpr__ValueAssignment_1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9677:1: ( rule__BooleanConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9677:2: rule__BooleanConstantExpr__ValueAssignment_1
             {
-            pushFollow(FOLLOW_rule__BooleanConstantExpr__ValueAssignment_1_in_rule__BooleanConstantExpr__Group__1__Impl19368);
+            pushFollow(FOLLOW_rule__BooleanConstantExpr__ValueAssignment_1_in_rule__BooleanConstantExpr__Group__1__Impl19675);
             rule__BooleanConstantExpr__ValueAssignment_1();
 
             state._fsp--;
@@ -26311,21 +26696,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__FloatConstantExpr__Group__0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9532:1: rule__FloatConstantExpr__Group__0 : rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1 ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9691:1: rule__FloatConstantExpr__Group__0 : rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1 ;
     public final void rule__FloatConstantExpr__Group__0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9536:1: ( rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9537:2: rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9695:1: ( rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9696:2: rule__FloatConstantExpr__Group__0__Impl rule__FloatConstantExpr__Group__1
             {
-            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__0__Impl_in_rule__FloatConstantExpr__Group__019402);
+            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__0__Impl_in_rule__FloatConstantExpr__Group__019709);
             rule__FloatConstantExpr__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__1_in_rule__FloatConstantExpr__Group__019405);
+            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__1_in_rule__FloatConstantExpr__Group__019712);
             rule__FloatConstantExpr__Group__1();
 
             state._fsp--;
@@ -26349,21 +26734,21 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__FloatConstantExpr__Group__0__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9544:1: rule__FloatConstantExpr__Group__0__Impl : ( () ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9703:1: rule__FloatConstantExpr__Group__0__Impl : ( () ) ;
     public final void rule__FloatConstantExpr__Group__0__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9548:1: ( ( () ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9549:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9707:1: ( ( () ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9708:1: ( () )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9549:1: ( () )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9550:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9708:1: ( () )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9709:1: ()
             {
              before(grammarAccess.getFloatConstantExprAccess().getFloatConstantExprAction_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9551:1: ()
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9553:1: 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9710:1: ()
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9712:1: 
             {
             }
 
@@ -26386,16 +26771,16 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__FloatConstantExpr__Group__1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9563:1: rule__FloatConstantExpr__Group__1 : rule__FloatConstantExpr__Group__1__Impl ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9722:1: rule__FloatConstantExpr__Group__1 : rule__FloatConstantExpr__Group__1__Impl ;
     public final void rule__FloatConstantExpr__Group__1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9567:1: ( rule__FloatConstantExpr__Group__1__Impl )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9568:2: rule__FloatConstantExpr__Group__1__Impl
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9726:1: ( rule__FloatConstantExpr__Group__1__Impl )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9727:2: rule__FloatConstantExpr__Group__1__Impl
             {
-            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__1__Impl_in_rule__FloatConstantExpr__Group__119463);
+            pushFollow(FOLLOW_rule__FloatConstantExpr__Group__1__Impl_in_rule__FloatConstantExpr__Group__119770);
             rule__FloatConstantExpr__Group__1__Impl();
 
             state._fsp--;
@@ -26419,23 +26804,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__FloatConstantExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9574:1: rule__FloatConstantExpr__Group__1__Impl : ( ( rule__FloatConstantExpr__ValueAssignment_1 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9733:1: rule__FloatConstantExpr__Group__1__Impl : ( ( rule__FloatConstantExpr__ValueAssignment_1 ) ) ;
     public final void rule__FloatConstantExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9578:1: ( ( ( rule__FloatConstantExpr__ValueAssignment_1 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9579:1: ( ( rule__FloatConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9737:1: ( ( ( rule__FloatConstantExpr__ValueAssignment_1 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9738:1: ( ( rule__FloatConstantExpr__ValueAssignment_1 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9579:1: ( ( rule__FloatConstantExpr__ValueAssignment_1 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9580:1: ( rule__FloatConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9738:1: ( ( rule__FloatConstantExpr__ValueAssignment_1 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9739:1: ( rule__FloatConstantExpr__ValueAssignment_1 )
             {
              before(grammarAccess.getFloatConstantExprAccess().getValueAssignment_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9581:1: ( rule__FloatConstantExpr__ValueAssignment_1 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9581:2: rule__FloatConstantExpr__ValueAssignment_1
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9740:1: ( rule__FloatConstantExpr__ValueAssignment_1 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9740:2: rule__FloatConstantExpr__ValueAssignment_1
             {
-            pushFollow(FOLLOW_rule__FloatConstantExpr__ValueAssignment_1_in_rule__FloatConstantExpr__Group__1__Impl19490);
+            pushFollow(FOLLOW_rule__FloatConstantExpr__ValueAssignment_1_in_rule__FloatConstantExpr__Group__1__Impl19797);
             rule__FloatConstantExpr__ValueAssignment_1();
 
             state._fsp--;
@@ -26466,20 +26851,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__DomainModel__ElementsAssignment_1_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9596:1: rule__DomainModel__ElementsAssignment_1_0 : ( ruleElement ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9755:1: rule__DomainModel__ElementsAssignment_1_0 : ( ruleElement ) ;
     public final void rule__DomainModel__ElementsAssignment_1_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9600:1: ( ( ruleElement ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9601:1: ( ruleElement )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9759:1: ( ( ruleElement ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9760:1: ( ruleElement )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9601:1: ( ruleElement )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9602:1: ruleElement
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9760:1: ( ruleElement )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9761:1: ruleElement
             {
              before(grammarAccess.getDomainModelAccess().getElementsElementParserRuleCall_1_0_0()); 
-            pushFollow(FOLLOW_ruleElement_in_rule__DomainModel__ElementsAssignment_1_019529);
+            pushFollow(FOLLOW_ruleElement_in_rule__DomainModel__ElementsAssignment_1_019836);
             ruleElement();
 
             state._fsp--;
@@ -26507,20 +26892,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BytemanRule__NameAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9611:1: rule__BytemanRule__NameAssignment_0 : ( RULE_START_RULE ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9770:1: rule__BytemanRule__NameAssignment_0 : ( RULE_START_RULE ) ;
     public final void rule__BytemanRule__NameAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9615:1: ( ( RULE_START_RULE ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9616:1: ( RULE_START_RULE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9774:1: ( ( RULE_START_RULE ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9775:1: ( RULE_START_RULE )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9616:1: ( RULE_START_RULE )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9617:1: RULE_START_RULE
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9775:1: ( RULE_START_RULE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9776:1: RULE_START_RULE
             {
              before(grammarAccess.getBytemanRuleAccess().getNameSTART_RULETerminalRuleCall_0_0()); 
-            match(input,RULE_START_RULE,FOLLOW_RULE_START_RULE_in_rule__BytemanRule__NameAssignment_019560); 
+            match(input,RULE_START_RULE,FOLLOW_RULE_START_RULE_in_rule__BytemanRule__NameAssignment_019867); 
              after(grammarAccess.getBytemanRuleAccess().getNameSTART_RULETerminalRuleCall_0_0()); 
 
             }
@@ -26544,20 +26929,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BytemanRule__EventAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9626:1: rule__BytemanRule__EventAssignment_2 : ( ruleEvent ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9785:1: rule__BytemanRule__EventAssignment_2 : ( ruleEvent ) ;
     public final void rule__BytemanRule__EventAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9630:1: ( ( ruleEvent ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9631:1: ( ruleEvent )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9789:1: ( ( ruleEvent ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9790:1: ( ruleEvent )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9631:1: ( ruleEvent )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9632:1: ruleEvent
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9790:1: ( ruleEvent )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9791:1: ruleEvent
             {
              before(grammarAccess.getBytemanRuleAccess().getEventEventParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleEvent_in_rule__BytemanRule__EventAssignment_219591);
+            pushFollow(FOLLOW_ruleEvent_in_rule__BytemanRule__EventAssignment_219898);
             ruleEvent();
 
             state._fsp--;
@@ -26585,20 +26970,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BytemanRule__BodyAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9641:1: rule__BytemanRule__BodyAssignment_3 : ( ruleBody ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9800:1: rule__BytemanRule__BodyAssignment_3 : ( ruleBody ) ;
     public final void rule__BytemanRule__BodyAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9645:1: ( ( ruleBody ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9646:1: ( ruleBody )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9804:1: ( ( ruleBody ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9805:1: ( ruleBody )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9646:1: ( ruleBody )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9647:1: ruleBody
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9805:1: ( ruleBody )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9806:1: ruleBody
             {
              before(grammarAccess.getBytemanRuleAccess().getBodyBodyParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleBody_in_rule__BytemanRule__BodyAssignment_319622);
+            pushFollow(FOLLOW_ruleBody_in_rule__BytemanRule__BodyAssignment_319929);
             ruleBody();
 
             state._fsp--;
@@ -26626,20 +27011,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Body__BindAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9656:1: rule__Body__BindAssignment_0 : ( ruleBind ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9815:1: rule__Body__BindAssignment_0 : ( ruleBind ) ;
     public final void rule__Body__BindAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9660:1: ( ( ruleBind ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9661:1: ( ruleBind )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9819:1: ( ( ruleBind ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9820:1: ( ruleBind )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9661:1: ( ruleBind )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9662:1: ruleBind
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9820:1: ( ruleBind )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9821:1: ruleBind
             {
              before(grammarAccess.getBodyAccess().getBindBindParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleBind_in_rule__Body__BindAssignment_019653);
+            pushFollow(FOLLOW_ruleBind_in_rule__Body__BindAssignment_019960);
             ruleBind();
 
             state._fsp--;
@@ -26667,20 +27052,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Body__ConditionAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9671:1: rule__Body__ConditionAssignment_1 : ( ruleCondition ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9830:1: rule__Body__ConditionAssignment_1 : ( ruleCondition ) ;
     public final void rule__Body__ConditionAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9675:1: ( ( ruleCondition ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9676:1: ( ruleCondition )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9834:1: ( ( ruleCondition ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9835:1: ( ruleCondition )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9676:1: ( ruleCondition )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9677:1: ruleCondition
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9835:1: ( ruleCondition )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9836:1: ruleCondition
             {
              before(grammarAccess.getBodyAccess().getConditionConditionParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleCondition_in_rule__Body__ConditionAssignment_119684);
+            pushFollow(FOLLOW_ruleCondition_in_rule__Body__ConditionAssignment_119991);
             ruleCondition();
 
             state._fsp--;
@@ -26708,20 +27093,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Body__ActionsAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9686:1: rule__Body__ActionsAssignment_2 : ( ruleActions ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9845:1: rule__Body__ActionsAssignment_2 : ( ruleActions ) ;
     public final void rule__Body__ActionsAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9690:1: ( ( ruleActions ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9691:1: ( ruleActions )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9849:1: ( ( ruleActions ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9850:1: ( ruleActions )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9691:1: ( ruleActions )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9692:1: ruleActions
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9850:1: ( ruleActions )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9851:1: ruleActions
             {
              before(grammarAccess.getBodyAccess().getActionsActionsParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleActions_in_rule__Body__ActionsAssignment_219715);
+            pushFollow(FOLLOW_ruleActions_in_rule__Body__ActionsAssignment_220022);
             ruleActions();
 
             state._fsp--;
@@ -26749,20 +27134,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Event__ClassAssignment_0_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9701:1: rule__Event__ClassAssignment_0_0 : ( ruleEventClass ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9860:1: rule__Event__ClassAssignment_0_0 : ( ruleEventClass ) ;
     public final void rule__Event__ClassAssignment_0_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9705:1: ( ( ruleEventClass ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9706:1: ( ruleEventClass )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9864:1: ( ( ruleEventClass ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9865:1: ( ruleEventClass )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9706:1: ( ruleEventClass )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9707:1: ruleEventClass
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9865:1: ( ruleEventClass )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9866:1: ruleEventClass
             {
              before(grammarAccess.getEventAccess().getClassEventClassParserRuleCall_0_0_0()); 
-            pushFollow(FOLLOW_ruleEventClass_in_rule__Event__ClassAssignment_0_019746);
+            pushFollow(FOLLOW_ruleEventClass_in_rule__Event__ClassAssignment_0_020053);
             ruleEventClass();
 
             state._fsp--;
@@ -26790,20 +27175,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Event__InterfaceAssignment_0_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9716:1: rule__Event__InterfaceAssignment_0_1 : ( ruleEventInterface ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9875:1: rule__Event__InterfaceAssignment_0_1 : ( ruleEventInterface ) ;
     public final void rule__Event__InterfaceAssignment_0_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9720:1: ( ( ruleEventInterface ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9721:1: ( ruleEventInterface )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9879:1: ( ( ruleEventInterface ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9880:1: ( ruleEventInterface )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9721:1: ( ruleEventInterface )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9722:1: ruleEventInterface
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9880:1: ( ruleEventInterface )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9881:1: ruleEventInterface
             {
              before(grammarAccess.getEventAccess().getInterfaceEventInterfaceParserRuleCall_0_1_0()); 
-            pushFollow(FOLLOW_ruleEventInterface_in_rule__Event__InterfaceAssignment_0_119777);
+            pushFollow(FOLLOW_ruleEventInterface_in_rule__Event__InterfaceAssignment_0_120084);
             ruleEventInterface();
 
             state._fsp--;
@@ -26831,20 +27216,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Event__MethodAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9731:1: rule__Event__MethodAssignment_2 : ( ruleEventMethod ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9890:1: rule__Event__MethodAssignment_2 : ( ruleEventMethod ) ;
     public final void rule__Event__MethodAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9735:1: ( ( ruleEventMethod ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9736:1: ( ruleEventMethod )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9894:1: ( ( ruleEventMethod ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9895:1: ( ruleEventMethod )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9736:1: ( ruleEventMethod )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9737:1: ruleEventMethod
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9895:1: ( ruleEventMethod )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9896:1: ruleEventMethod
             {
              before(grammarAccess.getEventAccess().getMethodEventMethodParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleEventMethod_in_rule__Event__MethodAssignment_219808);
+            pushFollow(FOLLOW_ruleEventMethod_in_rule__Event__MethodAssignment_220115);
             ruleEventMethod();
 
             state._fsp--;
@@ -26872,20 +27257,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Event__HelperAssignment_4_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9746:1: rule__Event__HelperAssignment_4_0 : ( ruleHelper ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9905:1: rule__Event__HelperAssignment_4_0 : ( ruleHelper ) ;
     public final void rule__Event__HelperAssignment_4_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9750:1: ( ( ruleHelper ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9751:1: ( ruleHelper )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9909:1: ( ( ruleHelper ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9910:1: ( ruleHelper )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9751:1: ( ruleHelper )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9752:1: ruleHelper
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9910:1: ( ruleHelper )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9911:1: ruleHelper
             {
              before(grammarAccess.getEventAccess().getHelperHelperParserRuleCall_4_0_0()); 
-            pushFollow(FOLLOW_ruleHelper_in_rule__Event__HelperAssignment_4_019839);
+            pushFollow(FOLLOW_ruleHelper_in_rule__Event__HelperAssignment_4_020146);
             ruleHelper();
 
             state._fsp--;
@@ -26913,20 +27298,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Event__LocationSpecAssignment_5_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9761:1: rule__Event__LocationSpecAssignment_5_0 : ( ruleLocationSpecifier ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9920:1: rule__Event__LocationSpecAssignment_5_0 : ( ruleLocationSpecifier ) ;
     public final void rule__Event__LocationSpecAssignment_5_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9765:1: ( ( ruleLocationSpecifier ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9766:1: ( ruleLocationSpecifier )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9924:1: ( ( ruleLocationSpecifier ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9925:1: ( ruleLocationSpecifier )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9766:1: ( ruleLocationSpecifier )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9767:1: ruleLocationSpecifier
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9925:1: ( ruleLocationSpecifier )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9926:1: ruleLocationSpecifier
             {
              before(grammarAccess.getEventAccess().getLocationSpecLocationSpecifierParserRuleCall_5_0_0()); 
-            pushFollow(FOLLOW_ruleLocationSpecifier_in_rule__Event__LocationSpecAssignment_5_019870);
+            pushFollow(FOLLOW_ruleLocationSpecifier_in_rule__Event__LocationSpecAssignment_5_020177);
             ruleLocationSpecifier();
 
             state._fsp--;
@@ -26954,20 +27339,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventClass__KeywordAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9776:1: rule__EventClass__KeywordAssignment_0 : ( RULE_KEYWORD_CLASS ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9935:1: rule__EventClass__KeywordAssignment_0 : ( RULE_KEYWORD_CLASS ) ;
     public final void rule__EventClass__KeywordAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9780:1: ( ( RULE_KEYWORD_CLASS ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9781:1: ( RULE_KEYWORD_CLASS )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9939:1: ( ( RULE_KEYWORD_CLASS ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9940:1: ( RULE_KEYWORD_CLASS )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9781:1: ( RULE_KEYWORD_CLASS )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9782:1: RULE_KEYWORD_CLASS
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9940:1: ( RULE_KEYWORD_CLASS )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9941:1: RULE_KEYWORD_CLASS
             {
              before(grammarAccess.getEventClassAccess().getKeywordKEYWORD_CLASSTerminalRuleCall_0_0()); 
-            match(input,RULE_KEYWORD_CLASS,FOLLOW_RULE_KEYWORD_CLASS_in_rule__EventClass__KeywordAssignment_019901); 
+            match(input,RULE_KEYWORD_CLASS,FOLLOW_RULE_KEYWORD_CLASS_in_rule__EventClass__KeywordAssignment_020208); 
              after(grammarAccess.getEventClassAccess().getKeywordKEYWORD_CLASSTerminalRuleCall_0_0()); 
 
             }
@@ -26991,20 +27376,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventClass__NameAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9791:1: rule__EventClass__NameAssignment_1 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9950:1: rule__EventClass__NameAssignment_1 : ( ruleQualifiedName ) ;
     public final void rule__EventClass__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9795:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9796:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9954:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9955:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9796:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9797:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9955:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9956:1: ruleQualifiedName
             {
              before(grammarAccess.getEventClassAccess().getNameQualifiedNameParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__EventClass__NameAssignment_119932);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__EventClass__NameAssignment_120239);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27032,20 +27417,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventInterface__KeywordAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9806:1: rule__EventInterface__KeywordAssignment_0 : ( RULE_KEYWORD_INTERFACE ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9965:1: rule__EventInterface__KeywordAssignment_0 : ( RULE_KEYWORD_INTERFACE ) ;
     public final void rule__EventInterface__KeywordAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9810:1: ( ( RULE_KEYWORD_INTERFACE ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9811:1: ( RULE_KEYWORD_INTERFACE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9969:1: ( ( RULE_KEYWORD_INTERFACE ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9970:1: ( RULE_KEYWORD_INTERFACE )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9811:1: ( RULE_KEYWORD_INTERFACE )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9812:1: RULE_KEYWORD_INTERFACE
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9970:1: ( RULE_KEYWORD_INTERFACE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9971:1: RULE_KEYWORD_INTERFACE
             {
              before(grammarAccess.getEventInterfaceAccess().getKeywordKEYWORD_INTERFACETerminalRuleCall_0_0()); 
-            match(input,RULE_KEYWORD_INTERFACE,FOLLOW_RULE_KEYWORD_INTERFACE_in_rule__EventInterface__KeywordAssignment_019963); 
+            match(input,RULE_KEYWORD_INTERFACE,FOLLOW_RULE_KEYWORD_INTERFACE_in_rule__EventInterface__KeywordAssignment_020270); 
              after(grammarAccess.getEventInterfaceAccess().getKeywordKEYWORD_INTERFACETerminalRuleCall_0_0()); 
 
             }
@@ -27069,20 +27454,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventInterface__NameAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9821:1: rule__EventInterface__NameAssignment_1 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9980:1: rule__EventInterface__NameAssignment_1 : ( ruleQualifiedName ) ;
     public final void rule__EventInterface__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9825:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9826:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9984:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9985:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9826:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9827:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9985:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9986:1: ruleQualifiedName
             {
              before(grammarAccess.getEventInterfaceAccess().getNameQualifiedNameParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__EventInterface__NameAssignment_119994);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__EventInterface__NameAssignment_120301);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27110,20 +27495,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventMethod__NameAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9836:1: rule__EventMethod__NameAssignment_1 : ( ruleMethodName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9995:1: rule__EventMethod__NameAssignment_1 : ( ruleMethodName ) ;
     public final void rule__EventMethod__NameAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9840:1: ( ( ruleMethodName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9841:1: ( ruleMethodName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9999:1: ( ( ruleMethodName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10000:1: ( ruleMethodName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9841:1: ( ruleMethodName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9842:1: ruleMethodName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10000:1: ( ruleMethodName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10001:1: ruleMethodName
             {
              before(grammarAccess.getEventMethodAccess().getNameMethodNameParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleMethodName_in_rule__EventMethod__NameAssignment_120025);
+            pushFollow(FOLLOW_ruleMethodName_in_rule__EventMethod__NameAssignment_120332);
             ruleMethodName();
 
             state._fsp--;
@@ -27151,20 +27536,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__EventMethod__ParameterTypesAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9851:1: rule__EventMethod__ParameterTypesAssignment_2 : ( ruleParameterTypes ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10010:1: rule__EventMethod__ParameterTypesAssignment_2 : ( ruleParameterTypes ) ;
     public final void rule__EventMethod__ParameterTypesAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9855:1: ( ( ruleParameterTypes ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9856:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10014:1: ( ( ruleParameterTypes ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10015:1: ( ruleParameterTypes )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9856:1: ( ruleParameterTypes )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9857:1: ruleParameterTypes
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10015:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10016:1: ruleParameterTypes
             {
              before(grammarAccess.getEventMethodAccess().getParameterTypesParameterTypesParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleParameterTypes_in_rule__EventMethod__ParameterTypesAssignment_220056);
+            pushFollow(FOLLOW_ruleParameterTypes_in_rule__EventMethod__ParameterTypesAssignment_220363);
             ruleParameterTypes();
 
             state._fsp--;
@@ -27192,20 +27577,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Helper__HelperAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9866:1: rule__Helper__HelperAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10025:1: rule__Helper__HelperAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__Helper__HelperAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9870:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9871:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10029:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10030:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9871:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9872:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10030:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10031:1: ruleQualifiedName
             {
              before(grammarAccess.getHelperAccess().getHelperQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__Helper__HelperAssignment_220087);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__Helper__HelperAssignment_220394);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27233,20 +27618,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtLine__LineAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9881:1: rule__AtLine__LineAssignment_2 : ( RULE_INTVAL ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10040:1: rule__AtLine__LineAssignment_2 : ( RULE_INTVAL ) ;
     public final void rule__AtLine__LineAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9885:1: ( ( RULE_INTVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9886:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10044:1: ( ( RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10045:1: ( RULE_INTVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9886:1: ( RULE_INTVAL )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9887:1: RULE_INTVAL
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10045:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10046:1: RULE_INTVAL
             {
              before(grammarAccess.getAtLineAccess().getLineINTVALTerminalRuleCall_2_0()); 
-            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__AtLine__LineAssignment_220118); 
+            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__AtLine__LineAssignment_220425); 
              after(grammarAccess.getAtLineAccess().getLineINTVALTerminalRuleCall_2_0()); 
 
             }
@@ -27270,20 +27655,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtReadField__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9896:1: rule__AtReadField__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10055:1: rule__AtReadField__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AtReadField__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9900:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9901:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10059:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10060:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9901:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9902:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10060:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10061:1: ruleQualifiedName
             {
              before(grammarAccess.getAtReadFieldAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtReadField__NameAssignment_220149);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtReadField__NameAssignment_220456);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27311,20 +27696,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtReadField__CounterAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9911:1: rule__AtReadField__CounterAssignment_3 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10070:1: rule__AtReadField__CounterAssignment_3 : ( ruleCounter ) ;
     public final void rule__AtReadField__CounterAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9915:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9916:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10074:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10075:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9916:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9917:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10075:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10076:1: ruleCounter
             {
              before(grammarAccess.getAtReadFieldAccess().getCounterCounterParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtReadField__CounterAssignment_320180);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtReadField__CounterAssignment_320487);
             ruleCounter();
 
             state._fsp--;
@@ -27352,20 +27737,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtReadLocal__NameAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9926:1: rule__AtReadLocal__NameAssignment_3 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10085:1: rule__AtReadLocal__NameAssignment_3 : ( RULE_ID ) ;
     public final void rule__AtReadLocal__NameAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9930:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9931:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10089:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10090:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9931:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9932:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10090:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10091:1: RULE_ID
             {
              before(grammarAccess.getAtReadLocalAccess().getNameIDTerminalRuleCall_3_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AtReadLocal__NameAssignment_320211); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AtReadLocal__NameAssignment_320518); 
              after(grammarAccess.getAtReadLocalAccess().getNameIDTerminalRuleCall_3_0()); 
 
             }
@@ -27389,20 +27774,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtReadLocal__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9941:1: rule__AtReadLocal__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10100:1: rule__AtReadLocal__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AtReadLocal__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9945:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9946:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10104:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10105:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9946:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9947:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10105:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10106:1: ruleCounter
             {
              before(grammarAccess.getAtReadLocalAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtReadLocal__CounterAssignment_420242);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtReadLocal__CounterAssignment_420549);
             ruleCounter();
 
             state._fsp--;
@@ -27430,20 +27815,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterReadField__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9956:1: rule__AfterReadField__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10115:1: rule__AfterReadField__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AfterReadField__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9960:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9961:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10119:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10120:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9961:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9962:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10120:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10121:1: ruleQualifiedName
             {
              before(grammarAccess.getAfterReadFieldAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterReadField__NameAssignment_220273);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterReadField__NameAssignment_220580);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27471,20 +27856,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterReadField__CounterAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9971:1: rule__AfterReadField__CounterAssignment_3 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10130:1: rule__AfterReadField__CounterAssignment_3 : ( ruleCounter ) ;
     public final void rule__AfterReadField__CounterAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9975:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9976:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10134:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10135:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9976:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9977:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10135:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10136:1: ruleCounter
             {
              before(grammarAccess.getAfterReadFieldAccess().getCounterCounterParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterReadField__CounterAssignment_320304);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterReadField__CounterAssignment_320611);
             ruleCounter();
 
             state._fsp--;
@@ -27512,20 +27897,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterReadLocal__NameAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9986:1: rule__AfterReadLocal__NameAssignment_3 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10145:1: rule__AfterReadLocal__NameAssignment_3 : ( RULE_ID ) ;
     public final void rule__AfterReadLocal__NameAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9990:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9991:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10149:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10150:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9991:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:9992:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10150:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10151:1: RULE_ID
             {
              before(grammarAccess.getAfterReadLocalAccess().getNameIDTerminalRuleCall_3_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AfterReadLocal__NameAssignment_320335); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AfterReadLocal__NameAssignment_320642); 
              after(grammarAccess.getAfterReadLocalAccess().getNameIDTerminalRuleCall_3_0()); 
 
             }
@@ -27549,20 +27934,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterReadLocal__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10001:1: rule__AfterReadLocal__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10160:1: rule__AfterReadLocal__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AfterReadLocal__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10005:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10006:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10164:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10165:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10006:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10007:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10165:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10166:1: ruleCounter
             {
              before(grammarAccess.getAfterReadLocalAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterReadLocal__CounterAssignment_420366);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterReadLocal__CounterAssignment_420673);
             ruleCounter();
 
             state._fsp--;
@@ -27590,20 +27975,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtWriteField__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10016:1: rule__AtWriteField__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10175:1: rule__AtWriteField__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AtWriteField__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10020:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10021:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10179:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10180:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10021:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10022:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10180:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10181:1: ruleQualifiedName
             {
              before(grammarAccess.getAtWriteFieldAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtWriteField__NameAssignment_220397);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtWriteField__NameAssignment_220704);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27631,20 +28016,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtWriteField__CounterAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10031:1: rule__AtWriteField__CounterAssignment_3 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10190:1: rule__AtWriteField__CounterAssignment_3 : ( ruleCounter ) ;
     public final void rule__AtWriteField__CounterAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10035:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10036:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10194:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10195:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10036:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10037:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10195:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10196:1: ruleCounter
             {
              before(grammarAccess.getAtWriteFieldAccess().getCounterCounterParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtWriteField__CounterAssignment_320428);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtWriteField__CounterAssignment_320735);
             ruleCounter();
 
             state._fsp--;
@@ -27672,20 +28057,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtWriteLocal__NameAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10046:1: rule__AtWriteLocal__NameAssignment_3 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10205:1: rule__AtWriteLocal__NameAssignment_3 : ( RULE_ID ) ;
     public final void rule__AtWriteLocal__NameAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10050:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10051:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10209:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10210:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10051:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10052:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10210:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10211:1: RULE_ID
             {
              before(grammarAccess.getAtWriteLocalAccess().getNameIDTerminalRuleCall_3_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AtWriteLocal__NameAssignment_320459); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AtWriteLocal__NameAssignment_320766); 
              after(grammarAccess.getAtWriteLocalAccess().getNameIDTerminalRuleCall_3_0()); 
 
             }
@@ -27709,20 +28094,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtWriteLocal__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10061:1: rule__AtWriteLocal__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10220:1: rule__AtWriteLocal__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AtWriteLocal__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10065:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10066:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10224:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10225:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10066:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10067:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10225:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10226:1: ruleCounter
             {
              before(grammarAccess.getAtWriteLocalAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtWriteLocal__CounterAssignment_420490);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtWriteLocal__CounterAssignment_420797);
             ruleCounter();
 
             state._fsp--;
@@ -27750,20 +28135,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterWriteField__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10076:1: rule__AfterWriteField__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10235:1: rule__AfterWriteField__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AfterWriteField__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10080:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10081:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10239:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10240:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10081:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10082:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10240:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10241:1: ruleQualifiedName
             {
              before(grammarAccess.getAfterWriteFieldAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterWriteField__NameAssignment_220521);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterWriteField__NameAssignment_220828);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27791,20 +28176,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterWriteField__CounterAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10091:1: rule__AfterWriteField__CounterAssignment_3 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10250:1: rule__AfterWriteField__CounterAssignment_3 : ( ruleCounter ) ;
     public final void rule__AfterWriteField__CounterAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10095:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10096:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10254:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10255:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10096:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10097:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10255:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10256:1: ruleCounter
             {
              before(grammarAccess.getAfterWriteFieldAccess().getCounterCounterParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterWriteField__CounterAssignment_320552);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterWriteField__CounterAssignment_320859);
             ruleCounter();
 
             state._fsp--;
@@ -27832,20 +28217,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterWriteLocal__NameAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10106:1: rule__AfterWriteLocal__NameAssignment_3 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10265:1: rule__AfterWriteLocal__NameAssignment_3 : ( RULE_ID ) ;
     public final void rule__AfterWriteLocal__NameAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10110:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10111:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10269:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10270:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10111:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10112:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10270:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10271:1: RULE_ID
             {
              before(grammarAccess.getAfterWriteLocalAccess().getNameIDTerminalRuleCall_3_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AfterWriteLocal__NameAssignment_320583); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AfterWriteLocal__NameAssignment_320890); 
              after(grammarAccess.getAfterWriteLocalAccess().getNameIDTerminalRuleCall_3_0()); 
 
             }
@@ -27869,20 +28254,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterWriteLocal__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10121:1: rule__AfterWriteLocal__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10280:1: rule__AfterWriteLocal__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AfterWriteLocal__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10125:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10126:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10284:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10285:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10126:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10127:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10285:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10286:1: ruleCounter
             {
              before(grammarAccess.getAfterWriteLocalAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterWriteLocal__CounterAssignment_420614);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterWriteLocal__CounterAssignment_420921);
             ruleCounter();
 
             state._fsp--;
@@ -27910,20 +28295,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtInvoke__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10136:1: rule__AtInvoke__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10295:1: rule__AtInvoke__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AtInvoke__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10140:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10141:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10299:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10300:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10141:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10142:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10300:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10301:1: ruleQualifiedName
             {
              before(grammarAccess.getAtInvokeAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtInvoke__NameAssignment_220645);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtInvoke__NameAssignment_220952);
             ruleQualifiedName();
 
             state._fsp--;
@@ -27951,20 +28336,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtInvoke__ParameterTypesAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10151:1: rule__AtInvoke__ParameterTypesAssignment_3 : ( ruleParameterTypes ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10310:1: rule__AtInvoke__ParameterTypesAssignment_3 : ( ruleParameterTypes ) ;
     public final void rule__AtInvoke__ParameterTypesAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10155:1: ( ( ruleParameterTypes ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10156:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10314:1: ( ( ruleParameterTypes ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10315:1: ( ruleParameterTypes )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10156:1: ( ruleParameterTypes )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10157:1: ruleParameterTypes
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10315:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10316:1: ruleParameterTypes
             {
              before(grammarAccess.getAtInvokeAccess().getParameterTypesParameterTypesParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleParameterTypes_in_rule__AtInvoke__ParameterTypesAssignment_320676);
+            pushFollow(FOLLOW_ruleParameterTypes_in_rule__AtInvoke__ParameterTypesAssignment_320983);
             ruleParameterTypes();
 
             state._fsp--;
@@ -27992,20 +28377,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtInvoke__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10166:1: rule__AtInvoke__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10325:1: rule__AtInvoke__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AtInvoke__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10170:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10171:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10329:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10330:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10171:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10172:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10330:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10331:1: ruleCounter
             {
              before(grammarAccess.getAtInvokeAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtInvoke__CounterAssignment_420707);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtInvoke__CounterAssignment_421014);
             ruleCounter();
 
             state._fsp--;
@@ -28033,20 +28418,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterInvoke__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10181:1: rule__AfterInvoke__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10340:1: rule__AfterInvoke__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AfterInvoke__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10185:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10186:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10344:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10345:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10186:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10187:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10345:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10346:1: ruleQualifiedName
             {
              before(grammarAccess.getAfterInvokeAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterInvoke__NameAssignment_220738);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AfterInvoke__NameAssignment_221045);
             ruleQualifiedName();
 
             state._fsp--;
@@ -28074,20 +28459,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterInvoke__ParameterTypesAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10196:1: rule__AfterInvoke__ParameterTypesAssignment_3 : ( ruleParameterTypes ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10355:1: rule__AfterInvoke__ParameterTypesAssignment_3 : ( ruleParameterTypes ) ;
     public final void rule__AfterInvoke__ParameterTypesAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10200:1: ( ( ruleParameterTypes ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10201:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10359:1: ( ( ruleParameterTypes ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10360:1: ( ruleParameterTypes )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10201:1: ( ruleParameterTypes )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10202:1: ruleParameterTypes
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10360:1: ( ruleParameterTypes )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10361:1: ruleParameterTypes
             {
              before(grammarAccess.getAfterInvokeAccess().getParameterTypesParameterTypesParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleParameterTypes_in_rule__AfterInvoke__ParameterTypesAssignment_320769);
+            pushFollow(FOLLOW_ruleParameterTypes_in_rule__AfterInvoke__ParameterTypesAssignment_321076);
             ruleParameterTypes();
 
             state._fsp--;
@@ -28115,20 +28500,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterInvoke__CounterAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10211:1: rule__AfterInvoke__CounterAssignment_4 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10370:1: rule__AfterInvoke__CounterAssignment_4 : ( ruleCounter ) ;
     public final void rule__AfterInvoke__CounterAssignment_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10215:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10216:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10374:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10375:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10216:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10217:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10375:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10376:1: ruleCounter
             {
              before(grammarAccess.getAfterInvokeAccess().getCounterCounterParserRuleCall_4_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterInvoke__CounterAssignment_420800);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterInvoke__CounterAssignment_421107);
             ruleCounter();
 
             state._fsp--;
@@ -28156,20 +28541,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtSynchronize__CounterAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10226:1: rule__AtSynchronize__CounterAssignment_2 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10385:1: rule__AtSynchronize__CounterAssignment_2 : ( ruleCounter ) ;
     public final void rule__AtSynchronize__CounterAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10230:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10231:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10389:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10390:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10231:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10232:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10390:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10391:1: ruleCounter
             {
              before(grammarAccess.getAtSynchronizeAccess().getCounterCounterParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtSynchronize__CounterAssignment_220831);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtSynchronize__CounterAssignment_221138);
             ruleCounter();
 
             state._fsp--;
@@ -28197,20 +28582,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AfterSynchronize__CounterAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10241:1: rule__AfterSynchronize__CounterAssignment_2 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10400:1: rule__AfterSynchronize__CounterAssignment_2 : ( ruleCounter ) ;
     public final void rule__AfterSynchronize__CounterAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10245:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10246:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10404:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10405:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10246:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10247:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10405:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10406:1: ruleCounter
             {
              before(grammarAccess.getAfterSynchronizeAccess().getCounterCounterParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AfterSynchronize__CounterAssignment_220862);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AfterSynchronize__CounterAssignment_221169);
             ruleCounter();
 
             state._fsp--;
@@ -28238,20 +28623,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtThrow__NameAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10256:1: rule__AtThrow__NameAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10415:1: rule__AtThrow__NameAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__AtThrow__NameAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10260:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10261:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10419:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10420:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10261:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10262:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10420:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10421:1: ruleQualifiedName
             {
              before(grammarAccess.getAtThrowAccess().getNameQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtThrow__NameAssignment_220893);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__AtThrow__NameAssignment_221200);
             ruleQualifiedName();
 
             state._fsp--;
@@ -28279,20 +28664,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AtThrow__CounterAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10271:1: rule__AtThrow__CounterAssignment_3 : ( ruleCounter ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10430:1: rule__AtThrow__CounterAssignment_3 : ( ruleCounter ) ;
     public final void rule__AtThrow__CounterAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10275:1: ( ( ruleCounter ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10276:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10434:1: ( ( ruleCounter ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10435:1: ( ruleCounter )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10276:1: ( ruleCounter )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10277:1: ruleCounter
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10435:1: ( ruleCounter )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10436:1: ruleCounter
             {
              before(grammarAccess.getAtThrowAccess().getCounterCounterParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCounter_in_rule__AtThrow__CounterAssignment_320924);
+            pushFollow(FOLLOW_ruleCounter_in_rule__AtThrow__CounterAssignment_321231);
             ruleCounter();
 
             state._fsp--;
@@ -28320,20 +28705,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ParameterTypes__ParamTypeNamesAssignment_2_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10286:1: rule__ParameterTypes__ParamTypeNamesAssignment_2_0 : ( ruleParamTypeName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10445:1: rule__ParameterTypes__ParamTypeNamesAssignment_2_0 : ( ruleParamTypeName ) ;
     public final void rule__ParameterTypes__ParamTypeNamesAssignment_2_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10290:1: ( ( ruleParamTypeName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10291:1: ( ruleParamTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10449:1: ( ( ruleParamTypeName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10450:1: ( ruleParamTypeName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10291:1: ( ruleParamTypeName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10292:1: ruleParamTypeName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10450:1: ( ruleParamTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10451:1: ruleParamTypeName
             {
              before(grammarAccess.getParameterTypesAccess().getParamTypeNamesParamTypeNameParserRuleCall_2_0_0()); 
-            pushFollow(FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_020955);
+            pushFollow(FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_021262);
             ruleParamTypeName();
 
             state._fsp--;
@@ -28361,20 +28746,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ParameterTypes__ParamTypeNamesAssignment_2_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10301:1: rule__ParameterTypes__ParamTypeNamesAssignment_2_1_1 : ( ruleParamTypeName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10460:1: rule__ParameterTypes__ParamTypeNamesAssignment_2_1_1 : ( ruleParamTypeName ) ;
     public final void rule__ParameterTypes__ParamTypeNamesAssignment_2_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10305:1: ( ( ruleParamTypeName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10306:1: ( ruleParamTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10464:1: ( ( ruleParamTypeName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10465:1: ( ruleParamTypeName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10306:1: ( ruleParamTypeName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10307:1: ruleParamTypeName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10465:1: ( ruleParamTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10466:1: ruleParamTypeName
             {
              before(grammarAccess.getParameterTypesAccess().getParamTypeNamesParamTypeNameParserRuleCall_2_1_1_0()); 
-            pushFollow(FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_1_120986);
+            pushFollow(FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_1_121293);
             ruleParamTypeName();
 
             state._fsp--;
@@ -28402,20 +28787,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Bind__BindAssignment_2_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10316:1: rule__Bind__BindAssignment_2_1 : ( ruleBindings ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10475:1: rule__Bind__BindAssignment_2_1 : ( ruleBindings ) ;
     public final void rule__Bind__BindAssignment_2_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10320:1: ( ( ruleBindings ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10321:1: ( ruleBindings )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10479:1: ( ( ruleBindings ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10480:1: ( ruleBindings )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10321:1: ( ruleBindings )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10322:1: ruleBindings
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10480:1: ( ruleBindings )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10481:1: ruleBindings
             {
              before(grammarAccess.getBindAccess().getBindBindingsParserRuleCall_2_1_0()); 
-            pushFollow(FOLLOW_ruleBindings_in_rule__Bind__BindAssignment_2_121017);
+            pushFollow(FOLLOW_ruleBindings_in_rule__Bind__BindAssignment_2_121324);
             ruleBindings();
 
             state._fsp--;
@@ -28443,20 +28828,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Bindings__BindingsAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10331:1: rule__Bindings__BindingsAssignment_0 : ( ruleBinding ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10490:1: rule__Bindings__BindingsAssignment_0 : ( ruleBinding ) ;
     public final void rule__Bindings__BindingsAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10335:1: ( ( ruleBinding ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10336:1: ( ruleBinding )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10494:1: ( ( ruleBinding ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10495:1: ( ruleBinding )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10336:1: ( ruleBinding )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10337:1: ruleBinding
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10495:1: ( ruleBinding )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10496:1: ruleBinding
             {
              before(grammarAccess.getBindingsAccess().getBindingsBindingParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_021048);
+            pushFollow(FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_021355);
             ruleBinding();
 
             state._fsp--;
@@ -28484,20 +28869,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Bindings__BindingsAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10346:1: rule__Bindings__BindingsAssignment_1_1 : ( ruleBinding ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10505:1: rule__Bindings__BindingsAssignment_1_1 : ( ruleBinding ) ;
     public final void rule__Bindings__BindingsAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10350:1: ( ( ruleBinding ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10351:1: ( ruleBinding )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10509:1: ( ( ruleBinding ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10510:1: ( ruleBinding )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10351:1: ( ruleBinding )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10352:1: ruleBinding
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10510:1: ( ruleBinding )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10511:1: ruleBinding
             {
              before(grammarAccess.getBindingsAccess().getBindingsBindingParserRuleCall_1_1_0()); 
-            pushFollow(FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_1_121079);
+            pushFollow(FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_1_121386);
             ruleBinding();
 
             state._fsp--;
@@ -28525,20 +28910,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Binding__BindVariableAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10361:1: rule__Binding__BindVariableAssignment_0 : ( ruleBindVariable ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10520:1: rule__Binding__BindVariableAssignment_0 : ( ruleBindVariable ) ;
     public final void rule__Binding__BindVariableAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10365:1: ( ( ruleBindVariable ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10366:1: ( ruleBindVariable )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10524:1: ( ( ruleBindVariable ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10525:1: ( ruleBindVariable )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10366:1: ( ruleBindVariable )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10367:1: ruleBindVariable
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10525:1: ( ruleBindVariable )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10526:1: ruleBindVariable
             {
              before(grammarAccess.getBindingAccess().getBindVariableBindVariableParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleBindVariable_in_rule__Binding__BindVariableAssignment_021110);
+            pushFollow(FOLLOW_ruleBindVariable_in_rule__Binding__BindVariableAssignment_021417);
             ruleBindVariable();
 
             state._fsp--;
@@ -28566,20 +28951,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Binding__TypenameAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10376:1: rule__Binding__TypenameAssignment_1_1 : ( ruleTypeName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10535:1: rule__Binding__TypenameAssignment_1_1 : ( ruleTypeName ) ;
     public final void rule__Binding__TypenameAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10380:1: ( ( ruleTypeName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10381:1: ( ruleTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10539:1: ( ( ruleTypeName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10540:1: ( ruleTypeName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10381:1: ( ruleTypeName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10382:1: ruleTypeName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10540:1: ( ruleTypeName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10541:1: ruleTypeName
             {
              before(grammarAccess.getBindingAccess().getTypenameTypeNameParserRuleCall_1_1_0()); 
-            pushFollow(FOLLOW_ruleTypeName_in_rule__Binding__TypenameAssignment_1_121141);
+            pushFollow(FOLLOW_ruleTypeName_in_rule__Binding__TypenameAssignment_1_121448);
             ruleTypeName();
 
             state._fsp--;
@@ -28607,20 +28992,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Binding__ValueAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10391:1: rule__Binding__ValueAssignment_3 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10550:1: rule__Binding__ValueAssignment_3 : ( ruleExpression ) ;
     public final void rule__Binding__ValueAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10395:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10396:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10554:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10555:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10396:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10397:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10555:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10556:1: ruleExpression
             {
              before(grammarAccess.getBindingAccess().getValueExpressionParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__Binding__ValueAssignment_321172);
+            pushFollow(FOLLOW_ruleExpression_in_rule__Binding__ValueAssignment_321479);
             ruleExpression();
 
             state._fsp--;
@@ -28648,20 +29033,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__Actions__ActionListAssignment_2_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10406:1: rule__Actions__ActionListAssignment_2_0 : ( ruleActionList ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10565:1: rule__Actions__ActionListAssignment_2_0 : ( ruleActionList ) ;
     public final void rule__Actions__ActionListAssignment_2_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10410:1: ( ( ruleActionList ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10411:1: ( ruleActionList )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10569:1: ( ( ruleActionList ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10570:1: ( ruleActionList )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10411:1: ( ruleActionList )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10412:1: ruleActionList
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10570:1: ( ruleActionList )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10571:1: ruleActionList
             {
              before(grammarAccess.getActionsAccess().getActionListActionListParserRuleCall_2_0_0()); 
-            pushFollow(FOLLOW_ruleActionList_in_rule__Actions__ActionListAssignment_2_021203);
+            pushFollow(FOLLOW_ruleActionList_in_rule__Actions__ActionListAssignment_2_021510);
             ruleActionList();
 
             state._fsp--;
@@ -28689,20 +29074,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ActionList__ActionsAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10421:1: rule__ActionList__ActionsAssignment_0 : ( ruleAction ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10580:1: rule__ActionList__ActionsAssignment_0 : ( ruleAction ) ;
     public final void rule__ActionList__ActionsAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10425:1: ( ( ruleAction ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10426:1: ( ruleAction )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10584:1: ( ( ruleAction ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10585:1: ( ruleAction )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10426:1: ( ruleAction )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10427:1: ruleAction
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10585:1: ( ruleAction )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10586:1: ruleAction
             {
              before(grammarAccess.getActionListAccess().getActionsActionParserRuleCall_0_0()); 
-            pushFollow(FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_021234);
+            pushFollow(FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_021541);
             ruleAction();
 
             state._fsp--;
@@ -28730,20 +29115,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ActionList__ActionsAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10436:1: rule__ActionList__ActionsAssignment_1_1 : ( ruleAction ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10595:1: rule__ActionList__ActionsAssignment_1_1 : ( ruleAction ) ;
     public final void rule__ActionList__ActionsAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10440:1: ( ( ruleAction ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10441:1: ( ruleAction )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10599:1: ( ( ruleAction ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10600:1: ( ruleAction )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10441:1: ( ruleAction )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10442:1: ruleAction
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10600:1: ( ruleAction )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10601:1: ruleAction
             {
              before(grammarAccess.getActionListAccess().getActionsActionParserRuleCall_1_1_0()); 
-            pushFollow(FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_1_121265);
+            pushFollow(FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_1_121572);
             ruleAction();
 
             state._fsp--;
@@ -28771,20 +29156,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ReturnExpr__OpAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10451:1: rule__ReturnExpr__OpAssignment_0 : ( RULE_KEYWORD_RETURN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10610:1: rule__ReturnExpr__OpAssignment_0 : ( RULE_KEYWORD_RETURN ) ;
     public final void rule__ReturnExpr__OpAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10455:1: ( ( RULE_KEYWORD_RETURN ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10456:1: ( RULE_KEYWORD_RETURN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10614:1: ( ( RULE_KEYWORD_RETURN ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10615:1: ( RULE_KEYWORD_RETURN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10456:1: ( RULE_KEYWORD_RETURN )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10457:1: RULE_KEYWORD_RETURN
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10615:1: ( RULE_KEYWORD_RETURN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10616:1: RULE_KEYWORD_RETURN
             {
              before(grammarAccess.getReturnExprAccess().getOpKEYWORD_RETURNTerminalRuleCall_0_0()); 
-            match(input,RULE_KEYWORD_RETURN,FOLLOW_RULE_KEYWORD_RETURN_in_rule__ReturnExpr__OpAssignment_021296); 
+            match(input,RULE_KEYWORD_RETURN,FOLLOW_RULE_KEYWORD_RETURN_in_rule__ReturnExpr__OpAssignment_021603); 
              after(grammarAccess.getReturnExprAccess().getOpKEYWORD_RETURNTerminalRuleCall_0_0()); 
 
             }
@@ -28808,20 +29193,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ReturnExpr__Operand1Assignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10466:1: rule__ReturnExpr__Operand1Assignment_1 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10625:1: rule__ReturnExpr__Operand1Assignment_1 : ( ruleExpression ) ;
     public final void rule__ReturnExpr__Operand1Assignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10470:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10471:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10629:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10630:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10471:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10472:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10630:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10631:1: ruleExpression
             {
              before(grammarAccess.getReturnExprAccess().getOperand1ExpressionParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__ReturnExpr__Operand1Assignment_121327);
+            pushFollow(FOLLOW_ruleExpression_in_rule__ReturnExpr__Operand1Assignment_121634);
             ruleExpression();
 
             state._fsp--;
@@ -28849,20 +29234,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ThrowExpr__OpAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10481:1: rule__ThrowExpr__OpAssignment_0 : ( RULE_KEYWORD_THROW ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10640:1: rule__ThrowExpr__OpAssignment_0 : ( RULE_KEYWORD_THROW ) ;
     public final void rule__ThrowExpr__OpAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10485:1: ( ( RULE_KEYWORD_THROW ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10486:1: ( RULE_KEYWORD_THROW )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10644:1: ( ( RULE_KEYWORD_THROW ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10645:1: ( RULE_KEYWORD_THROW )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10486:1: ( RULE_KEYWORD_THROW )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10487:1: RULE_KEYWORD_THROW
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10645:1: ( RULE_KEYWORD_THROW )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10646:1: RULE_KEYWORD_THROW
             {
              before(grammarAccess.getThrowExprAccess().getOpKEYWORD_THROWTerminalRuleCall_0_0()); 
-            match(input,RULE_KEYWORD_THROW,FOLLOW_RULE_KEYWORD_THROW_in_rule__ThrowExpr__OpAssignment_021358); 
+            match(input,RULE_KEYWORD_THROW,FOLLOW_RULE_KEYWORD_THROW_in_rule__ThrowExpr__OpAssignment_021665); 
              after(grammarAccess.getThrowExprAccess().getOpKEYWORD_THROWTerminalRuleCall_0_0()); 
 
             }
@@ -28886,20 +29271,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__ThrowExpr__Operand1Assignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10496:1: rule__ThrowExpr__Operand1Assignment_1 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10655:1: rule__ThrowExpr__Operand1Assignment_1 : ( ruleExpression ) ;
     public final void rule__ThrowExpr__Operand1Assignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10500:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10501:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10659:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10660:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10501:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10502:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10660:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10661:1: ruleExpression
             {
              before(grammarAccess.getThrowExprAccess().getOperand1ExpressionParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__ThrowExpr__Operand1Assignment_121389);
+            pushFollow(FOLLOW_ruleExpression_in_rule__ThrowExpr__Operand1Assignment_121696);
             ruleExpression();
 
             state._fsp--;
@@ -28927,20 +29312,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AssignmentExpr__OpAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10511:1: rule__AssignmentExpr__OpAssignment_1_1 : ( RULE_ASSIGN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10670:1: rule__AssignmentExpr__OpAssignment_1_1 : ( RULE_ASSIGN ) ;
     public final void rule__AssignmentExpr__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10515:1: ( ( RULE_ASSIGN ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10516:1: ( RULE_ASSIGN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10674:1: ( ( RULE_ASSIGN ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10675:1: ( RULE_ASSIGN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10516:1: ( RULE_ASSIGN )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10517:1: RULE_ASSIGN
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10675:1: ( RULE_ASSIGN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10676:1: RULE_ASSIGN
             {
              before(grammarAccess.getAssignmentExprAccess().getOpASSIGNTerminalRuleCall_1_1_0()); 
-            match(input,RULE_ASSIGN,FOLLOW_RULE_ASSIGN_in_rule__AssignmentExpr__OpAssignment_1_121420); 
+            match(input,RULE_ASSIGN,FOLLOW_RULE_ASSIGN_in_rule__AssignmentExpr__OpAssignment_1_121727); 
              after(grammarAccess.getAssignmentExprAccess().getOpASSIGNTerminalRuleCall_1_1_0()); 
 
             }
@@ -28964,20 +29349,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AssignmentExpr__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10526:1: rule__AssignmentExpr__Operand2Assignment_1_2 : ( ruleOperatorExpr ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10685:1: rule__AssignmentExpr__Operand2Assignment_1_2 : ( ruleOperatorExpr ) ;
     public final void rule__AssignmentExpr__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10530:1: ( ( ruleOperatorExpr ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10531:1: ( ruleOperatorExpr )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10689:1: ( ( ruleOperatorExpr ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleOperatorExpr )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10531:1: ( ruleOperatorExpr )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10532:1: ruleOperatorExpr
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleOperatorExpr )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10691:1: ruleOperatorExpr
             {
              before(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); 
-            pushFollow(FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221451);
+            pushFollow(FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758);
             ruleOperatorExpr();
 
             state._fsp--;
@@ -29005,23 +29390,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__OperatorExpr__OpAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10541:1: rule__OperatorExpr__OpAssignment_1_1 : ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10700:1: rule__OperatorExpr__OpAssignment_1_1 : ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) ) ;
     public final void rule__OperatorExpr__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10545:1: ( ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10546:1: ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10704:1: ( ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10705:1: ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10546:1: ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10547:1: ( rule__OperatorExpr__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10705:1: ( ( rule__OperatorExpr__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10706:1: ( rule__OperatorExpr__OpAlternatives_1_1_0 )
             {
              before(grammarAccess.getOperatorExprAccess().getOpAlternatives_1_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10548:1: ( rule__OperatorExpr__OpAlternatives_1_1_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10548:2: rule__OperatorExpr__OpAlternatives_1_1_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10707:1: ( rule__OperatorExpr__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10707:2: rule__OperatorExpr__OpAlternatives_1_1_0
             {
-            pushFollow(FOLLOW_rule__OperatorExpr__OpAlternatives_1_1_0_in_rule__OperatorExpr__OpAssignment_1_121482);
+            pushFollow(FOLLOW_rule__OperatorExpr__OpAlternatives_1_1_0_in_rule__OperatorExpr__OpAssignment_1_121789);
             rule__OperatorExpr__OpAlternatives_1_1_0();
 
             state._fsp--;
@@ -29052,20 +29437,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__OperatorExpr__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10557:1: rule__OperatorExpr__Operand2Assignment_1_2 : ( rulePlusMinusOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10716:1: rule__OperatorExpr__Operand2Assignment_1_2 : ( rulePlusMinusOperand ) ;
     public final void rule__OperatorExpr__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10561:1: ( ( rulePlusMinusOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10562:1: ( rulePlusMinusOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10720:1: ( ( rulePlusMinusOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10721:1: ( rulePlusMinusOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10562:1: ( rulePlusMinusOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10563:1: rulePlusMinusOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10721:1: ( rulePlusMinusOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10722:1: rulePlusMinusOperand
             {
              before(grammarAccess.getOperatorExprAccess().getOperand2PlusMinusOperandParserRuleCall_1_2_0()); 
-            pushFollow(FOLLOW_rulePlusMinusOperand_in_rule__OperatorExpr__Operand2Assignment_1_221515);
+            pushFollow(FOLLOW_rulePlusMinusOperand_in_rule__OperatorExpr__Operand2Assignment_1_221822);
             rulePlusMinusOperand();
 
             state._fsp--;
@@ -29093,23 +29478,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PlusMinusOperand__OpAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10572:1: rule__PlusMinusOperand__OpAssignment_1_1 : ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10731:1: rule__PlusMinusOperand__OpAssignment_1_1 : ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) ) ;
     public final void rule__PlusMinusOperand__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10576:1: ( ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10577:1: ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10735:1: ( ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10736:1: ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10577:1: ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10578:1: ( rule__PlusMinusOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10736:1: ( ( rule__PlusMinusOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10737:1: ( rule__PlusMinusOperand__OpAlternatives_1_1_0 )
             {
              before(grammarAccess.getPlusMinusOperandAccess().getOpAlternatives_1_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10579:1: ( rule__PlusMinusOperand__OpAlternatives_1_1_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10579:2: rule__PlusMinusOperand__OpAlternatives_1_1_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10738:1: ( rule__PlusMinusOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10738:2: rule__PlusMinusOperand__OpAlternatives_1_1_0
             {
-            pushFollow(FOLLOW_rule__PlusMinusOperand__OpAlternatives_1_1_0_in_rule__PlusMinusOperand__OpAssignment_1_121546);
+            pushFollow(FOLLOW_rule__PlusMinusOperand__OpAlternatives_1_1_0_in_rule__PlusMinusOperand__OpAssignment_1_121853);
             rule__PlusMinusOperand__OpAlternatives_1_1_0();
 
             state._fsp--;
@@ -29140,20 +29525,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__PlusMinusOperand__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10588:1: rule__PlusMinusOperand__Operand2Assignment_1_2 : ( ruleTimesDivOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10747:1: rule__PlusMinusOperand__Operand2Assignment_1_2 : ( ruleTimesDivOperand ) ;
     public final void rule__PlusMinusOperand__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10592:1: ( ( ruleTimesDivOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10593:1: ( ruleTimesDivOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10751:1: ( ( ruleTimesDivOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10752:1: ( ruleTimesDivOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10593:1: ( ruleTimesDivOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10594:1: ruleTimesDivOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10752:1: ( ruleTimesDivOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10753:1: ruleTimesDivOperand
             {
              before(grammarAccess.getPlusMinusOperandAccess().getOperand2TimesDivOperandParserRuleCall_1_2_0()); 
-            pushFollow(FOLLOW_ruleTimesDivOperand_in_rule__PlusMinusOperand__Operand2Assignment_1_221579);
+            pushFollow(FOLLOW_ruleTimesDivOperand_in_rule__PlusMinusOperand__Operand2Assignment_1_221886);
             ruleTimesDivOperand();
 
             state._fsp--;
@@ -29181,23 +29566,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__TimesDivOperand__OpAssignment_0_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10603:1: rule__TimesDivOperand__OpAssignment_0_1_1 : ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10762:1: rule__TimesDivOperand__OpAssignment_0_1_1 : ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) ) ;
     public final void rule__TimesDivOperand__OpAssignment_0_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10607:1: ( ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10608:1: ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10766:1: ( ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10767:1: ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10608:1: ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10609:1: ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10767:1: ( ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10768:1: ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 )
             {
              before(grammarAccess.getTimesDivOperandAccess().getOpAlternatives_0_1_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10610:1: ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10610:2: rule__TimesDivOperand__OpAlternatives_0_1_1_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10769:1: ( rule__TimesDivOperand__OpAlternatives_0_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10769:2: rule__TimesDivOperand__OpAlternatives_0_1_1_0
             {
-            pushFollow(FOLLOW_rule__TimesDivOperand__OpAlternatives_0_1_1_0_in_rule__TimesDivOperand__OpAssignment_0_1_121610);
+            pushFollow(FOLLOW_rule__TimesDivOperand__OpAlternatives_0_1_1_0_in_rule__TimesDivOperand__OpAssignment_0_1_121917);
             rule__TimesDivOperand__OpAlternatives_0_1_1_0();
 
             state._fsp--;
@@ -29228,20 +29613,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__TimesDivOperand__Operand2Assignment_0_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10619:1: rule__TimesDivOperand__Operand2Assignment_0_1_2 : ( ruleBitwiseOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10778:1: rule__TimesDivOperand__Operand2Assignment_0_1_2 : ( ruleBitwiseOperand ) ;
     public final void rule__TimesDivOperand__Operand2Assignment_0_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10623:1: ( ( ruleBitwiseOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10624:1: ( ruleBitwiseOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10782:1: ( ( ruleBitwiseOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10783:1: ( ruleBitwiseOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10624:1: ( ruleBitwiseOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10625:1: ruleBitwiseOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10783:1: ( ruleBitwiseOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10784:1: ruleBitwiseOperand
             {
              before(grammarAccess.getTimesDivOperandAccess().getOperand2BitwiseOperandParserRuleCall_0_1_2_0()); 
-            pushFollow(FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand2Assignment_0_1_221643);
+            pushFollow(FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand2Assignment_0_1_221950);
             ruleBitwiseOperand();
 
             state._fsp--;
@@ -29269,20 +29654,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__TimesDivOperand__OpAssignment_1_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10634:1: rule__TimesDivOperand__OpAssignment_1_0 : ( RULE_BNOT ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10793:1: rule__TimesDivOperand__OpAssignment_1_0 : ( RULE_BNOT ) ;
     public final void rule__TimesDivOperand__OpAssignment_1_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10638:1: ( ( RULE_BNOT ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10639:1: ( RULE_BNOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10797:1: ( ( RULE_BNOT ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10798:1: ( RULE_BNOT )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10639:1: ( RULE_BNOT )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10640:1: RULE_BNOT
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10798:1: ( RULE_BNOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10799:1: RULE_BNOT
             {
              before(grammarAccess.getTimesDivOperandAccess().getOpBNOTTerminalRuleCall_1_0_0()); 
-            match(input,RULE_BNOT,FOLLOW_RULE_BNOT_in_rule__TimesDivOperand__OpAssignment_1_021674); 
+            match(input,RULE_BNOT,FOLLOW_RULE_BNOT_in_rule__TimesDivOperand__OpAssignment_1_021981); 
              after(grammarAccess.getTimesDivOperandAccess().getOpBNOTTerminalRuleCall_1_0_0()); 
 
             }
@@ -29306,20 +29691,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__TimesDivOperand__Operand1Assignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10649:1: rule__TimesDivOperand__Operand1Assignment_1_1 : ( ruleBitwiseOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10808:1: rule__TimesDivOperand__Operand1Assignment_1_1 : ( ruleBitwiseOperand ) ;
     public final void rule__TimesDivOperand__Operand1Assignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10653:1: ( ( ruleBitwiseOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10654:1: ( ruleBitwiseOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10812:1: ( ( ruleBitwiseOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10813:1: ( ruleBitwiseOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10654:1: ( ruleBitwiseOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10655:1: ruleBitwiseOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10813:1: ( ruleBitwiseOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10814:1: ruleBitwiseOperand
             {
              before(grammarAccess.getTimesDivOperandAccess().getOperand1BitwiseOperandParserRuleCall_1_1_0()); 
-            pushFollow(FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand1Assignment_1_121705);
+            pushFollow(FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand1Assignment_1_122012);
             ruleBitwiseOperand();
 
             state._fsp--;
@@ -29347,23 +29732,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BitwiseOperand__OpAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10664:1: rule__BitwiseOperand__OpAssignment_1_1 : ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10823:1: rule__BitwiseOperand__OpAssignment_1_1 : ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) ) ;
     public final void rule__BitwiseOperand__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10668:1: ( ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10669:1: ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10827:1: ( ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10828:1: ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10669:1: ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10670:1: ( rule__BitwiseOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10828:1: ( ( rule__BitwiseOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10829:1: ( rule__BitwiseOperand__OpAlternatives_1_1_0 )
             {
              before(grammarAccess.getBitwiseOperandAccess().getOpAlternatives_1_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10671:1: ( rule__BitwiseOperand__OpAlternatives_1_1_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10671:2: rule__BitwiseOperand__OpAlternatives_1_1_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10830:1: ( rule__BitwiseOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10830:2: rule__BitwiseOperand__OpAlternatives_1_1_0
             {
-            pushFollow(FOLLOW_rule__BitwiseOperand__OpAlternatives_1_1_0_in_rule__BitwiseOperand__OpAssignment_1_121736);
+            pushFollow(FOLLOW_rule__BitwiseOperand__OpAlternatives_1_1_0_in_rule__BitwiseOperand__OpAssignment_1_122043);
             rule__BitwiseOperand__OpAlternatives_1_1_0();
 
             state._fsp--;
@@ -29394,23 +29779,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BitwiseOperand__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10680:1: rule__BitwiseOperand__Operand2Assignment_1_2 : ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10839:1: rule__BitwiseOperand__Operand2Assignment_1_2 : ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) ) ;
     public final void rule__BitwiseOperand__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10684:1: ( ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10685:1: ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10843:1: ( ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10844:1: ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10685:1: ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10686:1: ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10844:1: ( ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10845:1: ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 )
             {
              before(grammarAccess.getBitwiseOperandAccess().getOperand2Alternatives_1_2_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10687:1: ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10687:2: rule__BitwiseOperand__Operand2Alternatives_1_2_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10846:1: ( rule__BitwiseOperand__Operand2Alternatives_1_2_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10846:2: rule__BitwiseOperand__Operand2Alternatives_1_2_0
             {
-            pushFollow(FOLLOW_rule__BitwiseOperand__Operand2Alternatives_1_2_0_in_rule__BitwiseOperand__Operand2Assignment_1_221769);
+            pushFollow(FOLLOW_rule__BitwiseOperand__Operand2Alternatives_1_2_0_in_rule__BitwiseOperand__Operand2Assignment_1_222076);
             rule__BitwiseOperand__Operand2Alternatives_1_2_0();
 
             state._fsp--;
@@ -29441,20 +29826,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__NotOperand__OpAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10696:1: rule__NotOperand__OpAssignment_0 : ( RULE_NOT ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10855:1: rule__NotOperand__OpAssignment_0 : ( RULE_NOT ) ;
     public final void rule__NotOperand__OpAssignment_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10700:1: ( ( RULE_NOT ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10701:1: ( RULE_NOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10859:1: ( ( RULE_NOT ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10860:1: ( RULE_NOT )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10701:1: ( RULE_NOT )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10702:1: RULE_NOT
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10860:1: ( RULE_NOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10861:1: RULE_NOT
             {
              before(grammarAccess.getNotOperandAccess().getOpNOTTerminalRuleCall_0_0()); 
-            match(input,RULE_NOT,FOLLOW_RULE_NOT_in_rule__NotOperand__OpAssignment_021802); 
+            match(input,RULE_NOT,FOLLOW_RULE_NOT_in_rule__NotOperand__OpAssignment_022109); 
              after(grammarAccess.getNotOperandAccess().getOpNOTTerminalRuleCall_0_0()); 
 
             }
@@ -29478,20 +29863,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__NotOperand__Operand1Assignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10711:1: rule__NotOperand__Operand1Assignment_1 : ( ruleLogicalOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10870:1: rule__NotOperand__Operand1Assignment_1 : ( ruleLogicalOperand ) ;
     public final void rule__NotOperand__Operand1Assignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10715:1: ( ( ruleLogicalOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10716:1: ( ruleLogicalOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10874:1: ( ( ruleLogicalOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10875:1: ( ruleLogicalOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10716:1: ( ruleLogicalOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10717:1: ruleLogicalOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10875:1: ( ruleLogicalOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10876:1: ruleLogicalOperand
             {
              before(grammarAccess.getNotOperandAccess().getOperand1LogicalOperandParserRuleCall_1_0()); 
-            pushFollow(FOLLOW_ruleLogicalOperand_in_rule__NotOperand__Operand1Assignment_121833);
+            pushFollow(FOLLOW_ruleLogicalOperand_in_rule__NotOperand__Operand1Assignment_122140);
             ruleLogicalOperand();
 
             state._fsp--;
@@ -29519,23 +29904,23 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__LogicalOperand__OpAssignment_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10726:1: rule__LogicalOperand__OpAssignment_1_1 : ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10885:1: rule__LogicalOperand__OpAssignment_1_1 : ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) ) ;
     public final void rule__LogicalOperand__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10730:1: ( ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10731:1: ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10889:1: ( ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10890:1: ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10731:1: ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10732:1: ( rule__LogicalOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10890:1: ( ( rule__LogicalOperand__OpAlternatives_1_1_0 ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10891:1: ( rule__LogicalOperand__OpAlternatives_1_1_0 )
             {
              before(grammarAccess.getLogicalOperandAccess().getOpAlternatives_1_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10733:1: ( rule__LogicalOperand__OpAlternatives_1_1_0 )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10733:2: rule__LogicalOperand__OpAlternatives_1_1_0
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10892:1: ( rule__LogicalOperand__OpAlternatives_1_1_0 )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10892:2: rule__LogicalOperand__OpAlternatives_1_1_0
             {
-            pushFollow(FOLLOW_rule__LogicalOperand__OpAlternatives_1_1_0_in_rule__LogicalOperand__OpAssignment_1_121864);
+            pushFollow(FOLLOW_rule__LogicalOperand__OpAlternatives_1_1_0_in_rule__LogicalOperand__OpAssignment_1_122171);
             rule__LogicalOperand__OpAlternatives_1_1_0();
 
             state._fsp--;
@@ -29566,20 +29951,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__LogicalOperand__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10742:1: rule__LogicalOperand__Operand2Assignment_1_2 : ( ruleComparisonOperand ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10901:1: rule__LogicalOperand__Operand2Assignment_1_2 : ( ruleComparisonOperand ) ;
     public final void rule__LogicalOperand__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10746:1: ( ( ruleComparisonOperand ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10747:1: ( ruleComparisonOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10905:1: ( ( ruleComparisonOperand ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10906:1: ( ruleComparisonOperand )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10747:1: ( ruleComparisonOperand )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10748:1: ruleComparisonOperand
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10906:1: ( ruleComparisonOperand )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10907:1: ruleComparisonOperand
             {
              before(grammarAccess.getLogicalOperandAccess().getOperand2ComparisonOperandParserRuleCall_1_2_0()); 
-            pushFollow(FOLLOW_ruleComparisonOperand_in_rule__LogicalOperand__Operand2Assignment_1_221897);
+            pushFollow(FOLLOW_ruleComparisonOperand_in_rule__LogicalOperand__Operand2Assignment_1_222204);
             ruleComparisonOperand();
 
             state._fsp--;
@@ -29607,20 +29992,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AccessExpr__OpAssignment_1_0_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10757:1: rule__AccessExpr__OpAssignment_1_0_1 : ( RULE_LSQUARE ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10916:1: rule__AccessExpr__OpAssignment_1_0_1 : ( RULE_LSQUARE ) ;
     public final void rule__AccessExpr__OpAssignment_1_0_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10761:1: ( ( RULE_LSQUARE ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10762:1: ( RULE_LSQUARE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10920:1: ( ( RULE_LSQUARE ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10921:1: ( RULE_LSQUARE )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10762:1: ( RULE_LSQUARE )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10763:1: RULE_LSQUARE
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10921:1: ( RULE_LSQUARE )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10922:1: RULE_LSQUARE
             {
              before(grammarAccess.getAccessExprAccess().getOpLSQUARETerminalRuleCall_1_0_1_0()); 
-            match(input,RULE_LSQUARE,FOLLOW_RULE_LSQUARE_in_rule__AccessExpr__OpAssignment_1_0_121928); 
+            match(input,RULE_LSQUARE,FOLLOW_RULE_LSQUARE_in_rule__AccessExpr__OpAssignment_1_0_122235); 
              after(grammarAccess.getAccessExprAccess().getOpLSQUARETerminalRuleCall_1_0_1_0()); 
 
             }
@@ -29644,20 +30029,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AccessExpr__Operand2Assignment_1_0_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10772:1: rule__AccessExpr__Operand2Assignment_1_0_2 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10931:1: rule__AccessExpr__Operand2Assignment_1_0_2 : ( ruleExpression ) ;
     public final void rule__AccessExpr__Operand2Assignment_1_0_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10776:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10777:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10935:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10936:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10777:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10778:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10936:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10937:1: ruleExpression
             {
              before(grammarAccess.getAccessExprAccess().getOperand2ExpressionParserRuleCall_1_0_2_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__AccessExpr__Operand2Assignment_1_0_221959);
+            pushFollow(FOLLOW_ruleExpression_in_rule__AccessExpr__Operand2Assignment_1_0_222266);
             ruleExpression();
 
             state._fsp--;
@@ -29685,20 +30070,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AccessExpr__OpAssignment_1_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10787:1: rule__AccessExpr__OpAssignment_1_1_1 : ( RULE_DOT ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10946:1: rule__AccessExpr__OpAssignment_1_1_1 : ( RULE_DOT ) ;
     public final void rule__AccessExpr__OpAssignment_1_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10791:1: ( ( RULE_DOT ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10792:1: ( RULE_DOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10950:1: ( ( RULE_DOT ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10951:1: ( RULE_DOT )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10792:1: ( RULE_DOT )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10793:1: RULE_DOT
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10951:1: ( RULE_DOT )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10952:1: RULE_DOT
             {
              before(grammarAccess.getAccessExprAccess().getOpDOTTerminalRuleCall_1_1_1_0()); 
-            match(input,RULE_DOT,FOLLOW_RULE_DOT_in_rule__AccessExpr__OpAssignment_1_1_121990); 
+            match(input,RULE_DOT,FOLLOW_RULE_DOT_in_rule__AccessExpr__OpAssignment_1_1_122297); 
              after(grammarAccess.getAccessExprAccess().getOpDOTTerminalRuleCall_1_1_1_0()); 
 
             }
@@ -29722,20 +30107,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AccessExpr__ValueAssignment_1_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10802:1: rule__AccessExpr__ValueAssignment_1_1_2 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10961:1: rule__AccessExpr__ValueAssignment_1_1_2 : ( RULE_ID ) ;
     public final void rule__AccessExpr__ValueAssignment_1_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10806:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10807:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10965:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10966:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10807:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10808:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10966:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10967:1: RULE_ID
             {
              before(grammarAccess.getAccessExprAccess().getValueIDTerminalRuleCall_1_1_2_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AccessExpr__ValueAssignment_1_1_222021); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__AccessExpr__ValueAssignment_1_1_222328); 
              after(grammarAccess.getAccessExprAccess().getValueIDTerminalRuleCall_1_1_2_0()); 
 
             }
@@ -29759,20 +30144,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AccessExpr__ArgsAssignment_1_1_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10817:1: rule__AccessExpr__ArgsAssignment_1_1_3 : ( ruleCallArguments ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10976:1: rule__AccessExpr__ArgsAssignment_1_1_3 : ( ruleCallArguments ) ;
     public final void rule__AccessExpr__ArgsAssignment_1_1_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10821:1: ( ( ruleCallArguments ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10822:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10980:1: ( ( ruleCallArguments ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10981:1: ( ruleCallArguments )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10822:1: ( ruleCallArguments )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10823:1: ruleCallArguments
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10981:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10982:1: ruleCallArguments
             {
              before(grammarAccess.getAccessExprAccess().getArgsCallArgumentsParserRuleCall_1_1_3_0()); 
-            pushFollow(FOLLOW_ruleCallArguments_in_rule__AccessExpr__ArgsAssignment_1_1_322052);
+            pushFollow(FOLLOW_ruleCallArguments_in_rule__AccessExpr__ArgsAssignment_1_1_322359);
             ruleCallArguments();
 
             state._fsp--;
@@ -29800,20 +30185,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BuiltinExpr__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10832:1: rule__BuiltinExpr__ValueAssignment_1 : ( RULE_ID ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10991:1: rule__BuiltinExpr__ValueAssignment_1 : ( RULE_ID ) ;
     public final void rule__BuiltinExpr__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10836:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10837:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10995:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10996:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10837:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10838:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10996:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10997:1: RULE_ID
             {
              before(grammarAccess.getBuiltinExprAccess().getValueIDTerminalRuleCall_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__BuiltinExpr__ValueAssignment_122083); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__BuiltinExpr__ValueAssignment_122390); 
              after(grammarAccess.getBuiltinExprAccess().getValueIDTerminalRuleCall_1_0()); 
 
             }
@@ -29837,20 +30222,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BuiltinExpr__ArgsAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10847:1: rule__BuiltinExpr__ArgsAssignment_2 : ( ruleCallArguments ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11006:1: rule__BuiltinExpr__ArgsAssignment_2 : ( ruleCallArguments ) ;
     public final void rule__BuiltinExpr__ArgsAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10851:1: ( ( ruleCallArguments ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10852:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11010:1: ( ( ruleCallArguments ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11011:1: ( ruleCallArguments )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10852:1: ( ruleCallArguments )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10853:1: ruleCallArguments
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11011:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11012:1: ruleCallArguments
             {
              before(grammarAccess.getBuiltinExprAccess().getArgsCallArgumentsParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleCallArguments_in_rule__BuiltinExpr__ArgsAssignment_222114);
+            pushFollow(FOLLOW_ruleCallArguments_in_rule__BuiltinExpr__ArgsAssignment_222421);
             ruleCallArguments();
 
             state._fsp--;
@@ -29878,20 +30263,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__NewExpr__OpAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10862:1: rule__NewExpr__OpAssignment_1 : ( RULE_NEW ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11021:1: rule__NewExpr__OpAssignment_1 : ( RULE_NEW ) ;
     public final void rule__NewExpr__OpAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10866:1: ( ( RULE_NEW ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10867:1: ( RULE_NEW )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11025:1: ( ( RULE_NEW ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11026:1: ( RULE_NEW )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10867:1: ( RULE_NEW )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10868:1: RULE_NEW
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11026:1: ( RULE_NEW )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11027:1: RULE_NEW
             {
              before(grammarAccess.getNewExprAccess().getOpNEWTerminalRuleCall_1_0()); 
-            match(input,RULE_NEW,FOLLOW_RULE_NEW_in_rule__NewExpr__OpAssignment_122145); 
+            match(input,RULE_NEW,FOLLOW_RULE_NEW_in_rule__NewExpr__OpAssignment_122452); 
              after(grammarAccess.getNewExprAccess().getOpNEWTerminalRuleCall_1_0()); 
 
             }
@@ -29915,20 +30300,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__NewExpr__ValueAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10877:1: rule__NewExpr__ValueAssignment_2 : ( ruleQualifiedName ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11036:1: rule__NewExpr__ValueAssignment_2 : ( ruleQualifiedName ) ;
     public final void rule__NewExpr__ValueAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10881:1: ( ( ruleQualifiedName ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10882:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11040:1: ( ( ruleQualifiedName ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11041:1: ( ruleQualifiedName )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10882:1: ( ruleQualifiedName )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10883:1: ruleQualifiedName
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11041:1: ( ruleQualifiedName )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11042:1: ruleQualifiedName
             {
              before(grammarAccess.getNewExprAccess().getValueQualifiedNameParserRuleCall_2_0()); 
-            pushFollow(FOLLOW_ruleQualifiedName_in_rule__NewExpr__ValueAssignment_222176);
+            pushFollow(FOLLOW_ruleQualifiedName_in_rule__NewExpr__ValueAssignment_222483);
             ruleQualifiedName();
 
             state._fsp--;
@@ -29956,20 +30341,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__NewExpr__ParamsAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10892:1: rule__NewExpr__ParamsAssignment_3 : ( ruleCallArguments ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11051:1: rule__NewExpr__ParamsAssignment_3 : ( ruleCallArguments ) ;
     public final void rule__NewExpr__ParamsAssignment_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10896:1: ( ( ruleCallArguments ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10897:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11055:1: ( ( ruleCallArguments ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11056:1: ( ruleCallArguments )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10897:1: ( ruleCallArguments )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10898:1: ruleCallArguments
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11056:1: ( ruleCallArguments )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11057:1: ruleCallArguments
             {
              before(grammarAccess.getNewExprAccess().getParamsCallArgumentsParserRuleCall_3_0()); 
-            pushFollow(FOLLOW_ruleCallArguments_in_rule__NewExpr__ParamsAssignment_322207);
+            pushFollow(FOLLOW_ruleCallArguments_in_rule__NewExpr__ParamsAssignment_322514);
             ruleCallArguments();
 
             state._fsp--;
@@ -29997,20 +30382,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__CallArguments__ArgsAssignment_2_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10907:1: rule__CallArguments__ArgsAssignment_2_0 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11066:1: rule__CallArguments__ArgsAssignment_2_0 : ( ruleExpression ) ;
     public final void rule__CallArguments__ArgsAssignment_2_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10911:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10912:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11070:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11071:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10912:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10913:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11071:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11072:1: ruleExpression
             {
              before(grammarAccess.getCallArgumentsAccess().getArgsExpressionParserRuleCall_2_0_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_022238);
+            pushFollow(FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_022545);
             ruleExpression();
 
             state._fsp--;
@@ -30038,20 +30423,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__CallArguments__ArgsAssignment_2_1_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10922:1: rule__CallArguments__ArgsAssignment_2_1_1 : ( ruleExpression ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11081:1: rule__CallArguments__ArgsAssignment_2_1_1 : ( ruleExpression ) ;
     public final void rule__CallArguments__ArgsAssignment_2_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10926:1: ( ( ruleExpression ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10927:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11085:1: ( ( ruleExpression ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11086:1: ( ruleExpression )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10927:1: ( ruleExpression )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10928:1: ruleExpression
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11086:1: ( ruleExpression )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11087:1: ruleExpression
             {
              before(grammarAccess.getCallArgumentsAccess().getArgsExpressionParserRuleCall_2_1_1_0()); 
-            pushFollow(FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_1_122269);
+            pushFollow(FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_1_122576);
             ruleExpression();
 
             state._fsp--;
@@ -30078,22 +30463,22 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     // $ANTLR end "rule__CallArguments__ArgsAssignment_2_1_1"
 
 
-    // $ANTLR start "rule__SimpleName__ValueAssignment"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10937:1: rule__SimpleName__ValueAssignment : ( RULE_ID ) ;
-    public final void rule__SimpleName__ValueAssignment() throws RecognitionException {
+    // $ANTLR start "rule__SimpleName__ValueAssignment_1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11096:1: rule__SimpleName__ValueAssignment_1 : ( RULE_ID ) ;
+    public final void rule__SimpleName__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10941:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10942:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11100:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11101:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10942:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10943:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11101:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11102:1: RULE_ID
             {
-             before(grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SimpleName__ValueAssignment22300); 
-             after(grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_0()); 
+             before(grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SimpleName__ValueAssignment_122607); 
+             after(grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_1_0()); 
 
             }
 
@@ -30112,25 +30497,25 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SimpleName__ValueAssignment"
+    // $ANTLR end "rule__SimpleName__ValueAssignment_1"
 
 
-    // $ANTLR start "rule__IndexedSpecialVar__OpAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10952:1: rule__IndexedSpecialVar__OpAssignment_0 : ( RULE_DOLLAR ) ;
-    public final void rule__IndexedSpecialVar__OpAssignment_0() throws RecognitionException {
+    // $ANTLR start "rule__IndexedSpecialVar__OpAssignment_1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11111:1: rule__IndexedSpecialVar__OpAssignment_1 : ( RULE_DOLLAR ) ;
+    public final void rule__IndexedSpecialVar__OpAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10956:1: ( ( RULE_DOLLAR ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10957:1: ( RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11115:1: ( ( RULE_DOLLAR ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11116:1: ( RULE_DOLLAR )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10957:1: ( RULE_DOLLAR )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10958:1: RULE_DOLLAR
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11116:1: ( RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11117:1: RULE_DOLLAR
             {
-             before(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_0_0()); 
-            match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_rule__IndexedSpecialVar__OpAssignment_022331); 
-             after(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_0_0()); 
+             before(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); 
+            match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_rule__IndexedSpecialVar__OpAssignment_122638); 
+             after(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); 
 
             }
 
@@ -30149,25 +30534,25 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__IndexedSpecialVar__OpAssignment_0"
+    // $ANTLR end "rule__IndexedSpecialVar__OpAssignment_1"
 
 
-    // $ANTLR start "rule__IndexedSpecialVar__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10967:1: rule__IndexedSpecialVar__ValueAssignment_1 : ( RULE_INTVAL ) ;
-    public final void rule__IndexedSpecialVar__ValueAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__IndexedSpecialVar__ValueAssignment_2"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11126:1: rule__IndexedSpecialVar__ValueAssignment_2 : ( RULE_INTVAL ) ;
+    public final void rule__IndexedSpecialVar__ValueAssignment_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10971:1: ( ( RULE_INTVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10972:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11130:1: ( ( RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11131:1: ( RULE_INTVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10972:1: ( RULE_INTVAL )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10973:1: RULE_INTVAL
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11131:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11132:1: RULE_INTVAL
             {
-             before(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_1_0()); 
-            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__IndexedSpecialVar__ValueAssignment_122362); 
-             after(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_1_0()); 
+             before(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); 
+            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__IndexedSpecialVar__ValueAssignment_222669); 
+             after(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); 
 
             }
 
@@ -30186,33 +30571,33 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__IndexedSpecialVar__ValueAssignment_1"
+    // $ANTLR end "rule__IndexedSpecialVar__ValueAssignment_2"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10982:1: rule__SpecialVar__OpAssignment_0 : ( ( '$#' ) ) ;
-    public final void rule__SpecialVar__OpAssignment_0() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_0"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11141:1: rule__SpecialVar__OpAssignment_1_0 : ( ( '$#' ) ) ;
+    public final void rule__SpecialVar__OpAssignment_1_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10986:1: ( ( ( '$#' ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10987:1: ( ( '$#' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11145:1: ( ( ( '$#' ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11146:1: ( ( '$#' ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10987:1: ( ( '$#' ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10988:1: ( '$#' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11146:1: ( ( '$#' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11147:1: ( '$#' )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10989:1: ( '$#' )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10990:1: '$#'
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11148:1: ( '$#' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11149:1: '$#'
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0()); 
-            match(input,73,FOLLOW_73_in_rule__SpecialVar__OpAssignment_022398); 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0()); 
+            match(input,73,FOLLOW_73_in_rule__SpecialVar__OpAssignment_1_022705); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0()); 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0()); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0()); 
 
             }
 
@@ -30231,33 +30616,33 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_0"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_0"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11005:1: rule__SpecialVar__OpAssignment_1 : ( ( '$!' ) ) ;
-    public final void rule__SpecialVar__OpAssignment_1() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11164:1: rule__SpecialVar__OpAssignment_1_1 : ( ( '$!' ) ) ;
+    public final void rule__SpecialVar__OpAssignment_1_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11009:1: ( ( ( '$!' ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11010:1: ( ( '$!' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11168:1: ( ( ( '$!' ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11169:1: ( ( '$!' ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11010:1: ( ( '$!' ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11011:1: ( '$!' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11169:1: ( ( '$!' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11170:1: ( '$!' )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11012:1: ( '$!' )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11013:1: '$!'
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11171:1: ( '$!' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11172:1: '$!'
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0()); 
-            match(input,74,FOLLOW_74_in_rule__SpecialVar__OpAssignment_122442); 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0()); 
+            match(input,74,FOLLOW_74_in_rule__SpecialVar__OpAssignment_1_122749); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0()); 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0()); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0()); 
 
             }
 
@@ -30276,33 +30661,33 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_1"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_1"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11028:1: rule__SpecialVar__OpAssignment_2 : ( ( '$^' ) ) ;
-    public final void rule__SpecialVar__OpAssignment_2() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_2"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11187:1: rule__SpecialVar__OpAssignment_1_2 : ( ( '$^' ) ) ;
+    public final void rule__SpecialVar__OpAssignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11032:1: ( ( ( '$^' ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11033:1: ( ( '$^' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11191:1: ( ( ( '$^' ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11192:1: ( ( '$^' ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11033:1: ( ( '$^' ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11034:1: ( '$^' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11192:1: ( ( '$^' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11193:1: ( '$^' )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11035:1: ( '$^' )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11036:1: '$^'
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11194:1: ( '$^' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11195:1: '$^'
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0()); 
-            match(input,75,FOLLOW_75_in_rule__SpecialVar__OpAssignment_222486); 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0()); 
+            match(input,75,FOLLOW_75_in_rule__SpecialVar__OpAssignment_1_222793); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0()); 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0()); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0()); 
 
             }
 
@@ -30321,33 +30706,33 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_2"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_2"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_3"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11051:1: rule__SpecialVar__OpAssignment_3 : ( ( '$@' ) ) ;
-    public final void rule__SpecialVar__OpAssignment_3() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_3"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11210:1: rule__SpecialVar__OpAssignment_1_3 : ( ( '$@' ) ) ;
+    public final void rule__SpecialVar__OpAssignment_1_3() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11055:1: ( ( ( '$@' ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11056:1: ( ( '$@' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11214:1: ( ( ( '$@' ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11215:1: ( ( '$@' ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11056:1: ( ( '$@' ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11057:1: ( '$@' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11215:1: ( ( '$@' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11216:1: ( '$@' )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11058:1: ( '$@' )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11059:1: '$@'
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11217:1: ( '$@' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11218:1: '$@'
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0()); 
-            match(input,76,FOLLOW_76_in_rule__SpecialVar__OpAssignment_322530); 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0()); 
+            match(input,76,FOLLOW_76_in_rule__SpecialVar__OpAssignment_1_322837); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0()); 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0()); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0()); 
 
             }
 
@@ -30366,33 +30751,33 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_3"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_3"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_4"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11074:1: rule__SpecialVar__OpAssignment_4 : ( ( '$*' ) ) ;
-    public final void rule__SpecialVar__OpAssignment_4() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_4"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11233:1: rule__SpecialVar__OpAssignment_1_4 : ( ( '$*' ) ) ;
+    public final void rule__SpecialVar__OpAssignment_1_4() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11078:1: ( ( ( '$*' ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11079:1: ( ( '$*' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11237:1: ( ( ( '$*' ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11238:1: ( ( '$*' ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11079:1: ( ( '$*' ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11080:1: ( '$*' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11238:1: ( ( '$*' ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11239:1: ( '$*' )
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11081:1: ( '$*' )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11082:1: '$*'
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0()); 
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11240:1: ( '$*' )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11241:1: '$*'
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0()); 
-            match(input,77,FOLLOW_77_in_rule__SpecialVar__OpAssignment_422574); 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0()); 
+            match(input,77,FOLLOW_77_in_rule__SpecialVar__OpAssignment_1_422881); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0()); 
 
             }
 
-             after(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0()); 
+             after(grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0()); 
 
             }
 
@@ -30411,25 +30796,25 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_4"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_4"
 
 
-    // $ANTLR start "rule__SpecialVar__OpAssignment_5_0"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11097:1: rule__SpecialVar__OpAssignment_5_0 : ( RULE_DOLLAR ) ;
-    public final void rule__SpecialVar__OpAssignment_5_0() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__OpAssignment_1_5_0"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11256:1: rule__SpecialVar__OpAssignment_1_5_0 : ( RULE_DOLLAR ) ;
+    public final void rule__SpecialVar__OpAssignment_1_5_0() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11101:1: ( ( RULE_DOLLAR ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11102:1: ( RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11260:1: ( ( RULE_DOLLAR ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11261:1: ( RULE_DOLLAR )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11102:1: ( RULE_DOLLAR )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11103:1: RULE_DOLLAR
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11261:1: ( RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11262:1: RULE_DOLLAR
             {
-             before(grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_5_0_0()); 
-            match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_rule__SpecialVar__OpAssignment_5_022613); 
-             after(grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_5_0_0()); 
+             before(grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_5_0_0()); 
+            match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_rule__SpecialVar__OpAssignment_1_5_022920); 
+             after(grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_5_0_0()); 
 
             }
 
@@ -30448,25 +30833,25 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__OpAssignment_5_0"
+    // $ANTLR end "rule__SpecialVar__OpAssignment_1_5_0"
 
 
-    // $ANTLR start "rule__SpecialVar__ValueAssignment_5_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11112:1: rule__SpecialVar__ValueAssignment_5_1 : ( RULE_ID ) ;
-    public final void rule__SpecialVar__ValueAssignment_5_1() throws RecognitionException {
+    // $ANTLR start "rule__SpecialVar__ValueAssignment_1_5_1"
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11271:1: rule__SpecialVar__ValueAssignment_1_5_1 : ( RULE_ID ) ;
+    public final void rule__SpecialVar__ValueAssignment_1_5_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11116:1: ( ( RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11117:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11275:1: ( ( RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11276:1: ( RULE_ID )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11117:1: ( RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11118:1: RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11276:1: ( RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11277:1: RULE_ID
             {
-             before(grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_5_1_0()); 
-            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SpecialVar__ValueAssignment_5_122644); 
-             after(grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_5_1_0()); 
+             before(grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_1_5_1_0()); 
+            match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__SpecialVar__ValueAssignment_1_5_122951); 
+             after(grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_1_5_1_0()); 
 
             }
 
@@ -30485,24 +30870,24 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
         }
         return ;
     }
-    // $ANTLR end "rule__SpecialVar__ValueAssignment_5_1"
+    // $ANTLR end "rule__SpecialVar__ValueAssignment_1_5_1"
 
 
     // $ANTLR start "rule__IntConstantExpr__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11127:1: rule__IntConstantExpr__ValueAssignment_1 : ( RULE_INTVAL ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11286:1: rule__IntConstantExpr__ValueAssignment_1 : ( RULE_INTVAL ) ;
     public final void rule__IntConstantExpr__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11131:1: ( ( RULE_INTVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11132:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11290:1: ( ( RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11291:1: ( RULE_INTVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11132:1: ( RULE_INTVAL )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11133:1: RULE_INTVAL
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11291:1: ( RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11292:1: RULE_INTVAL
             {
              before(grammarAccess.getIntConstantExprAccess().getValueINTVALTerminalRuleCall_1_0()); 
-            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__IntConstantExpr__ValueAssignment_122675); 
+            match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_rule__IntConstantExpr__ValueAssignment_122982); 
              after(grammarAccess.getIntConstantExprAccess().getValueINTVALTerminalRuleCall_1_0()); 
 
             }
@@ -30526,20 +30911,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__StringConstantExpr__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11142:1: rule__StringConstantExpr__ValueAssignment_1 : ( RULE_STRING ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11301:1: rule__StringConstantExpr__ValueAssignment_1 : ( RULE_STRING ) ;
     public final void rule__StringConstantExpr__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11146:1: ( ( RULE_STRING ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11147:1: ( RULE_STRING )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11305:1: ( ( RULE_STRING ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11306:1: ( RULE_STRING )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11147:1: ( RULE_STRING )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11148:1: RULE_STRING
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11306:1: ( RULE_STRING )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11307:1: RULE_STRING
             {
              before(grammarAccess.getStringConstantExprAccess().getValueSTRINGTerminalRuleCall_1_0()); 
-            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__StringConstantExpr__ValueAssignment_122706); 
+            match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__StringConstantExpr__ValueAssignment_123013); 
              after(grammarAccess.getStringConstantExprAccess().getValueSTRINGTerminalRuleCall_1_0()); 
 
             }
@@ -30563,20 +30948,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__BooleanConstantExpr__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11157:1: rule__BooleanConstantExpr__ValueAssignment_1 : ( RULE_BOOLEAN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11316:1: rule__BooleanConstantExpr__ValueAssignment_1 : ( RULE_BOOLEAN ) ;
     public final void rule__BooleanConstantExpr__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11161:1: ( ( RULE_BOOLEAN ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11162:1: ( RULE_BOOLEAN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11320:1: ( ( RULE_BOOLEAN ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11321:1: ( RULE_BOOLEAN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11162:1: ( RULE_BOOLEAN )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11163:1: RULE_BOOLEAN
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11321:1: ( RULE_BOOLEAN )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11322:1: RULE_BOOLEAN
             {
              before(grammarAccess.getBooleanConstantExprAccess().getValueBOOLEANTerminalRuleCall_1_0()); 
-            match(input,RULE_BOOLEAN,FOLLOW_RULE_BOOLEAN_in_rule__BooleanConstantExpr__ValueAssignment_122737); 
+            match(input,RULE_BOOLEAN,FOLLOW_RULE_BOOLEAN_in_rule__BooleanConstantExpr__ValueAssignment_123044); 
              after(grammarAccess.getBooleanConstantExprAccess().getValueBOOLEANTerminalRuleCall_1_0()); 
 
             }
@@ -30600,20 +30985,20 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__FloatConstantExpr__ValueAssignment_1"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11172:1: rule__FloatConstantExpr__ValueAssignment_1 : ( RULE_FLOATVAL ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11331:1: rule__FloatConstantExpr__ValueAssignment_1 : ( RULE_FLOATVAL ) ;
     public final void rule__FloatConstantExpr__ValueAssignment_1() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11176:1: ( ( RULE_FLOATVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11177:1: ( RULE_FLOATVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11335:1: ( ( RULE_FLOATVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11336:1: ( RULE_FLOATVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11177:1: ( RULE_FLOATVAL )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11178:1: RULE_FLOATVAL
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11336:1: ( RULE_FLOATVAL )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:11337:1: RULE_FLOATVAL
             {
              before(grammarAccess.getFloatConstantExprAccess().getValueFLOATVALTerminalRuleCall_1_0()); 
-            match(input,RULE_FLOATVAL,FOLLOW_RULE_FLOATVAL_in_rule__FloatConstantExpr__ValueAssignment_122768); 
+            match(input,RULE_FLOATVAL,FOLLOW_RULE_FLOATVAL_in_rule__FloatConstantExpr__ValueAssignment_123075); 
              after(grammarAccess.getFloatConstantExprAccess().getValueFLOATVALTerminalRuleCall_1_0()); 
 
             }
@@ -30834,13 +31219,13 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_rule__QualifiedName__Group__0_in_ruleQualifiedName3878 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleSimpleName_in_entryRuleSimpleName3905 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleSimpleName3912 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SimpleName__ValueAssignment_in_ruleSimpleName3938 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SimpleName__Group__0_in_ruleSimpleName3938 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleIndexedSpecialVar_in_entryRuleIndexedSpecialVar3965 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleIndexedSpecialVar3972 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__0_in_ruleIndexedSpecialVar3998 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleSpecialVar_in_entryRuleSpecialVar4025 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleSpecialVar4032 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__Alternatives_in_ruleSpecialVar4058 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group__0_in_ruleSpecialVar4058 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleBracketedExpr_in_entryRuleBracketedExpr4085 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleBracketedExpr4092 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__BracketedExpr__Group__0_in_ruleBracketedExpr4118 = new BitSet(new long[]{0x0000000000000002L});
@@ -30940,12 +31325,12 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_ruleSimpleName_in_rule__VariableExpr__Alternatives6244 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleIndexedSpecialVar_in_rule__VariableExpr__Alternatives6261 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleSpecialVar_in_rule__VariableExpr__Alternatives6278 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_0_in_rule__SpecialVar__Alternatives6310 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_in_rule__SpecialVar__Alternatives6328 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_2_in_rule__SpecialVar__Alternatives6346 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_3_in_rule__SpecialVar__Alternatives6364 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_4_in_rule__SpecialVar__Alternatives6382 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__Group_5__0_in_rule__SpecialVar__Alternatives6400 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_0_in_rule__SpecialVar__Alternatives_16310 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_1_in_rule__SpecialVar__Alternatives_16328 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_2_in_rule__SpecialVar__Alternatives_16346 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_3_in_rule__SpecialVar__Alternatives_16364 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_4_in_rule__SpecialVar__Alternatives_16382 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group_1_5__0_in_rule__SpecialVar__Alternatives_16400 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleIntConstantExpr_in_rule__ConstantExpr__Alternatives6433 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleStringConstantExpr_in_rule__ConstantExpr__Alternatives6450 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleBooleanConstantExpr_in_rule__ConstantExpr__Alternatives6467 = new BitSet(new long[]{0x0000000000000002L});
@@ -31443,142 +31828,152 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_RULE_DOT_in_rule__QualifiedName__Group_1__0__Impl18525 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__QualifiedName__Group_1__1__Impl_in_rule__QualifiedName__Group_1__118554 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_RULE_ID_in_rule__QualifiedName__Group_1__1__Impl18581 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__0__Impl_in_rule__IndexedSpecialVar__Group__018614 = new BitSet(new long[]{0x0000000000000200L});
-    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__1_in_rule__IndexedSpecialVar__Group__018617 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IndexedSpecialVar__OpAssignment_0_in_rule__IndexedSpecialVar__Group__0__Impl18644 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__1__Impl_in_rule__IndexedSpecialVar__Group__118674 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IndexedSpecialVar__ValueAssignment_1_in_rule__IndexedSpecialVar__Group__1__Impl18701 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__Group_5__0__Impl_in_rule__SpecialVar__Group_5__018735 = new BitSet(new long[]{0x0000000000000010L});
-    public static final BitSet FOLLOW_rule__SpecialVar__Group_5__1_in_rule__SpecialVar__Group_5__018738 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_5_0_in_rule__SpecialVar__Group_5__0__Impl18765 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__Group_5__1__Impl_in_rule__SpecialVar__Group_5__118795 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__SpecialVar__ValueAssignment_5_1_in_rule__SpecialVar__Group_5__1__Impl18822 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BracketedExpr__Group__0__Impl_in_rule__BracketedExpr__Group__018856 = new BitSet(new long[]{0x000F600060000210L,0x0000000000003E00L});
-    public static final BitSet FOLLOW_rule__BracketedExpr__Group__1_in_rule__BracketedExpr__Group__018859 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_LPAREN_in_rule__BracketedExpr__Group__0__Impl18886 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BracketedExpr__Group__1__Impl_in_rule__BracketedExpr__Group__118915 = new BitSet(new long[]{0x0000000080000000L});
-    public static final BitSet FOLLOW_rule__BracketedExpr__Group__2_in_rule__BracketedExpr__Group__118918 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__BracketedExpr__Group__1__Impl18945 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BracketedExpr__Group__2__Impl_in_rule__BracketedExpr__Group__218974 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_RPAREN_in_rule__BracketedExpr__Group__2__Impl19001 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__0__Impl_in_rule__IntConstantExpr__Group__019036 = new BitSet(new long[]{0x0000000000000200L});
-    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__1_in_rule__IntConstantExpr__Group__019039 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__1__Impl_in_rule__IntConstantExpr__Group__119097 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__IntConstantExpr__ValueAssignment_1_in_rule__IntConstantExpr__Group__1__Impl19124 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__0__Impl_in_rule__StringConstantExpr__Group__019158 = new BitSet(new long[]{0x0002000000000000L});
-    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__1_in_rule__StringConstantExpr__Group__019161 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__1__Impl_in_rule__StringConstantExpr__Group__119219 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__StringConstantExpr__ValueAssignment_1_in_rule__StringConstantExpr__Group__1__Impl19246 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__0__Impl_in_rule__BooleanConstantExpr__Group__019280 = new BitSet(new long[]{0x0004000000000000L});
-    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__1_in_rule__BooleanConstantExpr__Group__019283 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__1__Impl_in_rule__BooleanConstantExpr__Group__119341 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BooleanConstantExpr__ValueAssignment_1_in_rule__BooleanConstantExpr__Group__1__Impl19368 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__0__Impl_in_rule__FloatConstantExpr__Group__019402 = new BitSet(new long[]{0x000E000000000200L});
-    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__1_in_rule__FloatConstantExpr__Group__019405 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__1__Impl_in_rule__FloatConstantExpr__Group__119463 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__FloatConstantExpr__ValueAssignment_1_in_rule__FloatConstantExpr__Group__1__Impl19490 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleElement_in_rule__DomainModel__ElementsAssignment_1_019529 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_START_RULE_in_rule__BytemanRule__NameAssignment_019560 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleEvent_in_rule__BytemanRule__EventAssignment_219591 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBody_in_rule__BytemanRule__BodyAssignment_319622 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBind_in_rule__Body__BindAssignment_019653 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCondition_in_rule__Body__ConditionAssignment_119684 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleActions_in_rule__Body__ActionsAssignment_219715 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleEventClass_in_rule__Event__ClassAssignment_0_019746 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleEventInterface_in_rule__Event__InterfaceAssignment_0_119777 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleEventMethod_in_rule__Event__MethodAssignment_219808 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleHelper_in_rule__Event__HelperAssignment_4_019839 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleLocationSpecifier_in_rule__Event__LocationSpecAssignment_5_019870 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_KEYWORD_CLASS_in_rule__EventClass__KeywordAssignment_019901 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__EventClass__NameAssignment_119932 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_KEYWORD_INTERFACE_in_rule__EventInterface__KeywordAssignment_019963 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__EventInterface__NameAssignment_119994 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleMethodName_in_rule__EventMethod__NameAssignment_120025 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__EventMethod__ParameterTypesAssignment_220056 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__Helper__HelperAssignment_220087 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__AtLine__LineAssignment_220118 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtReadField__NameAssignment_220149 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtReadField__CounterAssignment_320180 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__AtReadLocal__NameAssignment_320211 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtReadLocal__CounterAssignment_420242 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterReadField__NameAssignment_220273 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterReadField__CounterAssignment_320304 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__AfterReadLocal__NameAssignment_320335 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterReadLocal__CounterAssignment_420366 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtWriteField__NameAssignment_220397 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtWriteField__CounterAssignment_320428 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__AtWriteLocal__NameAssignment_320459 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtWriteLocal__CounterAssignment_420490 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterWriteField__NameAssignment_220521 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterWriteField__CounterAssignment_320552 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__AfterWriteLocal__NameAssignment_320583 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterWriteLocal__CounterAssignment_420614 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtInvoke__NameAssignment_220645 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__AtInvoke__ParameterTypesAssignment_320676 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtInvoke__CounterAssignment_420707 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterInvoke__NameAssignment_220738 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__AfterInvoke__ParameterTypesAssignment_320769 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterInvoke__CounterAssignment_420800 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtSynchronize__CounterAssignment_220831 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterSynchronize__CounterAssignment_220862 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtThrow__NameAssignment_220893 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCounter_in_rule__AtThrow__CounterAssignment_320924 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_020955 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_1_120986 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBindings_in_rule__Bind__BindAssignment_2_121017 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_021048 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_1_121079 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBindVariable_in_rule__Binding__BindVariableAssignment_021110 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleTypeName_in_rule__Binding__TypenameAssignment_1_121141 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__Binding__ValueAssignment_321172 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleActionList_in_rule__Actions__ActionListAssignment_2_021203 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_021234 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_1_121265 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_KEYWORD_RETURN_in_rule__ReturnExpr__OpAssignment_021296 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__ReturnExpr__Operand1Assignment_121327 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_KEYWORD_THROW_in_rule__ThrowExpr__OpAssignment_021358 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__ThrowExpr__Operand1Assignment_121389 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ASSIGN_in_rule__AssignmentExpr__OpAssignment_1_121420 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221451 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__OperatorExpr__OpAlternatives_1_1_0_in_rule__OperatorExpr__OpAssignment_1_121482 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rulePlusMinusOperand_in_rule__OperatorExpr__Operand2Assignment_1_221515 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__PlusMinusOperand__OpAlternatives_1_1_0_in_rule__PlusMinusOperand__OpAssignment_1_121546 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleTimesDivOperand_in_rule__PlusMinusOperand__Operand2Assignment_1_221579 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__TimesDivOperand__OpAlternatives_0_1_1_0_in_rule__TimesDivOperand__OpAssignment_0_1_121610 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand2Assignment_0_1_221643 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_BNOT_in_rule__TimesDivOperand__OpAssignment_1_021674 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand1Assignment_1_121705 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BitwiseOperand__OpAlternatives_1_1_0_in_rule__BitwiseOperand__OpAssignment_1_121736 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__BitwiseOperand__Operand2Alternatives_1_2_0_in_rule__BitwiseOperand__Operand2Assignment_1_221769 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_NOT_in_rule__NotOperand__OpAssignment_021802 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleLogicalOperand_in_rule__NotOperand__Operand1Assignment_121833 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__LogicalOperand__OpAlternatives_1_1_0_in_rule__LogicalOperand__OpAssignment_1_121864 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleComparisonOperand_in_rule__LogicalOperand__Operand2Assignment_1_221897 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_LSQUARE_in_rule__AccessExpr__OpAssignment_1_0_121928 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__AccessExpr__Operand2Assignment_1_0_221959 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_DOT_in_rule__AccessExpr__OpAssignment_1_1_121990 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__AccessExpr__ValueAssignment_1_1_222021 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCallArguments_in_rule__AccessExpr__ArgsAssignment_1_1_322052 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__BuiltinExpr__ValueAssignment_122083 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCallArguments_in_rule__BuiltinExpr__ArgsAssignment_222114 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_NEW_in_rule__NewExpr__OpAssignment_122145 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__NewExpr__ValueAssignment_222176 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleCallArguments_in_rule__NewExpr__ParamsAssignment_322207 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_022238 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_1_122269 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__SimpleName__ValueAssignment22300 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_DOLLAR_in_rule__IndexedSpecialVar__OpAssignment_022331 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__IndexedSpecialVar__ValueAssignment_122362 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_73_in_rule__SpecialVar__OpAssignment_022398 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_74_in_rule__SpecialVar__OpAssignment_122442 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_75_in_rule__SpecialVar__OpAssignment_222486 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_76_in_rule__SpecialVar__OpAssignment_322530 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_77_in_rule__SpecialVar__OpAssignment_422574 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_DOLLAR_in_rule__SpecialVar__OpAssignment_5_022613 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_rule__SpecialVar__ValueAssignment_5_122644 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__IntConstantExpr__ValueAssignment_122675 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_STRING_in_rule__StringConstantExpr__ValueAssignment_122706 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_BOOLEAN_in_rule__BooleanConstantExpr__ValueAssignment_122737 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_FLOATVAL_in_rule__FloatConstantExpr__ValueAssignment_122768 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SimpleName__Group__0__Impl_in_rule__SimpleName__Group__018614 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__SimpleName__Group__1_in_rule__SimpleName__Group__018617 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SimpleName__Group__1__Impl_in_rule__SimpleName__Group__118675 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SimpleName__ValueAssignment_1_in_rule__SimpleName__Group__1__Impl18702 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__0__Impl_in_rule__IndexedSpecialVar__Group__018736 = new BitSet(new long[]{0x0000000020000000L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__1_in_rule__IndexedSpecialVar__Group__018739 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__1__Impl_in_rule__IndexedSpecialVar__Group__118797 = new BitSet(new long[]{0x0000000000000200L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__2_in_rule__IndexedSpecialVar__Group__118800 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__OpAssignment_1_in_rule__IndexedSpecialVar__Group__1__Impl18827 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__Group__2__Impl_in_rule__IndexedSpecialVar__Group__218857 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IndexedSpecialVar__ValueAssignment_2_in_rule__IndexedSpecialVar__Group__2__Impl18884 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group__0__Impl_in_rule__SpecialVar__Group__018920 = new BitSet(new long[]{0x0000000020000010L,0x0000000000003E00L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group__1_in_rule__SpecialVar__Group__018923 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group__1__Impl_in_rule__SpecialVar__Group__118981 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Alternatives_1_in_rule__SpecialVar__Group__1__Impl19008 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group_1_5__0__Impl_in_rule__SpecialVar__Group_1_5__019042 = new BitSet(new long[]{0x0000000000000010L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group_1_5__1_in_rule__SpecialVar__Group_1_5__019045 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__OpAssignment_1_5_0_in_rule__SpecialVar__Group_1_5__0__Impl19072 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__Group_1_5__1__Impl_in_rule__SpecialVar__Group_1_5__119102 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__SpecialVar__ValueAssignment_1_5_1_in_rule__SpecialVar__Group_1_5__1__Impl19129 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BracketedExpr__Group__0__Impl_in_rule__BracketedExpr__Group__019163 = new BitSet(new long[]{0x000F600060000210L,0x0000000000003E00L});
+    public static final BitSet FOLLOW_rule__BracketedExpr__Group__1_in_rule__BracketedExpr__Group__019166 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_LPAREN_in_rule__BracketedExpr__Group__0__Impl19193 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BracketedExpr__Group__1__Impl_in_rule__BracketedExpr__Group__119222 = new BitSet(new long[]{0x0000000080000000L});
+    public static final BitSet FOLLOW_rule__BracketedExpr__Group__2_in_rule__BracketedExpr__Group__119225 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__BracketedExpr__Group__1__Impl19252 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BracketedExpr__Group__2__Impl_in_rule__BracketedExpr__Group__219281 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_RPAREN_in_rule__BracketedExpr__Group__2__Impl19308 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__0__Impl_in_rule__IntConstantExpr__Group__019343 = new BitSet(new long[]{0x0000000000000200L});
+    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__1_in_rule__IntConstantExpr__Group__019346 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IntConstantExpr__Group__1__Impl_in_rule__IntConstantExpr__Group__119404 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__IntConstantExpr__ValueAssignment_1_in_rule__IntConstantExpr__Group__1__Impl19431 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__0__Impl_in_rule__StringConstantExpr__Group__019465 = new BitSet(new long[]{0x0002000000000000L});
+    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__1_in_rule__StringConstantExpr__Group__019468 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__StringConstantExpr__Group__1__Impl_in_rule__StringConstantExpr__Group__119526 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__StringConstantExpr__ValueAssignment_1_in_rule__StringConstantExpr__Group__1__Impl19553 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__0__Impl_in_rule__BooleanConstantExpr__Group__019587 = new BitSet(new long[]{0x0004000000000000L});
+    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__1_in_rule__BooleanConstantExpr__Group__019590 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BooleanConstantExpr__Group__1__Impl_in_rule__BooleanConstantExpr__Group__119648 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BooleanConstantExpr__ValueAssignment_1_in_rule__BooleanConstantExpr__Group__1__Impl19675 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__0__Impl_in_rule__FloatConstantExpr__Group__019709 = new BitSet(new long[]{0x000E000000000200L});
+    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__1_in_rule__FloatConstantExpr__Group__019712 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FloatConstantExpr__Group__1__Impl_in_rule__FloatConstantExpr__Group__119770 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__FloatConstantExpr__ValueAssignment_1_in_rule__FloatConstantExpr__Group__1__Impl19797 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleElement_in_rule__DomainModel__ElementsAssignment_1_019836 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_START_RULE_in_rule__BytemanRule__NameAssignment_019867 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEvent_in_rule__BytemanRule__EventAssignment_219898 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBody_in_rule__BytemanRule__BodyAssignment_319929 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBind_in_rule__Body__BindAssignment_019960 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCondition_in_rule__Body__ConditionAssignment_119991 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleActions_in_rule__Body__ActionsAssignment_220022 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEventClass_in_rule__Event__ClassAssignment_0_020053 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEventInterface_in_rule__Event__InterfaceAssignment_0_120084 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEventMethod_in_rule__Event__MethodAssignment_220115 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleHelper_in_rule__Event__HelperAssignment_4_020146 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleLocationSpecifier_in_rule__Event__LocationSpecAssignment_5_020177 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_KEYWORD_CLASS_in_rule__EventClass__KeywordAssignment_020208 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__EventClass__NameAssignment_120239 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_KEYWORD_INTERFACE_in_rule__EventInterface__KeywordAssignment_020270 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__EventInterface__NameAssignment_120301 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleMethodName_in_rule__EventMethod__NameAssignment_120332 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__EventMethod__ParameterTypesAssignment_220363 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__Helper__HelperAssignment_220394 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__AtLine__LineAssignment_220425 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtReadField__NameAssignment_220456 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtReadField__CounterAssignment_320487 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__AtReadLocal__NameAssignment_320518 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtReadLocal__CounterAssignment_420549 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterReadField__NameAssignment_220580 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterReadField__CounterAssignment_320611 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__AfterReadLocal__NameAssignment_320642 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterReadLocal__CounterAssignment_420673 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtWriteField__NameAssignment_220704 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtWriteField__CounterAssignment_320735 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__AtWriteLocal__NameAssignment_320766 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtWriteLocal__CounterAssignment_420797 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterWriteField__NameAssignment_220828 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterWriteField__CounterAssignment_320859 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__AfterWriteLocal__NameAssignment_320890 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterWriteLocal__CounterAssignment_420921 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtInvoke__NameAssignment_220952 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__AtInvoke__ParameterTypesAssignment_320983 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtInvoke__CounterAssignment_421014 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AfterInvoke__NameAssignment_221045 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleParameterTypes_in_rule__AfterInvoke__ParameterTypesAssignment_321076 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterInvoke__CounterAssignment_421107 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtSynchronize__CounterAssignment_221138 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AfterSynchronize__CounterAssignment_221169 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__AtThrow__NameAssignment_221200 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCounter_in_rule__AtThrow__CounterAssignment_321231 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_021262 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleParamTypeName_in_rule__ParameterTypes__ParamTypeNamesAssignment_2_1_121293 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBindings_in_rule__Bind__BindAssignment_2_121324 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_021355 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBinding_in_rule__Bindings__BindingsAssignment_1_121386 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBindVariable_in_rule__Binding__BindVariableAssignment_021417 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTypeName_in_rule__Binding__TypenameAssignment_1_121448 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__Binding__ValueAssignment_321479 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleActionList_in_rule__Actions__ActionListAssignment_2_021510 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_021541 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleAction_in_rule__ActionList__ActionsAssignment_1_121572 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_KEYWORD_RETURN_in_rule__ReturnExpr__OpAssignment_021603 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__ReturnExpr__Operand1Assignment_121634 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_KEYWORD_THROW_in_rule__ThrowExpr__OpAssignment_021665 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__ThrowExpr__Operand1Assignment_121696 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ASSIGN_in_rule__AssignmentExpr__OpAssignment_1_121727 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__OperatorExpr__OpAlternatives_1_1_0_in_rule__OperatorExpr__OpAssignment_1_121789 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rulePlusMinusOperand_in_rule__OperatorExpr__Operand2Assignment_1_221822 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PlusMinusOperand__OpAlternatives_1_1_0_in_rule__PlusMinusOperand__OpAssignment_1_121853 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTimesDivOperand_in_rule__PlusMinusOperand__Operand2Assignment_1_221886 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TimesDivOperand__OpAlternatives_0_1_1_0_in_rule__TimesDivOperand__OpAssignment_0_1_121917 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand2Assignment_0_1_221950 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_BNOT_in_rule__TimesDivOperand__OpAssignment_1_021981 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBitwiseOperand_in_rule__TimesDivOperand__Operand1Assignment_1_122012 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BitwiseOperand__OpAlternatives_1_1_0_in_rule__BitwiseOperand__OpAssignment_1_122043 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__BitwiseOperand__Operand2Alternatives_1_2_0_in_rule__BitwiseOperand__Operand2Assignment_1_222076 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_NOT_in_rule__NotOperand__OpAssignment_022109 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleLogicalOperand_in_rule__NotOperand__Operand1Assignment_122140 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__LogicalOperand__OpAlternatives_1_1_0_in_rule__LogicalOperand__OpAssignment_1_122171 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComparisonOperand_in_rule__LogicalOperand__Operand2Assignment_1_222204 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_LSQUARE_in_rule__AccessExpr__OpAssignment_1_0_122235 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__AccessExpr__Operand2Assignment_1_0_222266 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_DOT_in_rule__AccessExpr__OpAssignment_1_1_122297 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__AccessExpr__ValueAssignment_1_1_222328 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCallArguments_in_rule__AccessExpr__ArgsAssignment_1_1_322359 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__BuiltinExpr__ValueAssignment_122390 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCallArguments_in_rule__BuiltinExpr__ArgsAssignment_222421 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_NEW_in_rule__NewExpr__OpAssignment_122452 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleQualifiedName_in_rule__NewExpr__ValueAssignment_222483 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCallArguments_in_rule__NewExpr__ParamsAssignment_322514 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_022545 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleExpression_in_rule__CallArguments__ArgsAssignment_2_1_122576 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__SimpleName__ValueAssignment_122607 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_DOLLAR_in_rule__IndexedSpecialVar__OpAssignment_122638 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__IndexedSpecialVar__ValueAssignment_222669 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_73_in_rule__SpecialVar__OpAssignment_1_022705 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_74_in_rule__SpecialVar__OpAssignment_1_122749 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_75_in_rule__SpecialVar__OpAssignment_1_222793 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_76_in_rule__SpecialVar__OpAssignment_1_322837 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_77_in_rule__SpecialVar__OpAssignment_1_422881 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_DOLLAR_in_rule__SpecialVar__OpAssignment_1_5_022920 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__SpecialVar__ValueAssignment_1_5_122951 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_INTVAL_in_rule__IntConstantExpr__ValueAssignment_122982 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_rule__StringConstantExpr__ValueAssignment_123013 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_BOOLEAN_in_rule__BooleanConstantExpr__ValueAssignment_123044 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_FLOATVAL_in_rule__FloatConstantExpr__ValueAssignment_123075 = new BitSet(new long[]{0x0000000000000002L});
 
 }

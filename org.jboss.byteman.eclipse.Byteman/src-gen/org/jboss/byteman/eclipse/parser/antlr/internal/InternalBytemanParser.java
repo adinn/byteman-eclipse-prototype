@@ -9994,11 +9994,11 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
             if ( (LA69_0==RULE_ID) ) {
                 int LA69_1 = input.LA(2);
 
-                if ( (LA69_1==RULE_LPAREN) ) {
-                    alt69=1;
-                }
-                else if ( (LA69_1==EOF||LA69_1==RULE_END_RULE||(LA69_1>=RULE_COMMA && LA69_1<=RULE_RPAREN)||LA69_1==RULE_SEMICOLON||(LA69_1>=RULE_ASSIGN && LA69_1<=RULE_DO)||(LA69_1>=RULE_PLUS && LA69_1<=RULE_BXOR)||(LA69_1>=RULE_OR && LA69_1<=RULE_AND)||(LA69_1>=RULE_EQ && LA69_1<=RULE_DOT)) ) {
+                if ( (LA69_1==EOF||LA69_1==RULE_END_RULE||(LA69_1>=RULE_COMMA && LA69_1<=RULE_RPAREN)||LA69_1==RULE_SEMICOLON||(LA69_1>=RULE_ASSIGN && LA69_1<=RULE_DO)||(LA69_1>=RULE_PLUS && LA69_1<=RULE_BXOR)||(LA69_1>=RULE_OR && LA69_1<=RULE_AND)||(LA69_1>=RULE_EQ && LA69_1<=RULE_DOT)) ) {
                     alt69=2;
+                }
+                else if ( (LA69_1==RULE_LPAREN) ) {
+                    alt69=1;
                 }
                 else {
                     NoViableAltException nvae =
@@ -10644,11 +10644,11 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                 {
                 int LA71_2 = input.LA(2);
 
-                if ( (LA71_2==RULE_ID) ) {
-                    alt71=3;
-                }
-                else if ( (LA71_2==RULE_INTVAL) ) {
+                if ( (LA71_2==RULE_INTVAL) ) {
                     alt71=2;
+                }
+                else if ( (LA71_2==RULE_ID) ) {
+                    alt71=3;
                 }
                 else {
                     NoViableAltException nvae =
@@ -11109,27 +11109,41 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleSimpleName"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4198:1: ruleSimpleName returns [EObject current=null] : ( (lv_value_0_0= RULE_ID ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4198:1: ruleSimpleName returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_ID ) ) ) ;
     public final EObject ruleSimpleName() throws RecognitionException {
         EObject current = null;
 
-        Token lv_value_0_0=null;
+        Token lv_value_1_0=null;
 
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4201:28: ( ( (lv_value_0_0= RULE_ID ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:1: ( (lv_value_0_0= RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4201:28: ( ( () ( (lv_value_1_0= RULE_ID ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:1: ( () ( (lv_value_1_0= RULE_ID ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:1: ( (lv_value_0_0= RULE_ID ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4203:1: (lv_value_0_0= RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:1: ( () ( (lv_value_1_0= RULE_ID ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:2: () ( (lv_value_1_0= RULE_ID ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4203:1: (lv_value_0_0= RULE_ID )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4204:3: lv_value_0_0= RULE_ID
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4202:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4203:5: 
             {
-            lv_value_0_0=(Token)match(input,RULE_ID,FOLLOW_RULE_ID_in_ruleSimpleName9343); 
 
-            			newLeafNode(lv_value_0_0, grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_0()); 
+                    current = forceCreateModelElement(
+                        grammarAccess.getSimpleNameAccess().getSimpleNameAction_0(),
+                        current);
+                
+
+            }
+
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4208:2: ( (lv_value_1_0= RULE_ID ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4209:1: (lv_value_1_0= RULE_ID )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4209:1: (lv_value_1_0= RULE_ID )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4210:3: lv_value_1_0= RULE_ID
+            {
+            lv_value_1_0=(Token)match(input,RULE_ID,FOLLOW_RULE_ID_in_ruleSimpleName9353); 
+
+            			newLeafNode(lv_value_1_0, grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_1_0()); 
             		
 
             	        if (current==null) {
@@ -11138,9 +11152,12 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                    		setWithLastConsumed(
                    			current, 
                    			"value",
-                    		lv_value_0_0, 
+                    		lv_value_1_0, 
                     		"ID");
             	    
+
+            }
+
 
             }
 
@@ -11165,7 +11182,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleIndexedSpecialVar"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4228:1: entryRuleIndexedSpecialVar returns [EObject current=null] : iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4234:1: entryRuleIndexedSpecialVar returns [EObject current=null] : iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF ;
     public final EObject entryRuleIndexedSpecialVar() throws RecognitionException {
         EObject current = null;
 
@@ -11173,17 +11190,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4229:2: (iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4230:2: iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4235:2: (iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4236:2: iv_ruleIndexedSpecialVar= ruleIndexedSpecialVar EOF
             {
              newCompositeNode(grammarAccess.getIndexedSpecialVarRule()); 
-            pushFollow(FOLLOW_ruleIndexedSpecialVar_in_entryRuleIndexedSpecialVar9383);
+            pushFollow(FOLLOW_ruleIndexedSpecialVar_in_entryRuleIndexedSpecialVar9394);
             iv_ruleIndexedSpecialVar=ruleIndexedSpecialVar();
 
             state._fsp--;
 
              current =iv_ruleIndexedSpecialVar; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleIndexedSpecialVar9393); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleIndexedSpecialVar9404); 
 
             }
 
@@ -11201,31 +11218,42 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleIndexedSpecialVar"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4237:1: ruleIndexedSpecialVar returns [EObject current=null] : ( ( (lv_op_0_0= RULE_DOLLAR ) ) ( (lv_value_1_0= RULE_INTVAL ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4243:1: ruleIndexedSpecialVar returns [EObject current=null] : ( () ( (lv_op_1_0= RULE_DOLLAR ) ) ( (lv_value_2_0= RULE_INTVAL ) ) ) ;
     public final EObject ruleIndexedSpecialVar() throws RecognitionException {
         EObject current = null;
 
-        Token lv_op_0_0=null;
-        Token lv_value_1_0=null;
+        Token lv_op_1_0=null;
+        Token lv_value_2_0=null;
 
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4240:28: ( ( ( (lv_op_0_0= RULE_DOLLAR ) ) ( (lv_value_1_0= RULE_INTVAL ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4241:1: ( ( (lv_op_0_0= RULE_DOLLAR ) ) ( (lv_value_1_0= RULE_INTVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4246:28: ( ( () ( (lv_op_1_0= RULE_DOLLAR ) ) ( (lv_value_2_0= RULE_INTVAL ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4247:1: ( () ( (lv_op_1_0= RULE_DOLLAR ) ) ( (lv_value_2_0= RULE_INTVAL ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4241:1: ( ( (lv_op_0_0= RULE_DOLLAR ) ) ( (lv_value_1_0= RULE_INTVAL ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4241:2: ( (lv_op_0_0= RULE_DOLLAR ) ) ( (lv_value_1_0= RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4247:1: ( () ( (lv_op_1_0= RULE_DOLLAR ) ) ( (lv_value_2_0= RULE_INTVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4247:2: () ( (lv_op_1_0= RULE_DOLLAR ) ) ( (lv_value_2_0= RULE_INTVAL ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4241:2: ( (lv_op_0_0= RULE_DOLLAR ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4242:1: (lv_op_0_0= RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4247:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4248:5: 
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4242:1: (lv_op_0_0= RULE_DOLLAR )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4243:3: lv_op_0_0= RULE_DOLLAR
-            {
-            lv_op_0_0=(Token)match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_ruleIndexedSpecialVar9435); 
 
-            			newLeafNode(lv_op_0_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_0_0()); 
+                    current = forceCreateModelElement(
+                        grammarAccess.getIndexedSpecialVarAccess().getIndexedSpecialVarAction_0(),
+                        current);
+                
+
+            }
+
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4253:2: ( (lv_op_1_0= RULE_DOLLAR ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4254:1: (lv_op_1_0= RULE_DOLLAR )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4254:1: (lv_op_1_0= RULE_DOLLAR )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4255:3: lv_op_1_0= RULE_DOLLAR
+            {
+            lv_op_1_0=(Token)match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_ruleIndexedSpecialVar9455); 
+
+            			newLeafNode(lv_op_1_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); 
             		
 
             	        if (current==null) {
@@ -11234,7 +11262,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                    		setWithLastConsumed(
                    			current, 
                    			"op",
-                    		lv_op_0_0, 
+                    		lv_op_1_0, 
                     		"DOLLAR");
             	    
 
@@ -11243,15 +11271,15 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4259:2: ( (lv_value_1_0= RULE_INTVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4260:1: (lv_value_1_0= RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4271:2: ( (lv_value_2_0= RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4272:1: (lv_value_2_0= RULE_INTVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4260:1: (lv_value_1_0= RULE_INTVAL )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4261:3: lv_value_1_0= RULE_INTVAL
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4272:1: (lv_value_2_0= RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4273:3: lv_value_2_0= RULE_INTVAL
             {
-            lv_value_1_0=(Token)match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_ruleIndexedSpecialVar9457); 
+            lv_value_2_0=(Token)match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_ruleIndexedSpecialVar9477); 
 
-            			newLeafNode(lv_value_1_0, grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_1_0()); 
+            			newLeafNode(lv_value_2_0, grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); 
             		
 
             	        if (current==null) {
@@ -11260,7 +11288,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                    		setWithLastConsumed(
                    			current, 
                    			"value",
-                    		lv_value_1_0, 
+                    		lv_value_2_0, 
                     		"INTVAL");
             	    
 
@@ -11290,7 +11318,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleSpecialVar"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4285:1: entryRuleSpecialVar returns [EObject current=null] : iv_ruleSpecialVar= ruleSpecialVar EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4297:1: entryRuleSpecialVar returns [EObject current=null] : iv_ruleSpecialVar= ruleSpecialVar EOF ;
     public final EObject entryRuleSpecialVar() throws RecognitionException {
         EObject current = null;
 
@@ -11298,17 +11326,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4286:2: (iv_ruleSpecialVar= ruleSpecialVar EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4287:2: iv_ruleSpecialVar= ruleSpecialVar EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4298:2: (iv_ruleSpecialVar= ruleSpecialVar EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4299:2: iv_ruleSpecialVar= ruleSpecialVar EOF
             {
              newCompositeNode(grammarAccess.getSpecialVarRule()); 
-            pushFollow(FOLLOW_ruleSpecialVar_in_entryRuleSpecialVar9498);
+            pushFollow(FOLLOW_ruleSpecialVar_in_entryRuleSpecialVar9518);
             iv_ruleSpecialVar=ruleSpecialVar();
 
             state._fsp--;
 
              current =iv_ruleSpecialVar; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleSpecialVar9508); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleSpecialVar9528); 
 
             }
 
@@ -11326,25 +11354,39 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleSpecialVar"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4294:1: ruleSpecialVar returns [EObject current=null] : ( ( (lv_op_0_0= '$#' ) ) | ( (lv_op_1_0= '$!' ) ) | ( (lv_op_2_0= '$^' ) ) | ( (lv_op_3_0= '$@' ) ) | ( (lv_op_4_0= '$*' ) ) | ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4306:1: ruleSpecialVar returns [EObject current=null] : ( () ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) ) ) ;
     public final EObject ruleSpecialVar() throws RecognitionException {
         EObject current = null;
 
-        Token lv_op_0_0=null;
         Token lv_op_1_0=null;
         Token lv_op_2_0=null;
         Token lv_op_3_0=null;
         Token lv_op_4_0=null;
         Token lv_op_5_0=null;
-        Token lv_value_6_0=null;
+        Token lv_op_6_0=null;
+        Token lv_value_7_0=null;
 
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4297:28: ( ( ( (lv_op_0_0= '$#' ) ) | ( (lv_op_1_0= '$!' ) ) | ( (lv_op_2_0= '$^' ) ) | ( (lv_op_3_0= '$@' ) ) | ( (lv_op_4_0= '$*' ) ) | ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4298:1: ( ( (lv_op_0_0= '$#' ) ) | ( (lv_op_1_0= '$!' ) ) | ( (lv_op_2_0= '$^' ) ) | ( (lv_op_3_0= '$@' ) ) | ( (lv_op_4_0= '$*' ) ) | ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4309:28: ( ( () ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4310:1: ( () ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4298:1: ( ( (lv_op_0_0= '$#' ) ) | ( (lv_op_1_0= '$!' ) ) | ( (lv_op_2_0= '$^' ) ) | ( (lv_op_3_0= '$@' ) ) | ( (lv_op_4_0= '$*' ) ) | ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4310:1: ( () ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4310:2: () ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) )
+            {
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4310:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4311:5: 
+            {
+
+                    current = forceCreateModelElement(
+                        grammarAccess.getSpecialVarAccess().getSpecialVarAction_0(),
+                        current);
+                
+
+            }
+
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4316:2: ( ( (lv_op_1_0= '$#' ) ) | ( (lv_op_2_0= '$!' ) ) | ( (lv_op_3_0= '$^' ) ) | ( (lv_op_4_0= '$@' ) ) | ( (lv_op_5_0= '$*' ) ) | ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) ) )
             int alt75=6;
             switch ( input.LA(1) ) {
             case 73:
@@ -11386,23 +11428,23 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             switch (alt75) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4298:2: ( (lv_op_0_0= '$#' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4316:3: ( (lv_op_1_0= '$#' ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4298:2: ( (lv_op_0_0= '$#' ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4299:1: (lv_op_0_0= '$#' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4316:3: ( (lv_op_1_0= '$#' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4317:1: (lv_op_1_0= '$#' )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4299:1: (lv_op_0_0= '$#' )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4300:3: lv_op_0_0= '$#'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4317:1: (lv_op_1_0= '$#' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4318:3: lv_op_1_0= '$#'
                     {
-                    lv_op_0_0=(Token)match(input,73,FOLLOW_73_in_ruleSpecialVar9551); 
+                    lv_op_1_0=(Token)match(input,73,FOLLOW_73_in_ruleSpecialVar9581); 
 
-                            newLeafNode(lv_op_0_0, grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0());
+                            newLeafNode(lv_op_1_0, grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0());
                         
 
                     	        if (current==null) {
                     	            current = createModelElement(grammarAccess.getSpecialVarRule());
                     	        }
-                           		setWithLastConsumed(current, "op", lv_op_0_0, "$#");
+                           		setWithLastConsumed(current, "op", lv_op_1_0, "$#");
                     	    
 
                     }
@@ -11414,23 +11456,23 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4314:6: ( (lv_op_1_0= '$!' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4332:6: ( (lv_op_2_0= '$!' ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4314:6: ( (lv_op_1_0= '$!' ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4315:1: (lv_op_1_0= '$!' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4332:6: ( (lv_op_2_0= '$!' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4333:1: (lv_op_2_0= '$!' )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4315:1: (lv_op_1_0= '$!' )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4316:3: lv_op_1_0= '$!'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4333:1: (lv_op_2_0= '$!' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4334:3: lv_op_2_0= '$!'
                     {
-                    lv_op_1_0=(Token)match(input,74,FOLLOW_74_in_ruleSpecialVar9588); 
+                    lv_op_2_0=(Token)match(input,74,FOLLOW_74_in_ruleSpecialVar9618); 
 
-                            newLeafNode(lv_op_1_0, grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0());
+                            newLeafNode(lv_op_2_0, grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0());
                         
 
                     	        if (current==null) {
                     	            current = createModelElement(grammarAccess.getSpecialVarRule());
                     	        }
-                           		setWithLastConsumed(current, "op", lv_op_1_0, "$!");
+                           		setWithLastConsumed(current, "op", lv_op_2_0, "$!");
                     	    
 
                     }
@@ -11442,23 +11484,23 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4330:6: ( (lv_op_2_0= '$^' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4348:6: ( (lv_op_3_0= '$^' ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4330:6: ( (lv_op_2_0= '$^' ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4331:1: (lv_op_2_0= '$^' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4348:6: ( (lv_op_3_0= '$^' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4349:1: (lv_op_3_0= '$^' )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4331:1: (lv_op_2_0= '$^' )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4332:3: lv_op_2_0= '$^'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4349:1: (lv_op_3_0= '$^' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4350:3: lv_op_3_0= '$^'
                     {
-                    lv_op_2_0=(Token)match(input,75,FOLLOW_75_in_ruleSpecialVar9625); 
+                    lv_op_3_0=(Token)match(input,75,FOLLOW_75_in_ruleSpecialVar9655); 
 
-                            newLeafNode(lv_op_2_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0());
+                            newLeafNode(lv_op_3_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0());
                         
 
                     	        if (current==null) {
                     	            current = createModelElement(grammarAccess.getSpecialVarRule());
                     	        }
-                           		setWithLastConsumed(current, "op", lv_op_2_0, "$^");
+                           		setWithLastConsumed(current, "op", lv_op_3_0, "$^");
                     	    
 
                     }
@@ -11470,23 +11512,23 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4346:6: ( (lv_op_3_0= '$@' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4364:6: ( (lv_op_4_0= '$@' ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4346:6: ( (lv_op_3_0= '$@' ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4347:1: (lv_op_3_0= '$@' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4364:6: ( (lv_op_4_0= '$@' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4365:1: (lv_op_4_0= '$@' )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4347:1: (lv_op_3_0= '$@' )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4348:3: lv_op_3_0= '$@'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4365:1: (lv_op_4_0= '$@' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4366:3: lv_op_4_0= '$@'
                     {
-                    lv_op_3_0=(Token)match(input,76,FOLLOW_76_in_ruleSpecialVar9662); 
+                    lv_op_4_0=(Token)match(input,76,FOLLOW_76_in_ruleSpecialVar9692); 
 
-                            newLeafNode(lv_op_3_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0());
+                            newLeafNode(lv_op_4_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0());
                         
 
                     	        if (current==null) {
                     	            current = createModelElement(grammarAccess.getSpecialVarRule());
                     	        }
-                           		setWithLastConsumed(current, "op", lv_op_3_0, "$@");
+                           		setWithLastConsumed(current, "op", lv_op_4_0, "$@");
                     	    
 
                     }
@@ -11498,23 +11540,23 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 5 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4362:6: ( (lv_op_4_0= '$*' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4380:6: ( (lv_op_5_0= '$*' ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4362:6: ( (lv_op_4_0= '$*' ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4363:1: (lv_op_4_0= '$*' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4380:6: ( (lv_op_5_0= '$*' ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4381:1: (lv_op_5_0= '$*' )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4363:1: (lv_op_4_0= '$*' )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4364:3: lv_op_4_0= '$*'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4381:1: (lv_op_5_0= '$*' )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4382:3: lv_op_5_0= '$*'
                     {
-                    lv_op_4_0=(Token)match(input,77,FOLLOW_77_in_ruleSpecialVar9699); 
+                    lv_op_5_0=(Token)match(input,77,FOLLOW_77_in_ruleSpecialVar9729); 
 
-                            newLeafNode(lv_op_4_0, grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0());
+                            newLeafNode(lv_op_5_0, grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0());
                         
 
                     	        if (current==null) {
                     	            current = createModelElement(grammarAccess.getSpecialVarRule());
                     	        }
-                           		setWithLastConsumed(current, "op", lv_op_4_0, "$*");
+                           		setWithLastConsumed(current, "op", lv_op_5_0, "$*");
                     	    
 
                     }
@@ -11526,20 +11568,20 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 6 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4378:6: ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4396:6: ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4378:6: ( ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4378:7: ( (lv_op_5_0= RULE_DOLLAR ) ) ( (lv_value_6_0= RULE_ID ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4396:6: ( ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4396:7: ( (lv_op_6_0= RULE_DOLLAR ) ) ( (lv_value_7_0= RULE_ID ) )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4378:7: ( (lv_op_5_0= RULE_DOLLAR ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4379:1: (lv_op_5_0= RULE_DOLLAR )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4396:7: ( (lv_op_6_0= RULE_DOLLAR ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4397:1: (lv_op_6_0= RULE_DOLLAR )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4379:1: (lv_op_5_0= RULE_DOLLAR )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4380:3: lv_op_5_0= RULE_DOLLAR
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4397:1: (lv_op_6_0= RULE_DOLLAR )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4398:3: lv_op_6_0= RULE_DOLLAR
                     {
-                    lv_op_5_0=(Token)match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_ruleSpecialVar9736); 
+                    lv_op_6_0=(Token)match(input,RULE_DOLLAR,FOLLOW_RULE_DOLLAR_in_ruleSpecialVar9766); 
 
-                    			newLeafNode(lv_op_5_0, grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_5_0_0()); 
+                    			newLeafNode(lv_op_6_0, grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_5_0_0()); 
                     		
 
                     	        if (current==null) {
@@ -11548,7 +11590,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                            		setWithLastConsumed(
                            			current, 
                            			"op",
-                            		lv_op_5_0, 
+                            		lv_op_6_0, 
                             		"DOLLAR");
                     	    
 
@@ -11557,15 +11599,15 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
                     }
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4396:2: ( (lv_value_6_0= RULE_ID ) )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4397:1: (lv_value_6_0= RULE_ID )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4414:2: ( (lv_value_7_0= RULE_ID ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4415:1: (lv_value_7_0= RULE_ID )
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4397:1: (lv_value_6_0= RULE_ID )
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4398:3: lv_value_6_0= RULE_ID
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4415:1: (lv_value_7_0= RULE_ID )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4416:3: lv_value_7_0= RULE_ID
                     {
-                    lv_value_6_0=(Token)match(input,RULE_ID,FOLLOW_RULE_ID_in_ruleSpecialVar9758); 
+                    lv_value_7_0=(Token)match(input,RULE_ID,FOLLOW_RULE_ID_in_ruleSpecialVar9788); 
 
-                    			newLeafNode(lv_value_6_0, grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_5_1_0()); 
+                    			newLeafNode(lv_value_7_0, grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_1_5_1_0()); 
                     		
 
                     	        if (current==null) {
@@ -11574,7 +11616,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                            		setWithLastConsumed(
                            			current, 
                            			"value",
-                            		lv_value_6_0, 
+                            		lv_value_7_0, 
                             		"ID");
                     	    
 
@@ -11589,6 +11631,9 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
                     }
                     break;
+
+            }
+
 
             }
 
@@ -11610,7 +11655,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleBracketedExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4422:1: entryRuleBracketedExpr returns [EObject current=null] : iv_ruleBracketedExpr= ruleBracketedExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4440:1: entryRuleBracketedExpr returns [EObject current=null] : iv_ruleBracketedExpr= ruleBracketedExpr EOF ;
     public final EObject entryRuleBracketedExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11618,17 +11663,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4423:2: (iv_ruleBracketedExpr= ruleBracketedExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4424:2: iv_ruleBracketedExpr= ruleBracketedExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4441:2: (iv_ruleBracketedExpr= ruleBracketedExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4442:2: iv_ruleBracketedExpr= ruleBracketedExpr EOF
             {
              newCompositeNode(grammarAccess.getBracketedExprRule()); 
-            pushFollow(FOLLOW_ruleBracketedExpr_in_entryRuleBracketedExpr9800);
+            pushFollow(FOLLOW_ruleBracketedExpr_in_entryRuleBracketedExpr9831);
             iv_ruleBracketedExpr=ruleBracketedExpr();
 
             state._fsp--;
 
              current =iv_ruleBracketedExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleBracketedExpr9810); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleBracketedExpr9841); 
 
             }
 
@@ -11646,7 +11691,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleBracketedExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4431:1: ruleBracketedExpr returns [EObject current=null] : (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4449:1: ruleBracketedExpr returns [EObject current=null] : (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN ) ;
     public final EObject ruleBracketedExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11658,20 +11703,20 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4434:28: ( (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4435:1: (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4452:28: ( (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4453:1: (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4435:1: (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4435:2: this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4453:1: (this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4453:2: this_LPAREN_0= RULE_LPAREN this_Expression_1= ruleExpression this_RPAREN_2= RULE_RPAREN
             {
-            this_LPAREN_0=(Token)match(input,RULE_LPAREN,FOLLOW_RULE_LPAREN_in_ruleBracketedExpr9846); 
+            this_LPAREN_0=(Token)match(input,RULE_LPAREN,FOLLOW_RULE_LPAREN_in_ruleBracketedExpr9877); 
              
                 newLeafNode(this_LPAREN_0, grammarAccess.getBracketedExprAccess().getLPARENTerminalRuleCall_0()); 
                 
              
                     newCompositeNode(grammarAccess.getBracketedExprAccess().getExpressionParserRuleCall_1()); 
                 
-            pushFollow(FOLLOW_ruleExpression_in_ruleBracketedExpr9867);
+            pushFollow(FOLLOW_ruleExpression_in_ruleBracketedExpr9898);
             this_Expression_1=ruleExpression();
 
             state._fsp--;
@@ -11680,7 +11725,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     current = this_Expression_1; 
                     afterParserOrEnumRuleCall();
                 
-            this_RPAREN_2=(Token)match(input,RULE_RPAREN,FOLLOW_RULE_RPAREN_in_ruleBracketedExpr9877); 
+            this_RPAREN_2=(Token)match(input,RULE_RPAREN,FOLLOW_RULE_RPAREN_in_ruleBracketedExpr9908); 
              
                 newLeafNode(this_RPAREN_2, grammarAccess.getBracketedExprAccess().getRPARENTerminalRuleCall_2()); 
                 
@@ -11705,7 +11750,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4460:1: entryRuleConstantExpr returns [EObject current=null] : iv_ruleConstantExpr= ruleConstantExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4478:1: entryRuleConstantExpr returns [EObject current=null] : iv_ruleConstantExpr= ruleConstantExpr EOF ;
     public final EObject entryRuleConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11713,17 +11758,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4461:2: (iv_ruleConstantExpr= ruleConstantExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4462:2: iv_ruleConstantExpr= ruleConstantExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4479:2: (iv_ruleConstantExpr= ruleConstantExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4480:2: iv_ruleConstantExpr= ruleConstantExpr EOF
             {
              newCompositeNode(grammarAccess.getConstantExprRule()); 
-            pushFollow(FOLLOW_ruleConstantExpr_in_entryRuleConstantExpr9912);
+            pushFollow(FOLLOW_ruleConstantExpr_in_entryRuleConstantExpr9943);
             iv_ruleConstantExpr=ruleConstantExpr();
 
             state._fsp--;
 
              current =iv_ruleConstantExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleConstantExpr9922); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleConstantExpr9953); 
 
             }
 
@@ -11741,7 +11786,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4469:1: ruleConstantExpr returns [EObject current=null] : (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4487:1: ruleConstantExpr returns [EObject current=null] : (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr ) ;
     public final EObject ruleConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11757,10 +11802,10 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4472:28: ( (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4473:1: (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4490:28: ( (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4491:1: (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4473:1: (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4491:1: (this_IntConstantExpr_0= ruleIntConstantExpr | this_StringConstantExpr_1= ruleStringConstantExpr | this_BooleanConstantExpr_2= ruleBooleanConstantExpr | this_FloatConstantExpr_3= ruleFloatConstantExpr )
             int alt76=4;
             switch ( input.LA(1) ) {
             case RULE_INTVAL:
@@ -11792,12 +11837,12 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             switch (alt76) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4474:5: this_IntConstantExpr_0= ruleIntConstantExpr
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4492:5: this_IntConstantExpr_0= ruleIntConstantExpr
                     {
                      
                             newCompositeNode(grammarAccess.getConstantExprAccess().getIntConstantExprParserRuleCall_0()); 
                         
-                    pushFollow(FOLLOW_ruleIntConstantExpr_in_ruleConstantExpr9969);
+                    pushFollow(FOLLOW_ruleIntConstantExpr_in_ruleConstantExpr10000);
                     this_IntConstantExpr_0=ruleIntConstantExpr();
 
                     state._fsp--;
@@ -11810,12 +11855,12 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4484:5: this_StringConstantExpr_1= ruleStringConstantExpr
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4502:5: this_StringConstantExpr_1= ruleStringConstantExpr
                     {
                      
                             newCompositeNode(grammarAccess.getConstantExprAccess().getStringConstantExprParserRuleCall_1()); 
                         
-                    pushFollow(FOLLOW_ruleStringConstantExpr_in_ruleConstantExpr9996);
+                    pushFollow(FOLLOW_ruleStringConstantExpr_in_ruleConstantExpr10027);
                     this_StringConstantExpr_1=ruleStringConstantExpr();
 
                     state._fsp--;
@@ -11828,12 +11873,12 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4494:5: this_BooleanConstantExpr_2= ruleBooleanConstantExpr
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4512:5: this_BooleanConstantExpr_2= ruleBooleanConstantExpr
                     {
                      
                             newCompositeNode(grammarAccess.getConstantExprAccess().getBooleanConstantExprParserRuleCall_2()); 
                         
-                    pushFollow(FOLLOW_ruleBooleanConstantExpr_in_ruleConstantExpr10023);
+                    pushFollow(FOLLOW_ruleBooleanConstantExpr_in_ruleConstantExpr10054);
                     this_BooleanConstantExpr_2=ruleBooleanConstantExpr();
 
                     state._fsp--;
@@ -11846,12 +11891,12 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     }
                     break;
                 case 4 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4504:5: this_FloatConstantExpr_3= ruleFloatConstantExpr
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4522:5: this_FloatConstantExpr_3= ruleFloatConstantExpr
                     {
                      
                             newCompositeNode(grammarAccess.getConstantExprAccess().getFloatConstantExprParserRuleCall_3()); 
                         
-                    pushFollow(FOLLOW_ruleFloatConstantExpr_in_ruleConstantExpr10050);
+                    pushFollow(FOLLOW_ruleFloatConstantExpr_in_ruleConstantExpr10081);
                     this_FloatConstantExpr_3=ruleFloatConstantExpr();
 
                     state._fsp--;
@@ -11884,7 +11929,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleIntConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4520:1: entryRuleIntConstantExpr returns [EObject current=null] : iv_ruleIntConstantExpr= ruleIntConstantExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4538:1: entryRuleIntConstantExpr returns [EObject current=null] : iv_ruleIntConstantExpr= ruleIntConstantExpr EOF ;
     public final EObject entryRuleIntConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11892,17 +11937,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4521:2: (iv_ruleIntConstantExpr= ruleIntConstantExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4522:2: iv_ruleIntConstantExpr= ruleIntConstantExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4539:2: (iv_ruleIntConstantExpr= ruleIntConstantExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4540:2: iv_ruleIntConstantExpr= ruleIntConstantExpr EOF
             {
              newCompositeNode(grammarAccess.getIntConstantExprRule()); 
-            pushFollow(FOLLOW_ruleIntConstantExpr_in_entryRuleIntConstantExpr10085);
+            pushFollow(FOLLOW_ruleIntConstantExpr_in_entryRuleIntConstantExpr10116);
             iv_ruleIntConstantExpr=ruleIntConstantExpr();
 
             state._fsp--;
 
              current =iv_ruleIntConstantExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleIntConstantExpr10095); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleIntConstantExpr10126); 
 
             }
 
@@ -11920,7 +11965,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleIntConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4529:1: ruleIntConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_INTVAL ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4547:1: ruleIntConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_INTVAL ) ) ) ;
     public final EObject ruleIntConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -11929,14 +11974,14 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4532:28: ( ( () ( (lv_value_1_0= RULE_INTVAL ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4533:1: ( () ( (lv_value_1_0= RULE_INTVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4550:28: ( ( () ( (lv_value_1_0= RULE_INTVAL ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4551:1: ( () ( (lv_value_1_0= RULE_INTVAL ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4533:1: ( () ( (lv_value_1_0= RULE_INTVAL ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4533:2: () ( (lv_value_1_0= RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4551:1: ( () ( (lv_value_1_0= RULE_INTVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4551:2: () ( (lv_value_1_0= RULE_INTVAL ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4533:2: ()
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4534:5: 
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4551:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4552:5: 
             {
 
                     current = forceCreateModelElement(
@@ -11946,13 +11991,13 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4539:2: ( (lv_value_1_0= RULE_INTVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4540:1: (lv_value_1_0= RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4557:2: ( (lv_value_1_0= RULE_INTVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4558:1: (lv_value_1_0= RULE_INTVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4540:1: (lv_value_1_0= RULE_INTVAL )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4541:3: lv_value_1_0= RULE_INTVAL
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4558:1: (lv_value_1_0= RULE_INTVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4559:3: lv_value_1_0= RULE_INTVAL
             {
-            lv_value_1_0=(Token)match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_ruleIntConstantExpr10146); 
+            lv_value_1_0=(Token)match(input,RULE_INTVAL,FOLLOW_RULE_INTVAL_in_ruleIntConstantExpr10177); 
 
             			newLeafNode(lv_value_1_0, grammarAccess.getIntConstantExprAccess().getValueINTVALTerminalRuleCall_1_0()); 
             		
@@ -11993,7 +12038,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleStringConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4565:1: entryRuleStringConstantExpr returns [EObject current=null] : iv_ruleStringConstantExpr= ruleStringConstantExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4583:1: entryRuleStringConstantExpr returns [EObject current=null] : iv_ruleStringConstantExpr= ruleStringConstantExpr EOF ;
     public final EObject entryRuleStringConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12001,17 +12046,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4566:2: (iv_ruleStringConstantExpr= ruleStringConstantExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4567:2: iv_ruleStringConstantExpr= ruleStringConstantExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4584:2: (iv_ruleStringConstantExpr= ruleStringConstantExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4585:2: iv_ruleStringConstantExpr= ruleStringConstantExpr EOF
             {
              newCompositeNode(grammarAccess.getStringConstantExprRule()); 
-            pushFollow(FOLLOW_ruleStringConstantExpr_in_entryRuleStringConstantExpr10187);
+            pushFollow(FOLLOW_ruleStringConstantExpr_in_entryRuleStringConstantExpr10218);
             iv_ruleStringConstantExpr=ruleStringConstantExpr();
 
             state._fsp--;
 
              current =iv_ruleStringConstantExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleStringConstantExpr10197); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleStringConstantExpr10228); 
 
             }
 
@@ -12029,7 +12074,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleStringConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4574:1: ruleStringConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_STRING ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4592:1: ruleStringConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_STRING ) ) ) ;
     public final EObject ruleStringConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12038,14 +12083,14 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4577:28: ( ( () ( (lv_value_1_0= RULE_STRING ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4578:1: ( () ( (lv_value_1_0= RULE_STRING ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4595:28: ( ( () ( (lv_value_1_0= RULE_STRING ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4596:1: ( () ( (lv_value_1_0= RULE_STRING ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4578:1: ( () ( (lv_value_1_0= RULE_STRING ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4578:2: () ( (lv_value_1_0= RULE_STRING ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4596:1: ( () ( (lv_value_1_0= RULE_STRING ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4596:2: () ( (lv_value_1_0= RULE_STRING ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4578:2: ()
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4579:5: 
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4596:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4597:5: 
             {
 
                     current = forceCreateModelElement(
@@ -12055,13 +12100,13 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4584:2: ( (lv_value_1_0= RULE_STRING ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4585:1: (lv_value_1_0= RULE_STRING )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4602:2: ( (lv_value_1_0= RULE_STRING ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4603:1: (lv_value_1_0= RULE_STRING )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4585:1: (lv_value_1_0= RULE_STRING )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4586:3: lv_value_1_0= RULE_STRING
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4603:1: (lv_value_1_0= RULE_STRING )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4604:3: lv_value_1_0= RULE_STRING
             {
-            lv_value_1_0=(Token)match(input,RULE_STRING,FOLLOW_RULE_STRING_in_ruleStringConstantExpr10248); 
+            lv_value_1_0=(Token)match(input,RULE_STRING,FOLLOW_RULE_STRING_in_ruleStringConstantExpr10279); 
 
             			newLeafNode(lv_value_1_0, grammarAccess.getStringConstantExprAccess().getValueSTRINGTerminalRuleCall_1_0()); 
             		
@@ -12102,7 +12147,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleBooleanConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4610:1: entryRuleBooleanConstantExpr returns [EObject current=null] : iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4628:1: entryRuleBooleanConstantExpr returns [EObject current=null] : iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF ;
     public final EObject entryRuleBooleanConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12110,17 +12155,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4611:2: (iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4612:2: iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4629:2: (iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4630:2: iv_ruleBooleanConstantExpr= ruleBooleanConstantExpr EOF
             {
              newCompositeNode(grammarAccess.getBooleanConstantExprRule()); 
-            pushFollow(FOLLOW_ruleBooleanConstantExpr_in_entryRuleBooleanConstantExpr10289);
+            pushFollow(FOLLOW_ruleBooleanConstantExpr_in_entryRuleBooleanConstantExpr10320);
             iv_ruleBooleanConstantExpr=ruleBooleanConstantExpr();
 
             state._fsp--;
 
              current =iv_ruleBooleanConstantExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleBooleanConstantExpr10299); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleBooleanConstantExpr10330); 
 
             }
 
@@ -12138,7 +12183,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleBooleanConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4619:1: ruleBooleanConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4637:1: ruleBooleanConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) ) ;
     public final EObject ruleBooleanConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12147,14 +12192,14 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4622:28: ( ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4623:1: ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4640:28: ( ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4641:1: ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4623:1: ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4623:2: () ( (lv_value_1_0= RULE_BOOLEAN ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4641:1: ( () ( (lv_value_1_0= RULE_BOOLEAN ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4641:2: () ( (lv_value_1_0= RULE_BOOLEAN ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4623:2: ()
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4624:5: 
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4641:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4642:5: 
             {
 
                     current = forceCreateModelElement(
@@ -12164,13 +12209,13 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4629:2: ( (lv_value_1_0= RULE_BOOLEAN ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4630:1: (lv_value_1_0= RULE_BOOLEAN )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4647:2: ( (lv_value_1_0= RULE_BOOLEAN ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4648:1: (lv_value_1_0= RULE_BOOLEAN )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4630:1: (lv_value_1_0= RULE_BOOLEAN )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4631:3: lv_value_1_0= RULE_BOOLEAN
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4648:1: (lv_value_1_0= RULE_BOOLEAN )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4649:3: lv_value_1_0= RULE_BOOLEAN
             {
-            lv_value_1_0=(Token)match(input,RULE_BOOLEAN,FOLLOW_RULE_BOOLEAN_in_ruleBooleanConstantExpr10350); 
+            lv_value_1_0=(Token)match(input,RULE_BOOLEAN,FOLLOW_RULE_BOOLEAN_in_ruleBooleanConstantExpr10381); 
 
             			newLeafNode(lv_value_1_0, grammarAccess.getBooleanConstantExprAccess().getValueBOOLEANTerminalRuleCall_1_0()); 
             		
@@ -12211,7 +12256,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "entryRuleFloatConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4655:1: entryRuleFloatConstantExpr returns [EObject current=null] : iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4673:1: entryRuleFloatConstantExpr returns [EObject current=null] : iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF ;
     public final EObject entryRuleFloatConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12219,17 +12264,17 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4656:2: (iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4657:2: iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4674:2: (iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4675:2: iv_ruleFloatConstantExpr= ruleFloatConstantExpr EOF
             {
              newCompositeNode(grammarAccess.getFloatConstantExprRule()); 
-            pushFollow(FOLLOW_ruleFloatConstantExpr_in_entryRuleFloatConstantExpr10391);
+            pushFollow(FOLLOW_ruleFloatConstantExpr_in_entryRuleFloatConstantExpr10422);
             iv_ruleFloatConstantExpr=ruleFloatConstantExpr();
 
             state._fsp--;
 
              current =iv_ruleFloatConstantExpr; 
-            match(input,EOF,FOLLOW_EOF_in_entryRuleFloatConstantExpr10401); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleFloatConstantExpr10432); 
 
             }
 
@@ -12247,7 +12292,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleFloatConstantExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4664:1: ruleFloatConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4682:1: ruleFloatConstantExpr returns [EObject current=null] : ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) ) ;
     public final EObject ruleFloatConstantExpr() throws RecognitionException {
         EObject current = null;
 
@@ -12256,14 +12301,14 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4667:28: ( ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4668:1: ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4685:28: ( ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4686:1: ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4668:1: ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4668:2: () ( (lv_value_1_0= RULE_FLOATVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4686:1: ( () ( (lv_value_1_0= RULE_FLOATVAL ) ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4686:2: () ( (lv_value_1_0= RULE_FLOATVAL ) )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4668:2: ()
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4669:5: 
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4686:2: ()
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4687:5: 
             {
 
                     current = forceCreateModelElement(
@@ -12273,13 +12318,13 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4674:2: ( (lv_value_1_0= RULE_FLOATVAL ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4675:1: (lv_value_1_0= RULE_FLOATVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4692:2: ( (lv_value_1_0= RULE_FLOATVAL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4693:1: (lv_value_1_0= RULE_FLOATVAL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4675:1: (lv_value_1_0= RULE_FLOATVAL )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4676:3: lv_value_1_0= RULE_FLOATVAL
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4693:1: (lv_value_1_0= RULE_FLOATVAL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4694:3: lv_value_1_0= RULE_FLOATVAL
             {
-            lv_value_1_0=(Token)match(input,RULE_FLOATVAL,FOLLOW_RULE_FLOATVAL_in_ruleFloatConstantExpr10452); 
+            lv_value_1_0=(Token)match(input,RULE_FLOATVAL,FOLLOW_RULE_FLOATVAL_in_ruleFloatConstantExpr10483); 
 
             			newLeafNode(lv_value_1_0, grammarAccess.getFloatConstantExprAccess().getValueFLOATVALTerminalRuleCall_1_0()); 
             		
@@ -12667,42 +12712,42 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_RULE_ID_in_ruleQualifiedName9245 = new BitSet(new long[]{0x0000800000000002L});
     public static final BitSet FOLLOW_ruleSimpleName_in_entryRuleSimpleName9292 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleSimpleName9302 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_ID_in_ruleSimpleName9343 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleIndexedSpecialVar_in_entryRuleIndexedSpecialVar9383 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleIndexedSpecialVar9393 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_DOLLAR_in_ruleIndexedSpecialVar9435 = new BitSet(new long[]{0x0000000000004000L});
-    public static final BitSet FOLLOW_RULE_INTVAL_in_ruleIndexedSpecialVar9457 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleSpecialVar_in_entryRuleSpecialVar9498 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleSpecialVar9508 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_73_in_ruleSpecialVar9551 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_74_in_ruleSpecialVar9588 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_75_in_ruleSpecialVar9625 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_76_in_ruleSpecialVar9662 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_77_in_ruleSpecialVar9699 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_DOLLAR_in_ruleSpecialVar9736 = new BitSet(new long[]{0x0000000000000400L});
-    public static final BitSet FOLLOW_RULE_ID_in_ruleSpecialVar9758 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBracketedExpr_in_entryRuleBracketedExpr9800 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleBracketedExpr9810 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_LPAREN_in_ruleBracketedExpr9846 = new BitSet(new long[]{0x000F00480001C400L,0x0000000000003E00L});
-    public static final BitSet FOLLOW_ruleExpression_in_ruleBracketedExpr9867 = new BitSet(new long[]{0x0000000000040000L});
-    public static final BitSet FOLLOW_RULE_RPAREN_in_ruleBracketedExpr9877 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleConstantExpr_in_entryRuleConstantExpr9912 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleConstantExpr9922 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleIntConstantExpr_in_ruleConstantExpr9969 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleStringConstantExpr_in_ruleConstantExpr9996 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBooleanConstantExpr_in_ruleConstantExpr10023 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleFloatConstantExpr_in_ruleConstantExpr10050 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleIntConstantExpr_in_entryRuleIntConstantExpr10085 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleIntConstantExpr10095 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_INTVAL_in_ruleIntConstantExpr10146 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleStringConstantExpr_in_entryRuleStringConstantExpr10187 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleStringConstantExpr10197 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_STRING_in_ruleStringConstantExpr10248 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleBooleanConstantExpr_in_entryRuleBooleanConstantExpr10289 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleBooleanConstantExpr10299 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_BOOLEAN_in_ruleBooleanConstantExpr10350 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleFloatConstantExpr_in_entryRuleFloatConstantExpr10391 = new BitSet(new long[]{0x0000000000000000L});
-    public static final BitSet FOLLOW_EOF_in_entryRuleFloatConstantExpr10401 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_RULE_FLOATVAL_in_ruleFloatConstantExpr10452 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_ruleSimpleName9353 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleIndexedSpecialVar_in_entryRuleIndexedSpecialVar9394 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleIndexedSpecialVar9404 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_DOLLAR_in_ruleIndexedSpecialVar9455 = new BitSet(new long[]{0x0000000000004000L});
+    public static final BitSet FOLLOW_RULE_INTVAL_in_ruleIndexedSpecialVar9477 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleSpecialVar_in_entryRuleSpecialVar9518 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleSpecialVar9528 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_73_in_ruleSpecialVar9581 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_74_in_ruleSpecialVar9618 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_75_in_ruleSpecialVar9655 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_76_in_ruleSpecialVar9692 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_77_in_ruleSpecialVar9729 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_DOLLAR_in_ruleSpecialVar9766 = new BitSet(new long[]{0x0000000000000400L});
+    public static final BitSet FOLLOW_RULE_ID_in_ruleSpecialVar9788 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBracketedExpr_in_entryRuleBracketedExpr9831 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleBracketedExpr9841 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_LPAREN_in_ruleBracketedExpr9877 = new BitSet(new long[]{0x000F00480001C400L,0x0000000000003E00L});
+    public static final BitSet FOLLOW_ruleExpression_in_ruleBracketedExpr9898 = new BitSet(new long[]{0x0000000000040000L});
+    public static final BitSet FOLLOW_RULE_RPAREN_in_ruleBracketedExpr9908 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleConstantExpr_in_entryRuleConstantExpr9943 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleConstantExpr9953 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleIntConstantExpr_in_ruleConstantExpr10000 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleStringConstantExpr_in_ruleConstantExpr10027 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBooleanConstantExpr_in_ruleConstantExpr10054 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFloatConstantExpr_in_ruleConstantExpr10081 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleIntConstantExpr_in_entryRuleIntConstantExpr10116 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleIntConstantExpr10126 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_INTVAL_in_ruleIntConstantExpr10177 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleStringConstantExpr_in_entryRuleStringConstantExpr10218 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleStringConstantExpr10228 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_ruleStringConstantExpr10279 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleBooleanConstantExpr_in_entryRuleBooleanConstantExpr10320 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleBooleanConstantExpr10330 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_BOOLEAN_in_ruleBooleanConstantExpr10381 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleFloatConstantExpr_in_entryRuleFloatConstantExpr10422 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleFloatConstantExpr10432 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_FLOATVAL_in_ruleFloatConstantExpr10483 = new BitSet(new long[]{0x0000000000000002L});
 
 }

@@ -1415,22 +1415,13 @@ public interface BytemanPackage extends EPackage
   int EXPRESSION__OPERAND1 = CONDITION_FEATURE_COUNT + 1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int EXPRESSION__VALUE = CONDITION_FEATURE_COUNT + 2;
-
-  /**
    * The number of structural features of the '<em>Expression</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int EXPRESSION_FEATURE_COUNT = CONDITION_FEATURE_COUNT + 3;
+  int EXPRESSION_FEATURE_COUNT = CONDITION_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.CallArgumentsImpl <em>Call Arguments</em>}' class.
@@ -1489,15 +1480,6 @@ public interface BytemanPackage extends EPackage
   int ASSIGNMENT_EXPR__OPERAND1 = EXPRESSION__OPERAND1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int ASSIGNMENT_EXPR__VALUE = EXPRESSION__VALUE;
-
-  /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -1542,15 +1524,6 @@ public interface BytemanPackage extends EPackage
    * @ordered
    */
   int OPERATOR_EXPR__OPERAND1 = EXPRESSION__OPERAND1;
-
-  /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int OPERATOR_EXPR__VALUE = EXPRESSION__VALUE;
 
   /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
@@ -1599,15 +1572,6 @@ public interface BytemanPackage extends EPackage
   int PLUS_MINUS_OPERAND__OPERAND1 = EXPRESSION__OPERAND1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int PLUS_MINUS_OPERAND__VALUE = EXPRESSION__VALUE;
-
-  /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -1652,15 +1616,6 @@ public interface BytemanPackage extends EPackage
    * @ordered
    */
   int TIMES_DIV_OPERAND__OPERAND1 = EXPRESSION__OPERAND1;
-
-  /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int TIMES_DIV_OPERAND__VALUE = EXPRESSION__VALUE;
 
   /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
@@ -1709,15 +1664,6 @@ public interface BytemanPackage extends EPackage
   int BITWISE_OPERAND__OPERAND1 = EXPRESSION__OPERAND1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int BITWISE_OPERAND__VALUE = EXPRESSION__VALUE;
-
-  /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -1762,15 +1708,6 @@ public interface BytemanPackage extends EPackage
    * @ordered
    */
   int LOGICAL_OPERAND__OPERAND1 = EXPRESSION__OPERAND1;
-
-  /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int LOGICAL_OPERAND__VALUE = EXPRESSION__VALUE;
 
   /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
@@ -1819,15 +1756,6 @@ public interface BytemanPackage extends EPackage
   int ACCESS_EXPR__OPERAND1 = EXPRESSION__OPERAND1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int ACCESS_EXPR__VALUE = EXPRESSION__VALUE;
-
-  /**
    * The feature id for the '<em><b>Operand2</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -1837,13 +1765,22 @@ public interface BytemanPackage extends EPackage
   int ACCESS_EXPR__OPERAND2 = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
+   * The feature id for the '<em><b>Value</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int ACCESS_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 1;
+
+  /**
    * The feature id for the '<em><b>Args</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int ACCESS_EXPR__ARGS = EXPRESSION_FEATURE_COUNT + 1;
+  int ACCESS_EXPR__ARGS = EXPRESSION_FEATURE_COUNT + 2;
 
   /**
    * The number of structural features of the '<em>Access Expr</em>' class.
@@ -1852,7 +1789,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int ACCESS_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 2;
+  int ACCESS_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 3;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.BuiltinExprImpl <em>Builtin Expr</em>}' class.
@@ -1889,7 +1826,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int BUILTIN_EXPR__VALUE = EXPRESSION__VALUE;
+  int BUILTIN_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The feature id for the '<em><b>Args</b></em>' containment reference.
@@ -1898,7 +1835,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int BUILTIN_EXPR__ARGS = EXPRESSION_FEATURE_COUNT + 0;
+  int BUILTIN_EXPR__ARGS = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The number of structural features of the '<em>Builtin Expr</em>' class.
@@ -1907,7 +1844,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int BUILTIN_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
+  int BUILTIN_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 2;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.NewExprImpl <em>New Expr</em>}' class.
@@ -1944,7 +1881,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int NEW_EXPR__VALUE = EXPRESSION__VALUE;
+  int NEW_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The feature id for the '<em><b>Params</b></em>' containment reference.
@@ -1953,7 +1890,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int NEW_EXPR__PARAMS = EXPRESSION_FEATURE_COUNT + 0;
+  int NEW_EXPR__PARAMS = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The number of structural features of the '<em>New Expr</em>' class.
@@ -1962,7 +1899,145 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int NEW_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
+  int NEW_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 2;
+
+  /**
+   * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.SimpleNameImpl <em>Simple Name</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see org.jboss.byteman.eclipse.byteman.impl.SimpleNameImpl
+   * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSimpleName()
+   * @generated
+   */
+  int SIMPLE_NAME = 51;
+
+  /**
+   * The feature id for the '<em><b>Op</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SIMPLE_NAME__OP = EXPRESSION__OP;
+
+  /**
+   * The feature id for the '<em><b>Operand1</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SIMPLE_NAME__OPERAND1 = EXPRESSION__OPERAND1;
+
+  /**
+   * The feature id for the '<em><b>Value</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SIMPLE_NAME__VALUE = EXPRESSION_FEATURE_COUNT + 0;
+
+  /**
+   * The number of structural features of the '<em>Simple Name</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SIMPLE_NAME_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
+
+  /**
+   * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.IndexedSpecialVarImpl <em>Indexed Special Var</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see org.jboss.byteman.eclipse.byteman.impl.IndexedSpecialVarImpl
+   * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getIndexedSpecialVar()
+   * @generated
+   */
+  int INDEXED_SPECIAL_VAR = 52;
+
+  /**
+   * The feature id for the '<em><b>Op</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int INDEXED_SPECIAL_VAR__OP = EXPRESSION__OP;
+
+  /**
+   * The feature id for the '<em><b>Operand1</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int INDEXED_SPECIAL_VAR__OPERAND1 = EXPRESSION__OPERAND1;
+
+  /**
+   * The feature id for the '<em><b>Value</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int INDEXED_SPECIAL_VAR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
+
+  /**
+   * The number of structural features of the '<em>Indexed Special Var</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int INDEXED_SPECIAL_VAR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
+
+  /**
+   * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl <em>Special Var</em>}' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl
+   * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSpecialVar()
+   * @generated
+   */
+  int SPECIAL_VAR = 53;
+
+  /**
+   * The feature id for the '<em><b>Op</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SPECIAL_VAR__OP = EXPRESSION__OP;
+
+  /**
+   * The feature id for the '<em><b>Operand1</b></em>' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SPECIAL_VAR__OPERAND1 = EXPRESSION__OPERAND1;
+
+  /**
+   * The feature id for the '<em><b>Value</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SPECIAL_VAR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
+
+  /**
+   * The number of structural features of the '<em>Special Var</em>' class.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int SPECIAL_VAR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.IntConstantExprImpl <em>Int Constant Expr</em>}' class.
@@ -1972,7 +2047,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getIntConstantExpr()
    * @generated
    */
-  int INT_CONSTANT_EXPR = 51;
+  int INT_CONSTANT_EXPR = 54;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1999,7 +2074,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int INT_CONSTANT_EXPR__VALUE = EXPRESSION__VALUE;
+  int INT_CONSTANT_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>Int Constant Expr</em>' class.
@@ -2008,7 +2083,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int INT_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 0;
+  int INT_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.StringConstantExprImpl <em>String Constant Expr</em>}' class.
@@ -2018,7 +2093,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getStringConstantExpr()
    * @generated
    */
-  int STRING_CONSTANT_EXPR = 52;
+  int STRING_CONSTANT_EXPR = 55;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2045,7 +2120,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int STRING_CONSTANT_EXPR__VALUE = EXPRESSION__VALUE;
+  int STRING_CONSTANT_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>String Constant Expr</em>' class.
@@ -2054,7 +2129,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int STRING_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 0;
+  int STRING_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.BooleanConstantExprImpl <em>Boolean Constant Expr</em>}' class.
@@ -2064,7 +2139,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBooleanConstantExpr()
    * @generated
    */
-  int BOOLEAN_CONSTANT_EXPR = 53;
+  int BOOLEAN_CONSTANT_EXPR = 56;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2091,7 +2166,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int BOOLEAN_CONSTANT_EXPR__VALUE = EXPRESSION__VALUE;
+  int BOOLEAN_CONSTANT_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>Boolean Constant Expr</em>' class.
@@ -2100,7 +2175,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int BOOLEAN_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 0;
+  int BOOLEAN_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.FloatConstantExprImpl <em>Float Constant Expr</em>}' class.
@@ -2110,7 +2185,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getFloatConstantExpr()
    * @generated
    */
-  int FLOAT_CONSTANT_EXPR = 54;
+  int FLOAT_CONSTANT_EXPR = 57;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2137,7 +2212,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FLOAT_CONSTANT_EXPR__VALUE = EXPRESSION__VALUE;
+  int FLOAT_CONSTANT_EXPR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The number of structural features of the '<em>Float Constant Expr</em>' class.
@@ -2146,7 +2221,7 @@ public interface BytemanPackage extends EPackage
    * @generated
    * @ordered
    */
-  int FLOAT_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 0;
+  int FLOAT_CONSTANT_EXPR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
 
 
   /**
@@ -3044,17 +3119,6 @@ public interface BytemanPackage extends EPackage
   EReference getExpression_Operand1();
 
   /**
-   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.Expression#getValue <em>Value</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Value</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.Expression#getValue()
-   * @see #getExpression()
-   * @generated
-   */
-  EAttribute getExpression_Value();
-
-  /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.CallArguments <em>Call Arguments</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3223,6 +3287,17 @@ public interface BytemanPackage extends EPackage
   EReference getAccessExpr_Operand2();
 
   /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.AccessExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.AccessExpr#getValue()
+   * @see #getAccessExpr()
+   * @generated
+   */
+  EAttribute getAccessExpr_Value();
+
+  /**
    * Returns the meta object for the containment reference '{@link org.jboss.byteman.eclipse.byteman.AccessExpr#getArgs <em>Args</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3242,6 +3317,17 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EClass getBuiltinExpr();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.BuiltinExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.BuiltinExpr#getValue()
+   * @see #getBuiltinExpr()
+   * @generated
+   */
+  EAttribute getBuiltinExpr_Value();
 
   /**
    * Returns the meta object for the containment reference '{@link org.jboss.byteman.eclipse.byteman.BuiltinExpr#getArgs <em>Args</em>}'.
@@ -3265,6 +3351,17 @@ public interface BytemanPackage extends EPackage
   EClass getNewExpr();
 
   /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.NewExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.NewExpr#getValue()
+   * @see #getNewExpr()
+   * @generated
+   */
+  EAttribute getNewExpr_Value();
+
+  /**
    * Returns the meta object for the containment reference '{@link org.jboss.byteman.eclipse.byteman.NewExpr#getParams <em>Params</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3274,6 +3371,69 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EReference getNewExpr_Params();
+
+  /**
+   * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.SimpleName <em>Simple Name</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for class '<em>Simple Name</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.SimpleName
+   * @generated
+   */
+  EClass getSimpleName();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.SimpleName#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.SimpleName#getValue()
+   * @see #getSimpleName()
+   * @generated
+   */
+  EAttribute getSimpleName_Value();
+
+  /**
+   * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.IndexedSpecialVar <em>Indexed Special Var</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for class '<em>Indexed Special Var</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.IndexedSpecialVar
+   * @generated
+   */
+  EClass getIndexedSpecialVar();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.IndexedSpecialVar#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.IndexedSpecialVar#getValue()
+   * @see #getIndexedSpecialVar()
+   * @generated
+   */
+  EAttribute getIndexedSpecialVar_Value();
+
+  /**
+   * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.SpecialVar <em>Special Var</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for class '<em>Special Var</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.SpecialVar
+   * @generated
+   */
+  EClass getSpecialVar();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.SpecialVar#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.SpecialVar#getValue()
+   * @see #getSpecialVar()
+   * @generated
+   */
+  EAttribute getSpecialVar_Value();
 
   /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.IntConstantExpr <em>Int Constant Expr</em>}'.
@@ -3286,6 +3446,17 @@ public interface BytemanPackage extends EPackage
   EClass getIntConstantExpr();
 
   /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.IntConstantExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.IntConstantExpr#getValue()
+   * @see #getIntConstantExpr()
+   * @generated
+   */
+  EAttribute getIntConstantExpr_Value();
+
+  /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.StringConstantExpr <em>String Constant Expr</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3294,6 +3465,17 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EClass getStringConstantExpr();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.StringConstantExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.StringConstantExpr#getValue()
+   * @see #getStringConstantExpr()
+   * @generated
+   */
+  EAttribute getStringConstantExpr_Value();
 
   /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.BooleanConstantExpr <em>Boolean Constant Expr</em>}'.
@@ -3306,6 +3488,17 @@ public interface BytemanPackage extends EPackage
   EClass getBooleanConstantExpr();
 
   /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.BooleanConstantExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.BooleanConstantExpr#getValue()
+   * @see #getBooleanConstantExpr()
+   * @generated
+   */
+  EAttribute getBooleanConstantExpr_Value();
+
+  /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.FloatConstantExpr <em>Float Constant Expr</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3314,6 +3507,17 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EClass getFloatConstantExpr();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.FloatConstantExpr#getValue <em>Value</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Value</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.FloatConstantExpr#getValue()
+   * @see #getFloatConstantExpr()
+   * @generated
+   */
+  EAttribute getFloatConstantExpr_Value();
 
   /**
    * Returns the factory that creates the instances of the model.
@@ -4101,14 +4305,6 @@ public interface BytemanPackage extends EPackage
     EReference EXPRESSION__OPERAND1 = eINSTANCE.getExpression_Operand1();
 
     /**
-     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EAttribute EXPRESSION__VALUE = eINSTANCE.getExpression_Value();
-
-    /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.CallArgumentsImpl <em>Call Arguments</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -4253,6 +4449,14 @@ public interface BytemanPackage extends EPackage
     EReference ACCESS_EXPR__OPERAND2 = eINSTANCE.getAccessExpr_Operand2();
 
     /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute ACCESS_EXPR__VALUE = eINSTANCE.getAccessExpr_Value();
+
+    /**
      * The meta object literal for the '<em><b>Args</b></em>' containment reference feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -4269,6 +4473,14 @@ public interface BytemanPackage extends EPackage
      * @generated
      */
     EClass BUILTIN_EXPR = eINSTANCE.getBuiltinExpr();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute BUILTIN_EXPR__VALUE = eINSTANCE.getBuiltinExpr_Value();
 
     /**
      * The meta object literal for the '<em><b>Args</b></em>' containment reference feature.
@@ -4289,12 +4501,74 @@ public interface BytemanPackage extends EPackage
     EClass NEW_EXPR = eINSTANCE.getNewExpr();
 
     /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute NEW_EXPR__VALUE = eINSTANCE.getNewExpr_Value();
+
+    /**
      * The meta object literal for the '<em><b>Params</b></em>' containment reference feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
     EReference NEW_EXPR__PARAMS = eINSTANCE.getNewExpr_Params();
+
+    /**
+     * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.SimpleNameImpl <em>Simple Name</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see org.jboss.byteman.eclipse.byteman.impl.SimpleNameImpl
+     * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSimpleName()
+     * @generated
+     */
+    EClass SIMPLE_NAME = eINSTANCE.getSimpleName();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute SIMPLE_NAME__VALUE = eINSTANCE.getSimpleName_Value();
+
+    /**
+     * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.IndexedSpecialVarImpl <em>Indexed Special Var</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see org.jboss.byteman.eclipse.byteman.impl.IndexedSpecialVarImpl
+     * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getIndexedSpecialVar()
+     * @generated
+     */
+    EClass INDEXED_SPECIAL_VAR = eINSTANCE.getIndexedSpecialVar();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute INDEXED_SPECIAL_VAR__VALUE = eINSTANCE.getIndexedSpecialVar_Value();
+
+    /**
+     * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl <em>Special Var</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl
+     * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSpecialVar()
+     * @generated
+     */
+    EClass SPECIAL_VAR = eINSTANCE.getSpecialVar();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute SPECIAL_VAR__VALUE = eINSTANCE.getSpecialVar_Value();
 
     /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.IntConstantExprImpl <em>Int Constant Expr</em>}' class.
@@ -4307,6 +4581,14 @@ public interface BytemanPackage extends EPackage
     EClass INT_CONSTANT_EXPR = eINSTANCE.getIntConstantExpr();
 
     /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute INT_CONSTANT_EXPR__VALUE = eINSTANCE.getIntConstantExpr_Value();
+
+    /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.StringConstantExprImpl <em>String Constant Expr</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -4315,6 +4597,14 @@ public interface BytemanPackage extends EPackage
      * @generated
      */
     EClass STRING_CONSTANT_EXPR = eINSTANCE.getStringConstantExpr();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute STRING_CONSTANT_EXPR__VALUE = eINSTANCE.getStringConstantExpr_Value();
 
     /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.BooleanConstantExprImpl <em>Boolean Constant Expr</em>}' class.
@@ -4327,6 +4617,14 @@ public interface BytemanPackage extends EPackage
     EClass BOOLEAN_CONSTANT_EXPR = eINSTANCE.getBooleanConstantExpr();
 
     /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute BOOLEAN_CONSTANT_EXPR__VALUE = eINSTANCE.getBooleanConstantExpr_Value();
+
+    /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.FloatConstantExprImpl <em>Float Constant Expr</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -4335,6 +4633,14 @@ public interface BytemanPackage extends EPackage
      * @generated
      */
     EClass FLOAT_CONSTANT_EXPR = eINSTANCE.getFloatConstantExpr();
+
+    /**
+     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute FLOAT_CONSTANT_EXPR__VALUE = eINSTANCE.getFloatConstantExpr_Value();
 
   }
 

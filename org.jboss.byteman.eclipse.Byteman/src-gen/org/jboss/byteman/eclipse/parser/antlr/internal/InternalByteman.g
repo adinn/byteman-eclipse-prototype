@@ -4199,11 +4199,17 @@ ruleSimpleName returns [EObject current=null]
     @init { enterRule(); 
     }
     @after { leaveRule(); }:
+((
+    {
+        $current = forceCreateModelElement(
+            grammarAccess.getSimpleNameAccess().getSimpleNameAction_0(),
+            $current);
+    }
+)(
 (
-(
-		lv_value_0_0=RULE_ID
+		lv_value_1_0=RULE_ID
 		{
-			newLeafNode(lv_value_0_0, grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_0()); 
+			newLeafNode(lv_value_1_0, grammarAccess.getSimpleNameAccess().getValueIDTerminalRuleCall_1_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4212,12 +4218,12 @@ ruleSimpleName returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"value",
-        		lv_value_0_0, 
+        		lv_value_1_0, 
         		"ID");
 	    }
 
 )
-)
+))
 ;
 
 
@@ -4239,10 +4245,16 @@ ruleIndexedSpecialVar returns [EObject current=null]
     }
     @after { leaveRule(); }:
 ((
+    {
+        $current = forceCreateModelElement(
+            grammarAccess.getIndexedSpecialVarAccess().getIndexedSpecialVarAction_0(),
+            $current);
+    }
+)(
 (
-		lv_op_0_0=RULE_DOLLAR
+		lv_op_1_0=RULE_DOLLAR
 		{
-			newLeafNode(lv_op_0_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_0_0()); 
+			newLeafNode(lv_op_1_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4251,16 +4263,16 @@ ruleIndexedSpecialVar returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"op",
-        		lv_op_0_0, 
+        		lv_op_1_0, 
         		"DOLLAR");
 	    }
 
 )
 )(
 (
-		lv_value_1_0=RULE_INTVAL
+		lv_value_2_0=RULE_INTVAL
 		{
-			newLeafNode(lv_value_1_0, grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_1_0()); 
+			newLeafNode(lv_value_2_0, grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4269,7 +4281,7 @@ ruleIndexedSpecialVar returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"value",
-        		lv_value_1_0, 
+        		lv_value_2_0, 
         		"INTVAL");
 	    }
 
@@ -4296,90 +4308,96 @@ ruleSpecialVar returns [EObject current=null]
     }
     @after { leaveRule(); }:
 ((
-(
-		lv_op_0_0=	'$#' 
     {
-        newLeafNode(lv_op_0_0, grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_0_0());
+        $current = forceCreateModelElement(
+            grammarAccess.getSpecialVarAccess().getSpecialVarAction_0(),
+            $current);
+    }
+)((
+(
+		lv_op_1_0=	'$#' 
+    {
+        newLeafNode(lv_op_1_0, grammarAccess.getSpecialVarAccess().getOpDollarSignNumberSignKeyword_1_0_0());
     }
  
 	    {
 	        if ($current==null) {
 	            $current = createModelElement(grammarAccess.getSpecialVarRule());
 	        }
-       		setWithLastConsumed($current, "op", lv_op_0_0, "\$#");
+       		setWithLastConsumed($current, "op", lv_op_1_0, "\$#");
 	    }
 
 )
 )
     |(
 (
-		lv_op_1_0=	'$!' 
+		lv_op_2_0=	'$!' 
     {
-        newLeafNode(lv_op_1_0, grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_0());
+        newLeafNode(lv_op_2_0, grammarAccess.getSpecialVarAccess().getOpDollarSignExclamationMarkKeyword_1_1_0());
     }
  
 	    {
 	        if ($current==null) {
 	            $current = createModelElement(grammarAccess.getSpecialVarRule());
 	        }
-       		setWithLastConsumed($current, "op", lv_op_1_0, "\$!");
+       		setWithLastConsumed($current, "op", lv_op_2_0, "\$!");
 	    }
 
 )
 )
     |(
 (
-		lv_op_2_0=	'$^' 
+		lv_op_3_0=	'$^' 
     {
-        newLeafNode(lv_op_2_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_2_0());
+        newLeafNode(lv_op_3_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCircumflexAccentKeyword_1_2_0());
     }
  
 	    {
 	        if ($current==null) {
 	            $current = createModelElement(grammarAccess.getSpecialVarRule());
 	        }
-       		setWithLastConsumed($current, "op", lv_op_2_0, "\$^");
+       		setWithLastConsumed($current, "op", lv_op_3_0, "\$^");
 	    }
 
 )
 )
     |(
 (
-		lv_op_3_0=	'$@' 
+		lv_op_4_0=	'$@' 
     {
-        newLeafNode(lv_op_3_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_3_0());
+        newLeafNode(lv_op_4_0, grammarAccess.getSpecialVarAccess().getOpDollarSignCommercialAtKeyword_1_3_0());
     }
  
 	    {
 	        if ($current==null) {
 	            $current = createModelElement(grammarAccess.getSpecialVarRule());
 	        }
-       		setWithLastConsumed($current, "op", lv_op_3_0, "\$@");
+       		setWithLastConsumed($current, "op", lv_op_4_0, "\$@");
 	    }
 
 )
 )
     |(
 (
-		lv_op_4_0=	'$*' 
+		lv_op_5_0=	'$*' 
     {
-        newLeafNode(lv_op_4_0, grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_4_0());
+        newLeafNode(lv_op_5_0, grammarAccess.getSpecialVarAccess().getOpDollarSignAsteriskKeyword_1_4_0());
     }
  
 	    {
 	        if ($current==null) {
 	            $current = createModelElement(grammarAccess.getSpecialVarRule());
 	        }
-       		setWithLastConsumed($current, "op", lv_op_4_0, "\$*");
+       		setWithLastConsumed($current, "op", lv_op_5_0, "\$*");
 	    }
 
 )
 )
     |((
 (
-		lv_op_5_0=RULE_DOLLAR
+		lv_op_6_0=RULE_DOLLAR
 		{
-			newLeafNode(lv_op_5_0, grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_5_0_0()); 
+			newLeafNode(lv_op_6_0, grammarAccess.getSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_5_0_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4388,16 +4406,16 @@ ruleSpecialVar returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"op",
-        		lv_op_5_0, 
+        		lv_op_6_0, 
         		"DOLLAR");
 	    }
 
 )
 )(
 (
-		lv_value_6_0=RULE_ID
+		lv_value_7_0=RULE_ID
 		{
-			newLeafNode(lv_value_6_0, grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_5_1_0()); 
+			newLeafNode(lv_value_7_0, grammarAccess.getSpecialVarAccess().getValueIDTerminalRuleCall_1_5_1_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4406,12 +4424,12 @@ ruleSpecialVar returns [EObject current=null]
        		setWithLastConsumed(
        			$current, 
        			"value",
-        		lv_value_6_0, 
+        		lv_value_7_0, 
         		"ID");
 	    }
 
 )
-)))
+))))
 ;
 
 

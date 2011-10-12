@@ -2319,118 +2319,138 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 
 	public class SimpleNameElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "SimpleName");
-		private final Assignment cValueAssignment = (Assignment)rule.eContents().get(1);
-		private final RuleCall cValueIDTerminalRuleCall_0 = (RuleCall)cValueAssignment.eContents().get(0);
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final Action cSimpleNameAction_0 = (Action)cGroup.eContents().get(0);
+		private final Assignment cValueAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cValueIDTerminalRuleCall_1_0 = (RuleCall)cValueAssignment_1.eContents().get(0);
 		
 		//SimpleName returns Expression:
-		//	value=ID;
+		//	{SimpleName} value=ID;
 		public ParserRule getRule() { return rule; }
 
+		//{SimpleName} value=ID
+		public Group getGroup() { return cGroup; }
+
+		//{SimpleName}
+		public Action getSimpleNameAction_0() { return cSimpleNameAction_0; }
+
 		//value=ID
-		public Assignment getValueAssignment() { return cValueAssignment; }
+		public Assignment getValueAssignment_1() { return cValueAssignment_1; }
 
 		//ID
-		public RuleCall getValueIDTerminalRuleCall_0() { return cValueIDTerminalRuleCall_0; }
+		public RuleCall getValueIDTerminalRuleCall_1_0() { return cValueIDTerminalRuleCall_1_0; }
 	}
 
 	public class IndexedSpecialVarElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "IndexedSpecialVar");
 		private final Group cGroup = (Group)rule.eContents().get(1);
-		private final Assignment cOpAssignment_0 = (Assignment)cGroup.eContents().get(0);
-		private final RuleCall cOpDOLLARTerminalRuleCall_0_0 = (RuleCall)cOpAssignment_0.eContents().get(0);
-		private final Assignment cValueAssignment_1 = (Assignment)cGroup.eContents().get(1);
-		private final RuleCall cValueINTVALTerminalRuleCall_1_0 = (RuleCall)cValueAssignment_1.eContents().get(0);
+		private final Action cIndexedSpecialVarAction_0 = (Action)cGroup.eContents().get(0);
+		private final Assignment cOpAssignment_1 = (Assignment)cGroup.eContents().get(1);
+		private final RuleCall cOpDOLLARTerminalRuleCall_1_0 = (RuleCall)cOpAssignment_1.eContents().get(0);
+		private final Assignment cValueAssignment_2 = (Assignment)cGroup.eContents().get(2);
+		private final RuleCall cValueINTVALTerminalRuleCall_2_0 = (RuleCall)cValueAssignment_2.eContents().get(0);
 		
 		//IndexedSpecialVar returns Expression:
-		//	op=DOLLAR value=INTVAL;
+		//	{IndexedSpecialVar} op=DOLLAR value=INTVAL;
 		public ParserRule getRule() { return rule; }
 
-		//op=DOLLAR value=INTVAL
+		//{IndexedSpecialVar} op=DOLLAR value=INTVAL
 		public Group getGroup() { return cGroup; }
 
+		//{IndexedSpecialVar}
+		public Action getIndexedSpecialVarAction_0() { return cIndexedSpecialVarAction_0; }
+
 		//op=DOLLAR
-		public Assignment getOpAssignment_0() { return cOpAssignment_0; }
+		public Assignment getOpAssignment_1() { return cOpAssignment_1; }
 
 		//DOLLAR
-		public RuleCall getOpDOLLARTerminalRuleCall_0_0() { return cOpDOLLARTerminalRuleCall_0_0; }
+		public RuleCall getOpDOLLARTerminalRuleCall_1_0() { return cOpDOLLARTerminalRuleCall_1_0; }
 
 		//value=INTVAL
-		public Assignment getValueAssignment_1() { return cValueAssignment_1; }
+		public Assignment getValueAssignment_2() { return cValueAssignment_2; }
 
 		//INTVAL
-		public RuleCall getValueINTVALTerminalRuleCall_1_0() { return cValueINTVALTerminalRuleCall_1_0; }
+		public RuleCall getValueINTVALTerminalRuleCall_2_0() { return cValueINTVALTerminalRuleCall_2_0; }
 	}
 
 	public class SpecialVarElements extends AbstractParserRuleElementFinder {
 		private final ParserRule rule = (ParserRule) GrammarUtil.findRuleForName(getGrammar(), "SpecialVar");
-		private final Alternatives cAlternatives = (Alternatives)rule.eContents().get(1);
-		private final Assignment cOpAssignment_0 = (Assignment)cAlternatives.eContents().get(0);
-		private final Keyword cOpDollarSignNumberSignKeyword_0_0 = (Keyword)cOpAssignment_0.eContents().get(0);
-		private final Assignment cOpAssignment_1 = (Assignment)cAlternatives.eContents().get(1);
-		private final Keyword cOpDollarSignExclamationMarkKeyword_1_0 = (Keyword)cOpAssignment_1.eContents().get(0);
-		private final Assignment cOpAssignment_2 = (Assignment)cAlternatives.eContents().get(2);
-		private final Keyword cOpDollarSignCircumflexAccentKeyword_2_0 = (Keyword)cOpAssignment_2.eContents().get(0);
-		private final Assignment cOpAssignment_3 = (Assignment)cAlternatives.eContents().get(3);
-		private final Keyword cOpDollarSignCommercialAtKeyword_3_0 = (Keyword)cOpAssignment_3.eContents().get(0);
-		private final Assignment cOpAssignment_4 = (Assignment)cAlternatives.eContents().get(4);
-		private final Keyword cOpDollarSignAsteriskKeyword_4_0 = (Keyword)cOpAssignment_4.eContents().get(0);
-		private final Group cGroup_5 = (Group)cAlternatives.eContents().get(5);
-		private final Assignment cOpAssignment_5_0 = (Assignment)cGroup_5.eContents().get(0);
-		private final RuleCall cOpDOLLARTerminalRuleCall_5_0_0 = (RuleCall)cOpAssignment_5_0.eContents().get(0);
-		private final Assignment cValueAssignment_5_1 = (Assignment)cGroup_5.eContents().get(1);
-		private final RuleCall cValueIDTerminalRuleCall_5_1_0 = (RuleCall)cValueAssignment_5_1.eContents().get(0);
+		private final Group cGroup = (Group)rule.eContents().get(1);
+		private final Action cSpecialVarAction_0 = (Action)cGroup.eContents().get(0);
+		private final Alternatives cAlternatives_1 = (Alternatives)cGroup.eContents().get(1);
+		private final Assignment cOpAssignment_1_0 = (Assignment)cAlternatives_1.eContents().get(0);
+		private final Keyword cOpDollarSignNumberSignKeyword_1_0_0 = (Keyword)cOpAssignment_1_0.eContents().get(0);
+		private final Assignment cOpAssignment_1_1 = (Assignment)cAlternatives_1.eContents().get(1);
+		private final Keyword cOpDollarSignExclamationMarkKeyword_1_1_0 = (Keyword)cOpAssignment_1_1.eContents().get(0);
+		private final Assignment cOpAssignment_1_2 = (Assignment)cAlternatives_1.eContents().get(2);
+		private final Keyword cOpDollarSignCircumflexAccentKeyword_1_2_0 = (Keyword)cOpAssignment_1_2.eContents().get(0);
+		private final Assignment cOpAssignment_1_3 = (Assignment)cAlternatives_1.eContents().get(3);
+		private final Keyword cOpDollarSignCommercialAtKeyword_1_3_0 = (Keyword)cOpAssignment_1_3.eContents().get(0);
+		private final Assignment cOpAssignment_1_4 = (Assignment)cAlternatives_1.eContents().get(4);
+		private final Keyword cOpDollarSignAsteriskKeyword_1_4_0 = (Keyword)cOpAssignment_1_4.eContents().get(0);
+		private final Group cGroup_1_5 = (Group)cAlternatives_1.eContents().get(5);
+		private final Assignment cOpAssignment_1_5_0 = (Assignment)cGroup_1_5.eContents().get(0);
+		private final RuleCall cOpDOLLARTerminalRuleCall_1_5_0_0 = (RuleCall)cOpAssignment_1_5_0.eContents().get(0);
+		private final Assignment cValueAssignment_1_5_1 = (Assignment)cGroup_1_5.eContents().get(1);
+		private final RuleCall cValueIDTerminalRuleCall_1_5_1_0 = (RuleCall)cValueAssignment_1_5_1.eContents().get(0);
 		
 		//SpecialVar returns Expression:
-		//	op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID;
+		//	{SpecialVar} (op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID);
 		public ParserRule getRule() { return rule; }
 
+		//{SpecialVar} (op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID)
+		public Group getGroup() { return cGroup; }
+
+		//{SpecialVar}
+		public Action getSpecialVarAction_0() { return cSpecialVarAction_0; }
+
 		//op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID
-		public Alternatives getAlternatives() { return cAlternatives; }
+		public Alternatives getAlternatives_1() { return cAlternatives_1; }
 
 		//op="$#"
-		public Assignment getOpAssignment_0() { return cOpAssignment_0; }
+		public Assignment getOpAssignment_1_0() { return cOpAssignment_1_0; }
 
 		//"$#"
-		public Keyword getOpDollarSignNumberSignKeyword_0_0() { return cOpDollarSignNumberSignKeyword_0_0; }
+		public Keyword getOpDollarSignNumberSignKeyword_1_0_0() { return cOpDollarSignNumberSignKeyword_1_0_0; }
 
 		//op="$!"
-		public Assignment getOpAssignment_1() { return cOpAssignment_1; }
+		public Assignment getOpAssignment_1_1() { return cOpAssignment_1_1; }
 
 		//"$!"
-		public Keyword getOpDollarSignExclamationMarkKeyword_1_0() { return cOpDollarSignExclamationMarkKeyword_1_0; }
+		public Keyword getOpDollarSignExclamationMarkKeyword_1_1_0() { return cOpDollarSignExclamationMarkKeyword_1_1_0; }
 
 		//op="$^"
-		public Assignment getOpAssignment_2() { return cOpAssignment_2; }
+		public Assignment getOpAssignment_1_2() { return cOpAssignment_1_2; }
 
 		//"$^"
-		public Keyword getOpDollarSignCircumflexAccentKeyword_2_0() { return cOpDollarSignCircumflexAccentKeyword_2_0; }
+		public Keyword getOpDollarSignCircumflexAccentKeyword_1_2_0() { return cOpDollarSignCircumflexAccentKeyword_1_2_0; }
 
 		//op="$@"
-		public Assignment getOpAssignment_3() { return cOpAssignment_3; }
+		public Assignment getOpAssignment_1_3() { return cOpAssignment_1_3; }
 
 		//"$@"
-		public Keyword getOpDollarSignCommercialAtKeyword_3_0() { return cOpDollarSignCommercialAtKeyword_3_0; }
+		public Keyword getOpDollarSignCommercialAtKeyword_1_3_0() { return cOpDollarSignCommercialAtKeyword_1_3_0; }
 
 		//op="$*"
-		public Assignment getOpAssignment_4() { return cOpAssignment_4; }
+		public Assignment getOpAssignment_1_4() { return cOpAssignment_1_4; }
 
 		//"$*"
-		public Keyword getOpDollarSignAsteriskKeyword_4_0() { return cOpDollarSignAsteriskKeyword_4_0; }
+		public Keyword getOpDollarSignAsteriskKeyword_1_4_0() { return cOpDollarSignAsteriskKeyword_1_4_0; }
 
 		//op=DOLLAR value=ID
-		public Group getGroup_5() { return cGroup_5; }
+		public Group getGroup_1_5() { return cGroup_1_5; }
 
 		//op=DOLLAR
-		public Assignment getOpAssignment_5_0() { return cOpAssignment_5_0; }
+		public Assignment getOpAssignment_1_5_0() { return cOpAssignment_1_5_0; }
 
 		//DOLLAR
-		public RuleCall getOpDOLLARTerminalRuleCall_5_0_0() { return cOpDOLLARTerminalRuleCall_5_0_0; }
+		public RuleCall getOpDOLLARTerminalRuleCall_1_5_0_0() { return cOpDOLLARTerminalRuleCall_1_5_0_0; }
 
 		//value=ID
-		public Assignment getValueAssignment_5_1() { return cValueAssignment_5_1; }
+		public Assignment getValueAssignment_1_5_1() { return cValueAssignment_1_5_1; }
 
 		//ID
-		public RuleCall getValueIDTerminalRuleCall_5_1_0() { return cValueIDTerminalRuleCall_5_1_0; }
+		public RuleCall getValueIDTerminalRuleCall_1_5_1_0() { return cValueIDTerminalRuleCall_1_5_1_0; }
 	}
 
 	public class BracketedExprElements extends AbstractParserRuleElementFinder {
@@ -3427,7 +3447,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//SimpleName returns Expression:
-	//	value=ID;
+	//	{SimpleName} value=ID;
 	public SimpleNameElements getSimpleNameAccess() {
 		return (pSimpleName != null) ? pSimpleName : (pSimpleName = new SimpleNameElements());
 	}
@@ -3437,7 +3457,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//IndexedSpecialVar returns Expression:
-	//	op=DOLLAR value=INTVAL;
+	//	{IndexedSpecialVar} op=DOLLAR value=INTVAL;
 	public IndexedSpecialVarElements getIndexedSpecialVarAccess() {
 		return (pIndexedSpecialVar != null) ? pIndexedSpecialVar : (pIndexedSpecialVar = new IndexedSpecialVarElements());
 	}
@@ -3447,7 +3467,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//SpecialVar returns Expression:
-	//	op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID;
+	//	{SpecialVar} (op="$#" | op="$!" | op="$^" | op="$@" | op="$*" | op=DOLLAR value=ID);
 	public SpecialVarElements getSpecialVarAccess() {
 		return (pSpecialVar != null) ? pSpecialVar : (pSpecialVar = new SpecialVarElements());
 	}

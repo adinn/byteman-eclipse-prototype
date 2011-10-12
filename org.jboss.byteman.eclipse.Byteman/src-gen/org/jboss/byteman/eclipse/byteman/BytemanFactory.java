@@ -485,6 +485,33 @@ public interface BytemanFactory extends EFactory
   NewExpr createNewExpr();
 
   /**
+   * Returns a new object of class '<em>Simple Name</em>'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return a new object of class '<em>Simple Name</em>'.
+   * @generated
+   */
+  SimpleName createSimpleName();
+
+  /**
+   * Returns a new object of class '<em>Indexed Special Var</em>'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return a new object of class '<em>Indexed Special Var</em>'.
+   * @generated
+   */
+  IndexedSpecialVar createIndexedSpecialVar();
+
+  /**
+   * Returns a new object of class '<em>Special Var</em>'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return a new object of class '<em>Special Var</em>'.
+   * @generated
+   */
+  SpecialVar createSpecialVar();
+
+  /**
    * Returns a new object of class '<em>Int Constant Expr</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->

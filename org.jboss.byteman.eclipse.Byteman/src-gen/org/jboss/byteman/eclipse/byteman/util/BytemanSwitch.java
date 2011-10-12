@@ -514,6 +514,36 @@ public class BytemanSwitch<T> extends Switch<T>
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
+      case BytemanPackage.SIMPLE_NAME:
+      {
+        SimpleName simpleName = (SimpleName)theEObject;
+        T result = caseSimpleName(simpleName);
+        if (result == null) result = caseExpression(simpleName);
+        if (result == null) result = caseCondition(simpleName);
+        if (result == null) result = caseAction(simpleName);
+        if (result == null) result = defaultCase(theEObject);
+        return result;
+      }
+      case BytemanPackage.INDEXED_SPECIAL_VAR:
+      {
+        IndexedSpecialVar indexedSpecialVar = (IndexedSpecialVar)theEObject;
+        T result = caseIndexedSpecialVar(indexedSpecialVar);
+        if (result == null) result = caseExpression(indexedSpecialVar);
+        if (result == null) result = caseCondition(indexedSpecialVar);
+        if (result == null) result = caseAction(indexedSpecialVar);
+        if (result == null) result = defaultCase(theEObject);
+        return result;
+      }
+      case BytemanPackage.SPECIAL_VAR:
+      {
+        SpecialVar specialVar = (SpecialVar)theEObject;
+        T result = caseSpecialVar(specialVar);
+        if (result == null) result = caseExpression(specialVar);
+        if (result == null) result = caseCondition(specialVar);
+        if (result == null) result = caseAction(specialVar);
+        if (result == null) result = defaultCase(theEObject);
+        return result;
+      }
       case BytemanPackage.INT_CONSTANT_EXPR:
       {
         IntConstantExpr intConstantExpr = (IntConstantExpr)theEObject;
@@ -1370,6 +1400,54 @@ public class BytemanSwitch<T> extends Switch<T>
    * @generated
    */
   public T caseNewExpr(NewExpr object)
+  {
+    return null;
+  }
+
+  /**
+   * Returns the result of interpreting the object as an instance of '<em>Simple Name</em>'.
+   * <!-- begin-user-doc -->
+   * This implementation returns null;
+   * returning a non-null result will terminate the switch.
+   * <!-- end-user-doc -->
+   * @param object the target of the switch.
+   * @return the result of interpreting the object as an instance of '<em>Simple Name</em>'.
+   * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+   * @generated
+   */
+  public T caseSimpleName(SimpleName object)
+  {
+    return null;
+  }
+
+  /**
+   * Returns the result of interpreting the object as an instance of '<em>Indexed Special Var</em>'.
+   * <!-- begin-user-doc -->
+   * This implementation returns null;
+   * returning a non-null result will terminate the switch.
+   * <!-- end-user-doc -->
+   * @param object the target of the switch.
+   * @return the result of interpreting the object as an instance of '<em>Indexed Special Var</em>'.
+   * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+   * @generated
+   */
+  public T caseIndexedSpecialVar(IndexedSpecialVar object)
+  {
+    return null;
+  }
+
+  /**
+   * Returns the result of interpreting the object as an instance of '<em>Special Var</em>'.
+   * <!-- begin-user-doc -->
+   * This implementation returns null;
+   * returning a non-null result will terminate the switch.
+   * <!-- end-user-doc -->
+   * @param object the target of the switch.
+   * @return the result of interpreting the object as an instance of '<em>Special Var</em>'.
+   * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+   * @generated
+   */
+  public T caseSpecialVar(SpecialVar object)
   {
     return null;
   }

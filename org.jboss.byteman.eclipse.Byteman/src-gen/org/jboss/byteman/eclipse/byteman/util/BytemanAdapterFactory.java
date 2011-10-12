@@ -333,6 +333,21 @@ public class BytemanAdapterFactory extends AdapterFactoryImpl
         return createNewExprAdapter();
       }
       @Override
+      public Adapter caseSimpleName(SimpleName object)
+      {
+        return createSimpleNameAdapter();
+      }
+      @Override
+      public Adapter caseIndexedSpecialVar(IndexedSpecialVar object)
+      {
+        return createIndexedSpecialVarAdapter();
+      }
+      @Override
+      public Adapter caseSpecialVar(SpecialVar object)
+      {
+        return createSpecialVarAdapter();
+      }
+      @Override
       public Adapter caseIntConstantExpr(IntConstantExpr object)
       {
         return createIntConstantExprAdapter();
@@ -1135,6 +1150,51 @@ public class BytemanAdapterFactory extends AdapterFactoryImpl
    * @generated
    */
   public Adapter createNewExprAdapter()
+  {
+    return null;
+  }
+
+  /**
+   * Creates a new adapter for an object of class '{@link org.jboss.byteman.eclipse.byteman.SimpleName <em>Simple Name</em>}'.
+   * <!-- begin-user-doc -->
+   * This default implementation returns null so that we can easily ignore cases;
+   * it's useful to ignore a case when inheritance will catch all the cases anyway.
+   * <!-- end-user-doc -->
+   * @return the new adapter.
+   * @see org.jboss.byteman.eclipse.byteman.SimpleName
+   * @generated
+   */
+  public Adapter createSimpleNameAdapter()
+  {
+    return null;
+  }
+
+  /**
+   * Creates a new adapter for an object of class '{@link org.jboss.byteman.eclipse.byteman.IndexedSpecialVar <em>Indexed Special Var</em>}'.
+   * <!-- begin-user-doc -->
+   * This default implementation returns null so that we can easily ignore cases;
+   * it's useful to ignore a case when inheritance will catch all the cases anyway.
+   * <!-- end-user-doc -->
+   * @return the new adapter.
+   * @see org.jboss.byteman.eclipse.byteman.IndexedSpecialVar
+   * @generated
+   */
+  public Adapter createIndexedSpecialVarAdapter()
+  {
+    return null;
+  }
+
+  /**
+   * Creates a new adapter for an object of class '{@link org.jboss.byteman.eclipse.byteman.SpecialVar <em>Special Var</em>}'.
+   * <!-- begin-user-doc -->
+   * This default implementation returns null so that we can easily ignore cases;
+   * it's useful to ignore a case when inheritance will catch all the cases anyway.
+   * <!-- end-user-doc -->
+   * @return the new adapter.
+   * @see org.jboss.byteman.eclipse.byteman.SpecialVar
+   * @generated
+   */
+  public Adapter createSpecialVarAdapter()
   {
     return null;
   }

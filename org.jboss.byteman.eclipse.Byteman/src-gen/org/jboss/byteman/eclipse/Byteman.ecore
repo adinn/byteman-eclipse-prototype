@@ -136,7 +136,6 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="operand1" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CallArguments">
     <eStructuralFeatures xsi:type="ecore:EReference" name="args" upperBound="-1" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
@@ -169,19 +168,39 @@
   <eClassifiers xsi:type="ecore:EClass" name="AccessExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
     <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
         containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="BuiltinExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="NewExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="params" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="IntConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"/>
-  <eClassifiers xsi:type="ecore:EClass" name="StringConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"/>
-  <eClassifiers xsi:type="ecore:EClass" name="BooleanConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"/>
-  <eClassifiers xsi:type="ecore:EClass" name="FloatConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleName" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IndexedSpecialVar" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SpecialVar" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IntConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StringConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BooleanConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="FloatConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
 </ecore:EPackage>

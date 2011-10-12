@@ -12,22 +12,22 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import org.jboss.byteman.eclipse.byteman.BytemanPackage;
-import org.jboss.byteman.eclipse.byteman.StringConstantExpr;
+import org.jboss.byteman.eclipse.byteman.SimpleName;
 
 /**
  * <!-- begin-user-doc -->
- * An implementation of the model object '<em><b>String Constant Expr</b></em>'.
+ * An implementation of the model object '<em><b>Simple Name</b></em>'.
  * <!-- end-user-doc -->
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.StringConstantExprImpl#getValue <em>Value</em>}</li>
+ *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.SimpleNameImpl#getValue <em>Value</em>}</li>
  * </ul>
  * </p>
  *
  * @generated
  */
-public class StringConstantExprImpl extends ExpressionImpl implements StringConstantExpr
+public class SimpleNameImpl extends ExpressionImpl implements SimpleName
 {
   /**
    * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
@@ -54,7 +54,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
    * <!-- end-user-doc -->
    * @generated
    */
-  protected StringConstantExprImpl()
+  protected SimpleNameImpl()
   {
     super();
   }
@@ -67,7 +67,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
   @Override
   protected EClass eStaticClass()
   {
-    return BytemanPackage.Literals.STRING_CONSTANT_EXPR;
+    return BytemanPackage.Literals.SIMPLE_NAME;
   }
 
   /**
@@ -90,7 +90,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
     String oldValue = value;
     value = newValue;
     if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.STRING_CONSTANT_EXPR__VALUE, oldValue, value));
+      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.SIMPLE_NAME__VALUE, oldValue, value));
   }
 
   /**
@@ -103,7 +103,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
   {
     switch (featureID)
     {
-      case BytemanPackage.STRING_CONSTANT_EXPR__VALUE:
+      case BytemanPackage.SIMPLE_NAME__VALUE:
         return getValue();
     }
     return super.eGet(featureID, resolve, coreType);
@@ -119,7 +119,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
   {
     switch (featureID)
     {
-      case BytemanPackage.STRING_CONSTANT_EXPR__VALUE:
+      case BytemanPackage.SIMPLE_NAME__VALUE:
         setValue((String)newValue);
         return;
     }
@@ -136,7 +136,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
   {
     switch (featureID)
     {
-      case BytemanPackage.STRING_CONSTANT_EXPR__VALUE:
+      case BytemanPackage.SIMPLE_NAME__VALUE:
         setValue(VALUE_EDEFAULT);
         return;
     }
@@ -153,7 +153,7 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
   {
     switch (featureID)
     {
-      case BytemanPackage.STRING_CONSTANT_EXPR__VALUE:
+      case BytemanPackage.SIMPLE_NAME__VALUE:
         return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
     }
     return super.eIsSet(featureID);
@@ -176,4 +176,4 @@ public class StringConstantExprImpl extends ExpressionImpl implements StringCons
     return result.toString();
   }
 
-} //StringConstantExprImpl
+} //SimpleNameImpl

@@ -24,6 +24,7 @@ import org.jboss.byteman.eclipse.byteman.NewExpr;
  * <p>
  * The following features are implemented:
  * <ul>
+ *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.NewExprImpl#getValue <em>Value</em>}</li>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.NewExprImpl#getParams <em>Params</em>}</li>
  * </ul>
  * </p>
@@ -32,6 +33,26 @@ import org.jboss.byteman.eclipse.byteman.NewExpr;
  */
 public class NewExprImpl extends ExpressionImpl implements NewExpr
 {
+  /**
+   * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getValue()
+   * @generated
+   * @ordered
+   */
+  protected static final String VALUE_EDEFAULT = null;
+
+  /**
+   * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getValue()
+   * @generated
+   * @ordered
+   */
+  protected String value = VALUE_EDEFAULT;
+
   /**
    * The cached value of the '{@link #getParams() <em>Params</em>}' containment reference.
    * <!-- begin-user-doc -->
@@ -61,6 +82,29 @@ public class NewExprImpl extends ExpressionImpl implements NewExpr
   protected EClass eStaticClass()
   {
     return BytemanPackage.Literals.NEW_EXPR;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public String getValue()
+  {
+    return value;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public void setValue(String newValue)
+  {
+    String oldValue = value;
+    value = newValue;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.NEW_EXPR__VALUE, oldValue, value));
   }
 
   /**
@@ -137,6 +181,8 @@ public class NewExprImpl extends ExpressionImpl implements NewExpr
   {
     switch (featureID)
     {
+      case BytemanPackage.NEW_EXPR__VALUE:
+        return getValue();
       case BytemanPackage.NEW_EXPR__PARAMS:
         return getParams();
     }
@@ -153,6 +199,9 @@ public class NewExprImpl extends ExpressionImpl implements NewExpr
   {
     switch (featureID)
     {
+      case BytemanPackage.NEW_EXPR__VALUE:
+        setValue((String)newValue);
+        return;
       case BytemanPackage.NEW_EXPR__PARAMS:
         setParams((CallArguments)newValue);
         return;
@@ -170,6 +219,9 @@ public class NewExprImpl extends ExpressionImpl implements NewExpr
   {
     switch (featureID)
     {
+      case BytemanPackage.NEW_EXPR__VALUE:
+        setValue(VALUE_EDEFAULT);
+        return;
       case BytemanPackage.NEW_EXPR__PARAMS:
         setParams((CallArguments)null);
         return;
@@ -187,10 +239,29 @@ public class NewExprImpl extends ExpressionImpl implements NewExpr
   {
     switch (featureID)
     {
+      case BytemanPackage.NEW_EXPR__VALUE:
+        return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
       case BytemanPackage.NEW_EXPR__PARAMS:
         return params != null;
     }
     return super.eIsSet(featureID);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String toString()
+  {
+    if (eIsProxy()) return super.toString();
+
+    StringBuffer result = new StringBuffer(super.toString());
+    result.append(" (value: ");
+    result.append(value);
+    result.append(')');
+    return result.toString();
   }
 
 } //NewExprImpl

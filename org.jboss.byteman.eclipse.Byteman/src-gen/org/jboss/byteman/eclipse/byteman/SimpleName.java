@@ -8,21 +8,21 @@ package org.jboss.byteman.eclipse.byteman;
 
 /**
  * <!-- begin-user-doc -->
- * A representation of the model object '<em><b>Boolean Constant Expr</b></em>'.
+ * A representation of the model object '<em><b>Simple Name</b></em>'.
  * <!-- end-user-doc -->
  *
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.jboss.byteman.eclipse.byteman.BooleanConstantExpr#getValue <em>Value</em>}</li>
+ *   <li>{@link org.jboss.byteman.eclipse.byteman.SimpleName#getValue <em>Value</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getBooleanConstantExpr()
+ * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getSimpleName()
  * @model
  * @generated
  */
-public interface BooleanConstantExpr extends Expression
+public interface SimpleName extends Expression
 {
   /**
    * Returns the value of the '<em><b>Value</b></em>' attribute.
@@ -34,14 +34,14 @@ public interface BooleanConstantExpr extends Expression
    * <!-- end-user-doc -->
    * @return the value of the '<em>Value</em>' attribute.
    * @see #setValue(String)
-   * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getBooleanConstantExpr_Value()
+   * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getSimpleName_Value()
    * @model
    * @generated
    */
   String getValue();
 
   /**
-   * Sets the value of the '{@link org.jboss.byteman.eclipse.byteman.BooleanConstantExpr#getValue <em>Value</em>}' attribute.
+   * Sets the value of the '{@link org.jboss.byteman.eclipse.byteman.SimpleName#getValue <em>Value</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Value</em>' attribute.
@@ -50,4 +50,4 @@ public interface BooleanConstantExpr extends Expression
    */
   void setValue(String value);
 
-} // BooleanConstantExpr
+} // SimpleName

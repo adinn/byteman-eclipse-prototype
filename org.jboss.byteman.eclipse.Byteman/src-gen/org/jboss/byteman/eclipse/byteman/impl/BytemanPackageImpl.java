@@ -60,6 +60,7 @@ import org.jboss.byteman.eclipse.byteman.EventMethod;
 import org.jboss.byteman.eclipse.byteman.Expression;
 import org.jboss.byteman.eclipse.byteman.FloatConstantExpr;
 import org.jboss.byteman.eclipse.byteman.Helper;
+import org.jboss.byteman.eclipse.byteman.IndexedSpecialVar;
 import org.jboss.byteman.eclipse.byteman.IntConstantExpr;
 import org.jboss.byteman.eclipse.byteman.LocationSpecifier;
 import org.jboss.byteman.eclipse.byteman.LogicalOperand;
@@ -67,6 +68,8 @@ import org.jboss.byteman.eclipse.byteman.NewExpr;
 import org.jboss.byteman.eclipse.byteman.OperatorExpr;
 import org.jboss.byteman.eclipse.byteman.ParameterTypes;
 import org.jboss.byteman.eclipse.byteman.PlusMinusOperand;
+import org.jboss.byteman.eclipse.byteman.SimpleName;
+import org.jboss.byteman.eclipse.byteman.SpecialVar;
 import org.jboss.byteman.eclipse.byteman.StringConstantExpr;
 import org.jboss.byteman.eclipse.byteman.TimesDivOperand;
 
@@ -434,6 +437,27 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * @generated
    */
   private EClass newExprEClass = null;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private EClass simpleNameEClass = null;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private EClass indexedSpecialVarEClass = null;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private EClass specialVarEClass = null;
 
   /**
    * <!-- begin-user-doc -->
@@ -1381,16 +1405,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EAttribute getExpression_Value()
-  {
-    return (EAttribute)expressionEClass.getEStructuralFeatures().get(2);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
   public EClass getCallArguments()
   {
     return callArgumentsEClass;
@@ -1551,9 +1565,19 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getAccessExpr_Value()
+  {
+    return (EAttribute)accessExprEClass.getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EReference getAccessExpr_Args()
   {
-    return (EReference)accessExprEClass.getEStructuralFeatures().get(1);
+    return (EReference)accessExprEClass.getEStructuralFeatures().get(2);
   }
 
   /**
@@ -1571,9 +1595,19 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getBuiltinExpr_Value()
+  {
+    return (EAttribute)builtinExprEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EReference getBuiltinExpr_Args()
   {
-    return (EReference)builtinExprEClass.getEStructuralFeatures().get(0);
+    return (EReference)builtinExprEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -1591,9 +1625,79 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getNewExpr_Value()
+  {
+    return (EAttribute)newExprEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EReference getNewExpr_Params()
   {
-    return (EReference)newExprEClass.getEStructuralFeatures().get(0);
+    return (EReference)newExprEClass.getEStructuralFeatures().get(1);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EClass getSimpleName()
+  {
+    return simpleNameEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getSimpleName_Value()
+  {
+    return (EAttribute)simpleNameEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EClass getIndexedSpecialVar()
+  {
+    return indexedSpecialVarEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getIndexedSpecialVar_Value()
+  {
+    return (EAttribute)indexedSpecialVarEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EClass getSpecialVar()
+  {
+    return specialVarEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getSpecialVar_Value()
+  {
+    return (EAttribute)specialVarEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -1611,9 +1715,29 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getIntConstantExpr_Value()
+  {
+    return (EAttribute)intConstantExprEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EClass getStringConstantExpr()
   {
     return stringConstantExprEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getStringConstantExpr_Value()
+  {
+    return (EAttribute)stringConstantExprEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -1631,9 +1755,29 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
+  public EAttribute getBooleanConstantExpr_Value()
+  {
+    return (EAttribute)booleanConstantExprEClass.getEStructuralFeatures().get(0);
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   public EClass getFloatConstantExpr()
   {
     return floatConstantExprEClass;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public EAttribute getFloatConstantExpr_Value()
+  {
+    return (EAttribute)floatConstantExprEClass.getEStructuralFeatures().get(0);
   }
 
   /**
@@ -1791,7 +1935,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     expressionEClass = createEClass(EXPRESSION);
     createEAttribute(expressionEClass, EXPRESSION__OP);
     createEReference(expressionEClass, EXPRESSION__OPERAND1);
-    createEAttribute(expressionEClass, EXPRESSION__VALUE);
 
     callArgumentsEClass = createEClass(CALL_ARGUMENTS);
     createEReference(callArgumentsEClass, CALL_ARGUMENTS__ARGS);
@@ -1816,21 +1959,37 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
 
     accessExprEClass = createEClass(ACCESS_EXPR);
     createEReference(accessExprEClass, ACCESS_EXPR__OPERAND2);
+    createEAttribute(accessExprEClass, ACCESS_EXPR__VALUE);
     createEReference(accessExprEClass, ACCESS_EXPR__ARGS);
 
     builtinExprEClass = createEClass(BUILTIN_EXPR);
+    createEAttribute(builtinExprEClass, BUILTIN_EXPR__VALUE);
     createEReference(builtinExprEClass, BUILTIN_EXPR__ARGS);
 
     newExprEClass = createEClass(NEW_EXPR);
+    createEAttribute(newExprEClass, NEW_EXPR__VALUE);
     createEReference(newExprEClass, NEW_EXPR__PARAMS);
 
+    simpleNameEClass = createEClass(SIMPLE_NAME);
+    createEAttribute(simpleNameEClass, SIMPLE_NAME__VALUE);
+
+    indexedSpecialVarEClass = createEClass(INDEXED_SPECIAL_VAR);
+    createEAttribute(indexedSpecialVarEClass, INDEXED_SPECIAL_VAR__VALUE);
+
+    specialVarEClass = createEClass(SPECIAL_VAR);
+    createEAttribute(specialVarEClass, SPECIAL_VAR__VALUE);
+
     intConstantExprEClass = createEClass(INT_CONSTANT_EXPR);
+    createEAttribute(intConstantExprEClass, INT_CONSTANT_EXPR__VALUE);
 
     stringConstantExprEClass = createEClass(STRING_CONSTANT_EXPR);
+    createEAttribute(stringConstantExprEClass, STRING_CONSTANT_EXPR__VALUE);
 
     booleanConstantExprEClass = createEClass(BOOLEAN_CONSTANT_EXPR);
+    createEAttribute(booleanConstantExprEClass, BOOLEAN_CONSTANT_EXPR__VALUE);
 
     floatConstantExprEClass = createEClass(FLOAT_CONSTANT_EXPR);
+    createEAttribute(floatConstantExprEClass, FLOAT_CONSTANT_EXPR__VALUE);
   }
 
   /**
@@ -1899,6 +2058,9 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     accessExprEClass.getESuperTypes().add(this.getExpression());
     builtinExprEClass.getESuperTypes().add(this.getExpression());
     newExprEClass.getESuperTypes().add(this.getExpression());
+    simpleNameEClass.getESuperTypes().add(this.getExpression());
+    indexedSpecialVarEClass.getESuperTypes().add(this.getExpression());
+    specialVarEClass.getESuperTypes().add(this.getExpression());
     intConstantExprEClass.getESuperTypes().add(this.getExpression());
     stringConstantExprEClass.getESuperTypes().add(this.getExpression());
     booleanConstantExprEClass.getESuperTypes().add(this.getExpression());
@@ -2030,7 +2192,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     initEClass(expressionEClass, Expression.class, "Expression", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getExpression_Op(), ecorePackage.getEString(), "op", null, 0, 1, Expression.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getExpression_Operand1(), this.getExpression(), null, "operand1", null, 0, 1, Expression.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getExpression_Value(), ecorePackage.getEString(), "value", null, 0, 1, Expression.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(callArgumentsEClass, CallArguments.class, "CallArguments", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getCallArguments_Args(), this.getExpression(), null, "args", null, 0, -1, CallArguments.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -2055,21 +2216,37 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
 
     initEClass(accessExprEClass, AccessExpr.class, "AccessExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getAccessExpr_Operand2(), this.getExpression(), null, "operand2", null, 0, 1, AccessExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getAccessExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, AccessExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getAccessExpr_Args(), this.getCallArguments(), null, "args", null, 0, 1, AccessExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(builtinExprEClass, BuiltinExpr.class, "BuiltinExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getBuiltinExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, BuiltinExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getBuiltinExpr_Args(), this.getCallArguments(), null, "args", null, 0, 1, BuiltinExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(newExprEClass, NewExpr.class, "NewExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getNewExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, NewExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getNewExpr_Params(), this.getCallArguments(), null, "params", null, 0, 1, NewExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
+    initEClass(simpleNameEClass, SimpleName.class, "SimpleName", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getSimpleName_Value(), ecorePackage.getEString(), "value", null, 0, 1, SimpleName.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+    initEClass(indexedSpecialVarEClass, IndexedSpecialVar.class, "IndexedSpecialVar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getIndexedSpecialVar_Value(), ecorePackage.getEString(), "value", null, 0, 1, IndexedSpecialVar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+    initEClass(specialVarEClass, SpecialVar.class, "SpecialVar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getSpecialVar_Value(), ecorePackage.getEString(), "value", null, 0, 1, SpecialVar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
     initEClass(intConstantExprEClass, IntConstantExpr.class, "IntConstantExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getIntConstantExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, IntConstantExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(stringConstantExprEClass, StringConstantExpr.class, "StringConstantExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getStringConstantExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, StringConstantExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(booleanConstantExprEClass, BooleanConstantExpr.class, "BooleanConstantExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getBooleanConstantExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, BooleanConstantExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(floatConstantExprEClass, FloatConstantExpr.class, "FloatConstantExpr", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+    initEAttribute(getFloatConstantExpr_Value(), ecorePackage.getEString(), "value", null, 0, 1, FloatConstantExpr.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     // Create resource
     createResource(eNS_URI);

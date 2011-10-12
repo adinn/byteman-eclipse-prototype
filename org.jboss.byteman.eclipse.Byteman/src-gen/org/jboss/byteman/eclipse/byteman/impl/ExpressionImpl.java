@@ -25,7 +25,6 @@ import org.jboss.byteman.eclipse.byteman.Expression;
  * <ul>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.ExpressionImpl#getOp <em>Op</em>}</li>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.ExpressionImpl#getOperand1 <em>Operand1</em>}</li>
- *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.ExpressionImpl#getValue <em>Value</em>}</li>
  * </ul>
  * </p>
  *
@@ -62,26 +61,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
    * @ordered
    */
   protected Expression operand1;
-
-  /**
-   * The default value of the '{@link #getValue() <em>Value</em>}' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see #getValue()
-   * @generated
-   * @ordered
-   */
-  protected static final String VALUE_EDEFAULT = null;
-
-  /**
-   * The cached value of the '{@link #getValue() <em>Value</em>}' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see #getValue()
-   * @generated
-   * @ordered
-   */
-  protected String value = VALUE_EDEFAULT;
 
   /**
    * <!-- begin-user-doc -->
@@ -180,29 +159,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
    * <!-- end-user-doc -->
    * @generated
    */
-  public String getValue()
-  {
-    return value;
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public void setValue(String newValue)
-  {
-    String oldValue = value;
-    value = newValue;
-    if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.EXPRESSION__VALUE, oldValue, value));
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -228,8 +184,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
         return getOp();
       case BytemanPackage.EXPRESSION__OPERAND1:
         return getOperand1();
-      case BytemanPackage.EXPRESSION__VALUE:
-        return getValue();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -249,9 +203,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
         return;
       case BytemanPackage.EXPRESSION__OPERAND1:
         setOperand1((Expression)newValue);
-        return;
-      case BytemanPackage.EXPRESSION__VALUE:
-        setValue((String)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -273,9 +224,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
       case BytemanPackage.EXPRESSION__OPERAND1:
         setOperand1((Expression)null);
         return;
-      case BytemanPackage.EXPRESSION__VALUE:
-        setValue(VALUE_EDEFAULT);
-        return;
     }
     super.eUnset(featureID);
   }
@@ -294,8 +242,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
         return OP_EDEFAULT == null ? op != null : !OP_EDEFAULT.equals(op);
       case BytemanPackage.EXPRESSION__OPERAND1:
         return operand1 != null;
-      case BytemanPackage.EXPRESSION__VALUE:
-        return VALUE_EDEFAULT == null ? value != null : !VALUE_EDEFAULT.equals(value);
     }
     return super.eIsSet(featureID);
   }
@@ -313,8 +259,6 @@ public class ExpressionImpl extends ConditionImpl implements Expression
     StringBuffer result = new StringBuffer(super.toString());
     result.append(" (op: ");
     result.append(op);
-    result.append(", value: ");
-    result.append(value);
     result.append(')');
     return result.toString();
   }

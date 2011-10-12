@@ -118,7 +118,6 @@
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression/op"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression/operand1"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression/value"/>
     </genClasses>
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments/args"/>
@@ -143,17 +142,37 @@
     </genClasses>
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/operand2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/value"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/args"/>
     </genClasses>
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr/value"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr/args"/>
     </genClasses>
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr/value"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr/params"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IntConstantExpr"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//StringConstantExpr"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BooleanConstantExpr"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//FloatConstantExpr"/>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SimpleName">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SimpleName/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IndexedSpecialVar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IndexedSpecialVar/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SpecialVar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SpecialVar/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IntConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IntConstantExpr/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//StringConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//StringConstantExpr/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BooleanConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BooleanConstantExpr/value"/>
+    </genClasses>
+    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//FloatConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//FloatConstantExpr/value"/>
+    </genClasses>
   </genPackages>
 </genmodel:GenModel>

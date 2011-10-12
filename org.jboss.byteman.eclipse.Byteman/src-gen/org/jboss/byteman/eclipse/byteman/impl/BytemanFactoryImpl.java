@@ -118,6 +118,9 @@ public class BytemanFactoryImpl extends EFactoryImpl implements BytemanFactory
       case BytemanPackage.ACCESS_EXPR: return createAccessExpr();
       case BytemanPackage.BUILTIN_EXPR: return createBuiltinExpr();
       case BytemanPackage.NEW_EXPR: return createNewExpr();
+      case BytemanPackage.SIMPLE_NAME: return createSimpleName();
+      case BytemanPackage.INDEXED_SPECIAL_VAR: return createIndexedSpecialVar();
+      case BytemanPackage.SPECIAL_VAR: return createSpecialVar();
       case BytemanPackage.INT_CONSTANT_EXPR: return createIntConstantExpr();
       case BytemanPackage.STRING_CONSTANT_EXPR: return createStringConstantExpr();
       case BytemanPackage.BOOLEAN_CONSTANT_EXPR: return createBooleanConstantExpr();
@@ -686,6 +689,39 @@ public class BytemanFactoryImpl extends EFactoryImpl implements BytemanFactory
   {
     NewExprImpl newExpr = new NewExprImpl();
     return newExpr;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public SimpleName createSimpleName()
+  {
+    SimpleNameImpl simpleName = new SimpleNameImpl();
+    return simpleName;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public IndexedSpecialVar createIndexedSpecialVar()
+  {
+    IndexedSpecialVarImpl indexedSpecialVar = new IndexedSpecialVarImpl();
+    return indexedSpecialVar;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public SpecialVar createSpecialVar()
+  {
+    SpecialVarImpl specialVar = new SpecialVarImpl();
+    return specialVar;
   }
 
   /**
