@@ -247,7 +247,7 @@ ThrowExpr returns Expression:
 // etc 
  
 AssignmentExpr returns Expression:
-    OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*;
+    OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?;
 
 // other expressions are composed from either simple expressions or
 // expressions involving member or array accesses using either unary

@@ -7767,7 +7767,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
 
 
     // $ANTLR start "ruleAssignmentExpr"
-    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2886:1: ruleAssignmentExpr returns [EObject current=null] : (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )* ) ;
+    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2886:1: ruleAssignmentExpr returns [EObject current=null] : (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )? ) ;
     public final EObject ruleAssignmentExpr() throws RecognitionException {
         EObject current = null;
 
@@ -7780,11 +7780,11 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
          enterRule(); 
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2889:28: ( (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )* ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2890:1: (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )* )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2889:28: ( (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )? ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2890:1: (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )? )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2890:1: (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )* )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2891:5: this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )*
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2890:1: (this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )? )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2891:5: this_OperatorExpr_0= ruleOperatorExpr ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )?
             {
              
                     newCompositeNode(grammarAccess.getAssignmentExprAccess().getOperatorExprParserRuleCall_0()); 
@@ -7798,97 +7798,90 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
                     current = this_OperatorExpr_0; 
                     afterParserOrEnumRuleCall();
                 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:1: ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) ) )*
-            loop53:
-            do {
-                int alt53=2;
-                int LA53_0 = input.LA(1);
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:1: ( () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) ) )?
+            int alt53=2;
+            int LA53_0 = input.LA(1);
 
-                if ( (LA53_0==RULE_ASSIGN) ) {
-                    alt53=1;
-                }
+            if ( (LA53_0==RULE_ASSIGN) ) {
+                alt53=1;
+            }
+            switch (alt53) {
+                case 1 :
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:2: () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleAssignmentExpr ) )
+                    {
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:2: ()
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2900:5: 
+                    {
 
+                            current = forceCreateModelElementAndSet(
+                                grammarAccess.getAssignmentExprAccess().getAssignmentExprOperand1Action_1_0(),
+                                current);
+                        
 
-                switch (alt53) {
-            	case 1 :
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:2: () ( (lv_op_2_0= RULE_ASSIGN ) ) ( (lv_operand2_3_0= ruleOperatorExpr ) )
-            	    {
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2899:2: ()
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2900:5: 
-            	    {
+                    }
 
-            	            current = forceCreateModelElementAndSet(
-            	                grammarAccess.getAssignmentExprAccess().getAssignmentExprOperand1Action_1_0(),
-            	                current);
-            	        
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2905:2: ( (lv_op_2_0= RULE_ASSIGN ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2906:1: (lv_op_2_0= RULE_ASSIGN )
+                    {
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2906:1: (lv_op_2_0= RULE_ASSIGN )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2907:3: lv_op_2_0= RULE_ASSIGN
+                    {
+                    lv_op_2_0=(Token)match(input,RULE_ASSIGN,FOLLOW_RULE_ASSIGN_in_ruleAssignmentExpr6693); 
 
-            	    }
+                    			newLeafNode(lv_op_2_0, grammarAccess.getAssignmentExprAccess().getOpASSIGNTerminalRuleCall_1_1_0()); 
+                    		
 
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2905:2: ( (lv_op_2_0= RULE_ASSIGN ) )
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2906:1: (lv_op_2_0= RULE_ASSIGN )
-            	    {
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2906:1: (lv_op_2_0= RULE_ASSIGN )
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2907:3: lv_op_2_0= RULE_ASSIGN
-            	    {
-            	    lv_op_2_0=(Token)match(input,RULE_ASSIGN,FOLLOW_RULE_ASSIGN_in_ruleAssignmentExpr6693); 
+                    	        if (current==null) {
+                    	            current = createModelElement(grammarAccess.getAssignmentExprRule());
+                    	        }
+                           		setWithLastConsumed(
+                           			current, 
+                           			"op",
+                            		lv_op_2_0, 
+                            		"ASSIGN");
+                    	    
 
-            	    			newLeafNode(lv_op_2_0, grammarAccess.getAssignmentExprAccess().getOpASSIGNTerminalRuleCall_1_1_0()); 
-            	    		
-
-            	    	        if (current==null) {
-            	    	            current = createModelElement(grammarAccess.getAssignmentExprRule());
-            	    	        }
-            	           		setWithLastConsumed(
-            	           			current, 
-            	           			"op",
-            	            		lv_op_2_0, 
-            	            		"ASSIGN");
-            	    	    
-
-            	    }
+                    }
 
 
-            	    }
+                    }
 
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2923:2: ( (lv_operand2_3_0= ruleOperatorExpr ) )
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2924:1: (lv_operand2_3_0= ruleOperatorExpr )
-            	    {
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2924:1: (lv_operand2_3_0= ruleOperatorExpr )
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2925:3: lv_operand2_3_0= ruleOperatorExpr
-            	    {
-            	     
-            	    	        newCompositeNode(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); 
-            	    	    
-            	    pushFollow(FOLLOW_ruleOperatorExpr_in_ruleAssignmentExpr6719);
-            	    lv_operand2_3_0=ruleOperatorExpr();
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2923:2: ( (lv_operand2_3_0= ruleAssignmentExpr ) )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2924:1: (lv_operand2_3_0= ruleAssignmentExpr )
+                    {
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2924:1: (lv_operand2_3_0= ruleAssignmentExpr )
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:2925:3: lv_operand2_3_0= ruleAssignmentExpr
+                    {
+                     
+                    	        newCompositeNode(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); 
+                    	    
+                    pushFollow(FOLLOW_ruleAssignmentExpr_in_ruleAssignmentExpr6719);
+                    lv_operand2_3_0=ruleAssignmentExpr();
 
-            	    state._fsp--;
-
-
-            	    	        if (current==null) {
-            	    	            current = createModelElementForParent(grammarAccess.getAssignmentExprRule());
-            	    	        }
-            	           		set(
-            	           			current, 
-            	           			"operand2",
-            	            		lv_operand2_3_0, 
-            	            		"OperatorExpr");
-            	    	        afterParserOrEnumRuleCall();
-            	    	    
-
-            	    }
+                    state._fsp--;
 
 
-            	    }
+                    	        if (current==null) {
+                    	            current = createModelElementForParent(grammarAccess.getAssignmentExprRule());
+                    	        }
+                           		set(
+                           			current, 
+                           			"operand2",
+                            		lv_operand2_3_0, 
+                            		"AssignmentExpr");
+                    	        afterParserOrEnumRuleCall();
+                    	    
+
+                    }
 
 
-            	    }
-            	    break;
+                    }
 
-            	default :
-            	    break loop53;
-                }
-            } while (true);
+
+                    }
+                    break;
+
+            }
 
 
             }
@@ -9994,11 +9987,11 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
             if ( (LA69_0==RULE_ID) ) {
                 int LA69_1 = input.LA(2);
 
-                if ( (LA69_1==EOF||LA69_1==RULE_END_RULE||(LA69_1>=RULE_COMMA && LA69_1<=RULE_RPAREN)||LA69_1==RULE_SEMICOLON||(LA69_1>=RULE_ASSIGN && LA69_1<=RULE_DO)||(LA69_1>=RULE_PLUS && LA69_1<=RULE_BXOR)||(LA69_1>=RULE_OR && LA69_1<=RULE_AND)||(LA69_1>=RULE_EQ && LA69_1<=RULE_DOT)) ) {
-                    alt69=2;
-                }
-                else if ( (LA69_1==RULE_LPAREN) ) {
+                if ( (LA69_1==RULE_LPAREN) ) {
                     alt69=1;
+                }
+                else if ( (LA69_1==EOF||LA69_1==RULE_END_RULE||(LA69_1>=RULE_COMMA && LA69_1<=RULE_RPAREN)||LA69_1==RULE_SEMICOLON||(LA69_1>=RULE_ASSIGN && LA69_1<=RULE_DO)||(LA69_1>=RULE_PLUS && LA69_1<=RULE_BXOR)||(LA69_1>=RULE_OR && LA69_1<=RULE_AND)||(LA69_1>=RULE_EQ && LA69_1<=RULE_DOT)) ) {
+                    alt69=2;
                 }
                 else {
                     NoViableAltException nvae =
@@ -12617,7 +12610,7 @@ public class InternalBytemanParser extends AbstractInternalAntlrParser {
     public static final BitSet FOLLOW_EOF_in_entryRuleAssignmentExpr6620 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleOperatorExpr_in_ruleAssignmentExpr6667 = new BitSet(new long[]{0x0000000000800002L});
     public static final BitSet FOLLOW_RULE_ASSIGN_in_ruleAssignmentExpr6693 = new BitSet(new long[]{0x000F00480001C400L,0x0000000000003E00L});
-    public static final BitSet FOLLOW_ruleOperatorExpr_in_ruleAssignmentExpr6719 = new BitSet(new long[]{0x0000000000800002L});
+    public static final BitSet FOLLOW_ruleAssignmentExpr_in_ruleAssignmentExpr6719 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleOperatorExpr_in_entryRuleOperatorExpr6757 = new BitSet(new long[]{0x0000000000000000L});
     public static final BitSet FOLLOW_EOF_in_entryRuleOperatorExpr6767 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rulePlusMinusOperand_in_ruleOperatorExpr6814 = new BitSet(new long[]{0x0000000018000002L});

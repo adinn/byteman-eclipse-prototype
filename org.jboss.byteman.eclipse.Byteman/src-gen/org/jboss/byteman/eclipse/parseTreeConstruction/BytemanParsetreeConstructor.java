@@ -7203,11 +7203,11 @@ protected class ThrowExpr_Operand1Assignment_1 extends AssignmentToken  {
  * // and then typecheck out assignments to method members accesses, literals
  * // etc 
  * AssignmentExpr returns Expression:
- * 	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*;
+ * 	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?;
  *
  **/
 
-// OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*
+// OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?
 protected class AssignmentExpr_Group extends GroupToken {
 	
 	public AssignmentExpr_Group(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -7287,7 +7287,7 @@ protected class AssignmentExpr_OperatorExprParserRuleCall_0 extends RuleCallToke
 	}	
 }
 
-// ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*
+// ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?
 protected class AssignmentExpr_Group_1 extends GroupToken {
 	
 	public AssignmentExpr_Group_1(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -7331,8 +7331,7 @@ protected class AssignmentExpr_AssignmentExprOperand1Action_1_0 extends ActionTo
     @Override
 	public AbstractToken createFollower(int index, IEObjectConsumer inst) {
 		switch(index) {
-			case 0: return new AssignmentExpr_Group_1(lastRuleCallOrigin, this, 0, inst);
-			case 1: return new AssignmentExpr_OperatorExprParserRuleCall_0(lastRuleCallOrigin, this, 1, inst);
+			case 0: return new AssignmentExpr_OperatorExprParserRuleCall_0(lastRuleCallOrigin, this, 0, inst);
 			default: return null;
 		}	
 	}
@@ -7380,7 +7379,7 @@ protected class AssignmentExpr_OpAssignment_1_1 extends AssignmentToken  {
 
 }
 
-// operand2=OperatorExpr
+// operand2=AssignmentExpr
 protected class AssignmentExpr_Operand2Assignment_1_2 extends AssignmentToken  {
 	
 	public AssignmentExpr_Operand2Assignment_1_2(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -7395,7 +7394,7 @@ protected class AssignmentExpr_Operand2Assignment_1_2 extends AssignmentToken  {
     @Override
 	public AbstractToken createFollower(int index, IEObjectConsumer inst) {
 		switch(index) {
-			case 0: return new OperatorExpr_Group(this, this, 0, inst);
+			case 0: return new AssignmentExpr_Group(this, this, 0, inst);
 			default: return null;
 		}	
 	}
@@ -7406,9 +7405,9 @@ protected class AssignmentExpr_Operand2Assignment_1_2 extends AssignmentToken  {
 		IEObjectConsumer obj = eObjectConsumer.cloneAndConsume("operand2");
 		if(value instanceof EObject) { // org::eclipse::xtext::impl::RuleCallImpl
 			IEObjectConsumer param = createEObjectConsumer((EObject)value);
-			if(param.isInstanceOf(grammarAccess.getOperatorExprRule().getType().getClassifier())) {
+			if(param.isInstanceOf(grammarAccess.getAssignmentExprRule().getType().getClassifier())) {
 				type = AssignmentType.PARSER_RULE_CALL;
-				element = grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0(); 
+				element = grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0(); 
 				consumed = obj;
 				return param;
 			}

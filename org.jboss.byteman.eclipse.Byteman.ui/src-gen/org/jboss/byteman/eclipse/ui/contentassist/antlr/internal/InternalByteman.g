@@ -7222,7 +7222,7 @@ rule__AssignmentExpr__Group__1__Impl
 :
 (
 { before(grammarAccess.getAssignmentExprAccess().getGroup_1()); }
-(rule__AssignmentExpr__Group_1__0)*
+(rule__AssignmentExpr__Group_1__0)?
 { after(grammarAccess.getAssignmentExprAccess().getGroup_1()); }
 )
 
@@ -10688,8 +10688,8 @@ rule__AssignmentExpr__Operand2Assignment_1_2
     }
 :
 (
-{ before(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); }
-	ruleOperatorExpr{ after(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); }
+{ before(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); }
+	ruleAssignmentExpr{ after(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); }
 )
 
 ;

@@ -748,7 +748,7 @@
     </type>
     <alternatives xsi:type="xtext:Group">
       <elements xsi:type="xtext:RuleCall" rule="//@rules.49"/>
-      <elements xsi:type="xtext:Group" cardinality="*">
+      <elements xsi:type="xtext:Group" cardinality="?">
         <elements xsi:type="xtext:Action" feature="operand1" operator="=">
           <type metamodel="//@metamodelDeclarations.0">
             <classifier xsi:type="ecore:EClass" href="http://www.jboss.org/byteman/eclipse/Byteman#//AssignmentExpr"/>
@@ -758,7 +758,7 @@
           <terminal xsi:type="xtext:RuleCall" rule="//@rules.103"/>
         </elements>
         <elements xsi:type="xtext:Assignment" feature="operand2" operator="=">
-          <terminal xsi:type="xtext:RuleCall" rule="//@rules.49"/>
+          <terminal xsi:type="xtext:RuleCall" rule="//@rules.48"/>
         </elements>
       </elements>
     </alternatives>

@@ -2923,9 +2923,9 @@ ruleAssignmentExpr returns [EObject current=null]
 )(
 (
 		{ 
-	        newCompositeNode(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); 
+	        newCompositeNode(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); 
 	    }
-		lv_operand2_3_0=ruleOperatorExpr		{
+		lv_operand2_3_0=ruleAssignmentExpr		{
 	        if ($current==null) {
 	            $current = createModelElementForParent(grammarAccess.getAssignmentExprRule());
 	        }
@@ -2933,12 +2933,12 @@ ruleAssignmentExpr returns [EObject current=null]
        			$current, 
        			"operand2",
         		lv_operand2_3_0, 
-        		"OperatorExpr");
+        		"AssignmentExpr");
 	        afterParserOrEnumRuleCall();
 	    }
 
 )
-))*)
+))?)
 ;
 
 

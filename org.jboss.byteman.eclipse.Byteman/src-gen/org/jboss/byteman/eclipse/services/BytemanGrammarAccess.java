@@ -1598,7 +1598,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cOpAssignment_1_1 = (Assignment)cGroup_1.eContents().get(1);
 		private final RuleCall cOpASSIGNTerminalRuleCall_1_1_0 = (RuleCall)cOpAssignment_1_1.eContents().get(0);
 		private final Assignment cOperand2Assignment_1_2 = (Assignment)cGroup_1.eContents().get(2);
-		private final RuleCall cOperand2OperatorExprParserRuleCall_1_2_0 = (RuleCall)cOperand2Assignment_1_2.eContents().get(0);
+		private final RuleCall cOperand2AssignmentExprParserRuleCall_1_2_0 = (RuleCall)cOperand2Assignment_1_2.eContents().get(0);
 		
 		/// *
 		// * Definiton of Java expressions
@@ -1607,16 +1607,16 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		//// and then typecheck out assignments to method members accesses, literals
 		//// etc 
 		//AssignmentExpr returns Expression:
-		//	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*;
+		//	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?;
 		public ParserRule getRule() { return rule; }
 
-		//OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*
+		//OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?
 		public Group getGroup() { return cGroup; }
 
 		//OperatorExpr
 		public RuleCall getOperatorExprParserRuleCall_0() { return cOperatorExprParserRuleCall_0; }
 
-		//({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*
+		//({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?
 		public Group getGroup_1() { return cGroup_1; }
 
 		//{AssignmentExpr.operand1=current}
@@ -1628,11 +1628,11 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		//ASSIGN
 		public RuleCall getOpASSIGNTerminalRuleCall_1_1_0() { return cOpASSIGNTerminalRuleCall_1_1_0; }
 
-		//operand2=OperatorExpr
+		//operand2=AssignmentExpr
 		public Assignment getOperand2Assignment_1_2() { return cOperand2Assignment_1_2; }
 
-		//OperatorExpr
-		public RuleCall getOperand2OperatorExprParserRuleCall_1_2_0() { return cOperand2OperatorExprParserRuleCall_1_2_0; }
+		//AssignmentExpr
+		public RuleCall getOperand2AssignmentExprParserRuleCall_1_2_0() { return cOperand2AssignmentExprParserRuleCall_1_2_0; }
 	}
 
 	public class OperatorExprElements extends AbstractParserRuleElementFinder {
@@ -3256,7 +3256,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	//// and then typecheck out assignments to method members accesses, literals
 	//// etc 
 	//AssignmentExpr returns Expression:
-	//	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=OperatorExpr)*;
+	//	OperatorExpr ({AssignmentExpr.operand1=current} op=ASSIGN operand2=AssignmentExpr)?;
 	public AssignmentExprElements getAssignmentExprAccess() {
 		return (pAssignmentExpr != null) ? pAssignmentExpr : (pAssignmentExpr = new AssignmentExprElements());
 	}

@@ -8583,11 +8583,11 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
                 {
                 int LA30_2 = input.LA(2);
 
-                if ( (LA30_2==RULE_ID) ) {
-                    alt30=3;
-                }
-                else if ( (LA30_2==RULE_INTVAL) ) {
+                if ( (LA30_2==RULE_INTVAL) ) {
                     alt30=2;
+                }
+                else if ( (LA30_2==RULE_ID) ) {
+                    alt30=3;
                 }
                 else {
                     NoViableAltException nvae =
@@ -20201,47 +20201,40 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AssignmentExpr__Group__1__Impl"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7218:1: rule__AssignmentExpr__Group__1__Impl : ( ( rule__AssignmentExpr__Group_1__0 )* ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7218:1: rule__AssignmentExpr__Group__1__Impl : ( ( rule__AssignmentExpr__Group_1__0 )? ) ;
     public final void rule__AssignmentExpr__Group__1__Impl() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7222:1: ( ( ( rule__AssignmentExpr__Group_1__0 )* ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7223:1: ( ( rule__AssignmentExpr__Group_1__0 )* )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7222:1: ( ( ( rule__AssignmentExpr__Group_1__0 )? ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7223:1: ( ( rule__AssignmentExpr__Group_1__0 )? )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7223:1: ( ( rule__AssignmentExpr__Group_1__0 )* )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7224:1: ( rule__AssignmentExpr__Group_1__0 )*
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7223:1: ( ( rule__AssignmentExpr__Group_1__0 )? )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7224:1: ( rule__AssignmentExpr__Group_1__0 )?
             {
              before(grammarAccess.getAssignmentExprAccess().getGroup_1()); 
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7225:1: ( rule__AssignmentExpr__Group_1__0 )*
-            loop68:
-            do {
-                int alt68=2;
-                int LA68_0 = input.LA(1);
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7225:1: ( rule__AssignmentExpr__Group_1__0 )?
+            int alt68=2;
+            int LA68_0 = input.LA(1);
 
-                if ( (LA68_0==RULE_ASSIGN) ) {
-                    alt68=1;
-                }
+            if ( (LA68_0==RULE_ASSIGN) ) {
+                alt68=1;
+            }
+            switch (alt68) {
+                case 1 :
+                    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7225:2: rule__AssignmentExpr__Group_1__0
+                    {
+                    pushFollow(FOLLOW_rule__AssignmentExpr__Group_1__0_in_rule__AssignmentExpr__Group__1__Impl14857);
+                    rule__AssignmentExpr__Group_1__0();
 
-
-                switch (alt68) {
-            	case 1 :
-            	    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:7225:2: rule__AssignmentExpr__Group_1__0
-            	    {
-            	    pushFollow(FOLLOW_rule__AssignmentExpr__Group_1__0_in_rule__AssignmentExpr__Group__1__Impl14857);
-            	    rule__AssignmentExpr__Group_1__0();
-
-            	    state._fsp--;
+                    state._fsp--;
 
 
-            	    }
-            	    break;
+                    }
+                    break;
 
-            	default :
-            	    break loop68;
-                }
-            } while (true);
+            }
 
              after(grammarAccess.getAssignmentExprAccess().getGroup_1()); 
 
@@ -29349,25 +29342,25 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
 
 
     // $ANTLR start "rule__AssignmentExpr__Operand2Assignment_1_2"
-    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10685:1: rule__AssignmentExpr__Operand2Assignment_1_2 : ( ruleOperatorExpr ) ;
+    // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10685:1: rule__AssignmentExpr__Operand2Assignment_1_2 : ( ruleAssignmentExpr ) ;
     public final void rule__AssignmentExpr__Operand2Assignment_1_2() throws RecognitionException {
 
         		int stackSize = keepStackSize();
             
         try {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10689:1: ( ( ruleOperatorExpr ) )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleOperatorExpr )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10689:1: ( ( ruleAssignmentExpr ) )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleAssignmentExpr )
             {
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleOperatorExpr )
-            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10691:1: ruleOperatorExpr
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10690:1: ( ruleAssignmentExpr )
+            // ../org.jboss.byteman.eclipse.Byteman.ui/src-gen/org/jboss/byteman/eclipse/ui/contentassist/antlr/internal/InternalByteman.g:10691:1: ruleAssignmentExpr
             {
-             before(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); 
-            pushFollow(FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758);
-            ruleOperatorExpr();
+             before(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); 
+            pushFollow(FOLLOW_ruleAssignmentExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758);
+            ruleAssignmentExpr();
 
             state._fsp--;
 
-             after(grammarAccess.getAssignmentExprAccess().getOperand2OperatorExprParserRuleCall_1_2_0()); 
+             after(grammarAccess.getAssignmentExprAccess().getOperand2AssignmentExprParserRuleCall_1_2_0()); 
 
             }
 
@@ -31678,7 +31671,7 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_rule__AssignmentExpr__Group__1_in_rule__AssignmentExpr__Group__014774 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Group__0__Impl14801 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__AssignmentExpr__Group__1__Impl_in_rule__AssignmentExpr__Group__114830 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_rule__AssignmentExpr__Group_1__0_in_rule__AssignmentExpr__Group__1__Impl14857 = new BitSet(new long[]{0x0000000800000002L});
+    public static final BitSet FOLLOW_rule__AssignmentExpr__Group_1__0_in_rule__AssignmentExpr__Group__1__Impl14857 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__AssignmentExpr__Group_1__0__Impl_in_rule__AssignmentExpr__Group_1__014892 = new BitSet(new long[]{0x0000000800000000L});
     public static final BitSet FOLLOW_rule__AssignmentExpr__Group_1__1_in_rule__AssignmentExpr__Group_1__014895 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__AssignmentExpr__Group_1__1__Impl_in_rule__AssignmentExpr__Group_1__114953 = new BitSet(new long[]{0x000F600060000210L,0x0000000000003E00L});
@@ -31934,7 +31927,7 @@ public class InternalBytemanParser extends AbstractInternalContentAssistParser {
     public static final BitSet FOLLOW_RULE_KEYWORD_THROW_in_rule__ThrowExpr__OpAssignment_021665 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_ruleExpression_in_rule__ThrowExpr__Operand1Assignment_121696 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_RULE_ASSIGN_in_rule__AssignmentExpr__OpAssignment_1_121727 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_ruleOperatorExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleAssignmentExpr_in_rule__AssignmentExpr__Operand2Assignment_1_221758 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__OperatorExpr__OpAlternatives_1_1_0_in_rule__OperatorExpr__OpAssignment_1_121789 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rulePlusMinusOperand_in_rule__OperatorExpr__Operand2Assignment_1_221822 = new BitSet(new long[]{0x0000000000000002L});
     public static final BitSet FOLLOW_rule__PlusMinusOperand__OpAlternatives_1_1_0_in_rule__PlusMinusOperand__OpAssignment_1_121853 = new BitSet(new long[]{0x0000000000000002L});
