@@ -52,40 +52,39 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 	 * @param assignmentExpr an assignment expression occurring in the rule body
 	 */
 	@Check
-	public void checkAssignmentOPerand1IsAssignable(AssignmentExpr assignmentExpr)
+	public void checkAssignmentOperand1IsAssignable(AssignmentExpr assignmentExpr)
 	{
 		Expression operand1 = assignmentExpr.getOperand1();
-		if (operand1 != null) {
-			String op = operand1.getOp();
-			if (operand1 instanceof SpecialVar) {
-				String value =((SpecialVar) operand1).getValue();
-				// we can currently assign $foo and $! but not $this nor any other special vars
-				if (op.equals("$") && value.equals("this")) {
-					error("Special variable $this is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
-				} else if (!op.equals("$!")) {
-					error("Special variable " + op + " is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
-				}
-			} else if (operand1 instanceof IndexedSpecialVar) {
-				// cannot assign to $0
-				String value = ((IndexedSpecialVar) operand1).getValue();
-				int idx =Integer.valueOf(value);
-				if (idx == 0) {
-					error("Indexed parameter variable $" + value + " is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
-				} else if (idx < 0) {
-					error("Invalid index for parameter variable $" + value, BytemanPackage.eINSTANCE.getExpression_Operand1());
-				}
-			} else if (operand1 instanceof AccessExpr) {
-				// array elements and fields are ok as assignment targets but not method calls
-				if (op.equals(".") && ((AccessExpr)operand1).getArgs() != null) {
-					error("Invalid target for assignment operation", BytemanPackage.eINSTANCE.getExpression_Operand1());
-				}	
-			} else if (operand1 instanceof SimpleName) {
-				// assigning a local bound var is ok
-				// n.b. ensuring the var is in scope is done as a separate check
-			} else {
-				// any other LHS expression is invalid 
-				error("Invalid target for assignment operation", BytemanPackage.eINSTANCE.getExpression_Operand1());
+
+		String op = operand1.getOp();
+		if (operand1 instanceof SpecialVar) {
+			String value =((SpecialVar) operand1).getValue();
+			// we can currently assign $foo and $! but not $this nor any other special vars
+			if (op.equals("$") && value.equals("this")) {
+				error("Special variable $this is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
+			} else if (!op.equals("$!")) {
+				error("Special variable " + op + " is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
 			}
+		} else if (operand1 instanceof IndexedSpecialVar) {
+			// cannot assign to $0
+			String value = ((IndexedSpecialVar) operand1).getValue();
+			int idx =Integer.valueOf(value);
+			if (idx == 0) {
+				error("Indexed parameter variable $" + value + " is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());
+			} else if (idx < 0) {
+				error("Invalid index for parameter variable $" + value, BytemanPackage.eINSTANCE.getExpression_Operand1());
+			}
+		} else if (operand1 instanceof AccessExpr) {
+			// array elements and fields are ok as assignment targets but not method calls
+			if (op.equals(".") && ((AccessExpr)operand1).getArgs() != null) {
+				error("Invalid target for assignment operation", BytemanPackage.eINSTANCE.getExpression_Operand1());
+			}	
+		} else if (operand1 instanceof SimpleName) {
+			// assigning a local bound var is ok
+			// n.b. ensuring the var is in scope is done as a separate check
+		} else {
+			// any other LHS expression is invalid 
+			error("Invalid target for assignment operation", BytemanPackage.eINSTANCE.getExpression_Operand1());
 		}
 	}
 }
