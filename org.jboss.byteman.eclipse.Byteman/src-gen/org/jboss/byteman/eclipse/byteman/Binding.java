@@ -16,8 +16,8 @@ import org.eclipse.emf.ecore.EObject;
  * The following features are supported:
  * <ul>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.Binding#getBindVariable <em>Bind Variable</em>}</li>
- *   <li>{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}</li>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.Binding#getValue <em>Value</em>}</li>
+ *   <li>{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}</li>
  * </ul>
  * </p>
  *
@@ -54,32 +54,6 @@ public interface Binding extends EObject
   void setBindVariable(String value);
 
   /**
-   * Returns the value of the '<em><b>Typename</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <p>
-   * If the meaning of the '<em>Typename</em>' attribute isn't clear,
-   * there really should be more of a description here...
-   * </p>
-   * <!-- end-user-doc -->
-   * @return the value of the '<em>Typename</em>' attribute.
-   * @see #setTypename(String)
-   * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getBinding_Typename()
-   * @model
-   * @generated
-   */
-  String getTypename();
-
-  /**
-   * Sets the value of the '{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @param value the new value of the '<em>Typename</em>' attribute.
-   * @see #getTypename()
-   * @generated
-   */
-  void setTypename(String value);
-
-  /**
    * Returns the value of the '<em><b>Value</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <p>
@@ -104,5 +78,31 @@ public interface Binding extends EObject
    * @generated
    */
   void setValue(Expression value);
+
+  /**
+   * Returns the value of the '<em><b>Typename</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Typename</em>' attribute isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Typename</em>' attribute.
+   * @see #setTypename(String)
+   * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getBinding_Typename()
+   * @model
+   * @generated
+   */
+  String getTypename();
+
+  /**
+   * Sets the value of the '{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Typename</em>' attribute.
+   * @see #getTypename()
+   * @generated
+   */
+  void setTypename(String value);
 
 } // Binding

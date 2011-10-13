@@ -37,7 +37,7 @@ public class InternalBytemanLexer extends Lexer {
     public static final int RULE_NOT=38;
     public static final int RULE_BNOT=35;
     public static final int RULE_LT=43;
-    public static final int RULE_ASSIGN=23;
+    public static final int RULE_ASSIGN=22;
     public static final int RULE_MOD=31;
     public static final int RULE_DOT=47;
     public static final int RULE_INIT=11;
@@ -64,7 +64,7 @@ public class InternalBytemanLexer extends Lexer {
     public static final int RULE_TIMES=29;
     public static final int RULE_NULL=53;
     public static final int RULE_DOLLAR=15;
-    public static final int RULE_COLON=22;
+    public static final int RULE_COLON=23;
     public static final int RULE_KEYWORD_BIND=19;
     public static final int RULE_MINUS=28;
     public static final int RULE_STRING=49;
@@ -484,8 +484,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_QMARK;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4717:12: ( '?' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4717:14: '?'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4740:12: ( '?' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4740:14: '?'
             {
             match('?'); 
 
@@ -504,8 +504,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_COMMA;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4719:12: ( ',' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4719:14: ','
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4742:12: ( ',' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4742:14: ','
             {
             match(','); 
 
@@ -524,8 +524,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4721:10: ( '.' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4721:12: '.'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4744:10: ( '.' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4744:12: '.'
             {
             match('.'); 
 
@@ -544,8 +544,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_COLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4723:12: ( ':' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4723:14: ':'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4746:12: ( ':' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4746:14: ':'
             {
             match(':'); 
 
@@ -564,8 +564,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4725:11: ( 'null' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4725:13: 'null'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4748:11: ( 'null' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4748:13: 'null'
             {
             match("null"); 
 
@@ -585,10 +585,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_NEW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4727:10: ( ( 'new' | 'NEW' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4727:12: ( 'new' | 'NEW' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4750:10: ( ( 'new' | 'NEW' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4750:12: ( 'new' | 'NEW' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4727:12: ( 'new' | 'NEW' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4750:12: ( 'new' | 'NEW' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -606,7 +606,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4727:13: 'new'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4750:13: 'new'
                     {
                     match("new"); 
 
@@ -614,7 +614,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4727:19: 'NEW'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4750:19: 'NEW'
                     {
                     match("NEW"); 
 
@@ -640,8 +640,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_SEMICOLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4729:16: ( ';' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4729:18: ';'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4752:16: ( ';' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4752:18: ';'
             {
             match(';'); 
 
@@ -660,10 +660,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:14: ( ( 'TRUE' | 'true' | 'FALSE' | 'false' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:16: ( 'TRUE' | 'true' | 'FALSE' | 'false' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:14: ( ( 'TRUE' | 'true' | 'FALSE' | 'false' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:16: ( 'TRUE' | 'true' | 'FALSE' | 'false' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:16: ( 'TRUE' | 'true' | 'FALSE' | 'false' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:16: ( 'TRUE' | 'true' | 'FALSE' | 'false' )
             int alt2=4;
             switch ( input.LA(1) ) {
             case 'T':
@@ -695,7 +695,7 @@ public class InternalBytemanLexer extends Lexer {
 
             switch (alt2) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:17: 'TRUE'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:17: 'TRUE'
                     {
                     match("TRUE"); 
 
@@ -703,7 +703,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:24: 'true'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:24: 'true'
                     {
                     match("true"); 
 
@@ -711,7 +711,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:31: 'FALSE'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:31: 'FALSE'
                     {
                     match("FALSE"); 
 
@@ -719,7 +719,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4731:39: 'false'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4754:39: 'false'
                     {
                     match("false"); 
 
@@ -745,8 +745,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_INIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4733:11: ( '<init>' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4733:13: '<init>'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4756:11: ( '<init>' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4756:13: '<init>'
             {
             match("<init>"); 
 
@@ -766,8 +766,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_CLINIT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4735:13: ( '<clinit>' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4735:15: '<clinit>'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4758:13: ( '<clinit>' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4758:15: '<clinit>'
             {
             match("<clinit>"); 
 
@@ -787,8 +787,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_LPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4737:13: ( '(' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4737:15: '('
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4760:13: ( '(' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4760:15: '('
             {
             match('('); 
 
@@ -807,8 +807,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_RPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4739:13: ( ')' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4739:15: ')'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4762:13: ( ')' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4762:15: ')'
             {
             match(')'); 
 
@@ -827,8 +827,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_LSQUARE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4741:14: ( '[' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4741:16: '['
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4764:14: ( '[' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4764:16: '['
             {
             match('['); 
 
@@ -847,8 +847,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_RSQUARE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4743:14: ( ']' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4743:16: ']'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4766:14: ( ']' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4766:16: ']'
             {
             match(']'); 
 
@@ -867,8 +867,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_DOLLAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4745:13: ( '$' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4745:15: '$'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4768:13: ( '$' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4768:15: '$'
             {
             match('$'); 
 
@@ -887,8 +887,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_PLUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4747:11: ( '+' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4747:13: '+'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4770:11: ( '+' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4770:13: '+'
             {
             match('+'); 
 
@@ -907,8 +907,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4749:12: ( '-' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4749:14: '-'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4772:12: ( '-' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4772:14: '-'
             {
             match('-'); 
 
@@ -927,8 +927,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_MOD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4751:10: ( '%' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4751:12: '%'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4774:10: ( '%' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4774:12: '%'
             {
             match('%'); 
 
@@ -947,8 +947,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_DIV;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4753:10: ( '/' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4753:12: '/'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4776:10: ( '/' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4776:12: '/'
             {
             match('/'); 
 
@@ -967,8 +967,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_TIMES;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4755:12: ( '*' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4755:14: '*'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4778:12: ( '*' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4778:14: '*'
             {
             match('*'); 
 
@@ -987,8 +987,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BAND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4757:11: ( '&' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4757:13: '&'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4780:11: ( '&' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4780:13: '&'
             {
             match('&'); 
 
@@ -1007,8 +1007,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4759:10: ( '|' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4759:12: '|'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4782:10: ( '|' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4782:12: '|'
             {
             match('|'); 
 
@@ -1027,8 +1027,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BNOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4761:11: ( '~' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4761:13: '~'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4784:11: ( '~' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4784:13: '~'
             {
             match('~'); 
 
@@ -1047,8 +1047,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BXOR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4763:11: ( '^' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4763:13: '^'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4786:11: ( '^' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4786:13: '^'
             {
             match('^'); 
 
@@ -1067,8 +1067,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_LT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4765:9: ( '<' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4765:11: '<'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4788:9: ( '<' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4788:11: '<'
             {
             match('<'); 
 
@@ -1087,8 +1087,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_LE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4767:9: ( '<=' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4767:11: '<='
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4790:9: ( '<=' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4790:11: '<='
             {
             match("<="); 
 
@@ -1108,8 +1108,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4769:9: ( '>' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4769:11: '>'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4792:9: ( '>' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4792:11: '>'
             {
             match('>'); 
 
@@ -1128,8 +1128,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_GE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4771:9: ( '>=' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4771:11: '>='
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4794:9: ( '>=' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4794:11: '>='
             {
             match(">="); 
 
@@ -1149,8 +1149,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_EQ;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4773:9: ( '==' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4773:11: '=='
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4796:9: ( '==' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4796:11: '=='
             {
             match("=="); 
 
@@ -1170,8 +1170,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_NE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4775:9: ( '!=' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4775:11: '!='
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4798:9: ( '!=' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4798:11: '!='
             {
             match("!="); 
 
@@ -1191,8 +1191,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_ASSIGN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4777:13: ( '=' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4777:15: '='
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4800:13: ( '=' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4800:15: '='
             {
             match('='); 
 
@@ -1211,17 +1211,17 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_FLOATVAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:15: ( ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:15: ( ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )
             int alt13=4;
             alt13 = dfa13.predict(input);
             switch (alt13) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:18: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:18: ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )?
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:18: ( '0' .. '9' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:18: ( '0' .. '9' )+
                     int cnt3=0;
                     loop3:
                     do {
@@ -1235,7 +1235,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt3) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:19: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:19: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1252,7 +1252,7 @@ public class InternalBytemanLexer extends Lexer {
                     } while (true);
 
                     match('.'); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:34: ( '0' .. '9' )*
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:34: ( '0' .. '9' )*
                     loop4:
                     do {
                         int alt4=2;
@@ -1265,7 +1265,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:35: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:35: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1277,7 +1277,7 @@ public class InternalBytemanLexer extends Lexer {
                         }
                     } while (true);
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:46: ( RULE_EXPONENT )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:46: ( RULE_EXPONENT )?
                     int alt5=2;
                     int LA5_0 = input.LA(1);
 
@@ -1286,7 +1286,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt5) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:46: RULE_EXPONENT
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:46: RULE_EXPONENT
                             {
                             mRULE_EXPONENT(); 
 
@@ -1295,7 +1295,7 @@ public class InternalBytemanLexer extends Lexer {
 
                     }
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:61: ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:61: ( RULE_FLOATTYPESUFFIX )?
                     int alt6=2;
                     int LA6_0 = input.LA(1);
 
@@ -1304,7 +1304,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt6) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:61: RULE_FLOATTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:61: RULE_FLOATTYPESUFFIX
                             {
                             mRULE_FLOATTYPESUFFIX(); 
 
@@ -1317,10 +1317,10 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:83: '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:83: '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )?
                     {
                     match('.'); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:87: ( '0' .. '9' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:87: ( '0' .. '9' )+
                     int cnt7=0;
                     loop7:
                     do {
@@ -1334,7 +1334,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:88: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:88: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1350,7 +1350,7 @@ public class InternalBytemanLexer extends Lexer {
                         cnt7++;
                     } while (true);
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:99: ( RULE_EXPONENT )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:99: ( RULE_EXPONENT )?
                     int alt8=2;
                     int LA8_0 = input.LA(1);
 
@@ -1359,7 +1359,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt8) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:99: RULE_EXPONENT
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:99: RULE_EXPONENT
                             {
                             mRULE_EXPONENT(); 
 
@@ -1368,7 +1368,7 @@ public class InternalBytemanLexer extends Lexer {
 
                     }
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:114: ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:114: ( RULE_FLOATTYPESUFFIX )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -1377,7 +1377,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:114: RULE_FLOATTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:114: RULE_FLOATTYPESUFFIX
                             {
                             mRULE_FLOATTYPESUFFIX(); 
 
@@ -1390,9 +1390,9 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:136: ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:136: ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )?
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:136: ( '0' .. '9' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:136: ( '0' .. '9' )+
                     int cnt10=0;
                     loop10:
                     do {
@@ -1406,7 +1406,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt10) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:137: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:137: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1423,7 +1423,7 @@ public class InternalBytemanLexer extends Lexer {
                     } while (true);
 
                     mRULE_EXPONENT(); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:162: ( RULE_FLOATTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:162: ( RULE_FLOATTYPESUFFIX )?
                     int alt11=2;
                     int LA11_0 = input.LA(1);
 
@@ -1432,7 +1432,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt11) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:162: RULE_FLOATTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:162: RULE_FLOATTYPESUFFIX
                             {
                             mRULE_FLOATTYPESUFFIX(); 
 
@@ -1445,9 +1445,9 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:184: ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:184: ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:184: ( '0' .. '9' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:184: ( '0' .. '9' )+
                     int cnt12=0;
                     loop12:
                     do {
@@ -1461,7 +1461,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4779:185: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4802:185: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1500,10 +1500,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_INTVAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:13: ( ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:15: ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:13: ( ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:15: ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:15: ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:15: ( ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )? | '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )? | '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )? )
             int alt20=3;
             int LA20_0 = input.LA(1);
 
@@ -1534,9 +1534,9 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt20) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:16: ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:16: ( '0' .. '9' )+ ( RULE_INTTYPESUFFIX )?
                     {
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:16: ( '0' .. '9' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:16: ( '0' .. '9' )+
                     int cnt14=0;
                     loop14:
                     do {
@@ -1550,7 +1550,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt14) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:17: '0' .. '9'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:17: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1566,7 +1566,7 @@ public class InternalBytemanLexer extends Lexer {
                         cnt14++;
                     } while (true);
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:28: ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:28: ( RULE_INTTYPESUFFIX )?
                     int alt15=2;
                     int LA15_0 = input.LA(1);
 
@@ -1575,7 +1575,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt15) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:28: RULE_INTTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:28: RULE_INTTYPESUFFIX
                             {
                             mRULE_INTTYPESUFFIX(); 
 
@@ -1588,11 +1588,11 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:48: '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:48: '0x' ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+ ( RULE_INTTYPESUFFIX )?
                     {
                     match("0x"); 
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:53: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:53: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )+
                     int cnt16=0;
                     loop16:
                     do {
@@ -1630,7 +1630,7 @@ public class InternalBytemanLexer extends Lexer {
                         cnt16++;
                     } while (true);
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:83: ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:83: ( RULE_INTTYPESUFFIX )?
                     int alt17=2;
                     int LA17_0 = input.LA(1);
 
@@ -1639,7 +1639,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt17) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:83: RULE_INTTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:83: RULE_INTTYPESUFFIX
                             {
                             mRULE_INTTYPESUFFIX(); 
 
@@ -1652,11 +1652,11 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:103: '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:103: '0b' ( '0' .. '1' )+ ( RULE_INTTYPESUFFIX )?
                     {
                     match("0b"); 
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:108: ( '0' .. '1' )+
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:108: ( '0' .. '1' )+
                     int cnt18=0;
                     loop18:
                     do {
@@ -1670,7 +1670,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt18) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:109: '0' .. '1'
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:109: '0' .. '1'
                     	    {
                     	    matchRange('0','1'); 
 
@@ -1686,7 +1686,7 @@ public class InternalBytemanLexer extends Lexer {
                         cnt18++;
                     } while (true);
 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:120: ( RULE_INTTYPESUFFIX )?
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:120: ( RULE_INTTYPESUFFIX )?
                     int alt19=2;
                     int LA19_0 = input.LA(1);
 
@@ -1695,7 +1695,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     switch (alt19) {
                         case 1 :
-                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4781:120: RULE_INTTYPESUFFIX
+                            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4804:120: RULE_INTTYPESUFFIX
                             {
                             mRULE_INTTYPESUFFIX(); 
 
@@ -1724,8 +1724,8 @@ public class InternalBytemanLexer extends Lexer {
     // $ANTLR start "RULE_EXPONENT"
     public final void mRULE_EXPONENT() throws RecognitionException {
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4783:24: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4783:26: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4806:24: ( ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+ )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4806:26: ( 'e' | 'E' ) ( '+' | '-' )? ( '0' .. '9' )+
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -1736,7 +1736,7 @@ public class InternalBytemanLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4783:36: ( '+' | '-' )?
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4806:36: ( '+' | '-' )?
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -1762,7 +1762,7 @@ public class InternalBytemanLexer extends Lexer {
 
             }
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4783:47: ( '0' .. '9' )+
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4806:47: ( '0' .. '9' )+
             int cnt22=0;
             loop22:
             do {
@@ -1776,7 +1776,7 @@ public class InternalBytemanLexer extends Lexer {
 
                 switch (alt22) {
             	case 1 :
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4783:48: '0' .. '9'
+            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4806:48: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -1804,8 +1804,8 @@ public class InternalBytemanLexer extends Lexer {
     // $ANTLR start "RULE_FLOATTYPESUFFIX"
     public final void mRULE_FLOATTYPESUFFIX() throws RecognitionException {
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4785:31: ( ( 'f' | 'F' | 'd' | 'D' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4785:33: ( 'f' | 'F' | 'd' | 'D' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4808:31: ( ( 'f' | 'F' | 'd' | 'D' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4808:33: ( 'f' | 'F' | 'd' | 'D' )
             {
             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='d'||input.LA(1)=='f' ) {
                 input.consume();
@@ -1828,8 +1828,8 @@ public class InternalBytemanLexer extends Lexer {
     // $ANTLR start "RULE_INTTYPESUFFIX"
     public final void mRULE_INTTYPESUFFIX() throws RecognitionException {
         try {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4787:29: ( ( 'L' | 'l' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4787:31: ( 'L' | 'l' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4810:29: ( ( 'L' | 'l' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4810:31: ( 'L' | 'l' )
             {
             if ( input.LA(1)=='L'||input.LA(1)=='l' ) {
                 input.consume();
@@ -1854,10 +1854,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_OR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:9: ( ( 'OR' | 'or' | '||' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:11: ( 'OR' | 'or' | '||' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:9: ( ( 'OR' | 'or' | '||' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:11: ( 'OR' | 'or' | '||' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:11: ( 'OR' | 'or' | '||' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:11: ( 'OR' | 'or' | '||' )
             int alt23=3;
             switch ( input.LA(1) ) {
             case 'O':
@@ -1884,7 +1884,7 @@ public class InternalBytemanLexer extends Lexer {
 
             switch (alt23) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:12: 'OR'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:12: 'OR'
                     {
                     match("OR"); 
 
@@ -1892,7 +1892,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:17: 'or'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:17: 'or'
                     {
                     match("or"); 
 
@@ -1900,7 +1900,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4789:22: '||'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4812:22: '||'
                     {
                     match("||"); 
 
@@ -1926,10 +1926,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_AND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:10: ( ( 'AND' | 'and' | '&&' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:12: ( 'AND' | 'and' | '&&' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:10: ( ( 'AND' | 'and' | '&&' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:12: ( 'AND' | 'and' | '&&' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:12: ( 'AND' | 'and' | '&&' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:12: ( 'AND' | 'and' | '&&' )
             int alt24=3;
             switch ( input.LA(1) ) {
             case 'A':
@@ -1956,7 +1956,7 @@ public class InternalBytemanLexer extends Lexer {
 
             switch (alt24) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:13: 'AND'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:13: 'AND'
                     {
                     match("AND"); 
 
@@ -1964,7 +1964,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:19: 'and'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:19: 'and'
                     {
                     match("and"); 
 
@@ -1972,7 +1972,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4791:25: '&&'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4814:25: '&&'
                     {
                     match("&&"); 
 
@@ -1998,10 +1998,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_NOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:10: ( ( 'NOT' | 'not' | '!' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:12: ( 'NOT' | 'not' | '!' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:10: ( ( 'NOT' | 'not' | '!' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:12: ( 'NOT' | 'not' | '!' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:12: ( 'NOT' | 'not' | '!' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:12: ( 'NOT' | 'not' | '!' )
             int alt25=3;
             switch ( input.LA(1) ) {
             case 'N':
@@ -2028,7 +2028,7 @@ public class InternalBytemanLexer extends Lexer {
 
             switch (alt25) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:13: 'NOT'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:13: 'NOT'
                     {
                     match("NOT"); 
 
@@ -2036,7 +2036,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:19: 'not'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:19: 'not'
                     {
                     match("not"); 
 
@@ -2044,7 +2044,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4793:25: '!'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4816:25: '!'
                     {
                     match('!'); 
 
@@ -2069,10 +2069,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_CLASS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4795:20: ( ( 'CLASS' | 'class' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4795:22: ( 'CLASS' | 'class' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4818:20: ( ( 'CLASS' | 'class' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4818:22: ( 'CLASS' | 'class' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4795:22: ( 'CLASS' | 'class' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4818:22: ( 'CLASS' | 'class' )
             int alt26=2;
             int LA26_0 = input.LA(1);
 
@@ -2090,7 +2090,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt26) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4795:23: 'CLASS'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4818:23: 'CLASS'
                     {
                     match("CLASS"); 
 
@@ -2098,7 +2098,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4795:31: 'class'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4818:31: 'class'
                     {
                     match("class"); 
 
@@ -2124,10 +2124,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_METHOD;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4797:21: ( ( 'METHOD' | 'method' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4797:23: ( 'METHOD' | 'method' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4820:21: ( ( 'METHOD' | 'method' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4820:23: ( 'METHOD' | 'method' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4797:23: ( 'METHOD' | 'method' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4820:23: ( 'METHOD' | 'method' )
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -2145,7 +2145,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt27) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4797:24: 'METHOD'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4820:24: 'METHOD'
                     {
                     match("METHOD"); 
 
@@ -2153,7 +2153,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4797:33: 'method'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4820:33: 'method'
                     {
                     match("method"); 
 
@@ -2179,10 +2179,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_INTERFACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4799:24: ( ( 'INTERFACE' | 'interface' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4799:26: ( 'INTERFACE' | 'interface' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4822:24: ( ( 'INTERFACE' | 'interface' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4822:26: ( 'INTERFACE' | 'interface' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4799:26: ( 'INTERFACE' | 'interface' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4822:26: ( 'INTERFACE' | 'interface' )
             int alt28=2;
             int LA28_0 = input.LA(1);
 
@@ -2200,7 +2200,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt28) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4799:27: 'INTERFACE'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4822:27: 'INTERFACE'
                     {
                     match("INTERFACE"); 
 
@@ -2208,7 +2208,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4799:39: 'interface'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4822:39: 'interface'
                     {
                     match("interface"); 
 
@@ -2234,10 +2234,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4801:9: ( ( 'IF' | 'if' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4801:11: ( 'IF' | 'if' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4824:9: ( ( 'IF' | 'if' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4824:11: ( 'IF' | 'if' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4801:11: ( 'IF' | 'if' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4824:11: ( 'IF' | 'if' )
             int alt29=2;
             int LA29_0 = input.LA(1);
 
@@ -2255,7 +2255,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt29) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4801:12: 'IF'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4824:12: 'IF'
                     {
                     match("IF"); 
 
@@ -2263,7 +2263,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4801:17: 'if'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4824:17: 'if'
                     {
                     match("if"); 
 
@@ -2289,10 +2289,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_BIND;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4803:19: ( ( 'BIND' | 'bind' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4803:21: ( 'BIND' | 'bind' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4826:19: ( ( 'BIND' | 'bind' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4826:21: ( 'BIND' | 'bind' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4803:21: ( 'BIND' | 'bind' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4826:21: ( 'BIND' | 'bind' )
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -2310,7 +2310,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt30) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4803:22: 'BIND'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4826:22: 'BIND'
                     {
                     match("BIND"); 
 
@@ -2318,7 +2318,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4803:29: 'bind'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4826:29: 'bind'
                     {
                     match("bind"); 
 
@@ -2344,10 +2344,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_NOTHING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4805:14: ( ( 'NOTHING' | 'nothing' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4805:16: ( 'NOTHING' | 'nothing' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4828:14: ( ( 'NOTHING' | 'nothing' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4828:16: ( 'NOTHING' | 'nothing' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4805:16: ( 'NOTHING' | 'nothing' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4828:16: ( 'NOTHING' | 'nothing' )
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -2365,7 +2365,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt31) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4805:17: 'NOTHING'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4828:17: 'NOTHING'
                     {
                     match("NOTHING"); 
 
@@ -2373,7 +2373,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4805:27: 'nothing'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4828:27: 'nothing'
                     {
                     match("nothing"); 
 
@@ -2399,10 +2399,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_THROW;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4807:20: ( ( 'THROW' | 'throw' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4807:22: ( 'THROW' | 'throw' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4830:20: ( ( 'THROW' | 'throw' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4830:22: ( 'THROW' | 'throw' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4807:22: ( 'THROW' | 'throw' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4830:22: ( 'THROW' | 'throw' )
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -2420,7 +2420,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt32) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4807:23: 'THROW'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4830:23: 'THROW'
                     {
                     match("THROW"); 
 
@@ -2428,7 +2428,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4807:31: 'throw'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4830:31: 'throw'
                     {
                     match("throw"); 
 
@@ -2454,10 +2454,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_KEYWORD_RETURN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4809:21: ( ( 'RETURN' | 'return' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4809:23: ( 'RETURN' | 'return' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4832:21: ( ( 'RETURN' | 'return' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4832:23: ( 'RETURN' | 'return' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4809:23: ( 'RETURN' | 'return' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4832:23: ( 'RETURN' | 'return' )
             int alt33=2;
             int LA33_0 = input.LA(1);
 
@@ -2475,7 +2475,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt33) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4809:24: 'RETURN'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4832:24: 'RETURN'
                     {
                     match("RETURN"); 
 
@@ -2483,7 +2483,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4809:33: 'return'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4832:33: 'return'
                     {
                     match("return"); 
 
@@ -2509,10 +2509,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_DO;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4811:9: ( ( 'DO' | 'do' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4811:11: ( 'DO' | 'do' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4834:9: ( ( 'DO' | 'do' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4834:11: ( 'DO' | 'do' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4811:11: ( 'DO' | 'do' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4834:11: ( 'DO' | 'do' )
             int alt34=2;
             int LA34_0 = input.LA(1);
 
@@ -2530,7 +2530,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt34) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4811:12: 'DO'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4834:12: 'DO'
                     {
                     match("DO"); 
 
@@ -2538,7 +2538,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4811:17: 'do'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4834:17: 'do'
                     {
                     match("do"); 
 
@@ -2564,10 +2564,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_START_RULE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:17: ( ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:19: ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:17: ( ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:19: ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:19: ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:19: ( 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL | 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL )
             int alt37=2;
             int LA37_0 = input.LA(1);
 
@@ -2585,12 +2585,12 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt37) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:20: 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:20: 'RULE' RULE_WS ( options {greedy=false; } : . )* RULE_EOL
                     {
                     match("RULE"); 
 
                     mRULE_WS(); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:35: ( options {greedy=false; } : . )*
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:35: ( options {greedy=false; } : . )*
                     loop35:
                     do {
                         int alt35=2;
@@ -2606,7 +2606,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt35) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:63: .
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:63: .
                     	    {
                     	    matchAny(); 
 
@@ -2623,12 +2623,12 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:76: 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:76: 'rule' RULE_WS ( options {greedy=false; } : . )* RULE_EOL
                     {
                     match("rule"); 
 
                     mRULE_WS(); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:91: ( options {greedy=false; } : . )*
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:91: ( options {greedy=false; } : . )*
                     loop36:
                     do {
                         int alt36=2;
@@ -2644,7 +2644,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt36) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4813:119: .
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4836:119: .
                     	    {
                     	    matchAny(); 
 
@@ -2679,10 +2679,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_END_RULE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4815:15: ( ( 'ENDRULE' | 'endrule' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4815:17: ( 'ENDRULE' | 'endrule' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4838:15: ( ( 'ENDRULE' | 'endrule' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4838:17: ( 'ENDRULE' | 'endrule' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4815:17: ( 'ENDRULE' | 'endrule' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4838:17: ( 'ENDRULE' | 'endrule' )
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -2700,7 +2700,7 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt38) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4815:18: 'ENDRULE'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4838:18: 'ENDRULE'
                     {
                     match("ENDRULE"); 
 
@@ -2708,7 +2708,7 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4815:28: 'endrule'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4838:28: 'endrule'
                     {
                     match("endrule"); 
 
@@ -2734,8 +2734,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4817:9: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )* )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4817:11: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4840:9: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )* )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4840:11: ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
             {
             if ( (input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                 input.consume();
@@ -2746,7 +2746,7 @@ public class InternalBytemanLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4817:35: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4840:35: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
             loop39:
             do {
                 int alt39=2;
@@ -2795,10 +2795,10 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:13: ( ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:15: ( '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -2816,10 +2816,10 @@ public class InternalBytemanLexer extends Lexer {
             }
             switch (alt42) {
                 case 1 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:16: '\"' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:20: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop40:
                     do {
                         int alt40=3;
@@ -2835,7 +2835,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt40) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' )
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:21: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -2851,7 +2851,7 @@ public class InternalBytemanLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:62: ~ ( ( '\\\\' | '\"' ) )
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:62: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2876,10 +2876,10 @@ public class InternalBytemanLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:82: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:82: '\\'' ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:87: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:87: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' ) | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop41:
                     do {
                         int alt41=3;
@@ -2895,7 +2895,7 @@ public class InternalBytemanLexer extends Lexer {
 
                         switch (alt41) {
                     	case 1 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:88: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' )
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:88: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\"' | '\\'' | '\\\\' )
                     	    {
                     	    match('\\'); 
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -2911,7 +2911,7 @@ public class InternalBytemanLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4819:129: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4842:129: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -2954,11 +2954,11 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_BM_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4821:17: ( RULE_HASH ( options {greedy=false; } : . )* RULE_EOL )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4821:19: RULE_HASH ( options {greedy=false; } : . )* RULE_EOL
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4844:17: ( RULE_HASH ( options {greedy=false; } : . )* RULE_EOL )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4844:19: RULE_HASH ( options {greedy=false; } : . )* RULE_EOL
             {
             mRULE_HASH(); 
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4821:29: ( options {greedy=false; } : . )*
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4844:29: ( options {greedy=false; } : . )*
             loop43:
             do {
                 int alt43=2;
@@ -2974,7 +2974,7 @@ public class InternalBytemanLexer extends Lexer {
 
                 switch (alt43) {
             	case 1 :
-            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4821:57: .
+            	    // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4844:57: .
             	    {
             	    matchAny(); 
 
@@ -3003,8 +3003,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_HASH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4823:11: ( '#' )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4823:13: '#'
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4846:11: ( '#' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4846:13: '#'
             {
             match('#'); 
 
@@ -3023,8 +3023,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_EOL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4825:10: ( ( '\\n' | '\\r' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4825:12: ( '\\n' | '\\r' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4848:10: ( ( '\\n' | '\\r' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4848:12: ( '\\n' | '\\r' )
             {
             if ( input.LA(1)=='\n'||input.LA(1)=='\r' ) {
                 input.consume();
@@ -3051,8 +3051,8 @@ public class InternalBytemanLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4827:9: ( ( ' ' | '\\t' ) )
-            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4827:11: ( ' ' | '\\t' )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4850:9: ( ( ' ' | '\\t' ) )
+            // ../org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/parser/antlr/internal/InternalByteman.g:4850:11: ( ' ' | '\\t' )
             {
             if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                 input.consume();
@@ -3635,7 +3635,7 @@ public class InternalBytemanLexer extends Lexer {
             this.transition = DFA13_transition;
         }
         public String getDescription() {
-            return "4779:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )";
+            return "4802:17: ( ( '0' .. '9' )+ '.' ( '0' .. '9' )* ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | '.' ( '0' .. '9' )+ ( RULE_EXPONENT )? ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_EXPONENT ( RULE_FLOATTYPESUFFIX )? | ( '0' .. '9' )+ RULE_FLOATTYPESUFFIX )";
         }
     }
     static final String DFA44_eotS =

@@ -179,10 +179,10 @@ Bindings:
      ;
 
 Binding:
-     bindVariable=BindVariable
-     (COLON typename=TypeName)?
-     ASSIGN
-     value=Expression;
+     bindVariable=BindVariable		// assignment is optional but only if we have a type
+     ((ASSIGN value=Expression) |
+     	(COLON typename=TypeName) (ASSIGN value=Expression)?
+     );
 
 BindVariable:
        ID;

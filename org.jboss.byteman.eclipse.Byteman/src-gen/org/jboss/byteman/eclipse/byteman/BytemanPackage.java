@@ -1266,22 +1266,22 @@ public interface BytemanPackage extends EPackage
   int BINDING__BIND_VARIABLE = 0;
 
   /**
-   * The feature id for the '<em><b>Typename</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int BINDING__TYPENAME = 1;
-
-  /**
    * The feature id for the '<em><b>Value</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int BINDING__VALUE = 2;
+  int BINDING__VALUE = 1;
+
+  /**
+   * The feature id for the '<em><b>Typename</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   * @ordered
+   */
+  int BINDING__TYPENAME = 2;
 
   /**
    * The number of structural features of the '<em>Binding</em>' class.
@@ -3003,17 +3003,6 @@ public interface BytemanPackage extends EPackage
   EAttribute getBinding_BindVariable();
 
   /**
-   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Typename</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.Binding#getTypename()
-   * @see #getBinding()
-   * @generated
-   */
-  EAttribute getBinding_Typename();
-
-  /**
    * Returns the meta object for the containment reference '{@link org.jboss.byteman.eclipse.byteman.Binding#getValue <em>Value</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -3023,6 +3012,17 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EReference getBinding_Value();
+
+  /**
+   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.Binding#getTypename <em>Typename</em>}'.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @return the meta object for the attribute '<em>Typename</em>'.
+   * @see org.jboss.byteman.eclipse.byteman.Binding#getTypename()
+   * @see #getBinding()
+   * @generated
+   */
+  EAttribute getBinding_Typename();
 
   /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.Condition <em>Condition</em>}'.
@@ -4207,20 +4207,20 @@ public interface BytemanPackage extends EPackage
     EAttribute BINDING__BIND_VARIABLE = eINSTANCE.getBinding_BindVariable();
 
     /**
-     * The meta object literal for the '<em><b>Typename</b></em>' attribute feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EAttribute BINDING__TYPENAME = eINSTANCE.getBinding_Typename();
-
-    /**
      * The meta object literal for the '<em><b>Value</b></em>' containment reference feature.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
     EReference BINDING__VALUE = eINSTANCE.getBinding_Value();
+
+    /**
+     * The meta object literal for the '<em><b>Typename</b></em>' attribute feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    EAttribute BINDING__TYPENAME = eINSTANCE.getBinding_Typename();
 
     /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.ConditionImpl <em>Condition</em>}' class.

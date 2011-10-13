@@ -1322,47 +1322,79 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Assignment cBindVariableAssignment_0 = (Assignment)cGroup.eContents().get(0);
 		private final RuleCall cBindVariableBindVariableParserRuleCall_0_0 = (RuleCall)cBindVariableAssignment_0.eContents().get(0);
-		private final Group cGroup_1 = (Group)cGroup.eContents().get(1);
-		private final RuleCall cCOLONTerminalRuleCall_1_0 = (RuleCall)cGroup_1.eContents().get(0);
-		private final Assignment cTypenameAssignment_1_1 = (Assignment)cGroup_1.eContents().get(1);
-		private final RuleCall cTypenameTypeNameParserRuleCall_1_1_0 = (RuleCall)cTypenameAssignment_1_1.eContents().get(0);
-		private final RuleCall cASSIGNTerminalRuleCall_2 = (RuleCall)cGroup.eContents().get(2);
-		private final Assignment cValueAssignment_3 = (Assignment)cGroup.eContents().get(3);
-		private final RuleCall cValueExpressionParserRuleCall_3_0 = (RuleCall)cValueAssignment_3.eContents().get(0);
+		private final Alternatives cAlternatives_1 = (Alternatives)cGroup.eContents().get(1);
+		private final Group cGroup_1_0 = (Group)cAlternatives_1.eContents().get(0);
+		private final RuleCall cASSIGNTerminalRuleCall_1_0_0 = (RuleCall)cGroup_1_0.eContents().get(0);
+		private final Assignment cValueAssignment_1_0_1 = (Assignment)cGroup_1_0.eContents().get(1);
+		private final RuleCall cValueExpressionParserRuleCall_1_0_1_0 = (RuleCall)cValueAssignment_1_0_1.eContents().get(0);
+		private final Group cGroup_1_1 = (Group)cAlternatives_1.eContents().get(1);
+		private final Group cGroup_1_1_0 = (Group)cGroup_1_1.eContents().get(0);
+		private final RuleCall cCOLONTerminalRuleCall_1_1_0_0 = (RuleCall)cGroup_1_1_0.eContents().get(0);
+		private final Assignment cTypenameAssignment_1_1_0_1 = (Assignment)cGroup_1_1_0.eContents().get(1);
+		private final RuleCall cTypenameTypeNameParserRuleCall_1_1_0_1_0 = (RuleCall)cTypenameAssignment_1_1_0_1.eContents().get(0);
+		private final Group cGroup_1_1_1 = (Group)cGroup_1_1.eContents().get(1);
+		private final RuleCall cASSIGNTerminalRuleCall_1_1_1_0 = (RuleCall)cGroup_1_1_1.eContents().get(0);
+		private final Assignment cValueAssignment_1_1_1_1 = (Assignment)cGroup_1_1_1.eContents().get(1);
+		private final RuleCall cValueExpressionParserRuleCall_1_1_1_1_0 = (RuleCall)cValueAssignment_1_1_1_1.eContents().get(0);
 		
 		//Binding:
-		//	bindVariable=BindVariable (COLON typename=TypeName)? ASSIGN value=Expression;
+		//	bindVariable= // assignment is optional but only if we have a type
+		//	BindVariable (ASSIGN value=Expression | (COLON typename=TypeName) (ASSIGN value=Expression)?);
 		public ParserRule getRule() { return rule; }
 
-		//bindVariable=BindVariable (COLON typename=TypeName)? ASSIGN value=Expression
+		//bindVariable= // assignment is optional but only if we have a type
+		//BindVariable (ASSIGN value=Expression | (COLON typename=TypeName) (ASSIGN value=Expression)?)
 		public Group getGroup() { return cGroup; }
 
-		//bindVariable=BindVariable
+		//bindVariable= // assignment is optional but only if we have a type
+		//BindVariable
 		public Assignment getBindVariableAssignment_0() { return cBindVariableAssignment_0; }
 
+		//// assignment is optional but only if we have a type
 		//BindVariable
 		public RuleCall getBindVariableBindVariableParserRuleCall_0_0() { return cBindVariableBindVariableParserRuleCall_0_0; }
 
-		//(COLON typename=TypeName)?
-		public Group getGroup_1() { return cGroup_1; }
+		//ASSIGN value=Expression | (COLON typename=TypeName) (ASSIGN value=Expression)?
+		public Alternatives getAlternatives_1() { return cAlternatives_1; }
 
-		//COLON
-		public RuleCall getCOLONTerminalRuleCall_1_0() { return cCOLONTerminalRuleCall_1_0; }
-
-		//typename=TypeName
-		public Assignment getTypenameAssignment_1_1() { return cTypenameAssignment_1_1; }
-
-		//TypeName
-		public RuleCall getTypenameTypeNameParserRuleCall_1_1_0() { return cTypenameTypeNameParserRuleCall_1_1_0; }
+		//ASSIGN value=Expression
+		public Group getGroup_1_0() { return cGroup_1_0; }
 
 		//ASSIGN
-		public RuleCall getASSIGNTerminalRuleCall_2() { return cASSIGNTerminalRuleCall_2; }
+		public RuleCall getASSIGNTerminalRuleCall_1_0_0() { return cASSIGNTerminalRuleCall_1_0_0; }
 
 		//value=Expression
-		public Assignment getValueAssignment_3() { return cValueAssignment_3; }
+		public Assignment getValueAssignment_1_0_1() { return cValueAssignment_1_0_1; }
 
 		//Expression
-		public RuleCall getValueExpressionParserRuleCall_3_0() { return cValueExpressionParserRuleCall_3_0; }
+		public RuleCall getValueExpressionParserRuleCall_1_0_1_0() { return cValueExpressionParserRuleCall_1_0_1_0; }
+
+		//(COLON typename=TypeName) (ASSIGN value=Expression)?
+		public Group getGroup_1_1() { return cGroup_1_1; }
+
+		//COLON typename=TypeName
+		public Group getGroup_1_1_0() { return cGroup_1_1_0; }
+
+		//COLON
+		public RuleCall getCOLONTerminalRuleCall_1_1_0_0() { return cCOLONTerminalRuleCall_1_1_0_0; }
+
+		//typename=TypeName
+		public Assignment getTypenameAssignment_1_1_0_1() { return cTypenameAssignment_1_1_0_1; }
+
+		//TypeName
+		public RuleCall getTypenameTypeNameParserRuleCall_1_1_0_1_0() { return cTypenameTypeNameParserRuleCall_1_1_0_1_0; }
+
+		//(ASSIGN value=Expression)?
+		public Group getGroup_1_1_1() { return cGroup_1_1_1; }
+
+		//ASSIGN
+		public RuleCall getASSIGNTerminalRuleCall_1_1_1_0() { return cASSIGNTerminalRuleCall_1_1_1_0; }
+
+		//value=Expression
+		public Assignment getValueAssignment_1_1_1_1() { return cValueAssignment_1_1_1_1; }
+
+		//Expression
+		public RuleCall getValueExpressionParserRuleCall_1_1_1_1_0() { return cValueExpressionParserRuleCall_1_1_1_1_0; }
 	}
 
 	public class BindVariableElements extends AbstractParserRuleElementFinder {
@@ -3138,7 +3170,8 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//Binding:
-	//	bindVariable=BindVariable (COLON typename=TypeName)? ASSIGN value=Expression;
+	//	bindVariable= // assignment is optional but only if we have a type
+	//	BindVariable (ASSIGN value=Expression | (COLON typename=TypeName) (ASSIGN value=Expression)?);
 	public BindingElements getBindingAccess() {
 		return (pBinding != null) ? pBinding : (pBinding = new BindingElements());
 	}

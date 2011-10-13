@@ -1295,9 +1295,9 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EAttribute getBinding_Typename()
+  public EReference getBinding_Value()
   {
-    return (EAttribute)bindingEClass.getEStructuralFeatures().get(1);
+    return (EReference)bindingEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -1305,9 +1305,9 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EReference getBinding_Value()
+  public EAttribute getBinding_Typename()
   {
-    return (EReference)bindingEClass.getEStructuralFeatures().get(2);
+    return (EAttribute)bindingEClass.getEStructuralFeatures().get(2);
   }
 
   /**
@@ -1919,8 +1919,8 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
 
     bindingEClass = createEClass(BINDING);
     createEAttribute(bindingEClass, BINDING__BIND_VARIABLE);
-    createEAttribute(bindingEClass, BINDING__TYPENAME);
     createEReference(bindingEClass, BINDING__VALUE);
+    createEAttribute(bindingEClass, BINDING__TYPENAME);
 
     conditionEClass = createEClass(CONDITION);
 
@@ -2176,8 +2176,8 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
 
     initEClass(bindingEClass, Binding.class, "Binding", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getBinding_BindVariable(), ecorePackage.getEString(), "bindVariable", null, 0, 1, Binding.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getBinding_Typename(), ecorePackage.getEString(), "typename", null, 0, 1, Binding.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getBinding_Value(), this.getExpression(), null, "value", null, 0, 1, Binding.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEAttribute(getBinding_Typename(), ecorePackage.getEString(), "typename", null, 0, 1, Binding.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(conditionEClass, Condition.class, "Condition", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

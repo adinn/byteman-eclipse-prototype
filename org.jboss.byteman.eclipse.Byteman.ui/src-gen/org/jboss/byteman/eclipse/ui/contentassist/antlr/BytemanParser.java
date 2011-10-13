@@ -53,6 +53,7 @@ public class BytemanParser extends AbstractContentAssistParser {
 					put(grammarAccess.getAfterInvokeAccess().getAlternatives_1(), "rule__AfterInvoke__Alternatives_1");
 					put(grammarAccess.getCounterAccess().getAlternatives(), "rule__Counter__Alternatives");
 					put(grammarAccess.getBindAccess().getAlternatives_2(), "rule__Bind__Alternatives_2");
+					put(grammarAccess.getBindingAccess().getAlternatives_1(), "rule__Binding__Alternatives_1");
 					put(grammarAccess.getActionsAccess().getAlternatives_2(), "rule__Actions__Alternatives_2");
 					put(grammarAccess.getActionAccess().getAlternatives(), "rule__Action__Alternatives");
 					put(grammarAccess.getOperatorExprAccess().getOpAlternatives_1_1_0(), "rule__OperatorExpr__OpAlternatives_1_1_0");
@@ -104,7 +105,10 @@ public class BytemanParser extends AbstractContentAssistParser {
 					put(grammarAccess.getBindingsAccess().getGroup(), "rule__Bindings__Group__0");
 					put(grammarAccess.getBindingsAccess().getGroup_1(), "rule__Bindings__Group_1__0");
 					put(grammarAccess.getBindingAccess().getGroup(), "rule__Binding__Group__0");
-					put(grammarAccess.getBindingAccess().getGroup_1(), "rule__Binding__Group_1__0");
+					put(grammarAccess.getBindingAccess().getGroup_1_0(), "rule__Binding__Group_1_0__0");
+					put(grammarAccess.getBindingAccess().getGroup_1_1(), "rule__Binding__Group_1_1__0");
+					put(grammarAccess.getBindingAccess().getGroup_1_1_0(), "rule__Binding__Group_1_1_0__0");
+					put(grammarAccess.getBindingAccess().getGroup_1_1_1(), "rule__Binding__Group_1_1_1__0");
 					put(grammarAccess.getConditionAccess().getGroup(), "rule__Condition__Group__0");
 					put(grammarAccess.getActionsAccess().getGroup(), "rule__Actions__Group__0");
 					put(grammarAccess.getActionListAccess().getGroup(), "rule__ActionList__Group__0");
@@ -196,8 +200,9 @@ public class BytemanParser extends AbstractContentAssistParser {
 					put(grammarAccess.getBindingsAccess().getBindingsAssignment_0(), "rule__Bindings__BindingsAssignment_0");
 					put(grammarAccess.getBindingsAccess().getBindingsAssignment_1_1(), "rule__Bindings__BindingsAssignment_1_1");
 					put(grammarAccess.getBindingAccess().getBindVariableAssignment_0(), "rule__Binding__BindVariableAssignment_0");
-					put(grammarAccess.getBindingAccess().getTypenameAssignment_1_1(), "rule__Binding__TypenameAssignment_1_1");
-					put(grammarAccess.getBindingAccess().getValueAssignment_3(), "rule__Binding__ValueAssignment_3");
+					put(grammarAccess.getBindingAccess().getValueAssignment_1_0_1(), "rule__Binding__ValueAssignment_1_0_1");
+					put(grammarAccess.getBindingAccess().getTypenameAssignment_1_1_0_1(), "rule__Binding__TypenameAssignment_1_1_0_1");
+					put(grammarAccess.getBindingAccess().getValueAssignment_1_1_1_1(), "rule__Binding__ValueAssignment_1_1_1_1");
 					put(grammarAccess.getActionsAccess().getActionListAssignment_2_0(), "rule__Actions__ActionListAssignment_2_0");
 					put(grammarAccess.getActionListAccess().getActionsAssignment_0(), "rule__ActionList__ActionsAssignment_0");
 					put(grammarAccess.getActionListAccess().getActionsAssignment_1_1(), "rule__ActionList__ActionsAssignment_1_1");

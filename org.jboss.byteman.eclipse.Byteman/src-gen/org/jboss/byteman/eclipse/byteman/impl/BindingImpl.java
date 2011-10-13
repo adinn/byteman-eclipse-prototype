@@ -26,8 +26,8 @@ import org.jboss.byteman.eclipse.byteman.Expression;
  * The following features are implemented:
  * <ul>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.BindingImpl#getBindVariable <em>Bind Variable</em>}</li>
- *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.BindingImpl#getTypename <em>Typename</em>}</li>
  *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.BindingImpl#getValue <em>Value</em>}</li>
+ *   <li>{@link org.jboss.byteman.eclipse.byteman.impl.BindingImpl#getTypename <em>Typename</em>}</li>
  * </ul>
  * </p>
  *
@@ -56,6 +56,16 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
   protected String bindVariable = BIND_VARIABLE_EDEFAULT;
 
   /**
+   * The cached value of the '{@link #getValue() <em>Value</em>}' containment reference.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #getValue()
+   * @generated
+   * @ordered
+   */
+  protected Expression value;
+
+  /**
    * The default value of the '{@link #getTypename() <em>Typename</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -74,16 +84,6 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
    * @ordered
    */
   protected String typename = TYPENAME_EDEFAULT;
-
-  /**
-   * The cached value of the '{@link #getValue() <em>Value</em>}' containment reference.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see #getValue()
-   * @generated
-   * @ordered
-   */
-  protected Expression value;
 
   /**
    * <!-- begin-user-doc -->
@@ -127,29 +127,6 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
     bindVariable = newBindVariable;
     if (eNotificationRequired())
       eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.BINDING__BIND_VARIABLE, oldBindVariable, bindVariable));
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public String getTypename()
-  {
-    return typename;
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public void setTypename(String newTypename)
-  {
-    String oldTypename = typename;
-    typename = newTypename;
-    if (eNotificationRequired())
-      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.BINDING__TYPENAME, oldTypename, typename));
   }
 
   /**
@@ -205,6 +182,29 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
    * <!-- end-user-doc -->
    * @generated
    */
+  public String getTypename()
+  {
+    return typename;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public void setTypename(String newTypename)
+  {
+    String oldTypename = typename;
+    typename = newTypename;
+    if (eNotificationRequired())
+      eNotify(new ENotificationImpl(this, Notification.SET, BytemanPackage.BINDING__TYPENAME, oldTypename, typename));
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
   @Override
   public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs)
   {
@@ -228,10 +228,10 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
     {
       case BytemanPackage.BINDING__BIND_VARIABLE:
         return getBindVariable();
-      case BytemanPackage.BINDING__TYPENAME:
-        return getTypename();
       case BytemanPackage.BINDING__VALUE:
         return getValue();
+      case BytemanPackage.BINDING__TYPENAME:
+        return getTypename();
     }
     return super.eGet(featureID, resolve, coreType);
   }
@@ -249,11 +249,11 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
       case BytemanPackage.BINDING__BIND_VARIABLE:
         setBindVariable((String)newValue);
         return;
-      case BytemanPackage.BINDING__TYPENAME:
-        setTypename((String)newValue);
-        return;
       case BytemanPackage.BINDING__VALUE:
         setValue((Expression)newValue);
+        return;
+      case BytemanPackage.BINDING__TYPENAME:
+        setTypename((String)newValue);
         return;
     }
     super.eSet(featureID, newValue);
@@ -272,11 +272,11 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
       case BytemanPackage.BINDING__BIND_VARIABLE:
         setBindVariable(BIND_VARIABLE_EDEFAULT);
         return;
-      case BytemanPackage.BINDING__TYPENAME:
-        setTypename(TYPENAME_EDEFAULT);
-        return;
       case BytemanPackage.BINDING__VALUE:
         setValue((Expression)null);
+        return;
+      case BytemanPackage.BINDING__TYPENAME:
+        setTypename(TYPENAME_EDEFAULT);
         return;
     }
     super.eUnset(featureID);
@@ -294,10 +294,10 @@ public class BindingImpl extends MinimalEObjectImpl.Container implements Binding
     {
       case BytemanPackage.BINDING__BIND_VARIABLE:
         return BIND_VARIABLE_EDEFAULT == null ? bindVariable != null : !BIND_VARIABLE_EDEFAULT.equals(bindVariable);
-      case BytemanPackage.BINDING__TYPENAME:
-        return TYPENAME_EDEFAULT == null ? typename != null : !TYPENAME_EDEFAULT.equals(typename);
       case BytemanPackage.BINDING__VALUE:
         return value != null;
+      case BytemanPackage.BINDING__TYPENAME:
+        return TYPENAME_EDEFAULT == null ? typename != null : !TYPENAME_EDEFAULT.equals(typename);
     }
     return super.eIsSet(featureID);
   }
