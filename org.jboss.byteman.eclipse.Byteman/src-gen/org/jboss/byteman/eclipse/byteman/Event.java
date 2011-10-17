@@ -64,12 +64,12 @@ public interface Event extends EObject
    * </p>
    * <!-- end-user-doc -->
    * @return the value of the '<em>Interface</em>' containment reference.
-   * @see #setInterface(EventInterface)
+   * @see #setInterface(EventClass)
    * @see org.jboss.byteman.eclipse.byteman.BytemanPackage#getEvent_Interface()
    * @model containment="true"
    * @generated
    */
-  EventInterface getInterface();
+  EventClass getInterface();
 
   /**
    * Sets the value of the '{@link org.jboss.byteman.eclipse.byteman.Event#getInterface <em>Interface</em>}' containment reference.
@@ -79,7 +79,7 @@ public interface Event extends EObject
    * @see #getInterface()
    * @generated
    */
-  void setInterface(EventInterface value);
+  void setInterface(EventClass value);
 
   /**
    * Returns the value of the '<em><b>Method</b></em>' containment reference.

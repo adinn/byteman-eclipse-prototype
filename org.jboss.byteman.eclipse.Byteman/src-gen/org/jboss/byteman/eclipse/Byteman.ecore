@@ -27,7 +27,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Event">
     <eStructuralFeatures xsi:type="ecore:EReference" name="class" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interface" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventInterface"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interface" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="method" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod"
         containment="true"/>
@@ -37,10 +37,6 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EventClass">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyword" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="EventInterface">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="keyword" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>

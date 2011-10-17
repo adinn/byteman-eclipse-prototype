@@ -55,7 +55,6 @@ import org.jboss.byteman.eclipse.byteman.DomainModel;
 import org.jboss.byteman.eclipse.byteman.Element;
 import org.jboss.byteman.eclipse.byteman.Event;
 import org.jboss.byteman.eclipse.byteman.EventClass;
-import org.jboss.byteman.eclipse.byteman.EventInterface;
 import org.jboss.byteman.eclipse.byteman.EventMethod;
 import org.jboss.byteman.eclipse.byteman.Expression;
 import org.jboss.byteman.eclipse.byteman.FloatConstantExpr;
@@ -122,13 +121,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * @generated
    */
   private EClass eventClassEClass = null;
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  private EClass eventInterfaceEClass = null;
 
   /**
    * <!-- begin-user-doc -->
@@ -748,36 +740,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
   public EAttribute getEventClass_Name()
   {
     return (EAttribute)eventClassEClass.getEStructuralFeatures().get(1);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EClass getEventInterface()
-  {
-    return eventInterfaceEClass;
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EAttribute getEventInterface_Keyword()
-  {
-    return (EAttribute)eventInterfaceEClass.getEStructuralFeatures().get(0);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EAttribute getEventInterface_Name()
-  {
-    return (EAttribute)eventInterfaceEClass.getEStructuralFeatures().get(1);
   }
 
   /**
@@ -1836,10 +1798,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     createEAttribute(eventClassEClass, EVENT_CLASS__KEYWORD);
     createEAttribute(eventClassEClass, EVENT_CLASS__NAME);
 
-    eventInterfaceEClass = createEClass(EVENT_INTERFACE);
-    createEAttribute(eventInterfaceEClass, EVENT_INTERFACE__KEYWORD);
-    createEAttribute(eventInterfaceEClass, EVENT_INTERFACE__NAME);
-
     eventMethodEClass = createEClass(EVENT_METHOD);
     createEAttribute(eventMethodEClass, EVENT_METHOD__NAME);
     createEReference(eventMethodEClass, EVENT_METHOD__PARAMETER_TYPES);
@@ -2084,7 +2042,7 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
 
     initEClass(eventEClass, Event.class, "Event", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEReference(getEvent_Class(), this.getEventClass(), null, "class", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEReference(getEvent_Interface(), this.getEventInterface(), null, "interface", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+    initEReference(getEvent_Interface(), this.getEventClass(), null, "interface", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getEvent_Method(), this.getEventMethod(), null, "method", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getEvent_Helper(), this.getHelper(), null, "helper", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEReference(getEvent_LocationSpec(), this.getLocationSpecifier(), null, "locationSpec", null, 0, 1, Event.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -2092,10 +2050,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     initEClass(eventClassEClass, EventClass.class, "EventClass", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getEventClass_Keyword(), ecorePackage.getEString(), "keyword", null, 0, 1, EventClass.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
     initEAttribute(getEventClass_Name(), ecorePackage.getEString(), "name", null, 0, 1, EventClass.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
-    initEClass(eventInterfaceEClass, EventInterface.class, "EventInterface", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEAttribute(getEventInterface_Keyword(), ecorePackage.getEString(), "keyword", null, 0, 1, EventInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-    initEAttribute(getEventInterface_Name(), ecorePackage.getEString(), "name", null, 0, 1, EventInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(eventMethodEClass, EventMethod.class, "EventMethod", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getEventMethod_Name(), ecorePackage.getEString(), "name", null, 0, 1, EventMethod.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

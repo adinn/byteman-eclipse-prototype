@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 import org.jboss.byteman.eclipse.byteman.BytemanPackage;
 import org.jboss.byteman.eclipse.byteman.Event;
 import org.jboss.byteman.eclipse.byteman.EventClass;
-import org.jboss.byteman.eclipse.byteman.EventInterface;
 import org.jboss.byteman.eclipse.byteman.EventMethod;
 import org.jboss.byteman.eclipse.byteman.Helper;
 import org.jboss.byteman.eclipse.byteman.LocationSpecifier;
@@ -59,7 +58,7 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
    * @generated
    * @ordered
    */
-  protected EventInterface interface_;
+  protected EventClass interface_;
 
   /**
    * The cached value of the '{@link #getMethod() <em>Method</em>}' containment reference.
@@ -165,7 +164,7 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
    * <!-- end-user-doc -->
    * @generated
    */
-  public EventInterface getInterface()
+  public EventClass getInterface()
   {
     return interface_;
   }
@@ -175,9 +174,9 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
    * <!-- end-user-doc -->
    * @generated
    */
-  public NotificationChain basicSetInterface(EventInterface newInterface, NotificationChain msgs)
+  public NotificationChain basicSetInterface(EventClass newInterface, NotificationChain msgs)
   {
-    EventInterface oldInterface = interface_;
+    EventClass oldInterface = interface_;
     interface_ = newInterface;
     if (eNotificationRequired())
     {
@@ -192,7 +191,7 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
    * <!-- end-user-doc -->
    * @generated
    */
-  public void setInterface(EventInterface newInterface)
+  public void setInterface(EventClass newInterface)
   {
     if (newInterface != interface_)
     {
@@ -414,7 +413,7 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
         setClass((EventClass)newValue);
         return;
       case BytemanPackage.EVENT__INTERFACE:
-        setInterface((EventInterface)newValue);
+        setInterface((EventClass)newValue);
         return;
       case BytemanPackage.EVENT__METHOD:
         setMethod((EventMethod)newValue);
@@ -443,7 +442,7 @@ public class EventImpl extends MinimalEObjectImpl.Container implements Event
         setClass((EventClass)null);
         return;
       case BytemanPackage.EVENT__INTERFACE:
-        setInterface((EventInterface)null);
+        setInterface((EventClass)null);
         return;
       case BytemanPackage.EVENT__METHOD:
         setMethod((EventMethod)null);

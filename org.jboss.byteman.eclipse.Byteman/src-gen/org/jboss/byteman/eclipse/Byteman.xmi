@@ -115,7 +115,7 @@
   </rules>
   <rules xsi:type="xtext:ParserRule" name="EventInterface">
     <type metamodel="//@metamodelDeclarations.0">
-      <classifier xsi:type="ecore:EClass" href="http://www.jboss.org/byteman/eclipse/Byteman#//EventInterface"/>
+      <classifier xsi:type="ecore:EClass" href="http://www.jboss.org/byteman/eclipse/Byteman#//EventClass"/>
     </type>
     <alternatives xsi:type="xtext:Group">
       <elements xsi:type="xtext:Assignment" feature="keyword" operator="=">

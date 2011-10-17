@@ -73,7 +73,6 @@ public class BytemanFactoryImpl extends EFactoryImpl implements BytemanFactory
       case BytemanPackage.BODY: return createBody();
       case BytemanPackage.EVENT: return createEvent();
       case BytemanPackage.EVENT_CLASS: return createEventClass();
-      case BytemanPackage.EVENT_INTERFACE: return createEventInterface();
       case BytemanPackage.EVENT_METHOD: return createEventMethod();
       case BytemanPackage.HELPER: return createHelper();
       case BytemanPackage.LOCATION_SPECIFIER: return createLocationSpecifier();
@@ -194,17 +193,6 @@ public class BytemanFactoryImpl extends EFactoryImpl implements BytemanFactory
   {
     EventClassImpl eventClass = new EventClassImpl();
     return eventClass;
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
-  public EventInterface createEventInterface()
-  {
-    EventInterfaceImpl eventInterface = new EventInterfaceImpl();
-    return eventInterface;
   }
 
   /**

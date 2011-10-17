@@ -281,7 +281,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final Assignment cNameAssignment_1 = (Assignment)cGroup.eContents().get(1);
 		private final RuleCall cNameQualifiedNameParserRuleCall_1_0 = (RuleCall)cNameAssignment_1.eContents().get(0);
 		
-		//EventInterface:
+		//EventInterface returns EventClass:
 		//	keyword=KEYWORD_INTERFACE name=QualifiedName;
 		public ParserRule getRule() { return rule; }
 
@@ -2849,7 +2849,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		return getEventClassAccess().getRule();
 	}
 
-	//EventInterface:
+	//EventInterface returns EventClass:
 	//	keyword=KEYWORD_INTERFACE name=QualifiedName;
 	public EventInterfaceElements getEventInterfaceAccess() {
 		return (pEventInterface != null) ? pEventInterface : (pEventInterface = new EventInterfaceElements());

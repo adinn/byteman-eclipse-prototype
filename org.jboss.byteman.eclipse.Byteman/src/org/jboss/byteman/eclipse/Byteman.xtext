@@ -58,10 +58,10 @@ Event :
      (helper=Helper EOL*)?
      (locationSpec=LocationSpecifier EOL*)?;
 
-EventClass :
+EventClass returns EventClass :
      keyword=KEYWORD_CLASS name=QualifiedName;
 
-EventInterface:
+EventInterface returns EventClass :
       keyword=KEYWORD_INTERFACE name=QualifiedName;
 
 EventMethod :

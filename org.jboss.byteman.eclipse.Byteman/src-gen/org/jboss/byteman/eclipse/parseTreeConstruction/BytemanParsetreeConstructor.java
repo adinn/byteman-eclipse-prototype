@@ -1204,7 +1204,7 @@ protected class EventClass_NameAssignment_1 extends AssignmentToken  {
 
 /************ begin Rule EventInterface ****************
  *
- * EventInterface:
+ * EventInterface returns EventClass:
  * 	keyword=KEYWORD_INTERFACE name=QualifiedName;
  *
  **/

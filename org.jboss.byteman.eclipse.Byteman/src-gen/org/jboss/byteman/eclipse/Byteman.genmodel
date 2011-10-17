@@ -34,10 +34,6 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass/keyword"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass/name"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventInterface">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventInterface/keyword"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventInterface/name"/>
-    </genClasses>
     <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod/name"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod/parameterTypes"/>

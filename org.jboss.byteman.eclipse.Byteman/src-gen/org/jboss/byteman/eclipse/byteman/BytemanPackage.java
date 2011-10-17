@@ -300,43 +300,6 @@ public interface BytemanPackage extends EPackage
   int EVENT_CLASS_FEATURE_COUNT = 2;
 
   /**
-   * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.EventInterfaceImpl <em>Event Interface</em>}' class.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @see org.jboss.byteman.eclipse.byteman.impl.EventInterfaceImpl
-   * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getEventInterface()
-   * @generated
-   */
-  int EVENT_INTERFACE = 6;
-
-  /**
-   * The feature id for the '<em><b>Keyword</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int EVENT_INTERFACE__KEYWORD = 0;
-
-  /**
-   * The feature id for the '<em><b>Name</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int EVENT_INTERFACE__NAME = 1;
-
-  /**
-   * The number of structural features of the '<em>Event Interface</em>' class.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int EVENT_INTERFACE_FEATURE_COUNT = 2;
-
-  /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.EventMethodImpl <em>Event Method</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -344,7 +307,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getEventMethod()
    * @generated
    */
-  int EVENT_METHOD = 7;
+  int EVENT_METHOD = 6;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -381,7 +344,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getHelper()
    * @generated
    */
-  int HELPER = 8;
+  int HELPER = 7;
 
   /**
    * The feature id for the '<em><b>Helper</b></em>' attribute.
@@ -409,7 +372,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getLocationSpecifier()
    * @generated
    */
-  int LOCATION_SPECIFIER = 9;
+  int LOCATION_SPECIFIER = 8;
 
   /**
    * The number of structural features of the '<em>Location Specifier</em>' class.
@@ -428,7 +391,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtLocation()
    * @generated
    */
-  int AT_LOCATION = 10;
+  int AT_LOCATION = 9;
 
   /**
    * The number of structural features of the '<em>At Location</em>' class.
@@ -447,7 +410,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterLocation()
    * @generated
    */
-  int AFTER_LOCATION = 11;
+  int AFTER_LOCATION = 10;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -475,7 +438,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtEntry()
    * @generated
    */
-  int AT_ENTRY = 12;
+  int AT_ENTRY = 11;
 
   /**
    * The number of structural features of the '<em>At Entry</em>' class.
@@ -494,7 +457,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtExit()
    * @generated
    */
-  int AT_EXIT = 13;
+  int AT_EXIT = 12;
 
   /**
    * The number of structural features of the '<em>At Exit</em>' class.
@@ -513,7 +476,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtLine()
    * @generated
    */
-  int AT_LINE = 14;
+  int AT_LINE = 13;
 
   /**
    * The feature id for the '<em><b>Line</b></em>' attribute.
@@ -541,7 +504,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtRead()
    * @generated
    */
-  int AT_READ = 15;
+  int AT_READ = 14;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -578,7 +541,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtReadField()
    * @generated
    */
-  int AT_READ_FIELD = 16;
+  int AT_READ_FIELD = 15;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -615,7 +578,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtReadLocal()
    * @generated
    */
-  int AT_READ_LOCAL = 17;
+  int AT_READ_LOCAL = 16;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -652,7 +615,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterRead()
    * @generated
    */
-  int AFTER_READ = 18;
+  int AFTER_READ = 17;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -689,7 +652,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterReadField()
    * @generated
    */
-  int AFTER_READ_FIELD = 19;
+  int AFTER_READ_FIELD = 18;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -726,7 +689,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterReadLocal()
    * @generated
    */
-  int AFTER_READ_LOCAL = 20;
+  int AFTER_READ_LOCAL = 19;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -763,7 +726,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtWrite()
    * @generated
    */
-  int AT_WRITE = 21;
+  int AT_WRITE = 20;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -800,7 +763,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtWriteField()
    * @generated
    */
-  int AT_WRITE_FIELD = 22;
+  int AT_WRITE_FIELD = 21;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -837,7 +800,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtWriteLocal()
    * @generated
    */
-  int AT_WRITE_LOCAL = 23;
+  int AT_WRITE_LOCAL = 22;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -874,7 +837,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterWrite()
    * @generated
    */
-  int AFTER_WRITE = 24;
+  int AFTER_WRITE = 23;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -911,7 +874,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterWriteField()
    * @generated
    */
-  int AFTER_WRITE_FIELD = 25;
+  int AFTER_WRITE_FIELD = 24;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -948,7 +911,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterWriteLocal()
    * @generated
    */
-  int AFTER_WRITE_LOCAL = 26;
+  int AFTER_WRITE_LOCAL = 25;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -985,7 +948,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtInvoke()
    * @generated
    */
-  int AT_INVOKE = 27;
+  int AT_INVOKE = 26;
 
   /**
    * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -1031,7 +994,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterInvoke()
    * @generated
    */
-  int AFTER_INVOKE = 28;
+  int AFTER_INVOKE = 27;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -1077,7 +1040,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtSynchronize()
    * @generated
    */
-  int AT_SYNCHRONIZE = 29;
+  int AT_SYNCHRONIZE = 28;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -1105,7 +1068,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAfterSynchronize()
    * @generated
    */
-  int AFTER_SYNCHRONIZE = 30;
+  int AFTER_SYNCHRONIZE = 29;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -1133,7 +1096,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAtThrow()
    * @generated
    */
-  int AT_THROW = 31;
+  int AT_THROW = 30;
 
   /**
    * The feature id for the '<em><b>Counter</b></em>' attribute.
@@ -1170,7 +1133,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getParameterTypes()
    * @generated
    */
-  int PARAMETER_TYPES = 32;
+  int PARAMETER_TYPES = 31;
 
   /**
    * The feature id for the '<em><b>Param Type Names</b></em>' attribute list.
@@ -1198,7 +1161,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBind()
    * @generated
    */
-  int BIND = 33;
+  int BIND = 32;
 
   /**
    * The feature id for the '<em><b>Bind</b></em>' containment reference.
@@ -1226,7 +1189,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBindings()
    * @generated
    */
-  int BINDINGS = 34;
+  int BINDINGS = 33;
 
   /**
    * The feature id for the '<em><b>Bindings</b></em>' containment reference list.
@@ -1254,7 +1217,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBinding()
    * @generated
    */
-  int BINDING = 35;
+  int BINDING = 34;
 
   /**
    * The feature id for the '<em><b>Bind Variable</b></em>' attribute.
@@ -1300,7 +1263,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getCondition()
    * @generated
    */
-  int CONDITION = 36;
+  int CONDITION = 35;
 
   /**
    * The number of structural features of the '<em>Condition</em>' class.
@@ -1319,7 +1282,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getActions()
    * @generated
    */
-  int ACTIONS = 37;
+  int ACTIONS = 36;
 
   /**
    * The feature id for the '<em><b>Action List</b></em>' containment reference.
@@ -1347,7 +1310,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getActionList()
    * @generated
    */
-  int ACTION_LIST = 38;
+  int ACTION_LIST = 37;
 
   /**
    * The feature id for the '<em><b>Actions</b></em>' containment reference list.
@@ -1375,7 +1338,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAction()
    * @generated
    */
-  int ACTION = 39;
+  int ACTION = 38;
 
   /**
    * The number of structural features of the '<em>Action</em>' class.
@@ -1394,7 +1357,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getExpression()
    * @generated
    */
-  int EXPRESSION = 40;
+  int EXPRESSION = 39;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1431,7 +1394,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getCallArguments()
    * @generated
    */
-  int CALL_ARGUMENTS = 41;
+  int CALL_ARGUMENTS = 40;
 
   /**
    * The feature id for the '<em><b>Args</b></em>' containment reference list.
@@ -1459,7 +1422,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAssignmentExpr()
    * @generated
    */
-  int ASSIGNMENT_EXPR = 42;
+  int ASSIGNMENT_EXPR = 41;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1505,7 +1468,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getOperatorExpr()
    * @generated
    */
-  int OPERATOR_EXPR = 43;
+  int OPERATOR_EXPR = 42;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1551,7 +1514,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getPlusMinusOperand()
    * @generated
    */
-  int PLUS_MINUS_OPERAND = 44;
+  int PLUS_MINUS_OPERAND = 43;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1597,7 +1560,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getTimesDivOperand()
    * @generated
    */
-  int TIMES_DIV_OPERAND = 45;
+  int TIMES_DIV_OPERAND = 44;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1643,7 +1606,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBitwiseOperand()
    * @generated
    */
-  int BITWISE_OPERAND = 46;
+  int BITWISE_OPERAND = 45;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1689,7 +1652,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getLogicalOperand()
    * @generated
    */
-  int LOGICAL_OPERAND = 47;
+  int LOGICAL_OPERAND = 46;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1735,7 +1698,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getAccessExpr()
    * @generated
    */
-  int ACCESS_EXPR = 48;
+  int ACCESS_EXPR = 47;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1799,7 +1762,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBuiltinExpr()
    * @generated
    */
-  int BUILTIN_EXPR = 49;
+  int BUILTIN_EXPR = 48;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1854,7 +1817,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getNewExpr()
    * @generated
    */
-  int NEW_EXPR = 50;
+  int NEW_EXPR = 49;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1909,7 +1872,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSimpleName()
    * @generated
    */
-  int SIMPLE_NAME = 51;
+  int SIMPLE_NAME = 50;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -1955,7 +1918,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getIndexedSpecialVar()
    * @generated
    */
-  int INDEXED_SPECIAL_VAR = 52;
+  int INDEXED_SPECIAL_VAR = 51;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2001,7 +1964,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getSpecialVar()
    * @generated
    */
-  int SPECIAL_VAR = 53;
+  int SPECIAL_VAR = 52;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2047,7 +2010,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getIntConstantExpr()
    * @generated
    */
-  int INT_CONSTANT_EXPR = 54;
+  int INT_CONSTANT_EXPR = 53;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2093,7 +2056,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getStringConstantExpr()
    * @generated
    */
-  int STRING_CONSTANT_EXPR = 55;
+  int STRING_CONSTANT_EXPR = 54;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2139,7 +2102,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getBooleanConstantExpr()
    * @generated
    */
-  int BOOLEAN_CONSTANT_EXPR = 56;
+  int BOOLEAN_CONSTANT_EXPR = 55;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2185,7 +2148,7 @@ public interface BytemanPackage extends EPackage
    * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getFloatConstantExpr()
    * @generated
    */
-  int FLOAT_CONSTANT_EXPR = 57;
+  int FLOAT_CONSTANT_EXPR = 56;
 
   /**
    * The feature id for the '<em><b>Op</b></em>' attribute.
@@ -2437,38 +2400,6 @@ public interface BytemanPackage extends EPackage
    * @generated
    */
   EAttribute getEventClass_Name();
-
-  /**
-   * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.EventInterface <em>Event Interface</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for class '<em>Event Interface</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.EventInterface
-   * @generated
-   */
-  EClass getEventInterface();
-
-  /**
-   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.EventInterface#getKeyword <em>Keyword</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Keyword</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.EventInterface#getKeyword()
-   * @see #getEventInterface()
-   * @generated
-   */
-  EAttribute getEventInterface_Keyword();
-
-  /**
-   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.EventInterface#getName <em>Name</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Name</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.EventInterface#getName()
-   * @see #getEventInterface()
-   * @generated
-   */
-  EAttribute getEventInterface_Name();
 
   /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.EventMethod <em>Event Method</em>}'.
@@ -3713,32 +3644,6 @@ public interface BytemanPackage extends EPackage
      * @generated
      */
     EAttribute EVENT_CLASS__NAME = eINSTANCE.getEventClass_Name();
-
-    /**
-     * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.EventInterfaceImpl <em>Event Interface</em>}' class.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see org.jboss.byteman.eclipse.byteman.impl.EventInterfaceImpl
-     * @see org.jboss.byteman.eclipse.byteman.impl.BytemanPackageImpl#getEventInterface()
-     * @generated
-     */
-    EClass EVENT_INTERFACE = eINSTANCE.getEventInterface();
-
-    /**
-     * The meta object literal for the '<em><b>Keyword</b></em>' attribute feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EAttribute EVENT_INTERFACE__KEYWORD = eINSTANCE.getEventInterface_Keyword();
-
-    /**
-     * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EAttribute EVENT_INTERFACE__NAME = eINSTANCE.getEventInterface_Name();
 
     /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.EventMethodImpl <em>Event Method</em>}' class.

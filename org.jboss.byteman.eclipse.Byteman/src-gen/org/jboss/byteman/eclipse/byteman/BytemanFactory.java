@@ -80,15 +80,6 @@ public interface BytemanFactory extends EFactory
   EventClass createEventClass();
 
   /**
-   * Returns a new object of class '<em>Event Interface</em>'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return a new object of class '<em>Event Interface</em>'.
-   * @generated
-   */
-  EventInterface createEventInterface();
-
-  /**
    * Returns a new object of class '<em>Event Method</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
