@@ -26,6 +26,7 @@ import org.jboss.byteman.eclipse.byteman.BytemanPackage;
 import org.jboss.byteman.eclipse.byteman.Actions;
 import org.jboss.byteman.eclipse.byteman.ActionList;
 import org.jboss.byteman.eclipse.byteman.Action;
+import org.jboss.byteman.eclipse.byteman.BytemanRule;
 import org.jboss.byteman.eclipse.byteman.EventClass;
 import org.jboss.byteman.eclipse.byteman.EventMethod;
 import org.jboss.byteman.eclipse.byteman.Expression;
@@ -112,19 +113,31 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 	}
 	
 	/**
-	 * quick check which stashes away details of the name and type of all bound variables
-	 * so we can validate susbequent references to them 
+	 * quick check rule which keeps track of which rule we are in
+	 * @param rule the current rule
+	 */
+	@Check
+	public void recordCurrentRuleName(BytemanRule rule)
+	{
+		String name = rule.getName();
+		getContext().put(RULE_NAME_KEY, name);
+	}
+	
+	/**
+	 * quick check which stashes away the name of all bound variables
+	 * so we can validate subsequent references to them in the current rule
 	 * @param binding
 	 */
 	@Check
 	public void recordLocalNameIsBound(Binding binding)
 	{
 		String name = binding.getBindVariable();
-		String typeName = binding.getTypename();
+		String currentRule = (String)getContext().get(RULE_NAME_KEY);
 		
-		Binding oldBinding = (Binding)getContext().put(new ContextKey(name), binding);
+		String oldBinding = (String)getContext().put(new ContextKey(name), currentRule);
 		
-		if (oldBinding != null) {
+		// don't allow previous bindings for the same rule
+		if (oldBinding == currentRule) {
 			error("Duplicate binding for rule variable " + name, BytemanPackage.eINSTANCE.getBinding_BindVariable());
 		}
 	}
@@ -138,9 +151,10 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 	public void checkLocalNameIsBound(SimpleName simpleName)
 	{
 		String name = simpleName.getValue();
-		Binding binding = (Binding) getContext().get(new ContextKey(name));
-		if (binding == null) {
-			// hmm, this name may be part of a qualified name idenitfying a static
+		String currentRule = (String)getContext().get(RULE_NAME_KEY);
+		String binding = (String) getContext().get(new ContextKey(name));
+		if (binding == null || binding != currentRule) {
+			// hmm, this name may be part of a qualified name identifying a static
 			// field or method in which case we cannot actually check this until
 			// we are in a position to do typechecking. in any other case though
 			// we can flag an error
