@@ -5,6 +5,13 @@ package org.jboss.byteman.eclipse.ui;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 
+import org.eclipse.xtext.ui.editor.syntaxcoloring.IHighlightingConfiguration;
+import org.eclipse.xtext.ui.editor.syntaxcoloring.ISemanticHighlightingCalculator;
+import org.jboss.byteman.eclipse.ui.highlighting.BytemanHighlightingCalculator;
+import org.jboss.byteman.eclipse.ui.highlighting.BytemanHighlightingConfiguration;
+
+import com.google.inject.Binder;
+
 /**
  * Use this class to register components to be used within the IDE.
  */
@@ -12,4 +19,15 @@ public class BytemanUiModule extends org.jboss.byteman.eclipse.ui.AbstractBytema
 	public BytemanUiModule(AbstractUIPlugin plugin) {
 		super(plugin);
 	}
+	/**
+	 * Registers the components
+	 * @param binder
+	 */
+	public void configure(Binder binder) 
+	{
+		super.configure(binder);
+		binder.bind(IHighlightingConfiguration.class).to(BytemanHighlightingConfiguration.class);
+		binder.bind(ISemanticHighlightingCalculator.class).to(BytemanHighlightingCalculator.class);
+	}
+
 }
