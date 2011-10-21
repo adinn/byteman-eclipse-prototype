@@ -222,7 +222,28 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 		if (cachedResults == null) {
 			String typeName = fullName;
 			String packageName = null;
-			int dotIndex =typeName.lastIndexOf('.');
+			// n.b. unlike Java Byteman uses $ to separate embedded subclasses
+			int dollarIndex = typeName.lastIndexOf('$');
+			int dotIndex = typeName.lastIndexOf('.');
+			if (dollarIndex > 0 && dollarIndex < dotIndex) {
+				// hmm foo.bar$baz.mumble is not allowed
+				// must be foo.bar.baz$mumble
+				if (isInterface) {
+					error("invalid trigger interface " + fullName, BytemanPackage.eINSTANCE.getEventClass_Name());
+				} else {
+					error("invalid trigger class " + fullName, BytemanPackage.eINSTANCE.getEventClass_Name());
+				}
+				return;
+			}
+			if (dollarIndex > 0) {
+				// ok, we should be able to search for foo.bar.baz$mumble by passing
+				// foo.bar as the package name and baz.mumble as the type name
+				// but eclipse is not playing ball. So, we have to pass it foo.bar.baz as the package name and
+				// mumble as the type name.
+				typeName = typeName.replace('$', '.');
+				dotIndex = dollarIndex;
+			}
+
 			int len = typeName.length();
 			
 			if (dotIndex > 0 && dotIndex < len -1) {
@@ -232,9 +253,14 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 
 			SearchEngine searchEngine = new SearchEngine();
 			final List<TypeSearchResult> results = new ArrayList<TypeSearchResult>();
+			// if a match contains embedded types and the original used a dot as separator then
+			// we have to reject the match since Byteman requires use of $ to identify the embedding
+			final boolean acceptEmbeddedTypes = (dollarIndex > 0 || dotIndex < 0);
 			TypeNameRequestor requestor = new TypeNameRequestor() {
 				public void acceptType(int modifiers, char[] packageName, char[] simpleTypeName, char[][] enclosingTypeNames, String path) {
-					results.add(new TypeSearchResult(modifiers, packageName, simpleTypeName, enclosingTypeNames, path));
+					if (acceptEmbeddedTypes || enclosingTypeNames.length == 0) { 
+						results.add(new TypeSearchResult(modifiers, packageName, simpleTypeName, enclosingTypeNames, path));
+					}
 				}
 			};
 			char[] packageNameChars = (packageName == null ? null : packageName.toCharArray());
@@ -326,7 +352,7 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 			SearchParticipant[] participants = new SearchParticipant[] {SearchEngine.getDefaultSearchParticipant()};
 
 			for (TypeSearchResult result : types) {
-				String typeName = result.name;
+				String typeName = result.name.replace('$', '.');
 				
 				// now build type qualified method name
 				StringBuilder builder = new StringBuilder();
@@ -407,8 +433,8 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 				builder.append('.');
 			}
 			for (char[] enclosingTypeName : enclosingTypeNames) {
-				builder.append(enclosingTypeNames);
-				builder.append('.');
+				builder.append(enclosingTypeName);
+				builder.append('$');
 			}
 			builder.append(simpleTypeName);		
 			name = builder.toString();
