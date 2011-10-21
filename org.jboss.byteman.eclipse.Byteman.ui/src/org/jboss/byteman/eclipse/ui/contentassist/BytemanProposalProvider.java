@@ -3,10 +3,109 @@
 */
 package org.jboss.byteman.eclipse.ui.contentassist;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.ecore.EStructuralFeature;
+import org.eclipse.jdt.core.JavaModelException;
+import org.eclipse.jdt.core.search.IJavaSearchConstants;
+import org.eclipse.jdt.core.search.IJavaSearchScope;
+import org.eclipse.jdt.core.search.SearchEngine;
+import org.eclipse.jdt.core.search.SearchPattern;
+import org.eclipse.jdt.core.search.TypeNameRequestor;
+import org.eclipse.xtext.Assignment;
+import org.eclipse.xtext.ui.editor.contentassist.ContentAssistContext;
+import org.eclipse.xtext.ui.editor.contentassist.ICompletionProposalAcceptor;
+import org.jboss.byteman.eclipse.byteman.BytemanPackage;
+import org.jboss.byteman.eclipse.byteman.EventClass;
 import org.jboss.byteman.eclipse.ui.contentassist.AbstractBytemanProposalProvider;
+
 /**
  * see http://www.eclipse.org/Xtext/documentation/latest/xtext.html#contentAssist on how to customize content assistant
  */
 public class BytemanProposalProvider extends AbstractBytemanProposalProvider {
 
+	@Override
+	public void completeEventClass_Name(EObject model, Assignment assignment,
+			ContentAssistContext context, ICompletionProposalAcceptor acceptor) {
+		super.completeEventClass_Name(model, assignment, context, acceptor);
+		String name = (String) model.eGet(BytemanPackage.eINSTANCE.getEventClass_Name());
+		if (name == null) {
+			// have to have something!
+			return;
+		}
+		String keyword = (String)model.eGet(BytemanPackage.eINSTANCE.getEventClass_Keyword());
+		boolean isInterface = keyword.equals("INTERFACE");
+		String typeName = name;
+		String packageName = null;
+		int dotIndex = typeName.lastIndexOf('.');
+		int dollarIndex = typeName.lastIndexOf('$');
+		int len = typeName.length();
+		if (dollarIndex > 0 && dollarIndex < dotIndex) {
+			// hmm foo.bar$baz.mumble is not allowed
+			// must be foo.bar.baz$mumble
+			return;
+		}
+		
+		if (dollarIndex >= 0) {
+			// ok, we should be able to search for foo.bar.baz$mumble by passing
+			// foo.bar as the package name and baz.mumble as the type name
+			// but eclipse is not playing ball. So, we have to pass it foo.bar.baz as the package name and
+			// mumble as the type name.
+			typeName = typeName.replace('$', '.');
+			dotIndex = dollarIndex;
+		}
+		
+		if (dotIndex >= 0) {
+			packageName = typeName.substring(0, dotIndex);
+			typeName = typeName.substring(dotIndex+1);
+		}
+
+		SearchEngine searchEngine = new SearchEngine();
+		final List<String> results = new ArrayList<String>();
+		TypeNameRequestor requestor = new TypeNameRequestor() {
+			public void acceptType(int modifiers, char[] packageName, char[] simpleTypeName, char[][] enclosingTypeNames, String path) {
+				StringBuilder builder = new StringBuilder();
+				if (packageName != null && packageName.length > 0) {
+					builder.append(packageName);
+					builder.append('.');
+				}
+				for (int i = 0; i < enclosingTypeNames.length; i++) {
+					builder.append(enclosingTypeNames[i]);
+					builder.append('$');
+				}
+				builder.append(simpleTypeName);
+
+				results.add(builder.toString());
+			}
+		};
+		char[] packageNameChars = (packageName == null ? null : packageName.toCharArray());
+		char[] typeNameChars = typeName.toCharArray();
+
+		IJavaSearchScope searchScope = SearchEngine.createWorkspaceScope();
+
+		try {
+			searchEngine.searchAllTypeNames(packageNameChars,
+					SearchPattern.R_PREFIX_MATCH,
+					typeNameChars,
+					SearchPattern.R_PREFIX_MATCH,
+					// hmm, really need to pick the right one here
+					(isInterface ? IJavaSearchConstants.INTERFACE : IJavaSearchConstants.CLASS),
+					searchScope,
+					requestor,
+					IJavaSearchConstants.WAIT_UNTIL_READY_TO_SEARCH,
+					null);
+		} catch (JavaModelException e) {
+			// TODO : ho hum probably should not happen but just ignore for now
+		}
+
+		// if we have any matches then suggest them
+
+		if (!results.isEmpty()) {
+			for (String result : results) {
+				acceptor.accept(createCompletionProposal(result, context));
+			}
+		}
+	}
 }
