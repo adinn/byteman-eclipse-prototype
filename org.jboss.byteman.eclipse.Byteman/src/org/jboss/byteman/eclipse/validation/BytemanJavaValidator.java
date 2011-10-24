@@ -367,7 +367,12 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 					builder.append("(");
 					for (int i = 0; i < paramTypeCount; i++) {
 						builder.append(separator);
-						builder.append(paramTypeNames.get(i));
+						String paramTypeName = paramTypeNames.get(i);
+						// ho hum eclipse doesn't like $ to separate embedded types
+						if (paramTypeName.indexOf('$') > 0) {
+							paramTypeName = paramTypeName.replace('$', '.');
+						}
+						builder.append(paramTypeName);
 						separator = ",";
 					}
 					builder.append(")");
