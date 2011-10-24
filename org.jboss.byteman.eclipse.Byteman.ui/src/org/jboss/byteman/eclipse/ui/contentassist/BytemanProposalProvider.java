@@ -6,19 +6,28 @@ package org.jboss.byteman.eclipse.ui.contentassist;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.eclipse.core.runtime.CoreException;
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EStructuralFeature;
+import org.eclipse.jdt.core.IType;
 import org.eclipse.jdt.core.JavaModelException;
 import org.eclipse.jdt.core.search.IJavaSearchConstants;
 import org.eclipse.jdt.core.search.IJavaSearchScope;
+import org.eclipse.jdt.core.search.MethodDeclarationMatch;
 import org.eclipse.jdt.core.search.SearchEngine;
+import org.eclipse.jdt.core.search.SearchMatch;
+import org.eclipse.jdt.core.search.SearchParticipant;
 import org.eclipse.jdt.core.search.SearchPattern;
+import org.eclipse.jdt.core.search.SearchRequestor;
 import org.eclipse.jdt.core.search.TypeNameRequestor;
+import org.eclipse.jdt.core.IMethod;
 import org.eclipse.xtext.Assignment;
 import org.eclipse.xtext.ui.editor.contentassist.ContentAssistContext;
 import org.eclipse.xtext.ui.editor.contentassist.ICompletionProposalAcceptor;
 import org.jboss.byteman.eclipse.byteman.BytemanPackage;
 import org.jboss.byteman.eclipse.byteman.EventClass;
+import org.jboss.byteman.eclipse.byteman.ParameterTypes;
 import org.jboss.byteman.eclipse.ui.contentassist.AbstractBytemanProposalProvider;
 
 /**
@@ -32,8 +41,7 @@ public class BytemanProposalProvider extends AbstractBytemanProposalProvider {
 		super.completeEventClass_Name(model, assignment, context, acceptor);
 		String name = (String) model.eGet(BytemanPackage.eINSTANCE.getEventClass_Name());
 		if (name == null) {
-			// have to have something!
-			return;
+			name = "";
 		}
 		String keyword = (String)model.eGet(BytemanPackage.eINSTANCE.getEventClass_Keyword());
 		boolean isInterface = keyword.equals("INTERFACE");
@@ -102,10 +110,161 @@ public class BytemanProposalProvider extends AbstractBytemanProposalProvider {
 
 		// if we have any matches then suggest them
 
-		if (!results.isEmpty()) {
-			for (String result : results) {
-				acceptor.accept(createCompletionProposal(result, context));
-			}
+		for (String result : results) {
+			acceptor.accept(createCompletionProposal(result, context));
 		}
+	}
+	
+	@Override
+	public void completeEventMethod_Name(EObject model, Assignment assignment,
+			ContentAssistContext context, ICompletionProposalAcceptor acceptor) {
+		super.completeEventMethod_Name(model, assignment, context, acceptor);
+		String methodName = (String) model.eGet(BytemanPackage.eINSTANCE.getEventMethod_Name());
+		if (methodName == null) {
+			methodName = "";
+		} else if (methodName.equals("<clinit>")) {
+			return;
+		}
+		boolean isConstructor = methodName.equals("<init>");
+				
+		// find the associated class and use it to build a full method name
+		
+		EObject event = model.eContainer();
+		EObject eventClass = (EObject)event.eGet(BytemanPackage.eINSTANCE.getEvent_Class());
+		final String className = (String) eventClass.eGet(BytemanPackage.eINSTANCE.getEventClass_Name());
+		if (className == null) {
+			return;
+		}
+
+		ParameterTypes parameterTypes = (ParameterTypes)model.eGet(BytemanPackage.eINSTANCE.getEventMethod_ParameterTypes());
+		EList<String> paramTypeNames;
+		int paramTypeCount;
+		
+		if (parameterTypes != null) {
+			paramTypeNames = parameterTypes.getParamTypeNames();
+			paramTypeCount = paramTypeNames.size();
+		} else {
+			paramTypeNames = null;
+			// -1 indicates any method with the relevant signature will do
+			// whereas 0 indicates an empty parameter list ()
+			paramTypeCount = -1;
+		}
+
+		final List<String> methods = new ArrayList<String>();
+		// accumulate matching methods
+		
+		SearchEngine searchEngine = new SearchEngine();
+		IJavaSearchScope scope = SearchEngine.createWorkspaceScope();			
+		SearchParticipant[] participants = new SearchParticipant[] {SearchEngine.getDefaultSearchParticipant()};
+
+		int dollarIndex = className.indexOf('$');
+		String eclipseName = className;
+		if (dollarIndex >= 0) {
+			// Byteman uses $ as the separator for inner classes but eclipse wants to use .
+			eclipseName = className.replace('$', '.');
+		}
+			
+		// now build type qualified method name
+		StringBuilder builder = new StringBuilder();
+		builder.append(eclipseName);
+		// append method name to type name except when it is a constructor or class initializer
+		if (!isConstructor) {
+			builder.append('.');
+			builder.append(methodName);
+		}
+		if (paramTypeCount >= 0) {
+			String separator = "";
+			builder.append("(");
+			for (int i = 0; i < paramTypeCount; i++) {
+				builder.append(separator);
+				builder.append(paramTypeNames.get(i));
+				separator = ",";
+			}
+			builder.append(")");
+		}
+		final String stringPattern = builder.toString();
+		int searchFor = (isConstructor ? IJavaSearchConstants.CONSTRUCTOR : IJavaSearchConstants.METHOD);
+		int limitTo = IJavaSearchConstants.DECLARATIONS;
+		int matchType = SearchPattern.R_PREFIX_MATCH;
+		SearchPattern pattern = SearchPattern.createPattern(stringPattern, searchFor, limitTo, matchType);
+		SearchRequestor requestor = new SearchRequestor() {
+			@Override
+			public void acceptSearchMatch(SearchMatch match)
+					throws CoreException {
+				// only accept if we have an accurate match
+				if (match.getAccuracy() == SearchMatch.A_ACCURATE) {
+					IMethod declaration = (IMethod)match.getElement();
+					String name = declaration.getElementName();
+					String[] paramTypes = declaration.getParameterTypes();
+					StringBuilder builder = new StringBuilder();
+					builder.append(name);
+					builder.append("(");
+					String prefix= "";
+					for(String paramType : paramTypes) {
+						// need to convert type names!
+						String externalParamType = externalise(paramType);
+						builder.append(prefix);
+						builder.append(externalParamType);
+						prefix =",";
+					}
+					builder.append(")");
+					methods.add(builder.toString());
+				}
+			}				
+		};
+		try {
+			searchEngine.search(pattern, participants, scope, requestor, null);
+		} catch (CoreException e) {
+			// TODO : ho hum not sure if this will happen when we have
+			// no such method or because something is wrong with paths etc
+			// but just ignore for now
+		}
+		
+		// if we have no matches then plant an error
+		
+		for(String method : methods) {
+			acceptor.accept(createCompletionProposal(method, context));
+		}
+		
+	}
+	
+	/**
+	 * convert an internal JVM type binary type name into the external source
+	 * representation stripping type parameters
+	 * @param name the binary name for the class
+	 * @return the external name
+	 */
+	private String externalise(String name)
+	{
+		char c = name.charAt(0);
+		switch(c) {
+		case 'Z':
+			return "boolean";
+		case 'B':
+			return "byte";
+		case 'S':
+			return "short";
+		case 'I':
+			return "int";
+		case 'J':
+			return "long";
+		case 'F':
+			return "float";
+		case 'D':
+			return "double";
+		}
+		// non-primitive type so copy name up to ';' or '<' replacing '/' with '.'
+		char[] chars = name.toCharArray();
+		int i = 1;
+		c = chars[i];
+		while (c != ';' && c != '<') {
+			if (c == '/') {
+				chars[i] = '.';
+			}
+			i++;
+			c = chars[i];
+		}
+
+		return String.valueOf(chars, 1, i - 1);
 	}
 }
