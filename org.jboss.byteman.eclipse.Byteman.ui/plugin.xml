@@ -10,6 +10,7 @@
             contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
             default="true"
             extensions="btm"
+            icon="icons/BytemanEditorIcon.png"
             id="org.jboss.byteman.eclipse.Byteman"
             name="Byteman Editor">
         </editor>
@@ -186,6 +187,133 @@
             class="org.jboss.byteman.eclipse.ui.BytemanExecutableExtensionFactory:org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator">
       </markerResolutionGenerator>
    </extension>
-
-
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="org.jboss.byteman.eclipse.ui.perspectives.PerspectiveFactory"
+            fixed="true"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.eclipse.ui.perspectives.PerspectiveFactory"
+            name="Byteman Perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.jboss.byteman.eclipse.ui.perspectives.PerspectiveFactory">
+         <view
+               closeable="true"
+               id="org.jboss.byteman.eclipse.ui.views.navigator"
+               minimized="false"
+               moveable="true"
+               ratio="0.25"
+               relationship="left"
+               relative="org.eclipse.ui.editors"
+               showTitle="true"
+               standalone="true"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="org.jboss.byteman.eclipse.ui.views.outline"
+               minimized="false"
+               moveable="true"
+               ratio="0.25"
+               relationship="right"
+               relative="org.jboss.byteman.eclipse.ui.views.navigator"
+               showTitle="true"
+               standalone="true"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="org.jboss.byteman.eclipse.ui.views.error"
+               minimized="false"
+               moveable="true"
+               ratio="0.25"
+               relationship="bottom"
+               relative="org.jboss.byteman.eclipse.ui.views.error"
+               showTitle="true"
+               standalone="true"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="org.jboss.byteman.eclipse.ui.views.console"
+               minimized="false"
+               moveable="true"
+               ratio="0.25"
+               relationship="bottom"
+               relative="org.jboss.byteman.eclipse.ui.views.error"
+               showTitle="true"
+               standalone="true"
+               visible="true">
+         </view>
+         <view
+               closeable="true"
+               id="org.jboss.byteman.eclipse.ui.views.debug"
+               minimized="false"
+               moveable="true"
+               relationship="stack"
+               relative="org.jboss.byteman.eclipse.ui.views.console"
+               showTitle="true"
+               standalone="true"
+               visible="true">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="org.eclipse.ui.views.navigator.ResourceNavigator"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.ui.views.navigator"
+            name="Byteman Navigator"
+            restorable="true">
+      </view>
+      <view
+            class="org.eclipse.ui.views.contentoutline.ContentOutline"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.ui.views.outline"
+            name="Outline"
+            restorable="true">
+      </view>
+      <view
+            class="org.eclipse.ui.internal.views.markers.ProblemsView"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.ui.views.error"
+            name="Problems"
+            restorable="true">
+      </view>
+      <view
+            class="org.eclipse.ui.internal.console.ConsoleView"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.ui.views.console"
+            name="Console"
+            restorable="true">
+      </view>
+      <view
+            class="org.eclipse.debug.ui.AbstractDebugView"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.ui.views.debug"
+            name="Byteman Debug View"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+   	  	 <category
+        	id="org.jboss.byteman.eclipse.ui.wizards.category"
+			name="Byteman Wizards">
+      	 </category>
+      <wizard
+            category="org.jboss.byteman.eclipse.ui.wizards.category"
+            class="org.jboss.byteman.eclipse.ui.wizards.BytemanNewWizard"
+            finalPerspective="org.jboss.byteman.eclipse.Byteman.ui.perspectives.PerspectiveFactory"
+            icon="icons/BytemanEditorIcon.png"
+            id="org.jboss.byteman.eclipse.ui.wizard.new"
+            name="New Byteman Script"
+            project="true">
+      </wizard>
+   </extension>
 </plugin>
