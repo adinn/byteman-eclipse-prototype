@@ -49,6 +49,13 @@
             name="Templates">
             <keywordReference id="org.jboss.byteman.eclipse.ui.keyword_Byteman"/>
         </page>
+        <page
+            category="org.jboss.byteman.eclipse.Byteman"
+            class="org.jboss.byteman.eclipse.ui.BytemanExecutableExtensionFactory:org.jboss.byteman.eclipse.ui.config.DownloadPreferencePage"
+            id="org.jboss.byteman.eclipse.Byteman.config"
+            name="Download">
+            <keywordReference id="org.jboss.byteman.eclipse.ui.keyword_Byteman"/>
+        </page>
     </extension>
     <extension
         point="org.eclipse.ui.keywords">

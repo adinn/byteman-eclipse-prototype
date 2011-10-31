@@ -3,10 +3,13 @@
  */
 package org.jboss.byteman.eclipse.ui;
 
+import org.eclipse.jface.preference.IPreferenceStore;
+import org.eclipse.ui.internal.WorkbenchPlugin;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 
 import org.eclipse.xtext.ui.editor.syntaxcoloring.IHighlightingConfiguration;
 import org.eclipse.xtext.ui.editor.syntaxcoloring.ISemanticHighlightingCalculator;
+import org.jboss.byteman.eclipse.BytemanRuntimeModule;
 import org.jboss.byteman.eclipse.ui.highlighting.BytemanHighlightingCalculator;
 import org.jboss.byteman.eclipse.ui.highlighting.BytemanHighlightingConfiguration;
 
@@ -18,6 +21,10 @@ import com.google.inject.Binder;
 public class BytemanUiModule extends org.jboss.byteman.eclipse.ui.AbstractBytemanUiModule {
 	public BytemanUiModule(AbstractUIPlugin plugin) {
 		super(plugin);
+		// obtain the preferences setting for BYTEMAN_HOME
+		IPreferenceStore preferenceStore = plugin.getPreferenceStore();
+		String bytemanHome = preferenceStore.getDefaultString(BYTEMAN_HOME_PREFERENCE_KEY);
+		BytemanRuntimeModule.setBytemanHome(bytemanHome);
 	}
 	/**
 	 * Registers the components
@@ -30,4 +37,9 @@ public class BytemanUiModule extends org.jboss.byteman.eclipse.ui.AbstractBytema
 		binder.bind(ISemanticHighlightingCalculator.class).to(BytemanHighlightingCalculator.class);
 	}
 
+	/**
+	 * key for BYTEMAN_HOME property defined via Byteman Downloads preferences page
+	 */
+	
+	public final static String BYTEMAN_HOME_PREFERENCE_KEY = "org.jboss.byteman.eclipse.byteman.home";
 }

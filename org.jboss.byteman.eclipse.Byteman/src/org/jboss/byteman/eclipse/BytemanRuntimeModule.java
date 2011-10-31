@@ -8,4 +8,13 @@ package org.jboss.byteman.eclipse;
  */
 public class BytemanRuntimeModule extends org.jboss.byteman.eclipse.AbstractBytemanRuntimeModule {
 
+	private static String bytemanHome = "";
+	
+	public static void setBytemanHome(String newValue) {
+		bytemanHome = newValue;
+	}
+	public static String getBytemanHome()
+	{
+		return bytemanHome;
+	}
 }
