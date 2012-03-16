@@ -10855,11 +10855,11 @@ protected class SimpleName_ValueAssignment_1 extends AssignmentToken  {
 /************ begin Rule IndexedSpecialVar ****************
  *
  * IndexedSpecialVar returns Expression:
- * 	{IndexedSpecialVar} op=DOLLAR value=INTVAL;
+ * 	{IndexedSpecialVar} op=DOLLARINDEX;
  *
  **/
 
-// {IndexedSpecialVar} op=DOLLAR value=INTVAL
+// {IndexedSpecialVar} op=DOLLARINDEX
 protected class IndexedSpecialVar_Group extends GroupToken {
 	
 	public IndexedSpecialVar_Group(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -10874,7 +10874,7 @@ protected class IndexedSpecialVar_Group extends GroupToken {
     @Override
 	public AbstractToken createFollower(int index, IEObjectConsumer inst) {
 		switch(index) {
-			case 0: return new IndexedSpecialVar_ValueAssignment_2(lastRuleCallOrigin, this, 0, inst);
+			case 0: return new IndexedSpecialVar_OpAssignment_1(lastRuleCallOrigin, this, 0, inst);
 			default: return null;
 		}	
 	}
@@ -10914,7 +10914,7 @@ protected class IndexedSpecialVar_IndexedSpecialVarAction_0 extends ActionToken 
 	}
 }
 
-// op=DOLLAR
+// op=DOLLARINDEX
 protected class IndexedSpecialVar_OpAssignment_1 extends AssignmentToken  {
 	
 	public IndexedSpecialVar_OpAssignment_1(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
@@ -10938,43 +10938,9 @@ protected class IndexedSpecialVar_OpAssignment_1 extends AssignmentToken  {
 	public IEObjectConsumer tryConsume() {
 		if((value = eObjectConsumer.getConsumable("op",true)) == null) return null;
 		IEObjectConsumer obj = eObjectConsumer.cloneAndConsume("op");
-		if(valueSerializer.isValid(obj.getEObject(), grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0(), value, null)) {
+		if(valueSerializer.isValid(obj.getEObject(), grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARINDEXTerminalRuleCall_1_0(), value, null)) {
 			type = AssignmentType.TERMINAL_RULE_CALL;
-			element = grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0();
-			return obj;
-		}
-		return null;
-	}
-
-}
-
-// value=INTVAL
-protected class IndexedSpecialVar_ValueAssignment_2 extends AssignmentToken  {
-	
-	public IndexedSpecialVar_ValueAssignment_2(AbstractToken lastRuleCallOrigin, AbstractToken next, int transitionIndex, IEObjectConsumer eObjectConsumer) {
-		super(lastRuleCallOrigin, next, transitionIndex, eObjectConsumer);
-	}
-	
-	@Override
-	public Assignment getGrammarElement() {
-		return grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2();
-	}
-
-    @Override
-	public AbstractToken createFollower(int index, IEObjectConsumer inst) {
-		switch(index) {
-			case 0: return new IndexedSpecialVar_OpAssignment_1(lastRuleCallOrigin, this, 0, inst);
-			default: return null;
-		}	
-	}
-
-    @Override	
-	public IEObjectConsumer tryConsume() {
-		if((value = eObjectConsumer.getConsumable("value",true)) == null) return null;
-		IEObjectConsumer obj = eObjectConsumer.cloneAndConsume("value");
-		if(valueSerializer.isValid(obj.getEObject(), grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0(), value, null)) {
-			type = AssignmentType.TERMINAL_RULE_CALL;
-			element = grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0();
+			element = grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARINDEXTerminalRuleCall_1_0();
 			return obj;
 		}
 		return null;

@@ -114,7 +114,7 @@ public class BytemanJavaValidator extends AbstractBytemanJavaValidator {
 			}
 		} else if (operand1 instanceof IndexedSpecialVar) {
 			// cannot assign to $0
-			String value = ((IndexedSpecialVar) operand1).getValue();
+			String value = ((IndexedSpecialVar) operand1).getOp().substring(1);
 			int idx =Integer.valueOf(value);
 			if (idx == 0) {
 				error("Indexed parameter variable $" + value + " is not assignable", BytemanPackage.eINSTANCE.getExpression_Operand1());

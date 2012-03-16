@@ -2378,31 +2378,23 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		private final Group cGroup = (Group)rule.eContents().get(1);
 		private final Action cIndexedSpecialVarAction_0 = (Action)cGroup.eContents().get(0);
 		private final Assignment cOpAssignment_1 = (Assignment)cGroup.eContents().get(1);
-		private final RuleCall cOpDOLLARTerminalRuleCall_1_0 = (RuleCall)cOpAssignment_1.eContents().get(0);
-		private final Assignment cValueAssignment_2 = (Assignment)cGroup.eContents().get(2);
-		private final RuleCall cValueINTVALTerminalRuleCall_2_0 = (RuleCall)cValueAssignment_2.eContents().get(0);
+		private final RuleCall cOpDOLLARINDEXTerminalRuleCall_1_0 = (RuleCall)cOpAssignment_1.eContents().get(0);
 		
 		//IndexedSpecialVar returns Expression:
-		//	{IndexedSpecialVar} op=DOLLAR value=INTVAL;
+		//	{IndexedSpecialVar} op=DOLLARINDEX;
 		public ParserRule getRule() { return rule; }
 
-		//{IndexedSpecialVar} op=DOLLAR value=INTVAL
+		//{IndexedSpecialVar} op=DOLLARINDEX
 		public Group getGroup() { return cGroup; }
 
 		//{IndexedSpecialVar}
 		public Action getIndexedSpecialVarAction_0() { return cIndexedSpecialVarAction_0; }
 
-		//op=DOLLAR
+		//op=DOLLARINDEX
 		public Assignment getOpAssignment_1() { return cOpAssignment_1; }
 
-		//DOLLAR
-		public RuleCall getOpDOLLARTerminalRuleCall_1_0() { return cOpDOLLARTerminalRuleCall_1_0; }
-
-		//value=INTVAL
-		public Assignment getValueAssignment_2() { return cValueAssignment_2; }
-
-		//INTVAL
-		public RuleCall getValueINTVALTerminalRuleCall_2_0() { return cValueINTVALTerminalRuleCall_2_0; }
+		//DOLLARINDEX
+		public RuleCall getOpDOLLARINDEXTerminalRuleCall_1_0() { return cOpDOLLARINDEXTerminalRuleCall_1_0; }
 	}
 
 	public class SpecialVarElements extends AbstractParserRuleElementFinder {
@@ -2722,6 +2714,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	private TerminalRule tLSQUARE;
 	private TerminalRule tRSQUARE;
 	private TerminalRule tDOLLAR;
+	private TerminalRule tDOLLARINDEX;
 	private TerminalRule tPLUS;
 	private TerminalRule tMINUS;
 	private TerminalRule tMOD;
@@ -3490,7 +3483,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	}
 
 	//IndexedSpecialVar returns Expression:
-	//	{IndexedSpecialVar} op=DOLLAR value=INTVAL;
+	//	{IndexedSpecialVar} op=DOLLARINDEX;
 	public IndexedSpecialVarElements getIndexedSpecialVarAccess() {
 		return (pIndexedSpecialVar != null) ? pIndexedSpecialVar : (pIndexedSpecialVar = new IndexedSpecialVarElements());
 	}
@@ -3661,6 +3654,12 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 		return (tDOLLAR != null) ? tDOLLAR : (tDOLLAR = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "DOLLAR"));
 	} 
 
+	//terminal DOLLARINDEX:
+	//	"$" "0".."9"+;
+	public TerminalRule getDOLLARINDEXRule() {
+		return (tDOLLARINDEX != null) ? tDOLLARINDEX : (tDOLLARINDEX = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "DOLLARINDEX"));
+	} 
+
 	//terminal PLUS:
 	//	"+";
 	public TerminalRule getPLUSRule() {
@@ -3758,7 +3757,7 @@ public class BytemanGrammarAccess extends AbstractGrammarElementFinder {
 	} 
 
 	//terminal FLOATVAL:
-	//	"0".."9"+ "." "0".."9"* EXPONENT? FLOATTYPESUFFIX? | "." "0".."9"+ EXPONENT? FLOATTYPESUFFIX? | "0".."9"+ EXPONENT
+	//	"0".."9"+ "." "0".."9"+ EXPONENT? FLOATTYPESUFFIX? | "." "0".."9"+ EXPONENT? FLOATTYPESUFFIX? | "0".."9"+ EXPONENT
 	//	FLOATTYPESUFFIX? | "0".."9"+ FLOATTYPESUFFIX;
 	public TerminalRule getFLOATVALRule() {
 		return (tFLOATVAL != null) ? tFLOATVAL : (tFLOATVAL = (TerminalRule) GrammarUtil.findRuleForName(getGrammar(), "FLOATVAL"));

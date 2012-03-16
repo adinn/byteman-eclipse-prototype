@@ -240,7 +240,6 @@ public class BytemanParser extends AbstractContentAssistParser {
 					put(grammarAccess.getCallArgumentsAccess().getArgsAssignment_2_1_1(), "rule__CallArguments__ArgsAssignment_2_1_1");
 					put(grammarAccess.getSimpleNameAccess().getValueAssignment_1(), "rule__SimpleName__ValueAssignment_1");
 					put(grammarAccess.getIndexedSpecialVarAccess().getOpAssignment_1(), "rule__IndexedSpecialVar__OpAssignment_1");
-					put(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2(), "rule__IndexedSpecialVar__ValueAssignment_2");
 					put(grammarAccess.getSpecialVarAccess().getOpAssignment_1_0(), "rule__SpecialVar__OpAssignment_1_0");
 					put(grammarAccess.getSpecialVarAccess().getOpAssignment_1_1(), "rule__SpecialVar__OpAssignment_1_1");
 					put(grammarAccess.getSpecialVarAccess().getOpAssignment_1_2(), "rule__SpecialVar__OpAssignment_1_2");

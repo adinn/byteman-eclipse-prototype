@@ -9369,7 +9369,6 @@ rule__IndexedSpecialVar__Group__1
     }
 :
 	rule__IndexedSpecialVar__Group__1__Impl
-	rule__IndexedSpecialVar__Group__2
 ;
 finally {
 	restoreStackSize(stackSize);
@@ -9390,36 +9389,6 @@ rule__IndexedSpecialVar__Group__1__Impl
 finally {
 	restoreStackSize(stackSize);
 }
-
-
-rule__IndexedSpecialVar__Group__2
-    @init {
-		int stackSize = keepStackSize();
-    }
-:
-	rule__IndexedSpecialVar__Group__2__Impl
-;
-finally {
-	restoreStackSize(stackSize);
-}
-
-rule__IndexedSpecialVar__Group__2__Impl
-    @init {
-		int stackSize = keepStackSize();
-    }
-:
-(
-{ before(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2()); }
-(rule__IndexedSpecialVar__ValueAssignment_2)
-{ after(grammarAccess.getIndexedSpecialVarAccess().getValueAssignment_2()); }
-)
-
-;
-finally {
-	restoreStackSize(stackSize);
-}
-
-
 
 
 
@@ -11272,23 +11241,8 @@ rule__IndexedSpecialVar__OpAssignment_1
     }
 :
 (
-{ before(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); }
-	RULE_DOLLAR{ after(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); }
-)
-
-;
-finally {
-	restoreStackSize(stackSize);
-}
-
-rule__IndexedSpecialVar__ValueAssignment_2
-    @init {
-		int stackSize = keepStackSize();
-    }
-:
-(
-{ before(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); }
-	RULE_INTVAL{ after(grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); }
+{ before(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARINDEXTerminalRuleCall_1_0()); }
+	RULE_DOLLARINDEX{ after(grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARINDEXTerminalRuleCall_1_0()); }
 )
 
 ;
@@ -11532,6 +11486,8 @@ RULE_RSQUARE : ']';
 
 RULE_DOLLAR : '$';
 
+RULE_DOLLARINDEX : '$' ('0'..'9')+;
+
 RULE_PLUS : '+';
 
 RULE_MINUS : '-';
@@ -11564,7 +11520,7 @@ RULE_NE : '!=';
 
 RULE_ASSIGN : '=';
 
-RULE_FLOATVAL : (('0'..'9')+ '.' ('0'..'9')* RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|'.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_EXPONENT RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_FLOATTYPESUFFIX);
+RULE_FLOATVAL : (('0'..'9')+ '.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|'.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_EXPONENT RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_FLOATTYPESUFFIX);
 
 RULE_INTVAL : (('0'..'9')+ RULE_INTTYPESUFFIX?|'0x' ('0'..'9'|'A'..'F'|'a'..'f')+ RULE_INTTYPESUFFIX?|'0b' ('0'..'1')+ RULE_INTTYPESUFFIX?);
 

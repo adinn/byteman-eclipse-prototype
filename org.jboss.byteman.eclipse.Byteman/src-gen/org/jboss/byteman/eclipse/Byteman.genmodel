@@ -152,9 +152,7 @@
     <genClasses ecoreClass="Byteman.ecore#//SimpleName">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//SimpleName/value"/>
     </genClasses>
-    <genClasses ecoreClass="Byteman.ecore#//IndexedSpecialVar">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//IndexedSpecialVar/value"/>
-    </genClasses>
+    <genClasses ecoreClass="Byteman.ecore#//IndexedSpecialVar"/>
     <genClasses ecoreClass="Byteman.ecore#//SpecialVar">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//SpecialVar/value"/>
     </genClasses>

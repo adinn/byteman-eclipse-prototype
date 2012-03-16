@@ -1637,16 +1637,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  public EAttribute getIndexedSpecialVar_Value()
-  {
-    return (EAttribute)indexedSpecialVarEClass.getEStructuralFeatures().get(0);
-  }
-
-  /**
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   */
   public EClass getSpecialVar()
   {
     return specialVarEClass;
@@ -1932,7 +1922,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     createEAttribute(simpleNameEClass, SIMPLE_NAME__VALUE);
 
     indexedSpecialVarEClass = createEClass(INDEXED_SPECIAL_VAR);
-    createEAttribute(indexedSpecialVarEClass, INDEXED_SPECIAL_VAR__VALUE);
 
     specialVarEClass = createEClass(SPECIAL_VAR);
     createEAttribute(specialVarEClass, SPECIAL_VAR__VALUE);
@@ -2185,7 +2174,6 @@ public class BytemanPackageImpl extends EPackageImpl implements BytemanPackage
     initEAttribute(getSimpleName_Value(), ecorePackage.getEString(), "value", null, 0, 1, SimpleName.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(indexedSpecialVarEClass, IndexedSpecialVar.class, "IndexedSpecialVar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-    initEAttribute(getIndexedSpecialVar_Value(), ecorePackage.getEString(), "value", null, 0, 1, IndexedSpecialVar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
     initEClass(specialVarEClass, SpecialVar.class, "SpecialVar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
     initEAttribute(getSpecialVar_Value(), ecorePackage.getEString(), "value", null, 0, 1, SpecialVar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

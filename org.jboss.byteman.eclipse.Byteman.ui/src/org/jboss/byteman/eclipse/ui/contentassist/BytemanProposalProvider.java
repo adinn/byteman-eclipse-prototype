@@ -187,39 +187,40 @@ public class BytemanProposalProvider extends AbstractBytemanProposalProvider {
 		int limitTo = IJavaSearchConstants.DECLARATIONS;
 		int matchType = SearchPattern.R_PREFIX_MATCH;
 		SearchPattern pattern = SearchPattern.createPattern(stringPattern, searchFor, limitTo, matchType);
-		SearchRequestor requestor = new SearchRequestor() {
-			@Override
-			public void acceptSearchMatch(SearchMatch match)
-					throws CoreException {
-				// only accept if we have an accurate match
-				if (match.getAccuracy() == SearchMatch.A_ACCURATE) {
-					IMethod declaration = (IMethod)match.getElement();
-					String name = declaration.getElementName();
-					String[] paramTypes = declaration.getParameterTypes();
-					StringBuilder builder = new StringBuilder();
-					builder.append(name);
-					builder.append("(");
-					String prefix= "";
-					for(String paramType : paramTypes) {
-						// need to convert type names!
-						String externalParamType = externalise(paramType);
-						builder.append(prefix);
-						builder.append(externalParamType);
-						prefix =",";
+		if (pattern != null) {
+			SearchRequestor requestor = new SearchRequestor() {
+				@Override
+				public void acceptSearchMatch(SearchMatch match)
+						throws CoreException {
+					// only accept if we have an accurate match
+					if (match.getAccuracy() == SearchMatch.A_ACCURATE) {
+						IMethod declaration = (IMethod)match.getElement();
+						String name = declaration.getElementName();
+						String[] paramTypes = declaration.getParameterTypes();
+						StringBuilder builder = new StringBuilder();
+						builder.append(name);
+						builder.append("(");
+						String prefix= "";
+						for(String paramType : paramTypes) {
+							// need to convert type names!
+							String externalParamType = externalise(paramType);
+							builder.append(prefix);
+							builder.append(externalParamType);
+							prefix =",";
+						}
+						builder.append(")");
+						methods.add(builder.toString());
 					}
-					builder.append(")");
-					methods.add(builder.toString());
-				}
-			}				
-		};
-		try {
-			searchEngine.search(pattern, participants, scope, requestor, null);
-		} catch (CoreException e) {
-			// TODO : ho hum not sure if this will happen when we have
-			// no such method or because something is wrong with paths etc
-			// but just ignore for now
+				}				
+			};
+			try {
+				searchEngine.search(pattern, participants, scope, requestor, null);
+			} catch (CoreException e) {
+				// TODO : ho hum not sure if this will happen when we have
+				// no such method or because something is wrong with paths etc
+				// but just ignore for now
+			}
 		}
-		
 		// if we have no matches then plant an error
 		
 		for(String method : methods) {

@@ -4275,9 +4275,9 @@ ruleIndexedSpecialVar returns [EObject current=null]
     }
 )(
 (
-		lv_op_1_0=RULE_DOLLAR
+		lv_op_1_0=RULE_DOLLARINDEX
 		{
-			newLeafNode(lv_op_1_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARTerminalRuleCall_1_0()); 
+			newLeafNode(lv_op_1_0, grammarAccess.getIndexedSpecialVarAccess().getOpDOLLARINDEXTerminalRuleCall_1_0()); 
 		}
 		{
 	        if ($current==null) {
@@ -4287,25 +4287,7 @@ ruleIndexedSpecialVar returns [EObject current=null]
        			$current, 
        			"op",
         		lv_op_1_0, 
-        		"DOLLAR");
-	    }
-
-)
-)(
-(
-		lv_value_2_0=RULE_INTVAL
-		{
-			newLeafNode(lv_value_2_0, grammarAccess.getIndexedSpecialVarAccess().getValueINTVALTerminalRuleCall_2_0()); 
-		}
-		{
-	        if ($current==null) {
-	            $current = createModelElement(grammarAccess.getIndexedSpecialVarRule());
-	        }
-       		setWithLastConsumed(
-       			$current, 
-       			"value",
-        		lv_value_2_0, 
-        		"INTVAL");
+        		"DOLLARINDEX");
 	    }
 
 )
@@ -4767,6 +4749,8 @@ RULE_RSQUARE : ']';
 
 RULE_DOLLAR : '$';
 
+RULE_DOLLARINDEX : '$' ('0'..'9')+;
+
 RULE_PLUS : '+';
 
 RULE_MINUS : '-';
@@ -4799,7 +4783,7 @@ RULE_NE : '!=';
 
 RULE_ASSIGN : '=';
 
-RULE_FLOATVAL : (('0'..'9')+ '.' ('0'..'9')* RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|'.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_EXPONENT RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_FLOATTYPESUFFIX);
+RULE_FLOATVAL : (('0'..'9')+ '.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|'.' ('0'..'9')+ RULE_EXPONENT? RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_EXPONENT RULE_FLOATTYPESUFFIX?|('0'..'9')+ RULE_FLOATTYPESUFFIX);
 
 RULE_INTVAL : (('0'..'9')+ RULE_INTTYPESUFFIX?|'0x' ('0'..'9'|'A'..'F'|'a'..'f')+ RULE_INTTYPESUFFIX?|'0b' ('0'..'1')+ RULE_INTTYPESUFFIX?);
 

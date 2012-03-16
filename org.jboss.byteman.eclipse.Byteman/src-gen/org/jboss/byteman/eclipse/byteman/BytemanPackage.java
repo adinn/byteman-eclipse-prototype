@@ -1939,22 +1939,13 @@ public interface BytemanPackage extends EPackage
   int INDEXED_SPECIAL_VAR__OPERAND1 = EXPRESSION__OPERAND1;
 
   /**
-   * The feature id for the '<em><b>Value</b></em>' attribute.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @generated
-   * @ordered
-   */
-  int INDEXED_SPECIAL_VAR__VALUE = EXPRESSION_FEATURE_COUNT + 0;
-
-  /**
    * The number of structural features of the '<em>Indexed Special Var</em>' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @generated
    * @ordered
    */
-  int INDEXED_SPECIAL_VAR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 1;
+  int INDEXED_SPECIAL_VAR_FEATURE_COUNT = EXPRESSION_FEATURE_COUNT + 0;
 
   /**
    * The meta object id for the '{@link org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl <em>Special Var</em>}' class.
@@ -3335,17 +3326,6 @@ public interface BytemanPackage extends EPackage
   EClass getIndexedSpecialVar();
 
   /**
-   * Returns the meta object for the attribute '{@link org.jboss.byteman.eclipse.byteman.IndexedSpecialVar#getValue <em>Value</em>}'.
-   * <!-- begin-user-doc -->
-   * <!-- end-user-doc -->
-   * @return the meta object for the attribute '<em>Value</em>'.
-   * @see org.jboss.byteman.eclipse.byteman.IndexedSpecialVar#getValue()
-   * @see #getIndexedSpecialVar()
-   * @generated
-   */
-  EAttribute getIndexedSpecialVar_Value();
-
-  /**
    * Returns the meta object for class '{@link org.jboss.byteman.eclipse.byteman.SpecialVar <em>Special Var</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -4448,14 +4428,6 @@ public interface BytemanPackage extends EPackage
      * @generated
      */
     EClass INDEXED_SPECIAL_VAR = eINSTANCE.getIndexedSpecialVar();
-
-    /**
-     * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    EAttribute INDEXED_SPECIAL_VAR__VALUE = eINSTANCE.getIndexedSpecialVar_Value();
 
     /**
      * The meta object literal for the '{@link org.jboss.byteman.eclipse.byteman.impl.SpecialVarImpl <em>Special Var</em>}' class.

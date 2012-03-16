@@ -369,7 +369,7 @@ SimpleName returns Expression:
    {SimpleName} value=ID;
    
 IndexedSpecialVar returns Expression:
-   {IndexedSpecialVar} op=DOLLAR value=INTVAL ;
+   {IndexedSpecialVar} op=DOLLARINDEX;
 
 SpecialVar returns Expression:
    {SpecialVar} (op='$#' | op='$!' | op='$^' | op='$@' | op='$*' | op=DOLLAR value=ID);
@@ -445,6 +445,9 @@ terminal RSQUARE:
 terminal DOLLAR:
        '$';
 
+terminal DOLLARINDEX:
+       '$' ('0'..'9')+;
+
 terminal PLUS:
        '+';
 
@@ -494,7 +497,7 @@ terminal ASSIGN :
      '=' ;
 
 terminal FLOATVAL:
-    ('0'..'9')+ '.' ('0'..'9')* EXPONENT? FLOATTYPESUFFIX?
+    ('0'..'9')+ '.' ('0'..'9')+ EXPONENT? FLOATTYPESUFFIX?
     |   '.' ('0'..'9')+ EXPONENT? FLOATTYPESUFFIX?
     |   ('0'..'9')+ EXPONENT FLOATTYPESUFFIX?
     |   ('0'..'9')+ FLOATTYPESUFFIX
