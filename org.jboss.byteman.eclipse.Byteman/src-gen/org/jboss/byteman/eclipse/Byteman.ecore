@@ -5,35 +5,32 @@
     nsURI="http://www.jboss.org/byteman/eclipse/Byteman" nsPrefix="byteman">
   <eClassifiers xsi:type="ecore:EClass" name="DomainModel">
     <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
-        eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Element"
-        containment="true"/>
+        eType="#//Element" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Element"/>
-  <eClassifiers xsi:type="ecore:EClass" name="BytemanRule" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Element">
+  <eClassifiers xsi:type="ecore:EClass" name="BytemanRule" eSuperTypes="#//Element">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="event" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="event" eType="#//Event"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Body"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" eType="#//Body" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Body">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bind" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bind"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bind" eType="#//Bind" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="#//Condition"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Condition"
-        containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="actions" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Actions"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actions" eType="#//Actions"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Event">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="class" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="class" eType="#//EventClass"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="interface" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="interface" eType="#//EventClass"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="method" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="method" eType="#//EventMethod"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="helper" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Helper"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="helper" eType="#//Helper"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="locationSpec" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LocationSpecifier"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="locationSpec" eType="#//LocationSpecifier"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EventClass">
@@ -42,60 +39,60 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EventMethod">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ParameterTypes"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="#//ParameterTypes"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Helper" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Element">
+  <eClassifiers xsi:type="ecore:EClass" name="Helper" eSuperTypes="#//Element">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="helper" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="LocationSpecifier"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtLocation" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LocationSpecifier"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterLocation" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LocationSpecifier">
+  <eClassifiers xsi:type="ecore:EClass" name="AtLocation" eSuperTypes="#//LocationSpecifier"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AfterLocation" eSuperTypes="#//LocationSpecifier">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="counter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AtEntry" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtExit" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtLine" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LocationSpecifier platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AtEntry" eSuperTypes="#//AtLocation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtExit" eSuperTypes="#//AtLocation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtLine" eSuperTypes="#//LocationSpecifier #//AtLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="line" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AtRead" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AtRead" eSuperTypes="#//AtLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="counter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AtReadField" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtRead"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtReadLocal" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtRead"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterRead" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AtReadField" eSuperTypes="#//AtRead"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtReadLocal" eSuperTypes="#//AtRead"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AfterRead" eSuperTypes="#//AfterLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterReadField" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterRead"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterReadLocal" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterRead"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtWrite" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AfterReadField" eSuperTypes="#//AfterRead"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AfterReadLocal" eSuperTypes="#//AfterRead"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtWrite" eSuperTypes="#//AtLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="counter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AtWriteField" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWrite"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtWriteLocal" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWrite"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterWrite" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AtWriteField" eSuperTypes="#//AtWrite"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtWriteLocal" eSuperTypes="#//AtWrite"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AfterWrite" eSuperTypes="#//AfterLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterWriteField" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWrite"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterWriteLocal" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWrite"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtInvoke" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AfterWriteField" eSuperTypes="#//AfterWrite"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AfterWriteLocal" eSuperTypes="#//AfterWrite"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtInvoke" eSuperTypes="#//AtLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ParameterTypes"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="#//ParameterTypes"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="counter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterInvoke" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AfterInvoke" eSuperTypes="#//AfterLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ParameterTypes"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterTypes" eType="#//ParameterTypes"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AtSynchronize" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AtSynchronize" eSuperTypes="#//AtLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="counter" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AfterSynchronize" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation"/>
-  <eClassifiers xsi:type="ecore:EClass" name="AtThrow" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation">
+  <eClassifiers xsi:type="ecore:EClass" name="AfterSynchronize" eSuperTypes="#//AfterLocation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AtThrow" eSuperTypes="#//AtLocation #//AfterLocation">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ParameterTypes">
@@ -103,100 +100,98 @@
         upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Bind">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bind" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bindings"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bind" eType="#//Bindings"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Bindings">
     <eStructuralFeatures xsi:type="ecore:EReference" name="bindings" upperBound="-1"
-        eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Binding"
-        containment="true"/>
+        eType="#//Binding" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Binding">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="bindVariable" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="#//Expression"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="typename" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Condition"/>
   <eClassifiers xsi:type="ecore:EClass" name="Actions">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="actionList" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ActionList"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actionList" eType="#//ActionList"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ActionList">
     <eStructuralFeatures xsi:type="ecore:EReference" name="actions" upperBound="-1"
-        eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Action"
-        containment="true"/>
+        eType="#//Action" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Action"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Expression" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Condition platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Action">
+  <eClassifiers xsi:type="ecore:EClass" name="Expression" eSuperTypes="#//Condition #//Action">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="op" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand1" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand1" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CallArguments">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="args" upperBound="-1" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="args" upperBound="-1" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AssignmentExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="AssignmentExpr" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="OperatorExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="OperatorExpr" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="PlusMinusOperand" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="PlusMinusOperand" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="TimesDivOperand" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="TimesDivOperand" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="BitwiseOperand" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="BitwiseOperand" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="LogicalOperand" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="LogicalOperand" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AccessExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression"
+  <eClassifiers xsi:type="ecore:EClass" name="AccessExpr" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operand2" eType="#//Expression"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="#//CallArguments"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="BuiltinExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="BuiltinExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="args" eType="#//CallArguments"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NewExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="NewExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="params" eType="ecore:EClass platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="params" eType="#//CallArguments"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="SimpleName" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="SimpleName" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="IndexedSpecialVar" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="IndexedSpecialVar" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="SpecialVar" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="SpecialVar" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="IntConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="IntConstantExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="StringConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="StringConstantExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="BooleanConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="BooleanConstantExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="FloatConstantExpr" eSuperTypes="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
+  <eClassifiers xsi:type="ecore:EClass" name="FloatConstantExpr" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
 </ecore:EPackage>

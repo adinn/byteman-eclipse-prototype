@@ -8,167 +8,167 @@
     complianceLevel="5.0" copyrightFields="false" editPluginID="org.jboss.byteman.eclipse.Byteman.edit"
     editorPluginID="org.jboss.byteman.eclipse.Byteman.editor">
   <genPackages prefix="Byteman" basePackage="org.jboss.byteman.eclipse" disposableProviderFactory="true"
-      ecorePackage="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#/">
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//DomainModel">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//DomainModel/elements"/>
+      ecorePackage="Byteman.ecore#/">
+    <genClasses ecoreClass="Byteman.ecore#//DomainModel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//DomainModel/elements"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Element"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BytemanRule">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BytemanRule/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BytemanRule/event"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BytemanRule/body"/>
+    <genClasses ecoreClass="Byteman.ecore#//Element"/>
+    <genClasses ecoreClass="Byteman.ecore#//BytemanRule">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//BytemanRule/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//BytemanRule/event"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//BytemanRule/body"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Body">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Body/bind"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Body/condition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Body/actions"/>
+    <genClasses ecoreClass="Byteman.ecore#//Body">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Body/bind"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Body/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Body/actions"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event/class"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event/interface"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event/method"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event/helper"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Event/locationSpec"/>
+    <genClasses ecoreClass="Byteman.ecore#//Event">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Event/class"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Event/interface"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Event/method"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Event/helper"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Event/locationSpec"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass/keyword"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventClass/name"/>
+    <genClasses ecoreClass="Byteman.ecore#//EventClass">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//EventClass/keyword"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//EventClass/name"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//EventMethod/parameterTypes"/>
+    <genClasses ecoreClass="Byteman.ecore#//EventMethod">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//EventMethod/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//EventMethod/parameterTypes"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Helper">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Helper/helper"/>
+    <genClasses ecoreClass="Byteman.ecore#//Helper">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//Helper/helper"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LocationSpecifier"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLocation"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterLocation/counter"/>
+    <genClasses ecoreClass="Byteman.ecore#//LocationSpecifier"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtLocation"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterLocation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AfterLocation/counter"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtEntry"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtExit"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLine">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtLine/line"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtEntry"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtExit"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtLine">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtLine/line"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtRead">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtRead/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtRead/counter"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtRead">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtRead/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtRead/counter"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtReadField"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtReadLocal"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterRead">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterRead/name"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtReadField"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtReadLocal"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterRead">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AfterRead/name"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterReadField"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterReadLocal"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWrite">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWrite/name"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWrite/counter"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterReadField"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterReadLocal"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtWrite">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtWrite/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtWrite/counter"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWriteField"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtWriteLocal"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWrite">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWrite/name"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtWriteField"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtWriteLocal"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterWrite">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AfterWrite/name"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWriteField"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterWriteLocal"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtInvoke">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtInvoke/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtInvoke/parameterTypes"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtInvoke/counter"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterWriteField"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterWriteLocal"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtInvoke">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtInvoke/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//AtInvoke/parameterTypes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtInvoke/counter"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterInvoke">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterInvoke/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterInvoke/parameterTypes"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterInvoke">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AfterInvoke/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//AfterInvoke/parameterTypes"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtSynchronize">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtSynchronize/counter"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtSynchronize">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtSynchronize/counter"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AfterSynchronize"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtThrow">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AtThrow/name"/>
+    <genClasses ecoreClass="Byteman.ecore#//AfterSynchronize"/>
+    <genClasses ecoreClass="Byteman.ecore#//AtThrow">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AtThrow/name"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ParameterTypes">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ParameterTypes/paramTypeNames"/>
+    <genClasses ecoreClass="Byteman.ecore#//ParameterTypes">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//ParameterTypes/paramTypeNames"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bind">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bind/bind"/>
+    <genClasses ecoreClass="Byteman.ecore#//Bind">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Bind/bind"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bindings">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Bindings/bindings"/>
+    <genClasses ecoreClass="Byteman.ecore#//Bindings">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Bindings/bindings"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Binding">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Binding/bindVariable"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Binding/value"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Binding/typename"/>
+    <genClasses ecoreClass="Byteman.ecore#//Binding">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//Binding/bindVariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Binding/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//Binding/typename"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Condition"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Actions">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Actions/actionList"/>
+    <genClasses ecoreClass="Byteman.ecore#//Condition"/>
+    <genClasses ecoreClass="Byteman.ecore#//Actions">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Actions/actionList"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ActionList">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//ActionList/actions"/>
+    <genClasses ecoreClass="Byteman.ecore#//ActionList">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//ActionList/actions"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Action"/>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression/op"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//Expression/operand1"/>
+    <genClasses ecoreClass="Byteman.ecore#//Action"/>
+    <genClasses ecoreClass="Byteman.ecore#//Expression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//Expression/op"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//Expression/operand1"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//CallArguments/args"/>
+    <genClasses ecoreClass="Byteman.ecore#//CallArguments">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//CallArguments/args"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AssignmentExpr">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AssignmentExpr/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//AssignmentExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//AssignmentExpr/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//OperatorExpr">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//OperatorExpr/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//OperatorExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//OperatorExpr/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//PlusMinusOperand">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//PlusMinusOperand/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//PlusMinusOperand">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//PlusMinusOperand/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//TimesDivOperand">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//TimesDivOperand/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//TimesDivOperand">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//TimesDivOperand/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BitwiseOperand">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BitwiseOperand/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//BitwiseOperand">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//BitwiseOperand/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LogicalOperand">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//LogicalOperand/operand2"/>
+    <genClasses ecoreClass="Byteman.ecore#//LogicalOperand">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//LogicalOperand/operand2"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/operand2"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/value"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//AccessExpr/args"/>
+    <genClasses ecoreClass="Byteman.ecore#//AccessExpr">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//AccessExpr/operand2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//AccessExpr/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//AccessExpr/args"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr/value"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BuiltinExpr/args"/>
+    <genClasses ecoreClass="Byteman.ecore#//BuiltinExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//BuiltinExpr/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//BuiltinExpr/args"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr/value"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//NewExpr/params"/>
+    <genClasses ecoreClass="Byteman.ecore#//NewExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//NewExpr/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Byteman.ecore#//NewExpr/params"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SimpleName">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SimpleName/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//SimpleName">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//SimpleName/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IndexedSpecialVar">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IndexedSpecialVar/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//IndexedSpecialVar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//IndexedSpecialVar/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SpecialVar">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//SpecialVar/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//SpecialVar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//SpecialVar/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IntConstantExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//IntConstantExpr/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//IntConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//IntConstantExpr/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//StringConstantExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//StringConstantExpr/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//StringConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//StringConstantExpr/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BooleanConstantExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//BooleanConstantExpr/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//BooleanConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//BooleanConstantExpr/value"/>
     </genClasses>
-    <genClasses ecoreClass="platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//FloatConstantExpr">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/resource/org.jboss.byteman.eclipse.Byteman/src-gen/org/jboss/byteman/eclipse/Byteman.ecore#//FloatConstantExpr/value"/>
+    <genClasses ecoreClass="Byteman.ecore#//FloatConstantExpr">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Byteman.ecore#//FloatConstantExpr/value"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

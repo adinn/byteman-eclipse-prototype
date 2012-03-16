@@ -6,7 +6,6 @@ import org.eclipse.xtext.generator.IGenerator;
 
 @SuppressWarnings("all")
 public class BytemanGenerator implements IGenerator {
-  
   public void doGenerate(final Resource resource, final IFileSystemAccess fsa) {
   }
 }

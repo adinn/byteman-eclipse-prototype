@@ -47,6 +47,5 @@ public class BytemanStandaloneSetupGenerated implements ISetup {
 
 
 
-
 	}
 }
