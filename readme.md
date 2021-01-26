@@ -1,5 +1,5 @@
-This is a prototype eclipse for Byteman based on MSc project work
-performed by Rebecca Simmonds at Newcastle University. It is not a
+This is a prototype eclipse for Byteman based on [MSc project work
+performed by Rebecca Simmonds](https://github.com/adinn/byteman-eclipse-prototype/files/5873005/Dissertation.pdf) at Newcastle University. It is not a
 completed work. However, it does provide some important elements which
 are needed to produce a full working plugin, in particular
 
